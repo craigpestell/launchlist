@@ -1,5 +1,86 @@
 [
   {
+    "region": "ab",
+    "step": "01-structure-and-name",
+    "file": "guides/ab/01-structure-and-name/01.webp",
+    "url": "https://www.alberta.ca/register-business-name",
+    "alt": "Alberta register a business name page with the Types of business names section and the trade name description highlighted",
+    "caption": "Read Alberta's Types of business names. A trade name is what you register when you do business under a name other than your own personal name.",
+    "capturedAt": "2026-10-17"
+  },
+  {
+    "region": "ab",
+    "step": "01-structure-and-name",
+    "file": "guides/ab/01-structure-and-name/02.webp",
+    "url": "https://www.alberta.ca/register-business-name",
+    "alt": "Alberta register a business name page with the step about getting a Business Name Report from NUANS highlighted",
+    "caption": "Before you register, consider a NUANS Business Name Report. Alberta recommends one to find similar names, but it is optional and NUANS members charge for it.",
+    "capturedAt": "2026-10-17"
+  },
+  {
+    "region": "ab",
+    "step": "02-register-business",
+    "file": "guides/ab/02-register-business/01.webp",
+    "url": "https://www.alberta.ca/register-business-name",
+    "alt": "Alberta register a business name page with the Declaration of Trade Name form link highlighted",
+    "caption": "Fill in the Declaration of Trade Name form before you visit a registry agent. Partnerships use a different form.",
+    "capturedAt": "2026-10-17"
+  },
+  {
+    "region": "ab",
+    "step": "02-register-business",
+    "file": "guides/ab/02-register-business/02.webp",
+    "url": "https://www.alberta.ca/find-business-registry",
+    "alt": "Alberta find a business registry page with the level 1 basic registrations list and the note that service fees vary highlighted",
+    "caption": "Find a registry agent that handles basic registrations, which include trade names. Service fees are not regulated and vary between agents, so ask for the total before you go.",
+    "capturedAt": "2026-10-17"
+  },
+  {
+    "region": "ab",
+    "step": "03-business-number",
+    "file": "guides/ab/03-business-number/01.webp",
+    "url": "https://www.canada.ca/en/services/taxes/business-registration.html",
+    "alt": "CRA business registration page with the Register with Business Registration Online link highlighted",
+    "caption": "On the CRA business registration page, choose Register with Business Registration Online (BRO).",
+    "capturedAt": "2026-10-17"
+  },
+  {
+    "region": "ab",
+    "step": "03-business-number",
+    "file": "guides/ab/03-business-number/02.webp",
+    "url": "https://www.canada.ca/en/services/taxes/business-registration.html",
+    "alt": "CRA page listing ways to register for a business number and program accounts",
+    "caption": "This section explains what a business number covers and which program accounts (like GST/HST) you can add to it.",
+    "capturedAt": "2026-10-17"
+  },
+  {
+    "region": "ab",
+    "step": "04-gst",
+    "file": "guides/ab/04-gst/01.webp",
+    "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
+    "alt": "CRA GST/HST for businesses page with the Who needs to register section highlighted",
+    "caption": "Check Who needs to register for GST/HST. Most businesses must register once taxable sales pass $30,000 in four consecutive calendar quarters.",
+    "capturedAt": "2026-10-17"
+  },
+  {
+    "region": "ab",
+    "step": "04-gst",
+    "file": "guides/ab/04-gst/02.webp",
+    "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
+    "alt": "CRA GST/HST for businesses page with the Get a GST/HST number and manage your account section highlighted",
+    "caption": "When you're ready, open Get a GST/HST number and manage your account. Registration is done in Business Registration Online, signed in with your CRA account.",
+    "capturedAt": "2026-10-17"
+  },
+  {
+    "region": "ab",
+    "step": "05-municipal-licence",
+    "file": "guides/ab/05-municipal-licence/01.webp",
+    "url": "https://www.calgary.ca/for-business/licences/retail.html",
+    "alt": "City of Calgary open a retail business page with online or phone sales and home-based retail sales highlighted in the list of businesses that need a licence",
+    "caption": "Each municipality sets its own rules. Calgary, for example, lists online or phone sales and home-based retail sales among the businesses that need a licence. Look up your own city or town in the same way.",
+    "capturedAt": "2026-10-17"
+  },
+  {
     "region": "bc",
     "step": "01-structure-and-name",
     "file": "guides/bc/01-structure-and-name/01.webp",

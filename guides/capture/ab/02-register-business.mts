@@ -26,14 +26,13 @@ await captureStep("ab", "02-register-business", [
     setup: async (page) => {
       await page.goto(AGENTS);
       await page
-        .getByText(/Level 1/)
-        .first()
+        .getByRole("heading", { name: "Cost", exact: true })
         .evaluate((el) => el.scrollIntoView({ block: "start" }));
-      await page.mouse.wheel(0, -200);
+      await page.mouse.wheel(0, -80);
     },
     highlight: (page) => [
       page.getByText(/Service fees are not regulated/).first(),
-      page.getByText(/Level 1/).first(),
+      page.getByRole("heading", { name: /Level 1: basic registrations/i }),
     ],
   },
 ]);

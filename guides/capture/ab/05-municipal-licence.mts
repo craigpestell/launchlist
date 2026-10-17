@@ -11,6 +11,12 @@ await captureStep("ab", "05-municipal-licence", [
     caption:
       "Each municipality sets its own rules. Calgary, for example, lists online or phone sales and home-based retail sales among the businesses that need a licence. Look up your own city or town in the same way.",
     setup: async (page) => {
+      // The live chat widget covers the page and, with the trackers, keeps the
+      // network from going idle.
+      await page.route(
+        /livechatinc\.com|livechat-files\.com|crazyegg\.com|doubleclick\.net|demdex\.net|omtrdc\.net|webtrends\.com|spotify\.com|google-analytics\.com|googletagmanager\.com|adobedtm\.com/,
+        (route) => route.abort(),
+      );
       await page.goto(CALGARY);
       await page
         .getByText(/Online or phone sales/i)
