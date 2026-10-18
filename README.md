@@ -46,7 +46,7 @@ without `RESEND_API_KEY` the sign-in link is printed in the dev server console, 
 Production needs: `DATABASE_URL` (e.g. Neon via Vercel Marketplace; run `npm run db:migrate` against it),
 `RESEND_API_KEY` + `EMAIL_FROM` (verified sending domain), `NEXT_PUBLIC_TURNSTILE_SITE_KEY` + `TURNSTILE_SECRET_KEY`
 (production fails closed without Turnstile), `ADMIN_EMAIL` (only this account can open `/admin`), and `APP_URL`.
-Optional: `NEXT_PUBLIC_GA_ID` turns on Google Analytics 4 (set it for Production only, then redeploy).
+Google Analytics 4 (`G-WPWN5VGHBS`) loads on Vercel production deploys only; set `NEXT_PUBLIC_GA_ID` to override it elsewhere.
 
 Notes: sign-in tokens are hashed, single use and expire in 15 minutes; the link opens a confirm page so email scanners
 can't consume it. Sign-in requests are rate limited (3 per email per 15 min, 10 per IP per hour). State-changing API calls

@@ -22,7 +22,10 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-const gaId = process.env.NEXT_PUBLIC_GA_ID;
+// GA4 for bizrocket.ca; previews and local dev stay untracked unless overridden
+const gaId =
+  process.env.NEXT_PUBLIC_GA_ID ||
+  (process.env.VERCEL_ENV === "production" ? "G-WPWN5VGHBS" : undefined);
 
 const themeScript = `try{var t=localStorage.getItem("theme");if(t==="dark"||(t!=="light"&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.classList.add("dark")}catch(e){}`;
 
