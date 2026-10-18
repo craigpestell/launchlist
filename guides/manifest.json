@@ -189,6 +189,42 @@
     "capturedAt": "2026-10-18"
   },
   {
+    "region": "nb",
+    "step": "01-structure-and-name",
+    "file": "guides/nb/01-structure-and-name/01.webp",
+    "url": "https://www2.snb.ca/content/snb/en/sites/corporate-registry.html",
+    "alt": "Service New Brunswick Corporate Registry page with the Register a business name link highlighted",
+    "caption": "Service New Brunswick's Corporate Registry registers the business names sole proprietors trade under. You only need it if you use a name other than your own.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "nb",
+    "step": "02-register-business",
+    "file": "guides/nb/02-register-business/01.webp",
+    "url": "https://www2.gnb.ca/content/gnb/en/services/services_renderer.201450.Register__Renewal_of_a_Business_Name.html",
+    "alt": "Service New Brunswick register or renew a business name page with the sentence on who must register highlighted",
+    "caption": "Register your business name if you trade under any name other than your own. File within two months of starting.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "nb",
+    "step": "02-register-business",
+    "file": "guides/nb/02-register-business/02.webp",
+    "url": "https://www2.gnb.ca/content/gnb/en/services/services_renderer.201450.Register__Renewal_of_a_Business_Name.html#serviceFees",
+    "alt": "Service New Brunswick register or renew a business name page on the Fees tab with the Certificate of Business Name fee highlighted",
+    "caption": "A Certificate of Business Name costs $112, including the $12 Royal Gazette fee. Renewing it every five years costs $62.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "nb",
+    "step": "05-municipal-licence",
+    "file": "guides/nb/05-municipal-licence/01.webp",
+    "url": "https://www.fredericton.ca/business-development/planning-development/zoning-land-use",
+    "alt": "City of Fredericton zoning and land use page with the question about having a home based business highlighted",
+    "caption": "Each municipality sets its own rules. Fredericton, for example, allows a home occupation in a single detached house or mini-home, under its zoning by-law. Look up your own city or town in the same way.",
+    "capturedAt": "2026-10-18"
+  },
+  {
     "region": "on",
     "step": "01-structure-and-name",
     "file": "guides/on/01-structure-and-name/01.webp",

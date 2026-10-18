@@ -94,7 +94,8 @@ export async function captureStep(
     for (const c of captures) {
       try {
         await c.setup(page);
-        await page.waitForLoadState("networkidle");
+        // Some sites (analytics, chat widgets) never go idle; settle for a bounded wait.
+        await page.waitForLoadState("networkidle", { timeout: 10_000 }).catch(() => {});
         if (c.highlight) await annotate(page, c.highlight(page));
       } catch (err) {
         // Selectors are written blind from the cloud, so save what the page
