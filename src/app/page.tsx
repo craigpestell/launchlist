@@ -4,11 +4,11 @@ import { getRegions, type Region } from "@/lib/regions";
 
 const COUNTRIES: { code: Region["country"]; label: string; unit: string }[] = [
   { code: "CA", label: "Canada", unit: "provinces and territories" },
-  { code: "US", label: "United States", unit: "states" },
 ];
 
 export default function Home() {
-  const regions = getRegions();
+  // Canada only for now; a US version may launch separately later.
+  const regions = getRegions().filter((r) => r.country === "CA");
   const available = regions.filter((r) => r.available);
 
   return (
@@ -18,7 +18,7 @@ export default function Home() {
       </h1>
       <p className="mt-3 text-neutral-600 dark:text-neutral-400">
         Step-by-step guides for registering and launching a retail business.
-        Rules differ by province and state, so start by choosing where your
+        Rules differ by province and territory, so start by choosing where your
         business will be based.
       </p>
 
