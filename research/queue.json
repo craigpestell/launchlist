@@ -34,9 +34,11 @@
     "country": "CA",
     "code": "NB",
     "name": "New Brunswick",
-    "status": "researched",
+    "status": "done",
     "researchedAt": "2026-10-18",
-    "confidence": "medium"
+    "confidence": "medium",
+    "publishedAt": "2026-10-18",
+    "note": "Published as content/nb; see research/jurisdictions/ca-nb.md for sources and unconfirmed items"
   },
   {
     "id": "ca-nl",
