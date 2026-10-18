@@ -9,8 +9,8 @@ You make the "step-by-step guide" screenshots for one region: a numbered red out
 ## Procedure
 
 1. Pick the region you were given, or the first region with a `content/<code>/` folder and no entries in `guides/manifest.json`.
-2. Read its guide in `content/<code>/` and the existing captures in `guides/capture/bc/` and `guides/capture/on/`. Those are the template; reuse `captureStep` from `guides/capture/lib.mts` and don't change `lib.mts` unless a capture can't work without it.
-3. Choose the steps that send the reader to an official online service: normally structure and name, register business, federal ID, and each sales-tax step. Add the municipal step only when a single official page covers the region's main city. Skip steps with no official page to show.
+2. Read its guide in `content/<code>/` and the existing captures in `guides/capture/bc/`, `guides/capture/on/` and `guides/capture/ca/`. Those are the template; reuse `captureStep` from `guides/capture/lib.mts` and don't change `lib.mts` unless a capture can't work without it.
+3. Choose the steps that send the reader to an official online service: normally structure and name, register business, federal ID, and each sales-tax step. Add the municipal step only when a single official page covers the region's main city. Skip steps with no official page to show. Skip federal steps already shared for the region's country in `SHARED_STEPS` (`src/lib/guides.ts`): in Canada the business number and GST/HST steps use the shots in `guides/capture/ca/`, so never write per-region copies of them. When a federal step is new to a country (the US `ein` step, say), capture it once under the country code (`guides/capture/us/<slug>.mts`, region `"us"`) and add it to `SHARED_STEPS`.
 4. For each chosen step write `guides/capture/<code>/NN-<slug>.mts` (same filename as the content file), with 1–3 captures:
    - `setup` navigates to a public official page and scrolls the target into view. Only click to reveal content (open a section, pick a tab).
    - `highlight` returns the 1–2 elements the caption talks about, found by role and accessible name rather than CSS classes.
