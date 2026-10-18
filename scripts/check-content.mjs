@@ -24,6 +24,25 @@ const problems = [];
 const report = (where, msg) => problems.push(`${where}: ${msg}`);
 
 const REQUIRED = ["title", "summary", "time", "cost", "checklist"];
+
+// Steps copied word for word from a template region (see guide-editor.md).
+// Text left over from that region shows up as another region's name or the
+// wrong sales tax.
+const COPIED = new Set([
+  "business-number",
+  "insurance",
+  "bank-account",
+  "bookkeeping-taxes",
+  "payment-processor",
+  "legal-pages-privacy",
+  "product-compliance",
+  "supplier-account",
+]);
+const PROVINCIAL_TAXES = ["PST", "RST", "QST"];
+const regionNames = (code) =>
+  queue
+    .filter((q) => q.country === "CA" && q.code.toLowerCase() !== code)
+    .flatMap((q) => (q.code === "BC" ? [q.name, "BC"] : [q.name]));
 const ALLOWED = new Set([...REQUIRED, "linkLabel", "linkUrl"]);
 
 for (const region of regions) {
@@ -37,6 +56,17 @@ for (const region of regions) {
     .filter((f) => f.endsWith(".md"))
     .sort();
   const slugs = new Set();
+
+  const titles = files.map(
+    (f) => matter(fs.readFileSync(path.join(CONTENT, region, f), "utf8")).data.title ?? "",
+  );
+  const hasHst = files.some((f) => /-hst\.md$/.test(f));
+  const ownTax = titles.map((t) => PROVINCIAL_TAXES.find((x) => new RegExp(`\\b${x}\\b`).test(t))).find(Boolean);
+  const wrongTaxes = [
+    ...(hasHst ? ["GST(?!/HST)"] : ["(?<!GST/)HST"]),
+    ...PROVINCIAL_TAXES.filter((x) => x !== ownTax),
+  ];
+  const otherRegions = regionNames(region);
 
   files.forEach((file, i) => {
     const where = `content/${region}/${file}`;
@@ -85,6 +115,15 @@ for (const region of regions) {
     if (/^# /m.test(content)) report(where, "body uses an H1; start sections at ##");
     if (!/^## /m.test(content)) report(where, "body needs at least one ## section");
     if (content.includes("—")) report(where, "body uses an em dash; rewrite as two sentences or use a comma");
+    if (COPIED.has(m[2])) {
+      const text = [data.title, data.summary, ...(data.checklist ?? []), content].join("\n");
+      for (const name of otherRegions)
+        if (new RegExp(`\\b${name}\\b`).test(text))
+          report(where, `mentions ${name}; left over from the template region?`);
+      for (const tax of wrongTaxes)
+        if (new RegExp(`\\b${tax}\\b`).test(text))
+          report(where, `mentions ${tax.replace(/\(.*\)/, "")}, which this region doesn't use`);
+    }
     for (const [, n] of content.matchAll(/\bstep (\d+)\b/gi))
       if (Number(n) < 1 || Number(n) > files.length)
         report(where, `refers to step ${n}, but the guide has ${files.length} steps`);

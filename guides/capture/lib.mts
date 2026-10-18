@@ -5,6 +5,7 @@ import path from "node:path";
 
 const OUT_DIR = path.resolve("public/guides");
 const MANIFEST = path.resolve("guides/manifest.json");
+const DEBUG_DIR = path.resolve("guides/capture/.debug");
 
 export type Shot = {
   region: string; // content folder, e.g. "bc"
@@ -91,9 +92,21 @@ export async function captureStep(
 
   try {
     for (const c of captures) {
-      await c.setup(page);
-      await page.waitForLoadState("networkidle");
-      if (c.highlight) await annotate(page, c.highlight(page));
+      try {
+        await c.setup(page);
+        await page.waitForLoadState("networkidle");
+        if (c.highlight) await annotate(page, c.highlight(page));
+      } catch (err) {
+        // Selectors are written blind from the cloud, so save what the page
+        // actually offers (roles and accessible names) to fix them from.
+        const base = path.join(DEBUG_DIR, `${region}-${step}-${c.n}`);
+        await mkdir(DEBUG_DIR, { recursive: true });
+        await page.screenshot({ path: `${base}.png` }).catch(() => {});
+        const tree = await page.locator("body").ariaSnapshot().catch(() => "");
+        await writeFile(`${base}.yml`, `# ${page.url()}\n${tree}\n`);
+        console.error(`capture ${c.n} failed at ${page.url()}; page saved to ${base}.yml and .png`);
+        throw err;
+      }
       const png = await page.screenshot();
       const name = `${String(c.n).padStart(2, "0")}.webp`;
       await sharp(png).webp({ quality: 85 }).toFile(path.join(dir, name));

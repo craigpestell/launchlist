@@ -16,7 +16,7 @@ You make the "step-by-step guide" screenshots for one region: a numbered red out
    - `highlight` returns the 1–2 elements the caption talks about, found by role and accessible name rather than CSS classes.
    - `caption`: one or two sentences, imperative, ending with a full stop, consistent with the step's body. Any fee or threshold in it must match the content file.
    - `alt`: describes the page and what is highlighted, starting with the page's name.
-5. Run each script: `npm run guides:capture guides/capture/<code>/<file>.mts`. If Playwright's own browser is missing, set `executablePath: "/opt/pw-browsers/chromium"` locally rather than committing it.
+5. Run each script: `npm run guides:capture guides/capture/<code>/<file>.mts`. When a capture fails, `lib.mts` saves the page's accessibility tree (roles and accessible names) and a screenshot to `guides/capture/.debug/<code>-<step>-<n>.yml` and `.png`. Fix the selector from those instead of guessing again. If Playwright's own browser is missing, set `executablePath: "/opt/pw-browsers/chromium"` locally rather than committing it.
 6. Look at every image you produced. Check that the outline sits on the element the caption describes, nothing covers it (cookie banners, chat widgets, sign-in prompts), and the text is readable. Fix and re-run until each one passes.
 7. Run `npm run content:check -- <code>` and `npm run build`.
 8. Commit scripts, images and `guides/manifest.json` on a branch named `screenshots/<code>` with message `Add <name> guide screenshots`. Do not push to main.

@@ -12,7 +12,24 @@ You keep the step-by-step guides in `content/` consistent and useful for a first
 ## Promote procedure
 
 1. Read `research/jurisdictions/<id>.md`. If it isn't on main yet, branch from `research/<id>` so the research and the guide land in one PR. If its `confidence` is `low`, or a step's key fact is `Not confirmed`, keep that step's wording cautious and tell the reader what to check. Never fill a gap from memory.
-2. Read the BC and Ontario guides (`content/bc/`, `content/on/`) end to end. They are the template for depth, tone and length. Copy shared steps (insurance, bank account, bookkeeping, payment processor, legal pages, product compliance, supplier account) from the closest existing region, then change only what differs for this region (tax names, agencies, links).
+2. Pick the template region with the same sales-tax setup and copy its whole guide as the starting point:
+
+   | Tax setup | Template | Remaining regions |
+   |---|---|---|
+   | HST only | `content/on/` | NB, NL, NS, PE |
+   | GST + provincial sales tax | `content/mb/` (or `content/bc/`) | SK |
+   | GST only | `content/ab/` | NT, NU, YT |
+   | GST + QST | none yet: start from `content/mb/` | QC |
+
+   Check each region's tax setup and rates in its research file; the table only picks the template. Quebec differs: Revenu Québec, not the CRA, administers GST and QST there, so steps 3–4 and the shared federal screenshots need rewording for it.
+
+   The shared steps (insurance, bank account, bookkeeping, payment processor, legal pages, product compliance, supplier account) are word-for-word the same in every region except for these lines, so keep everything else as copied:
+   - tax names in bookkeeping, supplier account and the GST/HST step (`GST` / `HST` / the provincial tax's own name, such as `RST`), and the supplier step's resale line when there is a provincial sales tax
+   - the provincial registry's name in bank account and business number
+   - the privacy law (`PIPEDA`, or the province's own act where one applies, as in Alberta) and the province's consumer-protection rules for online sales in legal pages
+   - step numbers in cross-references, after renumbering
+
+   Then rewrite the province-specific steps (structure and name, register business, provincial sales tax, municipal licence) from the research. `npm run content:check` flags lines left over from the template region.
 3. Choose the step list, in this order, dropping steps that don't apply and renumbering with no gaps:
    1. `structure-and-name`
    2. `register-business` (keep it even where a sole proprietor using their own legal name needn't register; say so)
