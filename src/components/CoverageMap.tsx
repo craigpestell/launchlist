@@ -1,7 +1,7 @@
 import { MAP_HEIGHT, MAP_SHAPES, MAP_WIDTH } from "@/lib/map-shapes";
 import type { Region } from "@/lib/regions";
 
-/** Map of Canada and the US; regions with a guide are shaded and link to it. */
+/** Map of Canada; provinces and territories with a guide are shaded and link to it. */
 export function CoverageMap({ regions }: { regions: Region[] }) {
   const shape = (r: Region) => MAP_SHAPES[`${r.country}-${r.slug.toUpperCase()}`];
   const shaped = regions.filter(shape);
@@ -13,7 +13,7 @@ export function CoverageMap({ regions }: { regions: Region[] }) {
         viewBox={`0 0 ${MAP_WIDTH} ${MAP_HEIGHT}`}
         className="h-auto w-full"
         role="group"
-        aria-label="Map of Canada and the United States showing which provinces and states have a guide"
+        aria-label="Map of Canada showing which provinces and territories have a guide"
       >
         {shaped
           .filter((r) => !r.available)
