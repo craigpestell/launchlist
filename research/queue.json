@@ -45,14 +45,20 @@
     "country": "CA",
     "code": "NL",
     "name": "Newfoundland and Labrador",
-    "status": "pending"
+    "status": "researched",
+    "researchedAt": "2026-10-18",
+    "confidence": "medium",
+    "note": "See research/jurisdictions/ca-nl.md for sources and unconfirmed items"
   },
   {
     "id": "ca-ns",
     "country": "CA",
     "code": "NS",
     "name": "Nova Scotia",
-    "status": "pending"
+    "status": "researched",
+    "researchedAt": "2026-10-18",
+    "confidence": "medium",
+    "note": "See research/jurisdictions/ca-ns.md for sources and unconfirmed items"
   },
   {
     "id": "ca-on",
@@ -69,42 +75,60 @@
     "country": "CA",
     "code": "PE",
     "name": "Prince Edward Island",
-    "status": "pending"
+    "status": "researched",
+    "researchedAt": "2026-10-18",
+    "confidence": "medium",
+    "note": "See research/jurisdictions/ca-pe.md for sources and unconfirmed items"
   },
   {
     "id": "ca-qc",
     "country": "CA",
     "code": "QC",
     "name": "Quebec",
-    "status": "pending"
+    "status": "researched",
+    "researchedAt": "2026-10-18",
+    "confidence": "medium",
+    "note": "See research/jurisdictions/ca-qc.md for sources and unconfirmed items"
   },
   {
     "id": "ca-sk",
     "country": "CA",
     "code": "SK",
     "name": "Saskatchewan",
-    "status": "pending"
+    "status": "researched",
+    "researchedAt": "2026-10-18",
+    "confidence": "medium",
+    "note": "See research/jurisdictions/ca-sk.md for sources and unconfirmed items"
   },
   {
     "id": "ca-nt",
     "country": "CA",
     "code": "NT",
     "name": "Northwest Territories",
-    "status": "pending"
+    "status": "researched",
+    "researchedAt": "2026-10-18",
+    "confidence": "medium",
+    "note": "See research/jurisdictions/ca-nt.md for sources and unconfirmed items"
   },
   {
     "id": "ca-nu",
     "country": "CA",
     "code": "NU",
     "name": "Nunavut",
-    "status": "pending"
+    "status": "researched",
+    "researchedAt": "2026-10-18",
+    "confidence": "medium",
+    "note": "See research/jurisdictions/ca-nu.md for sources and unconfirmed items"
   },
   {
     "id": "ca-yt",
     "country": "CA",
     "code": "YT",
     "name": "Yukon",
-    "status": "pending"
+    "status": "researched",
+    "researchedAt": "2026-10-18",
+    "confidence": "medium",
+    "note": "See research/jurisdictions/ca-yt.md for sources and unconfirmed items"
   },
   {
     "id": "us-al",
