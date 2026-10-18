@@ -34,7 +34,9 @@
     "country": "CA",
     "code": "NB",
     "name": "New Brunswick",
-    "status": "pending"
+    "status": "researched",
+    "researchedAt": "2026-10-18",
+    "confidence": "medium"
   },
   {
     "id": "ca-nl",
