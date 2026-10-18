@@ -171,6 +171,96 @@
     "capturedAt": "2026-10-06"
   },
   {
+    "region": "mb",
+    "step": "01-structure-and-name",
+    "file": "guides/mb/01-structure-and-name/01.webp",
+    "url": "https://www.gov.mb.ca/jec/busdev/business/business_structures.html",
+    "alt": "Manitoba choose your business structure page with the sole proprietorship section and the personal liability point highlighted",
+    "caption": "Read Manitoba's guide to business structures. A sole proprietorship is the simplest way to start, but the owner is personally liable for all business debts.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "mb",
+    "step": "01-structure-and-name",
+    "file": "guides/mb/01-structure-and-name/02.webp",
+    "url": "https://companiesoffice.gov.mb.ca/starting_business_name.html",
+    "alt": "Manitoba Companies Office business names page with the link to information on choosing a business name highlighted",
+    "caption": "Read the Companies Office guidelines for choosing a business name before you request a name reservation.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "mb",
+    "step": "02-register-business",
+    "file": "guides/mb/02-register-business/01.webp",
+    "url": "https://companiesoffice.gov.mb.ca/forms_business.html",
+    "alt": "Manitoba Companies Office business name forms and fees page with the Request for Name Reservation row highlighted",
+    "caption": "Start with a Request for Name Reservation. It costs $45, and an approved name is held for 90 days.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "mb",
+    "step": "02-register-business",
+    "file": "guides/mb/02-register-business/02.webp",
+    "url": "https://companiesoffice.gov.mb.ca/forms_business.html",
+    "alt": "Manitoba Companies Office business name forms and fees page with the Business Name Registration row highlighted",
+    "caption": "Then file the Business Name Registration. Filing online is fastest, and it costs $60 for three years.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "mb",
+    "step": "03-business-number",
+    "file": "guides/mb/03-business-number/01.webp",
+    "url": "https://www.canada.ca/en/services/taxes/business-registration.html",
+    "alt": "CRA business registration page with the Register with Business Registration Online link highlighted",
+    "caption": "On the CRA business registration page, choose Register with Business Registration Online (BRO).",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "mb",
+    "step": "03-business-number",
+    "file": "guides/mb/03-business-number/02.webp",
+    "url": "https://www.canada.ca/en/services/taxes/business-registration.html",
+    "alt": "CRA page listing ways to register for a business number and program accounts",
+    "caption": "This section explains what a business number covers and which program accounts (like GST/HST) you can add to it.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "mb",
+    "step": "04-gst",
+    "file": "guides/mb/04-gst/01.webp",
+    "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
+    "alt": "CRA GST/HST for businesses page with the Who needs to register section highlighted",
+    "caption": "Check Who needs to register for GST/HST. Most businesses must register once taxable sales pass $30,000 in four consecutive calendar quarters.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "mb",
+    "step": "04-gst",
+    "file": "guides/mb/04-gst/02.webp",
+    "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
+    "alt": "CRA GST/HST for businesses page with the Get a GST/HST number and manage your account section highlighted",
+    "caption": "When you're ready, open Get a GST/HST number and manage your account. Registration is done in Business Registration Online, signed in with your CRA account.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "mb",
+    "step": "05-pst",
+    "file": "guides/mb/05-pst/01.webp",
+    "url": "https://www.gov.mb.ca/finance/taxation/",
+    "alt": "Manitoba Finance taxation page with the Sign up for TAXcess link and the Do I Need to Register link highlighted",
+    "caption": "Check Do I Need to Register?, then sign up for TAXcess and register for a retail sales tax account. Registration is free.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "mb",
+    "step": "06-municipal-licence",
+    "file": "guides/mb/06-municipal-licence/01.webp",
+    "url": "https://legacy.winnipeg.ca/ppd/permits/Residential/HomeBusiness.stm",
+    "alt": "City of Winnipeg home-based business page with the sentence saying a home-based business development permit is required highlighted",
+    "caption": "Each municipality sets its own rules. Winnipeg, for example, needs a home-based business development permit if business mail comes to your home or you do the paperwork there. Look up your own municipality in the same way.",
+    "capturedAt": "2026-10-18"
+  },
+  {
     "region": "on",
     "step": "01-structure-and-name",
     "file": "guides/on/01-structure-and-name/01.webp",

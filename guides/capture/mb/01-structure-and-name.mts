@@ -20,16 +20,16 @@ await captureStep("mb", "01-structure-and-name", [
   },
   {
     n: 2,
-    alt: "Manitoba Companies Office business names page with the link to the guidelines for choosing a business name highlighted",
+    alt: "Manitoba Companies Office business names page with the link to information on choosing a business name highlighted",
     caption:
       "Read the Companies Office guidelines for choosing a business name before you request a name reservation.",
     setup: async (page) => {
       await page.goto(NAMES);
       await page
-        .getByRole("link", { name: /choosing a business name/i })
+        .getByText(/help you choose your business name/i)
         .first()
         .evaluate((el) => el.scrollIntoView({ block: "center" }));
     },
-    highlight: (page) => [page.getByRole("link", { name: /choosing a business name/i }).first()],
+    highlight: (page) => [page.getByText(/help you choose your business name/i).first()],
   },
 ]);
