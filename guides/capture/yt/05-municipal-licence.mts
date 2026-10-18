@@ -10,10 +10,9 @@ await captureStep("yt", "05-municipal-licence", [
     setup: async (page) => {
       await page.goto("https://www.whitehorse.ca/business-in-whitehorse/doing-business/business-license/");
       await page
-        .getByText(/[Bb]usiness [Ll]icen[cs]e/)
-        .first()
+        .getByText(/home-based businesses that operate in Whitehorse require a business license/)
         .evaluate((el) => el.scrollIntoView({ block: "center" }));
     },
-    highlight: (page) => [page.getByText(/[Bb]usiness [Ll]icen[cs]e/).first()],
+    highlight: (page) => [page.getByText(/home-based businesses that operate in Whitehorse require a business license/)],
   },
 ]);

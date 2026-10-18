@@ -225,6 +225,78 @@
     "capturedAt": "2026-10-18"
   },
   {
+    "region": "nl",
+    "step": "05-municipal-licence",
+    "file": "guides/nl/05-municipal-licence/01.webp",
+    "url": "https://www.stjohns.ca/business-development/business-supports/starting-a-business/",
+    "alt": "City of St. John's starting a business page with the link to its guide to municipal regulations for business highlighted",
+    "caption": "Each municipality sets its own rules. St. John's, for example, publishes a guide to the municipal regulations and permits that apply to businesses. Look up your own city or town in the same way.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "ns",
+    "step": "01-structure-and-name",
+    "file": "guides/ns/01-structure-and-name/01.webp",
+    "url": "https://www.novascotia.ca/choose-legal-structure-your-business-or-non-profit",
+    "alt": "Nova Scotia choose a legal structure page with the sole proprietorship description highlighted",
+    "caption": "Read Nova Scotia's guide to legal structures. A sole proprietorship is a business owned by one person and not incorporated.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "ns",
+    "step": "02-register-business",
+    "file": "guides/ns/02-register-business/01.webp",
+    "url": "https://www.novascotia.ca/register-sole-proprietorship",
+    "alt": "Nova Scotia register a sole proprietorship page with the $68.55 registration fee highlighted",
+    "caption": "Reserve your name first, then register the sole proprietorship. Registration costs $68.55 and must be renewed every year for the same fee.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "ns",
+    "step": "05-municipal-licence",
+    "file": "guides/ns/05-municipal-licence/01.webp",
+    "url": "https://www.halifax.ca/home-property/building-development-permits/house-home-permits/home-improvement-permits#homebusiness",
+    "alt": "Halifax home improvement permits page on the Home Based Business tab with the development permit requirement highlighted",
+    "caption": "Each municipality sets its own rules. Halifax, for example, needs a development permit for a home-based business. Look up your own municipality in the same way.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "nt",
+    "step": "01-structure-and-name",
+    "file": "guides/nt/01-structure-and-name/01.webp",
+    "url": "https://www.justice.gov.nt.ca/en/business-names/page/2/",
+    "alt": "NWT Corporate Registries business names page on the entity types tab with the proprietorship description highlighted",
+    "caption": "A proprietorship is owned by one person, with no legal distinction between you and the business, so you are personally liable.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "nt",
+    "step": "02-register-business",
+    "file": "guides/nt/02-register-business/01.webp",
+    "url": "https://www.justice.gov.nt.ca/en/business-names/page/4/",
+    "alt": "NWT Corporate Registries business names forms tab with the sole proprietorship forms highlighted",
+    "caption": "Download the sole proprietorship forms and mail or deliver the signed originals. Reservation is $25 and registration $50.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "nt",
+    "step": "05-municipal-licence",
+    "file": "guides/nt/05-municipal-licence/01.webp",
+    "url": "https://www.yellowknife.ca/business-licences",
+    "alt": "City of Yellowknife business licences page with the home based business application highlighted",
+    "caption": "Every business in the Northwest Territories needs a licence. In Yellowknife, a home-based business applies for a City licence and development permit together.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "nu",
+    "step": "02-register-business",
+    "file": "guides/nu/02-register-business/01.webp",
+    "url": "https://nunavutlegalregistries.ca/cr_partnerships_en.shtml",
+    "alt": "Nunavut Legal Registries partnerships and business names page with the 60-day registration rule and the fee schedule link highlighted",
+    "caption": "Register a business name with Nunavut Legal Registries within 60 days of first using it. The fee is $50.",
+    "capturedAt": "2026-10-18"
+  },
+  {
     "region": "on",
     "step": "01-structure-and-name",
     "file": "guides/on/01-structure-and-name/01.webp",
@@ -268,5 +340,77 @@
     "alt": "City of Toronto business regulations page with the list of businesses that do not need a licence open and the retail stores item highlighted",
     "caption": "Each city sets its own rules. Toronto, for example, says retail stores selling new, non-food items do not need a municipal operating licence. Look up your own city or town's licensing page in the same way.",
     "capturedAt": "2026-10-06"
+  },
+  {
+    "region": "qc",
+    "step": "01-structure-and-name",
+    "file": "guides/qc/01-structure-and-name/01.webp",
+    "url": "https://www.quebec.ca/en/businesses-and-self-employed-workers/start-entreprise/legal-forms",
+    "alt": "Québec.ca legal forms of enterprise page with the sentence saying a sole proprietorship has no legal existence separate from its owner highlighted",
+    "caption": "Read Quebec's guide to legal forms. A sole proprietorship has no legal existence separate from you, so you are personally liable for its debts.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "qc",
+    "step": "02-register-business",
+    "file": "guides/qc/02-register-business/01.webp",
+    "url": "https://www.quebec.ca/en/businesses-and-self-employed-workers/start-entreprise/register-constitute-enterprise/learn-about-registration/about-registration",
+    "alt": "Québec.ca about registration page with the rule on sole proprietorships that must register highlighted",
+    "caption": "Register with the Registraire des entreprises if your business name doesn't include your first and last names. Registration costs $41.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "qc",
+    "step": "05-municipal-licence",
+    "file": "guides/qc/05-municipal-licence/01.webp",
+    "url": "https://montreal.ca/en/how-to/get-occupancy-permit-commercial-industrial-or-professional-activity?arrondissement=PMR",
+    "alt": "Montréal get an occupancy permit page for Le Plateau-Mont-Royal with the sentence about using part of your home for professional purposes highlighted",
+    "caption": "Each municipality sets its own rules. In Montréal, a certificate of occupancy is needed to use part of your home for professional purposes, and fees vary by borough. Check with your own municipality or borough.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "sk",
+    "step": "01-structure-and-name",
+    "file": "guides/sk/01-structure-and-name/01.webp",
+    "url": "https://www.saskregistries.ca/corporateregistry/registeringabusiness/chooseabusinesstype",
+    "alt": "Saskatchewan Corporate Registry choose a business type page with the sole proprietorship option highlighted",
+    "caption": "Read the Corporate Registry's guide to business types. A sole proprietorship is the simplest way to start.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "sk",
+    "step": "02-register-business",
+    "file": "guides/sk/02-register-business/01.webp",
+    "url": "https://www.saskregistries.ca/corporateregistry/registeringabusiness/searchandreserveabusinessname",
+    "alt": "Saskatchewan Corporate Registry search and reserve a business name page with the name reservation expiry rule highlighted",
+    "caption": "Reserve your business name before you register it. A reservation costs $50 and is held for 90 days.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "sk",
+    "step": "05-pst",
+    "file": "guides/sk/05-pst/01.webp",
+    "url": "https://www.saskatchewan.ca/business/taxes-licensing-and-reporting/provincial-taxes-policies-and-bulletins/provincial-sales-tax/apply-for-a-pst-number",
+    "alt": "Government of Saskatchewan apply for a PST number page with the online new business registration through SETS highlighted",
+    "caption": "Register for a PST vendor's licence online through Saskatchewan eTax Services (SETS).",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "sk",
+    "step": "06-municipal-licence",
+    "file": "guides/sk/06-municipal-licence/01.webp",
+    "url": "https://www.saskatoon.ca/business-development/business-licenses/business-licence-categories/home-based-business-licence",
+    "alt": "City of Saskatoon home-based business licence page with the $135 new licence fee highlighted",
+    "caption": "Each municipality sets its own rules. Saskatoon, for example, charges $135 for a new home-based business licence and $95 a year to renew. Look up your own city or town in the same way.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "yt",
+    "step": "05-municipal-licence",
+    "file": "guides/yt/05-municipal-licence/01.webp",
+    "url": "https://www.whitehorse.ca/business-in-whitehorse/doing-business/business-license/",
+    "alt": "City of Whitehorse business licence page with the business licence information highlighted",
+    "caption": "Each community sets its own rules. Whitehorse, for example, licenses every business and needs a development permit for a home business. Look up your own community in the same way.",
+    "capturedAt": "2026-10-18"
   }
 ]

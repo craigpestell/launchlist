@@ -10,10 +10,11 @@ await captureStep("qc", "05-municipal-licence", [
     setup: async (page) => {
       await page.goto("https://montreal.ca/en/how-to/get-occupancy-permit-commercial-industrial-or-professional-activity?arrondissement=PMR");
       await page
-        .getByText(/home office/)
+        .getByText(/use part of your home for professional purposes/)
+        .filter({ visible: true })
         .first()
         .evaluate((el) => el.scrollIntoView({ block: "center" }));
     },
-    highlight: (page) => [page.getByText(/home office/).first()],
+    highlight: (page) => [page.getByText(/use part of your home for professional purposes/).filter({ visible: true }).first()],
   },
 ]);

@@ -4,16 +4,16 @@ import { captureStep } from "../lib.mjs";
 await captureStep("sk", "05-pst", [
   {
     n: 1,
-    alt: "Government of Saskatchewan apply for a PST number page with the Saskatchewan eTax Services registration highlighted",
+    alt: "Government of Saskatchewan apply for a PST number page with the online new business registration through SETS highlighted",
     caption:
       "Register for a PST vendor's licence online through Saskatchewan eTax Services (SETS).",
     setup: async (page) => {
       await page.goto("https://www.saskatchewan.ca/business/taxes-licensing-and-reporting/provincial-taxes-policies-and-bulletins/provincial-sales-tax/apply-for-a-pst-number");
       await page
-        .getByText(/Saskatchewan eTax Services|SETS/)
+        .getByText(/New Businesses may submit their application/)
         .first()
-        .evaluate((el) => el.scrollIntoView({ block: "center" }));
+        .evaluate((el) => el.scrollIntoView({ block: "center", behavior: "instant" }));
     },
-    highlight: (page) => [page.getByText(/Saskatchewan eTax Services|SETS/).first()],
+    highlight: (page) => [page.getByText(/New Businesses may submit their application/).first()],
   },
 ]);

@@ -9,11 +9,12 @@ await captureStep("sk", "01-structure-and-name", [
       "Read the Corporate Registry's guide to business types. A sole proprietorship is the simplest way to start.",
     setup: async (page) => {
       await page.goto("https://www.saskregistries.ca/corporateregistry/registeringabusiness/chooseabusinesstype");
+      // Decline the optional tracking cookies so the consent pop-up doesn't cover the page.
+      await page.getByRole("button", { name: "Decline", exact: true }).click({ timeout: 5_000 }).catch(() => {});
       await page
-        .getByText(/[Ss]ole [Pp]roprietor/)
-        .first()
-        .evaluate((el) => el.scrollIntoView({ block: "center" }));
+        .getByRole("heading", { name: "Sole Proprietorship" })
+        .evaluate((el) => el.scrollIntoView({ block: "center", behavior: "instant" }));
     },
-    highlight: (page) => [page.getByText(/[Ss]ole [Pp]roprietor/).first()],
+    highlight: (page) => [page.getByRole("heading", { name: "Sole Proprietorship" })],
   },
 ]);
