@@ -100,6 +100,16 @@ for (const region of regions) {
   }
 }
 
+// Country-level shots shared by every region (see SHARED_STEPS in src/lib/guides.ts).
+const countries = new Set(queue.map((q) => q.country.toLowerCase()));
+for (const shot of manifest.filter((s) => countries.has(s.region))) {
+  if (only.length > 0) break;
+  const where = `guides/manifest.json ${shot.file}`;
+  if (!fs.existsSync(path.join(ROOT, "public", shot.file))) report(where, "image file missing");
+  if (!/[.!?]$/.test(shot.caption)) report(where, "caption should end with a full stop");
+  if (!shot.alt || shot.alt.length < 20) report(where, "alt text missing or too short");
+}
+
 if (problems.length) {
   console.log(problems.join("\n"));
   console.log(`\n${problems.length} problem(s) in ${regions.join(", ")}`);

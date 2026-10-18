@@ -25,7 +25,7 @@ To add a region, run the three agents in `.claude/agents/` in order. Each commit
 
 Checklist ticks for BC keep their original unprefixed ids (`pst:2`); other regions are prefixed (`on:hst:1`). The business details page is BC-only for now.
 
-Step screenshots are per region: capture scripts live in `guides/capture/<code>/`, images in `public/guides/<code>/<step>/`, and each `guides/manifest.json` entry carries a `region`. Run one with `npm run guides:capture guides/capture/<code>/<step>.mts`.
+Step screenshots are per region: capture scripts live in `guides/capture/<code>/`, images in `public/guides/<code>/<step>/`, and each `guides/manifest.json` entry carries a `region`. Run one with `npm run guides:capture guides/capture/<code>/<step>.mts`. Federal steps that look the same in every province (CRA business number, GST/HST) are captured once in `guides/capture/ca/` and shared by every Canadian region through `SHARED_STEPS` in `src/lib/guides.ts`, so new regions don't re-capture them.
 
 Each step is a Markdown file, ordered by filename prefix (`01-…`, `02-…`).
 Frontmatter: `title`, `summary`, `time`, `cost`, optional `linkLabel`/`linkUrl`, and `checklist` (list of tasks).
