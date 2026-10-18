@@ -49,13 +49,25 @@ export default function PrivacyPage() {
       <h2>Analytics</h2>
       <p>
         We use Vercel Web Analytics, which is cookieless, for aggregate page
-        views. Checklist activity is recorded in our own database as described
+        views. We also use Google Analytics to understand how visitors find and
+        use the site. Google Analytics sets cookies and receives your IP
+        address, browser details and the pages you visit; Google describes how
+        it handles this data in its{" "}
+        <a href="https://policies.google.com/technologies/partner-sites">
+          privacy policy
+        </a>
+        . You can opt out with the{" "}
+        <a href="https://tools.google.com/dlpage/gaoptout">
+          Google Analytics opt-out browser add-on
+        </a>
+        . Checklist activity is recorded in our own database as described
         above, not by a third party.
       </p>
 
       <h2>Services we use</h2>
       <ul>
         <li>Vercel: hosting and analytics</li>
+        <li>Google Analytics: aggregate site usage statistics</li>
         <li>A managed Postgres database: stores account data and checklist activity</li>
         <li>Resend: delivers sign-in emails</li>
         <li>

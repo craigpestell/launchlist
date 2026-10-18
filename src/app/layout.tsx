@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Geist } from "next/font/google";
@@ -20,6 +21,8 @@ export const metadata: Metadata = {
     "Step-by-step checklists for registering and launching an online retail business, by province and state.",
   robots: { index: false, follow: false },
 };
+
+const gaId = process.env.NEXT_PUBLIC_GA_ID;
 
 const themeScript = `try{var t=localStorage.getItem("theme");if(t==="dark"||(t!=="light"&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.classList.add("dark")}catch(e){}`;
 
@@ -66,6 +69,7 @@ export default function RootLayout({ children, modal }: LayoutProps<"/">) {
         <Analytics />
         <SpeedInsights />
       </body>
+      {gaId && <GoogleAnalytics gaId={gaId} />}
     </html>
   );
 }
