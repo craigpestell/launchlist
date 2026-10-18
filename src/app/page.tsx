@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CoverageMap } from "@/components/CoverageMap";
 import { getRegions, type Region } from "@/lib/regions";
 
 const COUNTRIES: { code: Region["country"]; label: string; unit: string }[] = [
@@ -20,6 +21,8 @@ export default function Home() {
         Rules differ by province and state, so start by choosing where your
         business will be based.
       </p>
+
+      <CoverageMap regions={regions} />
 
       <section className="mt-10" aria-labelledby="available-heading">
         <h2 id="available-heading" className="mb-3 text-lg font-semibold">
