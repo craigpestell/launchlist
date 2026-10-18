@@ -18,7 +18,10 @@ await captureStep("ab", "01-structure-and-name", [
     },
     highlight: (page) => [
       page.getByRole("heading", { name: /Types of business names/i }).first(),
-      page.getByText(/trade name is used when an individual/i).first(),
+      page
+        .getByRole("listitem")
+        .filter({ hasText: /an individual does business under a name other than/i })
+        .first(),
     ],
   },
   {
@@ -29,10 +32,9 @@ await captureStep("ab", "01-structure-and-name", [
     setup: async (page) => {
       await page.goto(NAMES);
       await page
-        .getByText(/Business Name Report/)
-        .first()
+        .getByRole("heading", { name: /Get a Business Name Report/i })
         .evaluate((el) => el.scrollIntoView({ block: "center" }));
     },
-    highlight: (page) => [page.getByText(/Business Name Report/).first()],
+    highlight: (page) => [page.getByRole("heading", { name: /Get a Business Name Report/i })],
   },
 ]);
