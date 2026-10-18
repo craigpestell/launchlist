@@ -6,6 +6,27 @@ const COUNTRIES: { code: Region["country"]; label: string; unit: string }[] = [
   { code: "CA", label: "Canada", unit: "provinces and territories" },
 ];
 
+const UPCOMING_TOPICS: { title: string; summary: string }[] = [
+  {
+    title: "Hiring your first employee",
+    summary:
+      "Payroll account with CRA, workers' compensation, employment standards and records of employment.",
+  },
+  {
+    title: "Selling to other provinces",
+    summary:
+      "When to collect GST/HST, PST or QST for customers outside your home province.",
+  },
+  {
+    title: "Running a home-based business",
+    summary: "Municipal home business licences, zoning and insurance.",
+  },
+  {
+    title: "Selling food, liquor or cannabis",
+    summary: "Food safety permits and the extra licences regulated products need.",
+  },
+];
+
 export default function Home() {
   // Canada only for now; a US version may launch separately later.
   const regions = getRegions().filter((r) => r.country === "CA");
@@ -50,9 +71,22 @@ export default function Home() {
           Coming soon
         </h2>
         <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
-          We are researching one region at a time from official government
-          sources and adding each guide as it is ready.
+          We research each guide from official government sources and add it
+          when it is ready.
         </p>
+        <ul className="mt-5 grid gap-3 sm:grid-cols-2">
+          {UPCOMING_TOPICS.map((topic) => (
+            <li
+              key={topic.title}
+              className="rounded-xl border border-dashed border-neutral-300 p-4 dark:border-neutral-700"
+            >
+              <span className="block font-medium">{topic.title}</span>
+              <span className="mt-1 block text-sm text-neutral-600 dark:text-neutral-400">
+                {topic.summary}
+              </span>
+            </li>
+          ))}
+        </ul>
         {COUNTRIES.map((country) => {
           const soon = regions.filter(
             (r) => r.country === country.code && !r.available,
