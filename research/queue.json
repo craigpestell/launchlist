@@ -454,5 +454,15 @@
     "code": "WY",
     "name": "Wyoming",
     "status": "pending"
+  },
+  {
+    "id": "support-ul-login",
+    "country": "CA",
+    "code": "UL-LOGIN",
+    "name": "Ultralove login help",
+    "kind": "support",
+    "status": "done",
+    "publishedAt": "2026-10-21",
+    "note": "Support guide for retailers who cannot sign in to ultralove.ca; not a jurisdiction, so no research file. Step 1 works around the stale Cloudflare-cached /my-account/ login page; drop it once the cache rule is fixed"
   }
 ]

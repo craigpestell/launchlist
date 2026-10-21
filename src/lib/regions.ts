@@ -8,6 +8,8 @@ export type Region = {
   name: string;
   /** True once content/<slug>/ has guide steps. */
   available: boolean;
+  /** Support guides (not a jurisdiction) are reachable by URL but not listed on the home page. */
+  support: boolean;
 };
 
 const ROOT = process.cwd();
@@ -22,6 +24,7 @@ export function getRegions(): Region[] {
     country: "CA" | "US";
     code: string;
     name: string;
+    kind?: "support";
   }[];
   cache = queue.map((entry) => {
     const slug = entry.code.toLowerCase();
@@ -30,6 +33,7 @@ export function getRegions(): Region[] {
       country: entry.country,
       name: entry.name,
       available: fs.existsSync(path.join(ROOT, "content", slug)),
+      support: entry.kind === "support",
     };
   });
   return cache;

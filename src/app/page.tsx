@@ -7,7 +7,7 @@ const COUNTRIES: { code: Region["country"]; label: string; unit: string }[] = [
 ];
 
 export default function Home() {
-  const regions = getRegions();
+  const regions = getRegions().filter((r) => !r.support);
   const available = regions.filter((r) => r.available);
 
   return (
