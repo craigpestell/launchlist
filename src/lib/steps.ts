@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
+import { getTopic } from "@/lib/topics";
 
 export type Step = {
   slug: string;
@@ -17,10 +18,16 @@ export type Step = {
 
 const cache = new Map<string, Step[]>();
 
+/**
+ * Steps for a region ("bc") or a topic ("products"). Topic slugs are words and
+ * region slugs are two-letter codes, so the two never collide.
+ */
 export function getSteps(region: string): Step[] {
   const cached = cache.get(region);
   if (cached) return cached;
-  const dir = path.join(process.cwd(), "content", region);
+  const dir = getTopic(region)
+    ? path.join(process.cwd(), "content", "topics", region)
+    : path.join(process.cwd(), "content", region);
   const steps = fs
     .readdirSync(dir)
     .filter((file) => file.endsWith(".md"))

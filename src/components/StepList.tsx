@@ -14,9 +14,13 @@ export type StepSummary = {
 
 export function StepList({
   region,
+  basePath = `/${region}`,
   steps,
 }: {
+  /** Region or topic slug, used for progress ids. */
   region: string;
+  /** Overview page the step links hang off; defaults to /<region>. */
+  basePath?: string;
   steps: StepSummary[];
 }) {
   const { done, reset, status } = useProgress();
@@ -65,7 +69,7 @@ export function StepList({
           return (
             <li key={step.slug}>
               <Link
-                href={`/${region}/steps/${step.slug}`}
+                href={`${basePath}/steps/${step.slug}`}
                 className="flex items-start gap-4 rounded-xl border border-neutral-200 p-4 transition hover:border-emerald-600 dark:border-neutral-800"
               >
                 <span

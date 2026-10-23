@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { CoverageMap } from "@/components/CoverageMap";
 import { getRegions, type Region } from "@/lib/regions";
+import { getTopics } from "@/lib/topics";
 
 const COUNTRIES: { code: Region["country"]; label: string; unit: string }[] = [
   { code: "CA", label: "Canada", unit: "provinces and territories" },
@@ -31,6 +32,7 @@ export default function Home() {
   // Canada only for now; a US version may launch separately later.
   const regions = getRegions().filter((r) => r.country === "CA");
   const available = regions.filter((r) => r.available);
+  const topics = getTopics();
 
   return (
     <>
@@ -65,6 +67,32 @@ export default function Home() {
           ))}
         </ul>
       </section>
+
+      {topics.length > 0 && (
+        <section className="mt-12" aria-labelledby="topics-heading">
+          <h2 id="topics-heading" className="text-lg font-semibold">
+            Guides for any store
+          </h2>
+          <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
+            Tasks that work the same wherever your business is based.
+          </p>
+          <ul className="mt-5 grid gap-3 sm:grid-cols-2">
+            {topics.map((topic) => (
+              <li key={topic.slug}>
+                <Link
+                  href={`/topics/${topic.slug}`}
+                  className="block rounded-xl border border-neutral-200 p-4 transition hover:border-emerald-600 dark:border-neutral-800"
+                >
+                  <span className="block font-medium">{topic.title}</span>
+                  <span className="mt-1 block text-sm text-neutral-600 dark:text-neutral-400">
+                    {topic.summary}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section className="mt-12" aria-labelledby="soon-heading">
         <h2 id="soon-heading" className="text-lg font-semibold">

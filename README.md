@@ -27,6 +27,8 @@ Checklist ticks for BC keep their original unprefixed ids (`pst:2`); other regio
 
 Step screenshots are per region: capture scripts live in `guides/capture/<code>/`, images in `public/guides/<code>/<step>/`, and each `guides/manifest.json` entry carries a `region`. Run one with `npm run guides:capture guides/capture/<code>/<step>.mts`. Federal steps that look the same in every province (CRA business number, GST/HST) are captured once in `guides/capture/ca/` and shared by every Canadian region through `SHARED_STEPS` in `src/lib/guides.ts`, so new regions don't re-capture them.
 
+Topic guides work the same way but aren't tied to a region: each lives in `content/topics/<slug>/` with a `topic.json` (`title`, `summary`) beside its steps, shows under "Guides for any store" on the home page, and is served at `/topics/<slug>`. Their checklist ids and manifest entries use the topic slug in place of a region code (`products:combine-into-variable:0`). The `products` topic's screenshots come from the Variation Converter demo site: run `harness/wp-harness up` in that plugin's repo, then the scripts in `guides/capture/products/` in order (02 to 05), since each builds on the last. `WP_URL` points them at another site.
+
 Each step is a Markdown file, ordered by filename prefix (`01-…`, `02-…`).
 Frontmatter: `title`, `summary`, `time`, `cost`, optional `linkLabel`/`linkUrl`, and `checklist` (list of tasks).
 The body is Markdown. Reordering or editing checklist items resets those items' saved ticks, because progress is keyed by step slug and item position.
