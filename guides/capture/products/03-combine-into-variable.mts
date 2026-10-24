@@ -8,15 +8,17 @@ const group = "Classic Crew Tee";
 await captureStep("products", "03-combine-into-variable", [
   {
     n: 1,
-    alt: "Variation Converter Combine tab listing suggested groups, with the Classic Crew Tee row and its Ready status highlighted",
+    alt: "Variation Converter Combine tab filtered to the Ready view, with the Ready link and the Ready status of the listed groups highlighted",
     caption:
-      "The Combine tab lists groups of simple products that look like one product. Ready means nothing needs a second look; otherwise the Status column says what to check.",
+      "Start with the Ready view. These groups have no warnings, so they are the quickest to combine. Work through Needs review after.",
     setup: async (page) => {
       await login(page);
-      await admin(page, "edit.php?post_type=product&page=variation-converter");
+      await admin(page, "edit.php?post_type=product&page=varconv");
+      await page.locator("#wpbody-content").getByRole("link", { name: /^Ready \(\d+\)$/ }).click();
+      await page.waitForURL(/view=ready/);
     },
     highlight: (page) => [
-      page.locator("#wpbody-content").getByRole("link", { name: group, exact: true }),
+      page.locator("#wpbody-content").getByRole("link", { name: /^Ready \(\d+\)$/ }),
       page.locator("tr", { hasText: group }).first().getByText("Ready", { exact: true }),
     ],
   },

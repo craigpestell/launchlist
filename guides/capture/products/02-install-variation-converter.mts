@@ -10,7 +10,7 @@ await captureStep("products", "02-install-variation-converter", [
       "After you activate the plugin, open Products > Variation Converter. It has three tabs: Combine, Split and History.",
     setup: async (page) => {
       await login(page);
-      await admin(page, "edit.php?post_type=product&page=variation-converter");
+      await admin(page, "edit.php?post_type=product&page=varconv");
     },
     highlight: (page) => [
       page.locator("#adminmenu").getByRole("link", { name: "Variation Converter" }),

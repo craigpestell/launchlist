@@ -10,7 +10,7 @@ await captureStep("products", "05-check-and-undo", [
       "History lists every conversion, newest first. Undo puts the products back the way they were.",
     setup: async (page) => {
       await login(page);
-      await admin(page, "edit.php?post_type=product&page=variation-converter&tab=history");
+      await admin(page, "edit.php?post_type=product&page=varconv&tab=history");
     },
     highlight: (page) => [page.locator("#wpbody-content").getByRole("button", { name: "Undo" }).first()],
   },
