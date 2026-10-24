@@ -5,6 +5,7 @@ time: 5–10 minutes per group
 cost: Free
 checklist:
   - Open the Combine tab and look through the suggested groups
+  - Click Ready and combine the groups listed there first, if there are any
   - Open a group and leave out any product that doesn't belong
   - Check the product name, attribute and the label for each variation
   - Click Create variable product
@@ -14,6 +15,10 @@ checklist:
 ## Review the suggested groups
 
 The **Combine** tab lists groups of simple products that look like one product in several variants. A group is suggested when the SKUs share a family (TEE100-BLA, TEE100-NAV) and the names start the same way. The **Status** column shows **Ready**, or what is worth a second look, such as "Prices differ" or "Categories differ". The **Needs review** view lists only those.
+
+## Start with the Ready groups
+
+If this is your first time, click **Ready** above the list. It shows only the groups with no warnings, so their prices, categories and labels already line up. Combine those first, one at a time or all together with **Bulk actions**, then work through **Needs review**. If Ready shows no groups, go straight to Needs review.
 
 ## Check the group
 

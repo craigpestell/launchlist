@@ -14,7 +14,7 @@ await captureStep("products", "04-split-into-simple", [
       "On the Split tab, open a variable product. Check the name each new product will get, untick any you don't want, then click Split.",
     setup: async (page) => {
       await login(page);
-      await admin(page, "edit.php?post_type=product&page=variation-converter&tab=split");
+      await admin(page, "edit.php?post_type=product&page=varconv&tab=split");
       await page.locator("#wpbody-content").getByRole("link", { name: product, exact: true }).click();
       await split(page).waitFor();
     },
