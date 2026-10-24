@@ -1,4 +1,4 @@
-// Checks every region's guide content and screenshot manifest for the house
+// Checks every region's and topic's guide content and screenshot manifest for the house
 // rules in .claude/agents/guide-editor.md. Prints each problem and exits 1 if
 // any are found. Usage: npm run content:check [-- <code> ...]
 import fs from "node:fs";
@@ -15,10 +15,18 @@ const manifest = JSON.parse(
 );
 
 const only = process.argv.slice(2).map((c) => c.toLowerCase());
-const regions = fs
-  .readdirSync(CONTENT)
-  .filter((d) => fs.statSync(path.join(CONTENT, d)).isDirectory())
+const subdirs = (dir) =>
+  fs.existsSync(dir)
+    ? fs.readdirSync(dir).filter((d) => fs.statSync(path.join(dir, d)).isDirectory())
+    : [];
+// Topics (content/topics/<slug>/) aren't tied to a region; their slug takes the
+// region's place in progress ids and the screenshot manifest.
+const TOPICS = path.join(CONTENT, "topics");
+const topics = new Set(subdirs(TOPICS));
+const regions = [...subdirs(CONTENT).filter((d) => d !== "topics"), ...topics]
   .filter((d) => only.length === 0 || only.includes(d));
+const dirOf = (code) => (topics.has(code) ? path.join(TOPICS, code) : path.join(CONTENT, code));
+const relDir = (code) => path.relative(ROOT, dirOf(code));
 
 const problems = [];
 const report = (where, msg) => problems.push(`${where}: ${msg}`);
@@ -46,19 +54,31 @@ const regionNames = (code) =>
 const ALLOWED = new Set([...REQUIRED, "linkLabel", "linkUrl"]);
 
 for (const region of regions) {
-  const entry = queue.find((q) => q.code.toLowerCase() === region);
-  if (!entry) report(`content/${region}`, "no matching entry in research/queue.json");
-  else if (entry.status !== "done")
-    report(`content/${region}`, `queue status is "${entry.status}", expected "done"`);
+  const isTopic = topics.has(region);
+  if (isTopic) {
+    const meta = path.join(dirOf(region), "topic.json");
+    if (!fs.existsSync(meta)) report(relDir(region), "missing topic.json");
+    else {
+      const { title, summary } = JSON.parse(fs.readFileSync(meta, "utf8"));
+      if (!title) report(`${relDir(region)}/topic.json`, "missing title");
+      if (typeof summary !== "string" || !/[.!?]$/.test(summary))
+        report(`${relDir(region)}/topic.json`, "summary should be a sentence ending with a full stop");
+    }
+  } else {
+    const entry = queue.find((q) => q.code.toLowerCase() === region);
+    if (!entry) report(`content/${region}`, "no matching entry in research/queue.json");
+    else if (entry.status !== "done")
+      report(`content/${region}`, `queue status is "${entry.status}", expected "done"`);
+  }
 
   const files = fs
-    .readdirSync(path.join(CONTENT, region))
+    .readdirSync(dirOf(region))
     .filter((f) => f.endsWith(".md"))
     .sort();
   const slugs = new Set();
 
   const titles = files.map(
-    (f) => matter(fs.readFileSync(path.join(CONTENT, region, f), "utf8")).data.title ?? "",
+    (f) => matter(fs.readFileSync(path.join(dirOf(region), f), "utf8")).data.title ?? "",
   );
   const hasHst = files.some((f) => /-hst\.md$/.test(f));
   const ownTax = titles.map((t) => PROVINCIAL_TAXES.find((x) => new RegExp(`\\b${x}\\b`).test(t))).find(Boolean);
@@ -69,7 +89,7 @@ for (const region of regions) {
   const otherRegions = regionNames(region);
 
   files.forEach((file, i) => {
-    const where = `content/${region}/${file}`;
+    const where = `${relDir(region)}/${file}`;
     const m = file.match(/^(\d{2})-([a-z0-9]+(?:-[a-z0-9]+)*)\.md$/);
     if (!m) {
       report(where, "filename must be NN-kebab-slug.md");
@@ -79,7 +99,7 @@ for (const region of regions) {
       report(where, `numbered ${m[1]}, expected ${String(i + 1).padStart(2, "0")} (no gaps)`);
     slugs.add(m[2]);
 
-    const { data, content } = matter(fs.readFileSync(path.join(CONTENT, region, file), "utf8"));
+    const { data, content } = matter(fs.readFileSync(path.join(dirOf(region), file), "utf8"));
 
     for (const key of REQUIRED) if (data[key] === undefined) report(where, `missing ${key}`);
     for (const key of Object.keys(data))
@@ -115,7 +135,7 @@ for (const region of regions) {
     if (/^# /m.test(content)) report(where, "body uses an H1; start sections at ##");
     if (!/^## /m.test(content)) report(where, "body needs at least one ## section");
     if (content.includes("—")) report(where, "body uses an em dash; rewrite as two sentences or use a comma");
-    if (COPIED.has(m[2])) {
+    if (!isTopic && COPIED.has(m[2])) {
       const text = [data.title, data.summary, ...(data.checklist ?? []), content].join("\n");
       for (const name of otherRegions)
         if (new RegExp(`\\b${name}\\b`).test(text))

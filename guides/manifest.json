@@ -342,6 +342,78 @@
     "capturedAt": "2026-10-06"
   },
   {
+    "region": "products",
+    "step": "02-install-variation-converter",
+    "file": "guides/products/02-install-variation-converter/01.webp",
+    "url": "http://localhost:8080/wp-admin/edit.php?post_type=product&page=variation-converter",
+    "alt": "WordPress admin Products menu with Variation Converter and its Combine, Split and History tabs highlighted",
+    "caption": "After you activate the plugin, open Products > Variation Converter. It has three tabs: Combine, Split and History.",
+    "capturedAt": "2026-10-23"
+  },
+  {
+    "region": "products",
+    "step": "03-combine-into-variable",
+    "file": "guides/products/03-combine-into-variable/01.webp",
+    "url": "http://localhost:8080/wp-admin/edit.php?post_type=product&page=variation-converter",
+    "alt": "Variation Converter Combine tab listing suggested groups, with the Classic Crew Tee row and its Ready status highlighted",
+    "caption": "The Combine tab lists groups of simple products that look like one product. Ready means nothing needs a second look; otherwise the Status column says what to check.",
+    "capturedAt": "2026-10-23"
+  },
+  {
+    "region": "products",
+    "step": "03-combine-into-variable",
+    "file": "guides/products/03-combine-into-variable/02.webp",
+    "url": "http://localhost:8080/wp-admin/edit.php?post_type=product&page=variation-converter",
+    "alt": "Classic Crew Tee group opened for review, with the Black label and the Create variable product button highlighted",
+    "caption": "Open a group to review it. Check the label for each product, untick any that don't belong, then click Create variable product.",
+    "capturedAt": "2026-10-23"
+  },
+  {
+    "region": "products",
+    "step": "03-combine-into-variable",
+    "file": "guides/products/03-combine-into-variable/03.webp",
+    "url": "http://localhost:8080/wp-admin/edit.php?post_type=product&page=variation-converter",
+    "alt": "Variation Converter after creating the Classic Crew Tee variable product, with the success message highlighted",
+    "caption": "The four tees are now one variable product with a Color option. The originals are hidden, not deleted, and Undo conversion puts them back.",
+    "capturedAt": "2026-10-23"
+  },
+  {
+    "region": "products",
+    "step": "03-combine-into-variable",
+    "file": "guides/products/03-combine-into-variable/04.webp",
+    "url": "http://localhost:8080/product/classic-crew-tee/",
+    "alt": "Classic Crew Tee product page in the shop with the Color menu highlighted",
+    "caption": "In your shop, shoppers now see one Classic Crew Tee and pick a color from the menu.",
+    "capturedAt": "2026-10-23"
+  },
+  {
+    "region": "products",
+    "step": "04-split-into-simple",
+    "file": "guides/products/04-split-into-simple/01.webp",
+    "url": "http://localhost:8080/wp-admin/edit.php?post_type=product&page=variation-converter&tab=split&product=41&paged#varconv-split-41",
+    "alt": "Variation Converter Split tab with the Canvas Apron variable product opened, its new product names and the Split button highlighted",
+    "caption": "On the Split tab, open a variable product. Check the name each new product will get, untick any you don't want, then click Split.",
+    "capturedAt": "2026-10-23"
+  },
+  {
+    "region": "products",
+    "step": "04-split-into-simple",
+    "file": "guides/products/04-split-into-simple/02.webp",
+    "url": "http://localhost:8080/wp-admin/edit.php?post_type=product&s=Canvas+Apron",
+    "alt": "All Products list with the new Canvas Apron Sand and Canvas Apron Charcoal simple products highlighted",
+    "caption": "Each variation is now its own simple product with its SKU, price and stock. The variable product stays in your list but is hidden from the shop.",
+    "capturedAt": "2026-10-23"
+  },
+  {
+    "region": "products",
+    "step": "05-check-and-undo",
+    "file": "guides/products/05-check-and-undo/01.webp",
+    "url": "http://localhost:8080/wp-admin/edit.php?post_type=product&page=variation-converter&tab=history",
+    "alt": "Variation Converter History tab listing a combine and a split, with an Undo button highlighted",
+    "caption": "History lists every conversion, newest first. Undo puts the products back the way they were.",
+    "capturedAt": "2026-10-23"
+  },
+  {
     "region": "qc",
     "step": "01-structure-and-name",
     "file": "guides/qc/01-structure-and-name/01.webp",

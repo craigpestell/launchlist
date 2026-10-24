@@ -93,6 +93,12 @@ export async function captureStep(
   try {
     for (const c of captures) {
       try {
+        // Shots that stay on the same page would otherwise keep the last one's outlines.
+        await page
+          .evaluate(() =>
+            document.querySelectorAll("[data-guide-annotation]").forEach((el) => el.remove()),
+          )
+          .catch(() => {});
         await c.setup(page);
         // Some sites (analytics, chat widgets) never go idle; settle for a bounded wait.
         await page.waitForLoadState("networkidle", { timeout: 10_000 }).catch(() => {});

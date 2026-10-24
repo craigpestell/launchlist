@@ -98,7 +98,7 @@ function subscribe(callback: () => void) {
 
 /**
  * BC ids stay unprefixed ("pst:2") so ticks saved before other regions existed
- * remain valid; every other region is prefixed ("on:hst:1").
+ * remain valid; every other region and topic is prefixed ("on:hst:1").
  */
 export const itemId = (region: string, slug: string, index: number) =>
   region === "bc" ? `${slug}:${index}` : `${region}:${slug}:${index}`;
