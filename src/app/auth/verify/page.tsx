@@ -3,7 +3,7 @@ import { redirect } from "next/navigation";
 import { ConfirmForm } from "./ConfirmForm";
 
 export const metadata: Metadata = {
-  title: "Confirm sign-in · Start Your Store",
+  title: "Confirm sign-in · LaunchList",
   robots: { index: false },
 };
 

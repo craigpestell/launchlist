@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
-export const metadata: Metadata = { title: "Privacy · Start Your Store" };
+export const metadata: Metadata = { title: "Privacy · LaunchList" };
 
 export default function PrivacyPage() {
   return (

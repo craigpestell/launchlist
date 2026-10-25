@@ -27,12 +27,12 @@ if command -v pg_ctlcluster >/dev/null 2>&1; then
     sleep 1
   done
   su postgres -c "psql -q -c \"ALTER USER postgres PASSWORD 'postgres';\""
-  su postgres -c "psql -lqt" | cut -d'|' -f1 | grep -qw retailer_onboarding_dev \
-    || su postgres -c "createdb retailer_onboarding_dev"
+  su postgres -c "psql -lqt" | cut -d'|' -f1 | grep -qw launchlist_dev \
+    || su postgres -c "createdb launchlist_dev"
 
   if [ ! -f .env.local ]; then
     cat > .env.local <<'ENV'
-DATABASE_URL=postgres://postgres:postgres@localhost:5432/retailer_onboarding_dev
+DATABASE_URL=postgres://postgres:postgres@localhost:5432/launchlist_dev
 APP_URL=http://localhost:3000
 ADMIN_EMAIL=you@example.com
 ENV

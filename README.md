@@ -1,6 +1,6 @@
-# Start Your Store: BC setup guide
+# LaunchList
 
-Step-by-step onboarding checklist for a new retailer setting up an online store in British Columbia. Anonymous visitors: progress saved in the browser (localStorage), nothing sent to a server.
+Step-by-step checklists for launching and running an online store, with a guide at each step: setup guides for each province and territory, plus topic guides that apply to any store. Anonymous visitors: progress saved in the browser (localStorage), nothing sent to a server.
 Optional account (magic-link email login): progress saved to Postgres and synced across devices. Ticks already in the browser are merged into the account on first sign-in.
 
 ## Run
@@ -42,7 +42,7 @@ Rules, fees and links were written from general knowledge and have **not** been 
 Copy `.env.example` to `.env.local` and fill it in. For local dev only `DATABASE_URL` is needed:
 without `RESEND_API_KEY` the sign-in link is printed in the dev server console, and Turnstile is skipped.
 
-    createdb retailer_onboarding_dev
+    createdb launchlist_dev
     npm run db:migrate
 
 Production needs: `DATABASE_URL` (e.g. Neon via Vercel Marketplace; run `npm run db:migrate` against it),

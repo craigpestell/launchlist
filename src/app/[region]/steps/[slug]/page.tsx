@@ -21,7 +21,7 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const { region, slug } = await props.params;
   const step = getStep(region, slug);
-  return { title: step ? `${step.title} · Start Your Store` : "Not found" };
+  return { title: step ? `${step.title} · LaunchList` : "Not found" };
 }
 
 export default async function StepPage(

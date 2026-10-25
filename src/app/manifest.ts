@@ -2,10 +2,10 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Start Your Store",
-    short_name: "Start Your Store",
+    name: "LaunchList",
+    short_name: "LaunchList",
     description:
-      "Step-by-step checklists for registering and launching an online retail business, by province and state.",
+      "Step-by-step checklists for launching and running an online store, with a guide at each step.",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",
