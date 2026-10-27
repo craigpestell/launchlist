@@ -40,36 +40,12 @@ export default function Home() {
         Get your online store up and running
       </h1>
       <p className="mt-3 text-neutral-600 dark:text-neutral-400">
-        Step-by-step guides for registering and launching a retail business.
-        Rules differ by province and territory, so start by choosing where your
-        business will be based.
+        Step-by-step checklists for launching and running an online store, with
+        a guide at each step for when you need help. Tick tasks off as you go.
       </p>
 
-      <CoverageMap regions={regions} />
-
-      <section className="mt-10" aria-labelledby="available-heading">
-        <h2 id="available-heading" className="mb-3 text-lg font-semibold">
-          Available now
-        </h2>
-        <ul className="grid gap-3 sm:grid-cols-2">
-          {available.map((region) => (
-            <li key={region.slug}>
-              <Link
-                href={`/${region.slug}`}
-                className="block rounded-xl border border-neutral-200 p-4 transition hover:border-emerald-600 dark:border-neutral-800"
-              >
-                <span className="block font-medium">{region.name}</span>
-                <span className="block text-sm text-neutral-500">
-                  {region.country === "CA" ? "Canada" : "United States"}
-                </span>
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </section>
-
       {topics.length > 0 && (
-        <section className="mt-12" aria-labelledby="topics-heading">
+        <section className="mt-10" aria-labelledby="topics-heading">
           <h2 id="topics-heading" className="text-lg font-semibold">
             Guides for any store
           </h2>
@@ -93,6 +69,33 @@ export default function Home() {
           </ul>
         </section>
       )}
+
+      <section className="mt-12" aria-labelledby="available-heading">
+        <h2 id="available-heading" className="text-lg font-semibold">
+          Register your business
+        </h2>
+        <p className="mt-1 mb-3 text-sm text-neutral-600 dark:text-neutral-400">
+          Rules differ by province and territory, so choose where your business
+          will be based.
+        </p>
+        <CoverageMap regions={regions} />
+        <ul className="mt-5 grid gap-3 sm:grid-cols-2">
+          {available.map((region) => (
+            <li key={region.slug}>
+              <Link
+                href={`/${region.slug}`}
+                className="block rounded-xl border border-neutral-200 p-4 transition hover:border-emerald-600 dark:border-neutral-800"
+              >
+                <span className="block font-medium">{region.name}</span>
+                <span className="block text-sm text-neutral-500">
+                  {region.country === "CA" ? "Canada" : "United States"}
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
+
 
       <section className="mt-12" aria-labelledby="soon-heading">
         <h2 id="soon-heading" className="text-lg font-semibold">

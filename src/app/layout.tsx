@@ -18,9 +18,9 @@ const geistSans = Geist({
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.APP_URL ?? "https://bizrocket.ca"),
-  title: "Start Your Store: Setup Guides",
+  title: "LaunchList: Store Setup Checklists",
   description:
-    "Step-by-step checklists for registering and launching an online retail business, by province and state.",
+    "Step-by-step checklists for launching and running an online store, with a guide at each step.",
   robots: { index: false, follow: false },
 };
 
@@ -49,7 +49,7 @@ export default function RootLayout({ children, modal }: LayoutProps<"/">) {
                 height={28}
                 unoptimized
               />
-              Start Your Store
+              LaunchList
             </Link>
             <div className="flex items-center gap-3">
               <ThemeToggle />

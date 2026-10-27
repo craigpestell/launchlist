@@ -19,7 +19,7 @@ export async function generateMetadata(
   const found = getRegion(region);
   return {
     title: found
-      ? `Start Your Store: ${found.name} Setup Guide`
+      ? `${found.name} Setup Guide · LaunchList`
       : "Not found",
   };
 }

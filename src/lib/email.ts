@@ -16,10 +16,10 @@ export async function sendLoginEmail(to: string, link: string): Promise<void> {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      from: process.env.EMAIL_FROM ?? "Start Your Store <onboarding@resend.dev>",
+      from: process.env.EMAIL_FROM ?? "LaunchList <onboarding@resend.dev>",
       to,
       subject: "Your sign-in link",
-      text: `Use this link to sign in to Start Your Store. It works once and expires in 15 minutes.\n\n${link}\n\nIf you didn't ask for this, you can ignore this email.`,
+      text: `Use this link to sign in to LaunchList. It works once and expires in 15 minutes.\n\n${link}\n\nIf you didn't ask for this, you can ignore this email.`,
     }),
   });
   if (!res.ok) {

@@ -29,7 +29,7 @@ function itemLabels() {
 }
 
 export const metadata: Metadata = {
-  title: "Admin · Start Your Store",
+  title: "Admin · LaunchList",
   robots: { index: false },
 };
 

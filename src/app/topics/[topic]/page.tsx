@@ -17,7 +17,7 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const { topic } = await props.params;
   const found = getTopic(topic);
-  return { title: found ? `${found.title} · Start Your Store` : "Not found" };
+  return { title: found ? `${found.title} · LaunchList` : "Not found" };
 }
 
 export default async function TopicPage(props: PageProps<"/topics/[topic]">) {

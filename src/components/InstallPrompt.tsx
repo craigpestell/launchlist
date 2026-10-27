@@ -103,7 +103,7 @@ export function InstallPrompt() {
         />
         <div className="flex-1">
           <h2 id="install-heading" className="font-semibold">
-            Add Start Your Store to your phone
+            Add LaunchList to your phone
           </h2>
           {mode === "prompt" && (
             <p className="mt-1 text-neutral-600 dark:text-neutral-400">

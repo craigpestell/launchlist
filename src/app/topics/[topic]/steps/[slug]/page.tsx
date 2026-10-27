@@ -17,7 +17,7 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const { topic, slug } = await props.params;
   const step = getTopic(topic) ? getStep(topic, slug) : undefined;
-  return { title: step ? `${step.title} · Start Your Store` : "Not found" };
+  return { title: step ? `${step.title} · LaunchList` : "Not found" };
 }
 
 export default async function TopicStepPage(

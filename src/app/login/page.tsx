@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { LoginForm } from "./LoginForm";
 
-export const metadata: Metadata = { title: "Sign in · Start Your Store" };
+export const metadata: Metadata = { title: "Sign in · LaunchList" };
 
 export default async function LoginPage(props: PageProps<"/login">) {
   const { error } = await props.searchParams;
