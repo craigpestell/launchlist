@@ -33,6 +33,7 @@ The content pipeline has its own agents in `.claude/agents/`, run in order per r
 ## Hosting and deploys
 
 - **Host:** Vercel, with Neon Postgres from the Vercel Marketplace. Company skill: `vercel-hosting`.
+- **Production URL:** https://launchlist.bizrocket.ca (a CNAME to Vercel; `APP_URL` is set to it, and the Turnstile widget allows that hostname).
 - **How a change reaches production:** merge to `main`; Vercel deploys it. PRs get preview URLs. Run `npm run db:migrate` against production before merging a change that needs a new migration.
 - **Rollback:** promote the previous deployment in Vercel, then revert on `main`. Migrations aren't rolled back.
 - **Where secrets live:** Vercel environment variables (`DATABASE_URL`, `RESEND_API_KEY`, `EMAIL_FROM`, Turnstile keys, `ADMIN_EMAIL`, `APP_URL`, `NEXT_PUBLIC_GA_ID`); names in `.env.example`.

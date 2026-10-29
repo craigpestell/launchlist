@@ -17,7 +17,7 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.APP_URL ?? "https://bizrocket.ca"),
+  metadataBase: new URL(process.env.APP_URL ?? "https://launchlist.bizrocket.ca"),
   title: "LaunchList: Store Setup Checklists",
   description:
     "Step-by-step checklists for launching and running an online store, with a guide at each step.",
