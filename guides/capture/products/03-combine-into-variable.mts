@@ -8,27 +8,35 @@ const group = "Classic Crew Tee";
 await captureStep("products", "03-combine-into-variable", [
   {
     n: 1,
-    alt: "Variation Converter Combine tab filtered to the Ready view, with the Ready link and the Ready status of the listed groups highlighted",
+    alt: "Variation Converter Combine tab after searching for Tee, with the search box, the ticked Classic Crew Tee group and the Combine into one product button highlighted",
     caption:
-      "Start with the Ready view. These groups have no warnings, so they are the quickest to combine. Work through Needs review after.",
+      "Search for the product. Tick the groups and products that are one product, here the Classic Crew Tee group, and click Combine into one product. Pocket Tee Olive is a different shirt, so it stays unticked.",
     setup: async (page) => {
       await login(page);
       await admin(page, "edit.php?post_type=product&page=varconv");
-      await page.locator("#wpbody-content").getByRole("link", { name: /^Ready \(\d+\)$/ }).click();
-      await page.waitForURL(/view=ready/);
+      await page.locator("#varconv-search").fill("Tee");
+      await Promise.all([
+        page.waitForURL(/[?&]s=Tee/),
+        page.locator(".varconv-find .button-primary").click(),
+      ]);
+      await page.locator("tr.varconv-group-row", { hasText: group }).locator(".varconv-pick").check();
     },
     highlight: (page) => [
-      page.locator("#wpbody-content").getByRole("link", { name: /^Ready \(\d+\)$/ }),
-      page.locator("tr", { hasText: group }).first().getByText("Ready", { exact: true }),
+      page.locator("#varconv-search"),
+      page.locator("tr.varconv-group-row", { hasText: group }).locator(".varconv-pick"),
+      page.locator('.varconv-do[value="combine"]').first(),
     ],
   },
   {
     n: 2,
-    alt: "Classic Crew Tee group opened for review, with the Black label and the Create variable product button highlighted",
+    alt: "Classic Crew Tee opened for review, with the Black label and the Create variable product button highlighted",
     caption:
-      "Open a group to review it. Check the label for each product, untick any that don't belong, then click Create variable product.",
+      "Check the new product: the label for each product, the attribute and the name. Untick any that don't belong, then click Create variable product.",
     setup: async (page) => {
-      await page.locator("#wpbody-content").getByRole("link", { name: group, exact: true }).click();
+      await Promise.all([
+        page.waitForURL(/open=/),
+        page.locator('.varconv-do[value="combine"]').first().click(),
+      ]);
       await page.getByRole("button", { name: "Create variable product" }).waitFor();
     },
     highlight: (page) => [

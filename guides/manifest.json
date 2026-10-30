@@ -354,28 +354,28 @@
     "region": "products",
     "step": "03-combine-into-variable",
     "file": "guides/products/03-combine-into-variable/01.webp",
-    "url": "http://localhost:8080/wp-admin/edit.php?post_type=product&page=varconv&view=ready",
-    "alt": "Variation Converter Combine tab filtered to the Ready view, with the Ready link and the Ready status of the listed groups highlighted",
-    "caption": "Start with the Ready view. These groups have no warnings, so they are the quickest to combine. Work through Needs review after.",
-    "capturedAt": "2026-10-24"
+    "url": "http://localhost:8080/wp-admin/edit.php?post_type=product&page=varconv&s=Tee",
+    "alt": "Variation Converter Combine tab after searching for Tee, with the search box, the ticked Classic Crew Tee group and the Combine into one product button highlighted",
+    "caption": "Search for the product. Tick the groups and products that are one product, here the Classic Crew Tee group, and click Combine into one product. Pocket Tee Olive is a different shirt, so it stays unticked.",
+    "capturedAt": "2026-10-30"
   },
   {
     "region": "products",
     "step": "03-combine-into-variable",
     "file": "guides/products/03-combine-into-variable/02.webp",
-    "url": "http://localhost:8080/wp-admin/edit.php?post_type=product&page=varconv&view=ready",
-    "alt": "Classic Crew Tee group opened for review, with the Black label and the Create variable product button highlighted",
-    "caption": "Open a group to review it. Check the label for each product, untick any that don't belong, then click Create variable product.",
-    "capturedAt": "2026-10-24"
+    "url": "http://localhost:8080/wp-admin/edit.php?post_type=product&page=varconv&s=Tee&open=cc29dd0c603b#varconv-cc29dd0c603b",
+    "alt": "Classic Crew Tee opened for review, with the Black label and the Create variable product button highlighted",
+    "caption": "Check the new product: the label for each product, the attribute and the name. Untick any that don't belong, then click Create variable product.",
+    "capturedAt": "2026-10-30"
   },
   {
     "region": "products",
     "step": "03-combine-into-variable",
     "file": "guides/products/03-combine-into-variable/03.webp",
-    "url": "http://localhost:8080/wp-admin/edit.php?post_type=product&page=varconv&view=ready",
+    "url": "http://localhost:8080/wp-admin/edit.php?post_type=product&page=varconv&s=Tee&open=cc29dd0c603b#varconv-cc29dd0c603b",
     "alt": "Variation Converter after creating the Classic Crew Tee variable product, with the success message highlighted",
     "caption": "The four tees are now one variable product with a Color option. The originals are hidden, not deleted, and Undo conversion puts them back.",
-    "capturedAt": "2026-10-24"
+    "capturedAt": "2026-10-30"
   },
   {
     "region": "products",
@@ -384,7 +384,7 @@
     "url": "http://localhost:8080/product/classic-crew-tee/",
     "alt": "Classic Crew Tee product page in the shop with the Color menu highlighted",
     "caption": "In your shop, shoppers now see one Classic Crew Tee and pick a color from the menu.",
-    "capturedAt": "2026-10-24"
+    "capturedAt": "2026-10-30"
   },
   {
     "region": "products",
