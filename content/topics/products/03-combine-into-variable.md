@@ -1,39 +1,42 @@
 ---
 title: Combine simple products into a variable product
-summary: Turn a set of separate color or size listings into one product with variations.
-time: 5–10 minutes per group
+summary: Search for a product, tick its separate color or size listings, and turn them into one product with variations.
+time: 5–10 minutes per product
 cost: Free
 checklist:
-  - Open the Combine tab and look through the suggested groups
-  - Click Ready and combine the groups listed there first, if there are any
-  - Open a group and leave out any product that doesn't belong
+  - Search for the product on the Combine tab
+  - Tick its groups and any matching products not in a group
+  - Click Combine into one product
   - Check the product name, attribute and the label for each variation
   - Click Create variable product
   - Open the new product in your shop and check the options menu
 ---
 
-## Review the suggested groups
+## Search for the product
 
-The **Combine** tab lists groups of simple products that look like one product in several variants. A group is suggested when the SKUs share a family (TEE100-BLA, TEE100-NAV) and the names start the same way. The **Status** column shows **Ready**, or what is worth a second look, such as "Prices differ" or "Categories differ". The **Needs review** view lists only those.
+Go to **Products > Variation Converter**. At the top of the **Combine** tab, type the product's name or SKU in **Find the products to combine**, for example "Tee", and click **Search**.
 
-## Start with the Ready groups
+The results come in two parts. **Suggested groups** are products the plugin has already grouped, because their SKUs share a family (TEE100-BLA, TEE100-NAV) and their names start the same way. **Products not in a group** are other products that match your search but that the plugin didn't group.
 
-If this is your first time, click **Ready** above the list. It shows only the groups with no warnings, so their prices, categories and labels already line up. Combine those first, one at a time or all together with **Bulk actions**, then work through **Needs review**. If Ready shows no groups, go straight to Needs review.
+## Tick what belongs together
 
-## Check the group
+Tick the groups and products that are really one product, then click **Combine into one product**. Leave out anything that only looks similar. In the example, Pocket Tee Olive is a different shirt, so it stays unticked.
 
-Click **Review** to open a group. For each product you see the label the plugin read from its name ("Black", "Red") and the attribute it guessed (Color, Size, Flavor, Scent or Volume).
+- One group, or products on their own, become a product with one option, such as Color.
+- Two or more groups, such as a syrup's Vanilla and Caramel groups, become one product with two options, such as Flavor and Size.
 
-- Untick any product that isn't part of this product. When a group mixes SKU families, **Select by SKU** ticks only the products in one family.
+## Check the new product
+
+Before anything changes, you see the new product. For each original product it shows the label the plugin read from its name ("Black", "Navy") and the attribute it guessed (Color, Size, Flavor, Scent or Volume).
+
+- Untick any product that isn't part of this product.
 - Edit the new product name, the attribute and any label that reads wrong.
 - Drag the rows into the order shoppers should see. The first product gives the new product its image and description.
 
 ## Create it
 
-Click **Create variable product**. Each original becomes a variation with its own SKU, prices, stock, weight, dimensions and image. The originals are hidden from your shop and search, not deleted, so their orders, reviews and links stay as they were.
+Click **Create variable product**. Each original becomes a variation with its own SKU, prices, stock, weight, dimensions and image. The originals are hidden from your shop and search, not deleted, so their orders, reviews and links stay as they were. **Back to search results** takes you back to your search for the next product.
 
-If a group isn't really one product, use **Skip, not variants** and later scans leave it out.
+## Working through the whole catalog
 
-## Many groups at once
-
-To combine several groups, tick them in the list and choose **Create variable products** from **Bulk actions**. You can also select products in **Products > All Products** and use the **Combine into variable product** bulk action.
+You don't have to search. With the search box empty, the Combine tab lists every group the plugin suggests. The **Ready** view shows groups with no warnings, so their prices, categories and labels already line up. Tick them and click **Create a product for each group** to create them all at once, then work through **Needs review**. If a group isn't really one product, use **Skip, not variants** and later scans leave it out.
