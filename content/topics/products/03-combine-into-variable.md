@@ -1,6 +1,6 @@
 ---
 title: Combine simple products into a variable product
-summary: Search for a product, tick its separate color or size listings, and turn them into one product with variations.
+summary: Search for a product, tick its separate color or size listings, and turn them into one variable product with variations.
 time: 5–10 minutes per product
 cost: Free
 checklist:
@@ -9,7 +9,7 @@ checklist:
   - Click Combine into one product
   - Check the product name, attribute and the label for each variation
   - Click Create variable product
-  - Open the new product in your shop and check the options menu
+  - Open the variable product in your shop and check the options menu
 ---
 
 ## Search for the product
@@ -22,16 +22,16 @@ The results come in two parts. **Suggested groups** are products the plugin has 
 
 Tick the groups and products that are really one product, then click **Combine into one product**. Leave out anything that only looks similar. In the example, Pocket Tee Olive is a different shirt, so it stays unticked.
 
-- One group, or products on their own, become a product with one option, such as Color.
-- Two or more groups, such as a syrup's Vanilla and Caramel groups, become one product with two options, such as Flavor and Size.
+- One group, or products on their own, become a variable product with one option, such as Color.
+- Two or more groups, such as a syrup's Vanilla and Caramel groups, become one variable product with two options, such as Flavor and Size.
 
-## Check the new product
+## Check the variable product
 
-Before anything changes, you see the new product. For each original product it shows the label the plugin read from its name ("Black", "Navy") and the attribute it guessed (Color, Size, Flavor, Scent or Volume).
+Before anything changes, you see the variable product. For each original product it shows the label the plugin read from its name ("Black", "Navy") and the attribute it guessed (Color, Size, Flavor, Scent or Volume).
 
 - Untick any product that isn't part of this product.
-- Edit the new product name, the attribute and any label that reads wrong.
-- Drag the rows into the order shoppers should see. The first product gives the new product its image and description.
+- Edit the variable product's name, the attribute and any label that reads wrong.
+- Drag the rows into the order shoppers should see. The first product gives the variable product its image and description.
 
 ## Create it
 

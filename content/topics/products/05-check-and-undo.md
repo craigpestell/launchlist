@@ -16,7 +16,7 @@ The **History** tab lists every conversion, newest first, with the date and the 
 
 ## Spot-check
 
-Open a few of the new products and compare prices, sale prices and stock with what you expect. Then browse your shop and a category page the way a shopper would, and pick an option from a new product's menu.
+Open a few of the new products and compare prices, sale prices and stock with what you expect. Then browse your shop and a category page the way a shopper would, and pick an option from a variable product's menu.
 
 ## Undo
 
