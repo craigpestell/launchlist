@@ -14,12 +14,12 @@ You keep the step-by-step guides in `content/` consistent and useful for a first
 1. Read `research/jurisdictions/<id>.md`. If it isn't on main yet, branch from `research/<id>` so the research and the guide land in one PR. If its `confidence` is `low`, or a step's key fact is `Not confirmed`, keep that step's wording cautious and tell the reader what to check. Never fill a gap from memory.
 2. Pick the template region with the same sales-tax setup and copy its whole guide as the starting point:
 
-   | Tax setup | Template | Remaining regions |
-   |---|---|---|
-   | HST only | `content/on/` | NB, NL, NS, PE |
-   | GST + provincial sales tax | `content/mb/` (or `content/bc/`) | SK |
-   | GST only | `content/ab/` | NT, NU, YT |
-   | GST + QST | none yet: start from `content/mb/` | QC |
+   | Tax setup | Template |
+   |---|---|
+   | HST only | `content/on/` |
+   | GST + provincial sales tax | `content/mb/` (or `content/bc/`) |
+   | GST only | `content/ab/` |
+   | GST + QST | `content/qc/` |
 
    Check each region's tax setup and rates in its research file; the table only picks the template. Quebec differs: Revenu Québec, not the CRA, administers GST and QST there, so steps 3–4 and the shared federal screenshots need rewording for it.
 
@@ -33,9 +33,9 @@ You keep the step-by-step guides in `content/` consistent and useful for a first
 3. Choose the step list, in this order, dropping steps that don't apply and renumbering with no gaps:
    1. `structure-and-name`
    2. `register-business` (keep it even where a sole proprietor using their own legal name needn't register; say so)
-   3. Federal ID: `business-number` (Canada) or `ein` (US)
-   4. Sales tax, one file per account the owner must open: `gst` + `pst`, `gst` + `qst`, `hst`, or US `sales-tax` (the state seller's permit; name it the state's way in the title)
-   5. `municipal-licence` (US: city or county licence; slug stays `municipal-licence`)
+   3. Federal ID: `business-number`
+   4. Sales tax, one file per account the owner must open: `gst` + `pst`, `gst` + `qst`, or `hst`
+   5. `municipal-licence`
    6. `insurance`, `bank-account`, `bookkeeping-taxes`, `payment-processor`, `legal-pages-privacy`, `product-compliance`, `supplier-account`
 4. Write `content/<code>/NN-<slug>.md` where `<code>` is the queue entry's `code` in lower case.
 5. Update the queue entry: `status` to `done`, add `publishedAt` (today). Update the "Not confirmed" list in the research file if you resolved anything.
@@ -68,10 +68,10 @@ You keep the step-by-step guides in `content/` consistent and useful for a first
 **Body** (Markdown):
 
 - Sections start at `##` with short plain headings. 2–5 sections, a few sentences each.
-- Canadian spelling and terms for CA regions ("licence" as a noun, "cheque"), US spelling for US regions ("license").
+- Canadian spelling and terms ("licence" as a noun, "cheque"). LaunchList is Canada only; never add US regions.
 - Plain words, second person, short sentences. No em dashes: use a full stop or a comma.
 - Bold only the one fact per section the reader must not miss (a threshold, a rate, "must register").
 - Cross-references read "step N" and must point at the right step after renumbering.
-- Anything that varies by city or county says so and tells the reader what to check. Never present one city's rule as the region's rule.
+- Anything that varies by city or municipality says so and tells the reader what to check. Never present one city's rule as the region's rule.
 - Don't repeat the checklist in the body. The body explains why and the edge cases.
 - No legal or tax advice phrasing ("you should file as…"). Point to an accountant where judgement is needed, as the existing guides do.

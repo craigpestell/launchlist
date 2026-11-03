@@ -15,6 +15,11 @@ Entry format:
 
 ---
 
+## 2026-11-03 · talent-lead · Align the team with Canada-only scope
+- Did: updated `project.md` and the three content agents for the 2026-10-18 decision that LaunchList is Canada only, and for all 13 regions being live. `jurisdiction-researcher` now skips `us-` queue entries and, with nothing pending, refreshes the region researched longest ago (`refreshedAt`). `guide-editor` and `guide-screenshotter` lost their US branches and the stale "remaining regions" column.
+- Decided: left the US entries in `research/queue.json` for now, since `src/lib/regions.ts` reads the queue; removing them is `engineering-lead`'s call.
+- Blocked: **Needs founder:** the monthly budget in `budget.md` is still not set.
+- Cost: est. 25k tokens, Standard.
 ## 2026-11-03 · talent-lead · Refresh the project profile
 - Did: brought `project.md` up to date: added the merge policy (the Code review and publishing thread reviews and merges once the deploy gate passes).
 - Decided: wrote down how the project already runs rather than changing it.

@@ -5,8 +5,9 @@ Every role reads this file first. It holds everything specific to Launchlist, so
 ## Product
 
 - **Name:** LaunchList.
-- **What it is:** step-by-step checklists for launching and running an online store: a setup guide per Canadian province and territory (US states queued), plus topic guides for any store, with annotated screenshots. Anonymous progress stays in the browser; an optional magic-link account syncs it to Postgres.
+- **What it is:** step-by-step checklists for launching and running an online store: a setup guide for each of Canada's 13 provinces and territories (all live), plus topic guides for any store, with annotated screenshots. Anonymous progress stays in the browser; an optional magic-link account syncs it to Postgres.
 - **Owner:** the founder's own product.
+- **Scope:** Canada only (decided 2026-10-18). A US version would be a separate app on another domain, so no US regions go into this app, its map or its routines. The US entries still in `research/queue.json` are not to be worked.
 - **Stage:** pre-launch. The site is set to `noindex`, and the README's "Before sharing" warns that fees and links haven't been verified against official sites yet.
 
 ## Stack
@@ -16,7 +17,7 @@ Every role reads this file first. It holds everything specific to Launchlist, so
 
 ## Project specialists
 
-The content pipeline has its own agents in `.claude/agents/`, run in order per region: `jurisdiction-researcher`, `guide-editor` (also "review" mode), `guide-screenshotter`. They own `research/`, `content/` and `guides/`. `product-lead` decides which regions and topics come next; `engineering-lead` owns everything in `src/`, `scripts/` and the database.
+The content pipeline has its own agents in `.claude/agents/`, run in order per region: `jurisdiction-researcher`, `guide-editor` (also "review" mode), `guide-screenshotter`. Every region is now live, so their work is refreshes: re-checking a region's fees and links, reviewing guides, and topic guides. Government sites block the cloud container, so research and captures that need them run on the founder's Mac via Remote Control. They own `research/`, `content/` and `guides/`. `product-lead` decides which regions and topics come next; `engineering-lead` owns everything in `src/`, `scripts/` and the database.
 
 ## Commands
 
