@@ -15,6 +15,13 @@ Entry format:
 
 ---
 
+## 2026-11-03 · talent-lead · Refresh the project profile
+- Did: brought `project.md` up to date: added the merge policy (the Code review and publishing thread reviews and merges once the deploy gate passes).
+- Decided: wrote down how the project already runs rather than changing it.
+- Blocked: **Needs founder:** set the monthly budget in `budget.md`. The company-full agents don't load in cloud sessions because company-kit isn't in their repo access.
+- Cost: est. 15k tokens, Standard.
+- Links: this PR.
+
 ## 2026-10-29 · talent-lead (set up from company-kit) · Join the agent company
 - Did: onboarded the repo to company-kit's Full team. Added the company-skills and company-full plugins to `.claude/settings.json` (kept the session-start hook), `docs/team/project.md`, this handbook with the three content agents in the roster, the status log and the budget. `CLAUDE.md` points here.
 - Decided: Full size. The content agents stay as project specialists that own `research/`, `content/` and `guides/`.
