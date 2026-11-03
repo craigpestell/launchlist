@@ -47,6 +47,10 @@ The content pipeline has its own agents in `.claude/agents/`, run in order per r
 - Editing or reordering checklist items resets saved ticks; avoid it on live regions unless the content needs it, and say so in the PR.
 - Content passes `npm run content:check`.
 
+## Merging
+
+PRs may merge to `main` without asking the founder once the Code review and publishing thread has reviewed them and the deploy gate below passes. Open PRs early, and keep checks proportionate to the change.
+
 ## Deploy gate
 
 - `npm run build`, `npm run lint` and `npm run content:check` pass on the exact commit (there is no CI yet; adding it with the `ci-github-actions` skill is planned).

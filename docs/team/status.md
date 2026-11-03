@@ -20,6 +20,11 @@ Entry format:
 - Decided: left the US entries in `research/queue.json` for now, since `src/lib/regions.ts` reads the queue; removing them is `engineering-lead`'s call.
 - Blocked: **Needs founder:** the monthly budget in `budget.md` is still not set.
 - Cost: est. 25k tokens, Standard.
+## 2026-11-03 · talent-lead · Refresh the project profile
+- Did: brought `project.md` up to date: added the merge policy (the Code review and publishing thread reviews and merges once the deploy gate passes).
+- Decided: wrote down how the project already runs rather than changing it.
+- Blocked: **Needs founder:** set the monthly budget in `budget.md`. Fixed: the company agents weren't loading in cloud sessions because the private company-kit repo wasn't in the project's repositories, so the marketplace clone at session start failed. company-kit is now a project repository; new threads install the plugins from `.claude/settings.json` (checked with `claude plugin install company-full@company-kit`).
+- Cost: est. 15k tokens, Standard.
 - Links: this PR.
 
 ## 2026-10-29 · talent-lead (set up from company-kit) · Join the agent company
