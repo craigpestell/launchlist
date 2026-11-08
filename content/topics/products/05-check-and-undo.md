@@ -24,4 +24,4 @@ Click **Undo** on any row in History. For a combine, it deletes the variable pro
 
 ## Old links
 
-After a combine, links to the hidden simple products keep working. Visitors and search engines are sent to the new variable product with that option already chosen. After a split, the variable product's page is hidden, so update any links you shared to it.
+After a combine, links to the hidden simple products keep working. Visitors and search engines are sent (with a 301 redirect) to the variable product, with that variation's options in the link. WooCommerce reads those and preselects the options, though some themes don't, so check one old link on your own shop. After a split, the variable product's page is hidden, so update any links you shared to it.
