@@ -41,7 +41,7 @@ await captureStep("ip-address", "01-look-up-your-ip", [
     n: 1,
     alt: "WhatIsMyIP.com home page with an example IPv4 address, its Copy button and the IPv6 address row highlighted",
     caption:
-      "Your IPv4 address is at the top (1). Click Copy beside it (2) to copy it. The row below (3) is your IPv6 address, if your connection has one. This shot uses example addresses and hides the map.",
+      "Your IPv4 address is at the top (1). Click Copy beside it (2) to copy it. The row below (3) is your IPv6 address. If you see both, copy both. This shot uses example addresses and hides the map.",
     setup: async (page) => {
       await page.goto(SITE);
       await page.locator("a.ip-link-ipv4").waitFor();
