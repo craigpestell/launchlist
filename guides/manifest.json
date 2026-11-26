@@ -135,6 +135,15 @@
     "capturedAt": "2026-10-18"
   },
   {
+    "region": "clear-site-data",
+    "step": "01-clear-one-site",
+    "file": "guides/clear-site-data/01-clear-one-site/01.webp",
+    "url": "chrome://settings/content/siteDetails?site=https%3A%2F%2Fshop.example.com",
+    "alt": "Chrome's Site settings page for an example site, with the site name and the Delete data button highlighted",
+    "caption": "In Chrome, Site settings opens a page for the site you were on (1). Click Delete data (2), then confirm. This shot uses an example site.",
+    "capturedAt": "2026-11-26"
+  },
+  {
     "region": "ip-address",
     "step": "01-look-up-your-ip",
     "file": "guides/ip-address/01-look-up-your-ip/01.webp",
