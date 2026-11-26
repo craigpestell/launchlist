@@ -1,6 +1,7 @@
 import { chromium, type Locator, type Page } from "playwright";
 import sharp from "sharp";
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
+import os from "node:os";
 import path from "node:path";
 
 const OUT_DIR = path.resolve("public/guides");
@@ -75,19 +76,33 @@ export async function captureStep(
   region: string,
   step: string,
   captures: Capture[],
+  /**
+   * Use a throwaway browser profile instead of an isolated context. Chrome's
+   * own pages (chrome://settings) only open in a real profile.
+   */
+  options: { profile?: boolean } = {},
 ) {
   const dir = path.join(OUT_DIR, region, step);
   await mkdir(dir, { recursive: true });
 
   // CHROMIUM_PATH lets cloud sessions use their preinstalled browser when it
   // doesn't match the Playwright version; unset, Playwright uses its own.
-  const browser = await chromium.launch({
+  const launch = {
     executablePath: process.env.CHROMIUM_PATH || undefined,
-  });
-  const page = await browser.newPage({
-    viewport: { width: 1280, height: 800 },
-    locale: "en-CA",
-  });
+  };
+  const contextOptions = { viewport: { width: 1280, height: 800 }, locale: "en-CA" };
+  const profileDir = options.profile
+    ? await mkdtemp(path.join(os.tmpdir(), "guide-capture-"))
+    : undefined;
+  const browser = profileDir
+    ? await chromium.launchPersistentContext(profileDir, {
+        ...launch,
+        // chrome:// pages need the full browser, not the headless shell.
+        channel: launch.executablePath ? undefined : "chromium",
+        ...contextOptions,
+      })
+    : await chromium.launch(launch);
+  const page = await browser.newPage(profileDir ? undefined : contextOptions);
   const shots: Shot[] = [];
 
   try {
@@ -130,6 +145,7 @@ export async function captureStep(
     }
   } finally {
     await browser.close();
+    if (profileDir) await rm(profileDir, { recursive: true, force: true });
   }
 
   let existing: Shot[] = [];
