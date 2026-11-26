@@ -7,16 +7,18 @@ linkLabel: WhatIsMyIP.com
 linkUrl: https://www.whatismyip.com/
 checklist:
   - Turn off your VPN, unless you were asked for the VPN's address
-  - Open WhatIsMyIP.com on the computer that will connect to the service
+  - Click the WhatIsMyIP.com button above, or go to www.whatismyip.com, on the computer that will connect
   - Click Copy beside the IPv4 address, and beside the IPv6 address if the page shows one
   - Send the addresses to the provider exactly as you copied them
   - Say which computer and connection they are from, such as the office server or home Wi-Fi
   - Look the addresses up again if a setting that used them stops working
 ---
 
-## Use the computer that connects
+## Open WhatIsMyIP.com
 
-Your **public IP address** is the one websites and services see. It belongs to the internet connection, so every device on the same Wi-Fi usually shows the same one. Look it up on **the computer that will connect to the service**. If an import script or app runs on an office machine or a cloud server, its address is the one to send, not your laptop's at home.
+Click the **WhatIsMyIP.com** button above, or type www.whatismyip.com into your browser. Do this on **the computer that will connect to the service**. The page shows your public IP address straight away, with nothing to sign up for.
+
+Your public IP address is the one websites and services see. It belongs to the internet connection, so every device on the same Wi-Fi usually shows the same one. If an import script or app runs on an office machine or a cloud server, its address is the one to send, not your laptop's at home.
 
 ## IPv4 or IPv6
 

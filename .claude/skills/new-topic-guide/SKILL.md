@@ -37,6 +37,7 @@ Ask what the reader will do with the result, and check the guide against that. T
 - **Cover the reader without a browser** when the task often happens on servers or office machines: give a one-line command (`curl https://ifconfig.me`), and the Windows quirk (`curl.exe` in PowerShell).
 - **Name the right machine**: the computer that runs the tool or script, not the reader's laptop.
 - **Cover the cases where the result won't hold** (mobile data, shared carrier-grade NAT addresses, values that change) and what to do instead.
+- **Say where to go first.** The first checklist item and the first body section tell the reader to open the site ("Click the X button above, or go to x.com"). The `linkUrl` button alone isn't an instruction.
 - **Keep steps consistent**: anything step 1 says to collect, the later steps say to use or send.
 
 Linked guides get read by people outside LaunchList's usual audience, so keep the wording general ("a service", "a provider"), not only "your store".
