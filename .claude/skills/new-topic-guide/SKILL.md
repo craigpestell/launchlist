@@ -43,7 +43,13 @@ The cloud can't reach most sites, so:
 
 1. Commit and push the branch (`claude/...`), then open a draft PR.
 2. Start Remote Control in `/Users/craig/work` with instructions to: fetch the branch into a worktree (not the main checkout, which has untracked files), `npm ci`, run `npm run guides:capture guides/capture/<slug>/<step>.mts`, open each image in `public/guides/<slug>/` and check it matches its caption and shows no real personal data, fix selectors from `guides/capture/.debug/` if a capture fails, then commit the images and `guides/manifest.json` and push.
-3. If a site can't be captured (bot block), ship text-only and say so in the PR. Don't try to get around blocks.
+3. On the Mac, Playwright 1.63 may not find its headless shell. Set `CHROMIUM_PATH` to the installed one (e.g. `~/Library/Caches/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-mac-arm64/chrome-headless-shell`) rather than downloading another.
+4. Many consumer sites block automated browsers (whatismyip.com serves a Cloudflare block page to Playwright). Don't try to get around the block. Instead take the shot in the owner's own Chrome with Claude in Chrome, the way a person would:
+   - Open the page, run the script's masking code and the outline/badge code from `annotate()` in `lib.mts` with `javascript_tool`. Also hide ads, iframes, floating video players and any map that loaded (maps load late and pin the owner's real area).
+   - Move the mouse off the content, then `screenshot` with `save_to_disk: true`. The file lands in the session's `tool-results/` folder.
+   - Crop out ad remnants and the cursor with `sharp(...).extract(...).webp({ quality: 85 })` into `public/guides/<slug>/<step>/NN.webp`, and add the manifest entry by hand (same fields `captureStep` writes), with a comment in the capture script saying it was captured by hand.
+   - Read the final image and check for any real IP, city, postal code, ISP or map before committing.
+5. If neither route works, ship text-only and say so in the PR.
 
 ## 6. Ship
 

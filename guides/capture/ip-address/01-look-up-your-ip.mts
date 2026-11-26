@@ -1,3 +1,7 @@
+// whatismyip.com serves Cloudflare's block page to Playwright, so the live shot
+// (2026-11-26) was taken by hand in a normal Chrome window with this same
+// masking and the outlines from lib.mts, then cropped to drop ads. See the
+// new-topic-guide skill. This script is kept for the selectors and masking.
 import type { Page } from "playwright";
 import { captureStep } from "../lib.mjs";
 
@@ -37,7 +41,7 @@ await captureStep("ip-address", "01-look-up-your-ip", [
     n: 1,
     alt: "WhatIsMyIP.com home page with an example IPv4 address, its Copy button and the IPv6 address row highlighted",
     caption:
-      "Your IPv4 address is at the top (1). Click Copy beside it (2) to copy it. The row below (3) is your IPv6 address, if your connection has one. This shot uses example addresses.",
+      "Your IPv4 address is at the top (1). Click Copy beside it (2) to copy it. The row below (3) is your IPv6 address, if your connection has one. This shot uses example addresses and hides the map.",
     setup: async (page) => {
       await page.goto(SITE);
       await page.locator("a.ip-link-ipv4").waitFor();
