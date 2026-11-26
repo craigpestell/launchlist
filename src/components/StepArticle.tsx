@@ -27,6 +27,8 @@ export function StepArticle({
   const index = steps.findIndex((s) => s.slug === step.slug);
   const prev = steps[index - 1];
   const next = steps[index + 1];
+  // A one-step topic is shown as a single page on the topic's own URL.
+  const single = steps.length === 1;
 
   return (
     <article>
@@ -36,10 +38,12 @@ export function StepArticle({
       >
         ← {backLabel}
       </Link>
-      <p className="mt-6 text-sm font-medium text-emerald-700 dark:text-emerald-500">
-        Step {step.order} of {steps.length}
-      </p>
-      <h1 className="mt-1 text-3xl font-bold tracking-tight">{step.title}</h1>
+      {!single && (
+        <p className="mt-6 text-sm font-medium text-emerald-700 dark:text-emerald-500">
+          Step {step.order} of {steps.length}
+        </p>
+      )}
+      <h1 className={`${single ? "mt-6" : "mt-1"} text-3xl font-bold tracking-tight`}>{step.title}</h1>
       <p className="mt-2 text-neutral-600 dark:text-neutral-400">
         {step.summary}
       </p>
@@ -115,7 +119,7 @@ export function StepArticle({
           </Link>
         ) : (
           <Link href={basePath} className="font-medium hover:underline">
-            Back to overview
+            {single ? backLabel : "Back to overview"}
           </Link>
         )}
       </nav>

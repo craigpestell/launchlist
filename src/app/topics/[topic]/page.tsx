@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SignupBanner } from "@/components/SignupBanner";
+import { StepArticle } from "@/components/StepArticle";
 import { StepList } from "@/components/StepList";
 import { getSteps } from "@/lib/steps";
 import { getTopic, getTopics } from "@/lib/topics";
@@ -25,7 +26,20 @@ export default async function TopicPage(props: PageProps<"/topics/[topic]">) {
   const topic = getTopic(slug);
   if (!topic) notFound();
 
-  const steps = getSteps(slug).map((step) => ({
+  const all = getSteps(slug);
+  // One-step topics skip the overview and show the step on this page.
+  if (all.length === 1)
+    return (
+      <StepArticle
+        guide={slug}
+        basePath="/"
+        backLabel="All guides"
+        step={all[0]}
+        steps={all}
+      />
+    );
+
+  const steps = all.map((step) => ({
     slug: step.slug,
     order: step.order,
     title: step.title,
