@@ -29,6 +29,18 @@ The cloud container's proxy blocks most third-party sites (`curl` gets 000 / 403
 - Use documentation examples for any address or number shown in text: IPv4 `203.0.113.x` (RFC 5737), IPv6 `2001:db8::` (RFC 3849), phone `555-01xx`.
 - Run `npm run content:check -- <slug>` (needs `npm ci` first in a fresh container).
 
+### Write for how readers use it
+
+Ask what the reader will do with the result, and check the guide against that. The IP guide was first written for "support asked for my IP"; a client then linked it for customers adding addresses to an allow list, and it needed these fixes:
+
+- **Don't pick one variant for the reader** when the service may use either. If a page shows several values (IPv4 and IPv6), say to copy all of them, and say what to do when only one shows.
+- **Cover the reader without a browser** when the task often happens on servers or office machines: give a one-line command (`curl https://ifconfig.me`), and the Windows quirk (`curl.exe` in PowerShell).
+- **Name the right machine**: the computer that runs the tool or script, not the reader's laptop.
+- **Cover the cases where the result won't hold** (mobile data, shared carrier-grade NAT addresses, values that change) and what to do instead.
+- **Keep steps consistent**: anything step 1 says to collect, the later steps say to use or send.
+
+Linked guides get read by people outside LaunchList's usual audience, so keep the wording general ("a service", "a provider"), not only "your store".
+
 ## 4. Capture script
 
 Write `guides/capture/<slug>/<NN-step>.mts` with `captureStep("<slug>", "<NN-step>", [...])` from `guides/capture/lib.mts`. Copy the shape of `guides/capture/ip-address/01-look-up-your-ip.mts`.
