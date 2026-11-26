@@ -9,6 +9,12 @@ const nextConfig: NextConfig = {
         destination: "/bc/steps/:slug",
         permanent: true,
       },
+      // The IP address guide was two steps before it became one page.
+      {
+        source: "/topics/ip-address/steps/:slug",
+        destination: "/topics/ip-address",
+        permanent: true,
+      },
     ];
   },
 };
