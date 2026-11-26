@@ -1,18 +1,25 @@
 import Link from "next/link";
 import { getAvailableRegions } from "@/lib/regions";
-import { getTopics } from "@/lib/topics";
+import { getTopics, type TopicGroup } from "@/lib/topics";
+
+const topicLinks = (group: TopicGroup) =>
+  getTopics()
+    .filter((t) => t.group === group)
+    .map((t) => ({ href: `/topics/${t.slug}`, label: t.title }));
 
 /** Every live checklist, read from content/ so new guides appear on their own. */
 export function FooterGuides() {
   const groups = [
     {
-      heading: "Guides for any store",
-      wide: false,
-      links: getTopics().map((t) => ({ href: `/topics/${t.slug}`, label: t.title })),
+      heading: "Run your business",
+      links: topicLinks("business"),
     },
     {
-      heading: "Province and territory guides",
-      wide: true,
+      heading: "Quick help",
+      links: topicLinks("help"),
+    },
+    {
+      heading: "Start a business in",
       links: getAvailableRegions()
         .map((r) => ({ href: `/${r.slug}`, label: r.name }))
         .sort((a, b) => a.label.localeCompare(b.label)),
@@ -25,11 +32,11 @@ export function FooterGuides() {
       className="mx-auto grid max-w-2xl gap-6 px-4 pb-6 text-left text-sm sm:grid-cols-3"
     >
       {groups.map((group) => (
-        <div key={group.heading} className={group.wide ? "sm:col-span-2" : ""}>
+        <div key={group.heading}>
           <h2 className="mb-2 font-semibold text-neutral-700 dark:text-neutral-300">
             {group.heading}
           </h2>
-          <ul className={group.wide ? "columns-2 gap-6" : ""}>
+          <ul>
             {group.links.map((link) => (
               <li key={link.href} className="mb-1 break-inside-avoid">
                 <Link

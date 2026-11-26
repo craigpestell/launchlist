@@ -59,8 +59,10 @@ for (const region of regions) {
     const meta = path.join(dirOf(region), "topic.json");
     if (!fs.existsSync(meta)) report(relDir(region), "missing topic.json");
     else {
-      const { title, summary } = JSON.parse(fs.readFileSync(meta, "utf8"));
+      const { title, summary, group } = JSON.parse(fs.readFileSync(meta, "utf8"));
       if (!title) report(`${relDir(region)}/topic.json`, "missing title");
+      if (group !== "business" && group !== "help")
+        report(`${relDir(region)}/topic.json`, 'group should be "business" or "help"');
       if (typeof summary !== "string" || !/[.!?]$/.test(summary))
         report(`${relDir(region)}/topic.json`, "summary should be a sentence ending with a full stop");
     }
