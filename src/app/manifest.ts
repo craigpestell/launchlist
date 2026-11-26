@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "LaunchList",
     short_name: "LaunchList",
     description:
-      "Step-by-step checklists for launching and running an online store, with a guide at each step.",
+      "Step-by-step checklists for starting a business in Canada, plus quick how-tos for everyday tech and support tasks.",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",

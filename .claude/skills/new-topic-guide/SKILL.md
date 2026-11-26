@@ -23,7 +23,7 @@ The cloud container's proxy blocks most third-party sites (`curl` gets 000 / 403
 
 ## 3. Write the content
 
-- `content/topics/<slug>/topic.json`: `{ "title", "summary" }`. Title starts with a verb; summary is one sentence ending with a full stop.
+- `content/topics/<slug>/topic.json`: `{ "title", "summary", "group" }`. Title starts with a verb; summary is one sentence ending with a full stop. `group` picks the home page section: `"business"` (Run your business: phone number, donations, products) or `"help"` (Quick help: everyday tech and support tasks like IP address, cache, screenshots).
 - Steps: `NN-kebab-slug.md`, numbered from 01 with no gaps. Two to five steps is right for a small guide.
 - Follow the house rules in `.claude/agents/guide-editor.md` (frontmatter keys, 3–6 checklist items starting with a verb, `##` sections, no em dashes, Canadian spelling, bold one fact per section, `linkLabel`/`linkUrl` on the step where the reader acts).
 - Use documentation examples for any address or number shown in text: IPv4 `203.0.113.x` (RFC 5737), IPv6 `2001:db8::` (RFC 3849), phone `555-01xx`.

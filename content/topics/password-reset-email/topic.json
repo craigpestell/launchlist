@@ -1,4 +1,5 @@
 {
   "title": "Find a missing password reset email",
-  "summary": "Track down a password reset email that never arrived, from the spam folder to the wrong address, and know when to ask support."
+  "summary": "Track down a password reset email that never arrived, from the spam folder to the wrong address, and know when to ask support.",
+  "group": "help"
 }
