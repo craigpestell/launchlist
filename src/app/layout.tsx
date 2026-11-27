@@ -9,7 +9,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Geist } from "next/font/google";
 import { AuthNav } from "@/components/AuthNav";
-import { FooterGuides } from "@/components/FooterGuides";
+import { SiteFooter } from "@/components/SiteFooter";
 import { InstallPrompt } from "@/components/InstallPrompt";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import "./globals.css";
@@ -79,14 +79,7 @@ export default function RootLayout({ children, modal }: LayoutProps<"/">) {
         </main>
         {modal}
         <InstallPrompt />
-        <footer className="border-t border-neutral-200 py-6 text-center text-xs text-neutral-500 dark:text-neutral-400 dark:border-neutral-800">
-          <FooterGuides />
-          General guidance, not legal or accounting advice. Rules and fees
-          change, so confirm details on each official site.{" "}
-          <Link href="/privacy" className="underline">
-            Privacy
-          </Link>
-        </footer>
+        <SiteFooter />
         <Analytics />
         <SpeedInsights />
       </body>
