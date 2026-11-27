@@ -261,7 +261,11 @@
     "country": "US",
     "code": "IN",
     "name": "Indiana",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": "INBiz blocks automated browsers; online LLC and entity report fees seen as $95/$96 and $31/$32; county assumed name fees vary."
   },
   {
     "id": "us-ia",
