@@ -39,8 +39,7 @@ export const en = {
     startIntro: (unit: string) =>
       `Register your business, sign up for tax accounts and get the licences you need. Rules differ across ${unit}, so choose where your business will be based.`,
     soon: "Coming soon",
-    soonIntro:
-      "We research each business guide from official government sources and add it when it is ready.",
+    soonIntro: "More business guides we are researching from official government sources.",
     upcoming: [
       {
         title: "Hiring your first employee",
@@ -61,7 +60,7 @@ export const en = {
         summary: "Food safety permits and the extra licences regulated products need.",
       },
     ],
-    soonIn: (country: string, unit: string) => `${country}: ${unit}`,
+    soonMore: (n: number, unit: string) => `Coming soon: ${n} more ${unit}`,
   },
   map: {
     label: (inCountry: string, unit: string) =>

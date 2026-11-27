@@ -38,7 +38,7 @@ export const fr: Dictionary = {
       `Enregistrez votre entreprise, inscrivez-vous aux comptes fiscaux et obtenez les permis nécessaires. Les règles diffèrent selon les ${unit}, alors choisissez l'endroit où votre entreprise sera établie.`,
     soon: "À venir",
     soonIntro:
-      "Nous préparons chaque guide d'affaires à partir de sources gouvernementales officielles et l'ajoutons lorsqu'il est prêt.",
+      "D'autres guides d'affaires que nous préparons à partir de sources gouvernementales officielles.",
     upcoming: [
       {
         title: "Embaucher votre premier employé",
@@ -60,7 +60,7 @@ export const fr: Dictionary = {
           "Permis de salubrité alimentaire et licences supplémentaires pour les produits réglementés.",
       },
     ],
-    soonIn: (country: string, unit: string) => `${country}${nb}: ${unit}`,
+    soonMore: (n: number, unit: string) => `À venir${nb}: ${n} autres ${unit}`,
   },
   map: {
     label: (inCountry: string, unit: string) =>

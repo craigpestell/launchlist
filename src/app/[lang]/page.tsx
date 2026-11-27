@@ -45,6 +45,9 @@ export default async function Home(props: PageProps<"/[lang]">) {
     available: c.regions
       .filter((r) => r.available)
       .sort((a, b) => a.name.localeCompare(b.name, locale)),
+    soon: c.regions
+      .filter((r) => !r.available)
+      .sort((a, b) => a.name.localeCompare(b.name, locale)),
   }));
   const guideCount = coverage.reduce((n, c) => n + c.available.length, 0);
   const unitWords = [...new Set(coverage.flatMap((c) => c.names.unit.split(` ${t.site.and} `)))];
@@ -86,7 +89,7 @@ export default async function Home(props: PageProps<"/[lang]">) {
       </nav>
 
       <div id="start" className="scroll-mt-6">
-        {coverage.map(({ country, names, regions, available }) => (
+        {coverage.map(({ country, names, regions, available, soon }) => (
           <section
             key={country.code}
             id={`start-${country.slug}`}
@@ -110,6 +113,23 @@ export default async function Home(props: PageProps<"/[lang]">) {
                 </li>
               ))}
             </ul>
+            {soon.length > 0 && (
+              <details className="mt-4">
+                <summary className={`cursor-pointer text-sm ${muted}`}>
+                  {t.home.soonMore(soon.length, names.unit)}
+                </summary>
+                <ul className="mt-3 flex flex-wrap gap-2">
+                  {soon.map((region) => (
+                    <li
+                      key={region.slug}
+                      className="rounded-full bg-neutral-100 px-3 py-1 text-sm text-neutral-600 dark:bg-neutral-900 dark:text-neutral-400"
+                    >
+                      {region.name}
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            )}
           </section>
         ))}
       </div>
@@ -150,27 +170,6 @@ export default async function Home(props: PageProps<"/[lang]">) {
             </li>
           ))}
         </ul>
-        {coverage.map(({ country, names, regions }) => {
-          const soon = regions.filter((r) => !r.available);
-          if (!soon.length) return null;
-          return (
-            <div key={country.code} className="mt-5">
-              <h3 className="text-sm font-medium text-neutral-500 dark:text-neutral-400">
-                {t.home.soonIn(names.name, names.unit)}
-              </h3>
-              <ul className="mt-2 flex flex-wrap gap-2">
-                {soon.map((region) => (
-                  <li
-                    key={region.slug}
-                    className="rounded-full bg-neutral-100 px-3 py-1 text-sm text-neutral-600 dark:bg-neutral-900 dark:text-neutral-400"
-                  >
-                    {region.name}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          );
-        })}
       </section>
     </>
   );
