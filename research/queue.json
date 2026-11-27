@@ -305,7 +305,11 @@
     "country": "US",
     "code": "MI",
     "name": "Michigan",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": ""
   },
   {
     "id": "us-mn",
