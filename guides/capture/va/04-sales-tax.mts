@@ -1,15 +1,16 @@
+import type { Locator, Page } from "playwright";
 import { captureStep } from "../lib.mjs";
 
 const SALES = "https://www.tax.virginia.gov/retail-sales-and-use-tax";
 
 // The page groups sections in accordions ("Rates", "Register for sales tax").
 // Open a section only if its content is hidden.
-async function openSection(page, header, target) {
+async function openSection(page: Page, header: string, target: Locator) {
   if (!(await target.isVisible())) {
     await page.getByText(header, { exact: true }).first().click();
   }
   await target.waitFor({ state: "visible" });
-  await target.evaluate((el) => el.scrollIntoView({ block: "center" }));
+  await target.evaluate((el: Element) => el.scrollIntoView({ block: "center" }));
 }
 
 await captureStep("va", "04-sales-tax", [
