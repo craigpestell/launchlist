@@ -1,0 +1,3 @@
+---
+shared: product-compliance
+---
