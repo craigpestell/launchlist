@@ -7,10 +7,10 @@ linkLabel: BC Registry Services
 linkUrl: https://www.bcregistry.gov.bc.ca
 checklist:
   - Gather your legal name, home address and phone number
+  - Decide whether to use a PO box or mailing address instead of your home address
   - Complete the sole proprietorship registration online
   - Pay the registration fee
   - Save the registration confirmation
-  - Decide whether to use a PO box or mailing address instead of your home address
 ---
 
 ## Register online

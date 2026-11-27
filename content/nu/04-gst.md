@@ -23,7 +23,7 @@ You must register once your taxable sales pass **$30,000 over four consecutive c
 
 ## Why register earlier
 
-We recommend registering from the start. As a registrant you can **claim back the GST you pay** on inventory and business expenses. Ask your accountant how long you must stay registered once you opt in.
+We recommend registering from the start. As a registrant you can **claim back the GST you pay** on inventory and business expenses. You generally must stay registered for at least a year once you opt in.
 
 ## Filing
 

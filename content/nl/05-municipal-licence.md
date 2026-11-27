@@ -21,7 +21,7 @@ Look up your own municipality rather than assuming the St. John's answer applies
 
 ## Be upfront about what you sell
 
-Some products or business types carry extra by-laws or requirements, including food. Tell your municipality exactly what you will sell so you know before you start, not after.
+Some products or business types carry extra bylaws or requirements, including food. Tell your municipality exactly what you will sell so you know before you start, not after.
 
 ## Keep the answer
 
