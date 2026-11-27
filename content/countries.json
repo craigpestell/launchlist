@@ -1,0 +1,16 @@
+{
+  "CA": {
+    "name": "Canada",
+    "inName": "Canada",
+    "unit": "provinces and territories",
+    "locale": "en-CA",
+    "shotAliases": { "gst": "gst-hst", "hst": "gst-hst" }
+  },
+  "US": {
+    "name": "United States",
+    "inName": "the United States",
+    "unit": "states",
+    "locale": "en-US",
+    "shotAliases": {}
+  }
+}
