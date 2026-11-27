@@ -480,7 +480,11 @@
     "country": "US",
     "code": "TN",
     "name": "Tennessee",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": "sos.tn.gov blocks automated browsers; sales tax registration fee and breach-notice deadline not confirmed."
   },
   {
     "id": "us-tx",
