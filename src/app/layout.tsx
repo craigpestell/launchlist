@@ -1,3 +1,4 @@
+import { siteDescription } from "@/lib/regions";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.APP_URL ?? "https://launchlist.bizrocket.ca"),
   title: "LaunchList: Step-by-step business and help guides",
   description:
-    "Step-by-step checklists for starting a business in Canada, plus quick how-tos for everyday tech and support tasks.",
+    siteDescription(),
   robots: { index: false, follow: false },
 };
 

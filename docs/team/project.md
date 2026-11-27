@@ -5,19 +5,19 @@ Every role reads this file first. It holds everything specific to Launchlist, so
 ## Product
 
 - **Name:** LaunchList.
-- **What it is:** step-by-step checklists for launching and running an online store: a setup guide for each of Canada's 13 provinces and territories (all live), plus topic guides for any store, with annotated screenshots. Anonymous progress stays in the browser; an optional magic-link account syncs it to Postgres.
+- **What it is:** step-by-step checklists for launching and running an online store: a setup guide for each of Canada's 13 provinces and territories (all live) and, from 2026-11-26, US states (in progress), plus topic guides for any store, with annotated screenshots. Anonymous progress stays in the browser; an optional magic-link account syncs it to Postgres.
 - **Owner:** the founder's own product.
-- **Scope:** Canada only (decided 2026-10-18). A US version would be a separate app on another domain, so no US regions go into this app, its map or its routines. The US entries still in `research/queue.json` are not to be worked.
+- **Scope:** Canada and the United States, in this one app (founder's decision 2026-11-26, replacing the Canada-only decision of 2026-10-18). Each country's federal and country-wide steps are written and captured once (`content/shared/<country>/`, `guides/capture/shared-<country>/`); regions hold only what differs. Countries are data in `content/countries.json`.
 - **Stage:** pre-launch. The site is set to `noindex`, and the README's "Before sharing" warns that fees and links haven't been verified against official sites yet.
 
 ## Stack
 
 - Next.js (App Router, TypeScript; a newer Next than most training data, so read `node_modules/next/dist/docs/` first, per `AGENTS.md`), Tailwind CSS, Drizzle ORM on Postgres (Neon in production), Resend for sign-in email, Cloudflare Turnstile, Playwright for guide captures.
-- Code map: `content/<code>/` and `content/topics/<slug>/` (guide steps as Markdown with frontmatter), `research/` (`queue.json` and per-region research), `guides/` (capture scripts and `manifest.json`), `public/guides/` (screenshots), `src/app/` (routes: `[region]`, `topics`, `account`, `admin`, `api`, `privacy`), `src/lib/` (`steps.ts`, `guides.ts`, `progress*.ts`, `auth.ts`, `request-guard.ts`, `turnstile.ts`), `src/db/` and `drizzle/` (schema and migrations), `scripts/`.
+- Code map: `content/<code>/`, `content/shared/<country>/` and `content/topics/<slug>/` (guide steps as Markdown with frontmatter; the `new-guide` skill explains which goes where), `content/countries.json`, `research/` (`queue.json` and per-region research), `guides/` (capture scripts and `manifest.json`), `public/guides/` (screenshots), `src/app/` (routes: `[region]`, `topics`, `account`, `admin`, `api`, `privacy`), `src/lib/` (`countries.ts`, `regions.ts`, `maps/`, `steps.ts`, `guides.ts`, `progress*.ts`, `auth.ts`, `request-guard.ts`, `turnstile.ts`), `src/db/` and `drizzle/` (schema and migrations), `scripts/`.
 
 ## Project specialists
 
-The content pipeline has its own agents in `.claude/agents/`, run in order per region: `jurisdiction-researcher`, `guide-editor` (also "review" mode), `guide-screenshotter`. Every region is now live, so their work is refreshes: re-checking a region's fees and links, reviewing guides, and topic guides. Government sites block the cloud container, so research and captures that need them run on the founder's Mac via Remote Control. They own `research/`, `content/` and `guides/`. `product-lead` decides which regions and topics come next; `engineering-lead` owns everything in `src/`, `scripts/` and the database.
+The content pipeline has its own agents in `.claude/agents/`, run in order per region: `jurisdiction-researcher`, `guide-editor` (also "review" mode), `guide-screenshotter`. Canada is complete, so there their work is refreshes; US states are being added. Government sites block the cloud container, so research and captures that need them run on the founder's Mac via Remote Control. They own `research/`, `content/` and `guides/`. `product-lead` decides which regions and topics come next; `engineering-lead` owns everything in `src/`, `scripts/` and the database.
 
 ## Commands
 

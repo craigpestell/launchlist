@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { getCountry, sharedKey } from "@/lib/countries";
 import { getRegion } from "@/lib/regions";
 
 export type GuideShot = {
@@ -23,23 +24,21 @@ function readManifest(): GuideShot[] {
 }
 
 /**
- * Federal steps look the same in every region of a country, so they are
- * captured once under the country code and shared. Maps a content step slug
- * to the shared step name in the manifest.
+ * Screenshots for one region's step slug, in capture order. Federal steps look
+ * the same in every region of a country, so they are captured once under the
+ * country's shared key and every region without its own shots falls back to them.
  */
-export const SHARED_STEPS: Record<string, Record<string, string>> = {
-  ca: { "business-number": "business-number", gst: "gst-hst", hst: "gst-hst" },
-};
-
-/** Screenshots for one region's step slug, in capture order. */
 export function getGuideShots(region: string, slug: string): GuideShot[] {
   const manifest = readManifest();
   const own = manifest.filter(
     (s) => s.region === region && s.step.replace(/^\d+-/, "") === slug,
   );
   if (own.length > 0) return own;
-  const country = getRegion(region)?.country.toLowerCase();
-  const shared = country && SHARED_STEPS[country]?.[slug];
-  if (!shared) return [];
-  return manifest.filter((s) => s.region === country && s.step === shared);
+  const found = getRegion(region);
+  if (!found) return [];
+  const country = getCountry(found.country);
+  const step = country.shotAliases[slug] ?? slug;
+  return manifest.filter(
+    (s) => s.region === sharedKey(country) && s.step === step,
+  );
 }

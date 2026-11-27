@@ -15,6 +15,13 @@ Entry format:
 
 ---
 
+## 2026-11-26 · engineering-lead · Country layer for US states
+- Did: made countries data (`content/countries.json`, `src/lib/countries.ts`), added steps written once per country (`content/shared/<country>/`, included by `shared: <slug>` stubs, with `{region}` and `{step:<slug>}` tokens), moved three identical Canadian steps there (39 copies to 3), renamed Canada's shared screenshots to `shared-ca` (California's code is also `ca`), added a US map, and made the home page, metadata, content check and capture locale read from the country data. Replaced the `new-topic-guide` skill with `new-guide`, covering region, shared and topic guides.
+- Decided: scope is now Canada and the US in one app (founder, 2026-11-26). US states all use the same thirteen slugs so shared steps can cross-reference them. No US content in this change; the US section appears when the first state is published.
+- Blocked: nothing
+- Cost: not measured
+- Links: PR "Add a country layer so US states can share federal steps"
+
 ## 2026-11-03 · talent-lead · Align the team with Canada-only scope
 - Did: updated `project.md` and the three content agents for the 2026-10-18 decision that LaunchList is Canada only, and for all 13 regions being live. `jurisdiction-researcher` now skips `us-` queue entries and, with nothing pending, refreshes the region researched longest ago (`refreshedAt`). `guide-editor` and `guide-screenshotter` lost their US branches and the stale "remaining regions" column.
 - Decided: left the US entries in `research/queue.json` for now, since `src/lib/regions.ts` reads the queue; removing them is `engineering-lead`'s call.

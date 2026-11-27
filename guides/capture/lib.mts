@@ -7,9 +7,28 @@ import path from "node:path";
 const OUT_DIR = path.resolve("public/guides");
 const MANIFEST = path.resolve("guides/manifest.json");
 const DEBUG_DIR = path.resolve("guides/capture/.debug");
+const COUNTRIES = path.resolve("content/countries.json");
+const QUEUE = path.resolve("research/queue.json");
+
+/**
+ * Browser locale for a capture: the country's, for a region ("tx") or a
+ * country's shared steps ("shared-us"). Topics use the first country's.
+ */
+async function localeFor(region: string): Promise<string> {
+  const countries: Record<string, { locale: string }> = JSON.parse(
+    await readFile(COUNTRIES, "utf8"),
+  );
+  const queue: { country: string; code: string }[] = JSON.parse(
+    await readFile(QUEUE, "utf8"),
+  );
+  const code =
+    region.match(/^shared-([a-z]{2})$/)?.[1].toUpperCase() ??
+    queue.find((q) => q.code.toLowerCase() === region)?.country;
+  return (countries[code ?? ""] ?? Object.values(countries)[0]).locale;
+}
 
 export type Shot = {
-  region: string; // content folder, e.g. "bc"
+  region: string; // content folder ("bc"), topic slug, or "shared-<country>"
   step: string;
   file: string; // path under public/, e.g. guides/bc/02-register-business/01.webp
   url: string;
@@ -90,7 +109,7 @@ export async function captureStep(
   const launch = {
     executablePath: process.env.CHROMIUM_PATH || undefined,
   };
-  const contextOptions = { viewport: { width: 1280, height: 800 }, locale: "en-CA" };
+  const contextOptions = { viewport: { width: 1280, height: 800 }, locale: await localeFor(region) };
   const profileDir = options.profile
     ? await mkdtemp(path.join(os.tmpdir(), "guide-capture-"))
     : undefined;
