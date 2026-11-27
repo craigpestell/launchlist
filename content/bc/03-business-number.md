@@ -1,6 +1,6 @@
 ---
 title: Get your CRA Business Number
-summary: The federal number that your tax accounts attach to.
+summary: Get the free nine-digit number from the Canada Revenue Agency that your federal tax accounts attach to.
 time: 20–30 minutes
 cost: Free
 linkLabel: CRA — business registration
@@ -22,4 +22,4 @@ You may be offered a BN while registering with BC Registry. If not, register dir
 
 ## Sign in with a CRA account
 
-Since July 14, 2026, BRO is only available through your **CRA account**. Sign in first, then complete the registration online. If you don't have a CRA account yet, you can create one from the CRA sign-in page. You will need it later to register for GST, file returns and make payments.
+BRO is only available through your **CRA account**. Sign in first, then complete the registration online. If you don't have a CRA account yet, you can create one from the CRA sign-in page. You will need it later to register for GST, file returns and make payments.

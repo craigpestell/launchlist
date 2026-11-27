@@ -15,13 +15,13 @@ checklist:
 
 We found no general Nova Scotia business licence for a small retailer. Each municipality sets its own rules.
 
-In **Halifax**, a home-based business needs a **development permit**, even with no renovations. The home must be your primary residence, and the simplest permit only covers a space under 20 m² that needs no changes. Zoning rules differ between areas, so check the land use by-law for your address.
+In **Halifax**, a home-based business needs a **development permit**, even with no renovations. The home must be your primary residence, and the simplest permit only covers a space under 20 m² that needs no changes. Zoning rules differ between areas, so check the land use bylaw for your address.
 
 Look up your own municipality rather than assuming Halifax's answer applies to you.
 
 ## Be upfront about what you sell
 
-Some products or business types carry extra by-laws or requirements, including food. Tell your municipality exactly what you will sell so you know before you start, not after.
+Some products or business types carry extra bylaws or requirements, including food. Tell your municipality exactly what you will sell so you know before you start, not after.
 
 ## Keep the answer
 

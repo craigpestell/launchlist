@@ -1,6 +1,6 @@
 ---
-title: Choose your structure and business name
-summary: Decide how the business is set up and what it is called.
+title: Choose a business structure and name
+summary: Decide whether to start as a sole proprietorship or incorporate, then pick a name and check it's free to use.
 time: 1–2 hours
 cost: Free
 linkLabel: BC Registry name search
@@ -21,7 +21,7 @@ The trade-off is that you are **personally liable** for the business. Insurance 
 ## Name
 
 - If you trade under just your own legal name (for example "Jane Smith"), you do not have to register a name.
-- If you use any other name, for example "Jane's Gift Shop", you **must register it** in the next step.
+- If you use any other name, for example "Jane's Gift Shop", you **must reserve and register it** in the next step.
 
 Pick a name that is unique, easy to spell and easy to say. Search it at BC Registry before you fall in love with it.
 

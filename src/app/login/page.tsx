@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { LoginForm } from "./LoginForm";
 
-export const metadata: Metadata = { title: "Sign in · LaunchList" };
+export const metadata: Metadata = {
+  title: "Sign in",
+  robots: { index: false, follow: false },
+};
 
 export default async function LoginPage(props: PageProps<"/login">) {
   const { error } = await props.searchParams;
@@ -18,7 +21,7 @@ export default async function LoginPage(props: PageProps<"/login">) {
       <div className="mt-6">
         <LoginForm expired={error === "expired"} />
       </div>
-      <p className="mt-6 text-sm text-neutral-500">
+      <p className="mt-6 text-sm text-neutral-500 dark:text-neutral-400">
         You don&apos;t need an account. The guide works without one and saves
         progress in this browser only.{" "}
         <Link href="/privacy" className="underline">

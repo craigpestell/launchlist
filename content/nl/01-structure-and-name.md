@@ -1,10 +1,10 @@
 ---
-title: Choose your structure and business name
-summary: Decide how the business is set up and what it is called.
+title: Choose a business structure and name
+summary: Decide whether to start as a sole proprietorship or incorporate, then pick a name and check it's free to use.
 time: 1–2 hours
 cost: Free
 linkLabel: Registry of Companies — about
-linkUrl: https://www.gov.nl.ca/dgsnl/registries/companies/corp-about/
+linkUrl: https://www.gov.nl.ca/gs/registries/companies/corp-about/
 checklist:
   - Decide on a sole proprietorship (recommended to start)
   - Pick a business name, or decide to trade under your own legal name

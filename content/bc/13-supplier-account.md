@@ -1,11 +1,11 @@
 ---
-title: Open your reseller account
-summary: The final step before you can order stock.
+title: Open a wholesale account with your supplier
+summary: Set up a wholesale account with your supplier so you can order stock at trade prices.
 time: 30 minutes
 cost: Free
 checklist:
   - Have your business name, Business Number, GST number and PST number ready
-  - Send your PST number to your supplier for resale exemption
+  - Give your PST number to your supplier so you can buy for resale without paying PST
   - Agree on pricing, minimum order and shipping
   - Ask about product images, descriptions and how you may use them
   - Ask whether there are minimum advertised price rules
@@ -14,7 +14,11 @@ checklist:
 
 ## What your supplier needs
 
-Your business name, Business Number, GST number and **PST number**.
+Your business name, Business Number, GST number and **PST number**. Ask what else they require.
+
+## GST on your stock
+
+You will normally pay GST on the stock you buy and claim it back through your GST return, which is one reason to register early (step 4). Quoting your PST number lets you buy stock for resale **without paying PST** (step 5). Ask your accountant how this works for your situation.
 
 ## Questions to ask
 

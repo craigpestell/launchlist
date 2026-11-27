@@ -1,6 +1,6 @@
 ---
 title: Open a business bank account
-summary: Keep business money separate from personal money.
+summary: Keep business money separate from personal money, so bookkeeping and tax time are simpler.
 time: 1 hour
 cost: Often a small monthly fee
 checklist:

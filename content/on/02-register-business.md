@@ -8,10 +8,10 @@ linkUrl: https://www.ontario.ca/page/ontario-business-registry
 checklist:
   - Gather your legal name, address, email and a debit or credit card
   - Create an Ontario.ca Login and Ontario Business Account
+  - Decide whether to use a PO box or mailing address instead of your home address
   - Register the sole proprietorship online
   - Pay the registration fee
   - Save the registration confirmation and note the renewal date
-  - Decide whether to use a PO box or mailing address instead of your home address
 ---
 
 ## Register online

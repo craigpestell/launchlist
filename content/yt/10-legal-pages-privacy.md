@@ -1,6 +1,6 @@
 ---
-title: Website legal pages and privacy
-summary: Policies and privacy law for your store.
+title: Write your website's privacy policy and legal pages
+summary: Write the privacy policy, terms and returns policy your store needs, and follow privacy and anti-spam law.
 time: 3–5 hours
 cost: Free to a few hundred dollars if a lawyer reviews them
 checklist:

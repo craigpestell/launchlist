@@ -11,6 +11,7 @@ export function StepArticle({
   guide,
   basePath,
   backLabel,
+  guideLabel,
   step,
   steps,
   section,
@@ -20,6 +21,8 @@ export function StepArticle({
   /** Overview page, e.g. "/bc" or "/topics/products". */
   basePath: string;
   backLabel: string;
+  /** What the whole guide is, shown beside the step number: "Start a business in Ontario". */
+  guideLabel?: string;
   step: Step;
   steps: Step[];
   section?: ProfileSection;
@@ -34,13 +37,13 @@ export function StepArticle({
     <article>
       <Link
         href={basePath}
-        className="text-sm text-neutral-500 hover:text-neutral-800 dark:hover:text-neutral-200"
+        className="text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-200"
       >
         ← {backLabel}
       </Link>
       {!single && (
         <p className="mt-6 text-sm font-medium text-emerald-700 dark:text-emerald-500">
-          Step {step.order} of {steps.length}
+          {guideLabel && `${guideLabel} · `}Step {step.order} of {steps.length}
         </p>
       )}
       <h1 className={`${single ? "mt-6" : "mt-1"} text-3xl font-bold tracking-tight`}>{step.title}</h1>
@@ -51,13 +54,13 @@ export function StepArticle({
       <dl className="mt-6 grid grid-cols-2 gap-4 rounded-xl bg-neutral-100 p-4 text-sm dark:bg-neutral-900">
         {step.time && (
           <div>
-            <dt className="text-neutral-500">Time</dt>
+            <dt className="text-neutral-600 dark:text-neutral-400">Time</dt>
             <dd className="font-medium">{step.time}</dd>
           </div>
         )}
         {step.cost && (
           <div>
-            <dt className="text-neutral-500">Cost</dt>
+            <dt className="text-neutral-600 dark:text-neutral-400">Cost</dt>
             <dd className="font-medium">{step.cost}</dd>
           </div>
         )}
@@ -68,7 +71,7 @@ export function StepArticle({
           href={step.linkUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-4 inline-block rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-700"
+          className="mt-4 inline-block rounded-lg bg-emerald-700 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-800"
         >
           {step.linkLabel ?? "Official site"} ↗
         </a>
@@ -91,7 +94,7 @@ export function StepArticle({
           <p className="mt-4 text-sm">
             <Link
               href={`/details#${step.slug}`}
-              className="text-neutral-500 hover:text-neutral-800 hover:underline dark:hover:text-neutral-200"
+              className="text-neutral-500 dark:text-neutral-400 hover:text-neutral-800 hover:underline dark:hover:text-neutral-200"
             >
               Save your {section.linkText} →
             </Link>

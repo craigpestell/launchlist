@@ -48,7 +48,7 @@ export function Modal({
           type="button"
           onClick={() => dialog.current?.close()}
           aria-label={closeLabel}
-          className="rounded-md px-2 py-1 text-xl leading-none text-neutral-500 hover:bg-neutral-100 dark:hover:bg-neutral-800"
+          className="rounded-md px-2 py-1 text-xl leading-none text-neutral-500 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800"
         >
           ×
         </button>
@@ -58,7 +58,7 @@ export function Modal({
         <button
           type="button"
           onClick={() => dialog.current?.close()}
-          className="rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-700"
+          className="rounded-lg bg-emerald-700 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-800"
         >
           {closeLabel}
         </button>
