@@ -1,10 +1,12 @@
 "use client";
 
 import Link from "next/link";
+import { useDictionary } from "@/components/LocaleProvider";
 import { useProgress } from "@/lib/progress";
 
 export function AuthNav() {
   const { status, email } = useProgress();
+  const t = useDictionary().header;
 
   if (status === "loading") return <span className="h-5" aria-hidden />;
   if (status === "user") {
@@ -19,7 +21,7 @@ export function AuthNav() {
   }
   return (
     <Link href="/login" className="text-sm font-medium hover:underline">
-      Sign in
+      {t.signIn}
     </Link>
   );
 }

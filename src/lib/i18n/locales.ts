@@ -50,10 +50,12 @@ export function localePath(locale: Locale, path: string): string {
   return path === "/" ? `/${locale}` : `/${locale}${path}`;
 }
 
-/** The locale and unprefixed path of a URL path: "/fr/bc" -> ["fr", "/bc"]. */
+/**
+ * The locale and unprefixed path of a URL path: "/fr/bc" -> ["fr", "/bc"].
+ * "/en/bc" (the internal path English pages are rewritten to) -> ["en", "/bc"].
+ */
 export function splitLocale(path: string): [Locale, string] {
   const [, first, ...rest] = path.split("/");
-  if (first && first !== DEFAULT_LOCALE && isLocale(first))
-    return [first, `/${rest.join("/")}`];
+  if (first && isLocale(first)) return [first, `/${rest.join("/")}`.replace(/(.)\/$/, "$1")];
   return [DEFAULT_LOCALE, path];
 }

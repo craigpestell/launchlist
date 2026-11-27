@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useDictionary } from "@/components/LocaleProvider";
 import { itemId, useProgress } from "@/lib/progress";
 
 export type StepSummary = {
@@ -24,6 +25,7 @@ export function StepList({
   steps: StepSummary[];
 }) {
   const { done, reset, status } = useProgress();
+  const t = useDictionary().progress;
 
   const total = steps.reduce((sum, step) => sum + step.itemCount, 0);
   const completed = steps.reduce(
@@ -41,7 +43,7 @@ export function StepList({
       <div className="mb-8">
         <div className="mb-2 flex items-baseline justify-between text-sm">
           <span className="font-medium">
-            {completed} of {total} tasks done
+            {t.done(completed, total)}
           </span>
           <span className="text-neutral-500 dark:text-neutral-400">{percent}%</span>
         </div>
@@ -51,7 +53,7 @@ export function StepList({
           aria-valuenow={percent}
           aria-valuemin={0}
           aria-valuemax={100}
-          aria-label="Overall progress"
+          aria-label={t.overall}
         >
           <div
             className="h-full rounded-full bg-emerald-600 transition-all"
@@ -78,7 +80,7 @@ export function StepList({
                       ? "bg-emerald-700 text-white"
                       : "bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300"
                   }`}
-                  aria-label={complete ? "Completed" : `Step ${step.order}`}
+                  aria-label={complete ? t.completed : t.step(step.order)}
                 >
                   {complete ? "✓" : step.order}
                 </span>
@@ -88,7 +90,7 @@ export function StepList({
                     {step.summary}
                   </span>
                   <span className="mt-1 block text-xs text-neutral-500 dark:text-neutral-400">
-                    {stepDone}/{step.itemCount} tasks
+                    {t.tasks(stepDone, step.itemCount)}
                     {step.time ? ` · ${step.time}` : ""}
                   </span>
                 </span>
@@ -102,12 +104,12 @@ export function StepList({
         <button
           type="button"
           onClick={() => {
-            if (window.confirm("Clear all saved progress on this device?"))
+            if (window.confirm(t.resetConfirm))
               reset();
           }}
           className="mt-8 text-sm text-neutral-500 dark:text-neutral-400 underline hover:text-neutral-800 dark:hover:text-neutral-200"
         >
-          Reset progress
+          {t.reset}
         </button>
       )}
     </div>

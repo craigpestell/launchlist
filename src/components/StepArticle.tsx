@@ -2,13 +2,18 @@ import Link from "next/link";
 import Markdown from "react-markdown";
 import { Checklist } from "@/components/Checklist";
 import { GuideShots } from "@/components/GuideShots";
+import { TranslationNotice } from "@/components/TranslationNotice";
 import { getGuideShots } from "@/lib/guides";
+import { getDictionary } from "@/lib/i18n/dictionary";
+import type { Locale } from "@/lib/i18n/locales";
 import type { ProfileSection } from "@/lib/profile";
 import type { Step } from "@/lib/steps";
 
 /** One step of a region's or a topic's guide. */
 export function StepArticle({
   guide,
+  locale,
+  englishPath,
   basePath,
   backLabel,
   guideLabel,
@@ -18,6 +23,9 @@ export function StepArticle({
 }: {
   /** Region or topic slug, used for progress ids and screenshots. */
   guide: string;
+  locale: Locale;
+  /** On a translated page, the English version's path (for the notice). */
+  englishPath?: string;
   /** Overview page, e.g. "/bc" or "/topics/products". */
   basePath: string;
   backLabel: string;
@@ -32,6 +40,7 @@ export function StepArticle({
   const next = steps[index + 1];
   // A one-step topic is shown as a single page on the topic's own URL.
   const single = steps.length === 1;
+  const t = getDictionary(locale);
 
   return (
     <article>
@@ -43,24 +52,28 @@ export function StepArticle({
       </Link>
       {!single && (
         <p className="mt-6 text-sm font-medium text-emerald-700 dark:text-emerald-500">
-          {guideLabel && `${guideLabel} · `}Step {step.order} of {steps.length}
+          {guideLabel && `${guideLabel} · `}
+          {t.step.of(step.order, steps.length)}
         </p>
       )}
       <h1 className={`${single ? "mt-6" : "mt-1"} text-3xl font-bold tracking-tight`}>{step.title}</h1>
       <p className="mt-2 text-neutral-600 dark:text-neutral-400">
         {step.summary}
       </p>
+      {englishPath && (
+        <TranslationNotice locale={locale} englishPath={englishPath} stale={step.stale} />
+      )}
 
       <dl className="mt-6 grid grid-cols-2 gap-4 rounded-xl bg-neutral-100 p-4 text-sm dark:bg-neutral-900">
         {step.time && (
           <div>
-            <dt className="text-neutral-600 dark:text-neutral-400">Time</dt>
+            <dt className="text-neutral-600 dark:text-neutral-400">{t.step.time}</dt>
             <dd className="font-medium">{step.time}</dd>
           </div>
         )}
         {step.cost && (
           <div>
-            <dt className="text-neutral-600 dark:text-neutral-400">Cost</dt>
+            <dt className="text-neutral-600 dark:text-neutral-400">{t.step.cost}</dt>
             <dd className="font-medium">{step.cost}</dd>
           </div>
         )}
@@ -73,18 +86,18 @@ export function StepArticle({
           rel="noopener noreferrer"
           className="mt-4 inline-block rounded-lg bg-emerald-700 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-800"
         >
-          {step.linkLabel ?? "Official site"} ↗
+          {step.linkLabel ?? t.step.officialSite} ↗
         </a>
       )}
 
-      <GuideShots stepTitle={step.title} shots={getGuideShots(guide, step.slug)} />
+      <GuideShots stepTitle={step.title} shots={getGuideShots(guide, step.slug, locale)} />
 
       <div className="prose prose-neutral mt-8 max-w-none dark:prose-invert">
         <Markdown>{step.body}</Markdown>
       </div>
 
       <section className="mt-10">
-        <h2 className="mb-3 text-lg font-semibold">Your checklist</h2>
+        <h2 className="mb-3 text-lg font-semibold">{t.step.checklist}</h2>
         <Checklist
           region={guide}
           slug={step.slug}
@@ -96,7 +109,7 @@ export function StepArticle({
               href={`/details#${step.slug}`}
               className="text-neutral-500 dark:text-neutral-400 hover:text-neutral-800 hover:underline dark:hover:text-neutral-200"
             >
-              Save your {section.linkText} →
+              {t.step.saveDetails(section.linkText)} →
             </Link>
           </p>
         )}
@@ -122,7 +135,7 @@ export function StepArticle({
           </Link>
         ) : (
           <Link href={basePath} className="font-medium hover:underline">
-            {single ? backLabel : "Back to overview"}
+            {single ? backLabel : t.step.backToOverview}
           </Link>
         )}
       </nav>

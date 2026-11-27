@@ -1,5 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
+import { topicText } from "@/lib/i18n/content";
+import { DEFAULT_LOCALE, type Locale } from "@/lib/i18n/locales";
+import { hasGuide } from "@/lib/steps";
 
 export type Topic = {
   /** URL slug and content folder name under content/topics/. */
@@ -49,3 +52,20 @@ export function getTopics(): Topic[] {
 
 export const getTopic = (slug: string) =>
   getTopics().find((t) => t.slug === slug);
+
+/**
+ * Topics offered in a language, with their translated title and summary.
+ * English returns every topic; another language only those translated in full.
+ */
+export function getLocalizedTopics(locale: Locale): Topic[] {
+  if (locale === DEFAULT_LOCALE) return getTopics();
+  return getTopics().flatMap((topic) => {
+    const text = topicText(topic.slug, locale);
+    return text && hasGuide(topic.slug, locale)
+      ? [{ ...topic, title: text.title, summary: text.summary }]
+      : [];
+  });
+}
+
+export const getLocalizedTopic = (slug: string, locale: Locale) =>
+  getLocalizedTopics(locale).find((t) => t.slug === slug);

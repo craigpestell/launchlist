@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useRef } from "react";
+import { useDictionary } from "@/components/LocaleProvider";
 import type { GuideShot } from "@/lib/guides";
 
 const REPORT_EMAIL =
@@ -28,6 +29,7 @@ export function GuideShots({
   shots: GuideShot[];
 }) {
   const dialog = useRef<HTMLDialogElement>(null);
+  const t = useDictionary().shots;
   if (shots.length === 0) return null;
   // Oldest capture, so the date never overstates how fresh the guide is.
   const capturedAt = shots.map((s) => s.capturedAt).sort()[0];
@@ -39,7 +41,7 @@ export function GuideShots({
         onClick={() => dialog.current?.showModal()}
         className="mt-4 ml-2 inline-block rounded-lg border border-neutral-300 px-4 py-2 text-sm font-medium hover:bg-neutral-100 dark:border-neutral-700 dark:hover:bg-neutral-800"
       >
-        Step-by-step guide
+        {t.open}
       </button>
 
       <dialog
@@ -54,17 +56,16 @@ export function GuideShots({
         <div className="sticky top-0 flex items-start justify-between gap-4 border-b border-neutral-200 bg-background px-5 py-4 dark:border-neutral-800">
           <div>
             <h2 id="guide-title" className="text-lg font-semibold">
-              {stepTitle}: step-by-step guide
+              {t.title(stepTitle)}
             </h2>
             <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
-              Screenshots use a made-up example business. Official sites
-              change, so yours may look slightly different.
+              {t.note}
             </p>
           </div>
           <button
             type="button"
             onClick={() => dialog.current?.close()}
-            aria-label="Close guide"
+            aria-label={t.close}
             className="rounded-md px-2 py-1 text-xl leading-none text-neutral-500 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800"
           >
             ×
@@ -92,12 +93,12 @@ export function GuideShots({
         </ol>
 
         <p className="border-t border-neutral-200 px-5 py-4 text-xs text-neutral-500 dark:text-neutral-400 dark:border-neutral-800">
-          Screenshots captured {capturedAt}.{" "}
+          {t.captured(capturedAt)}{" "}
           <a
             href={reportHref(stepTitle, capturedAt)}
             className="underline hover:text-neutral-800 dark:hover:text-neutral-200"
           >
-            See something different? Report a problem
+            {t.report}
           </a>
         </p>
       </dialog>

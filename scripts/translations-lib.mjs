@@ -92,7 +92,6 @@ export function setSource(file, hash) {
   fs.writeFileSync(file, next);
 }
 
-const NBSP = " ";
 
 /**
  * Canadian French spacing (Bureau de la traduction): a non-breaking space

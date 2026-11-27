@@ -1,6 +1,16 @@
 import type { Metadata } from "next";
 import { getGuideShots } from "@/lib/guides";
-import type { Region } from "@/lib/regions";
+import { getDictionary } from "@/lib/i18n/dictionary";
+import {
+  DEFAULT_LOCALE,
+  localePath,
+  localeTag,
+  locales,
+  type Locale,
+} from "@/lib/i18n/locales";
+import type { CountryCode } from "@/lib/countries";
+import type { LocalizedRegion } from "@/lib/regions";
+import { hasGuide } from "@/lib/steps";
 import type { Step } from "@/lib/steps";
 import type { Topic } from "@/lib/topics";
 
@@ -54,9 +64,13 @@ const lowerFirst = (s: string) =>
  * name it, because people search "register for HST Ontario", not
  * "register for HST".
  */
-export function stepSeoTitle(step: Step, place?: string): string {
-  if (!place || step.title.includes(place)) return step.title;
-  return `${step.title} in ${place}`;
+export function stepSeoTitle(
+  step: Step,
+  region?: LocalizedRegion,
+  locale: Locale = DEFAULT_LOCALE,
+): string {
+  if (!region || step.title.includes(region.name)) return step.title;
+  return getDictionary(locale).seo.stepTitle(step.title, region.in);
 }
 
 /**
@@ -72,24 +86,40 @@ export function stepDescription(step: Step): string {
   return clip([step.summary.trim(), ...paragraphs].join(" "));
 }
 
-export const regionSeoTitle = (region: Region) =>
-  `How to start a business in ${region.name}: step-by-step checklist`;
+export const regionSeoTitle = (region: LocalizedRegion, locale: Locale = DEFAULT_LOCALE) =>
+  getDictionary(locale).seo.regionTitle(region.in);
 
-export function regionDescription(region: Region, steps: Step[]): string {
+export function regionDescription(
+  region: LocalizedRegion,
+  steps: Step[],
+  locale: Locale = DEFAULT_LOCALE,
+): string {
   const names = steps.slice(0, 4).map((s) => lowerFirst(s.title));
   return clip(
-    `Free ${steps.length}-step checklist to start a business in ${region.name}: ${names.join(", ")} and more, with screenshots of each official site.`,
+    getDictionary(locale).seo.regionDescription(region.in, steps.length, names.join(", ")),
   );
 }
 
 /** Search keywords. Google ignores this tag and Bing barely uses it, so keep it short. */
-export function regionKeywords(region: Region): string[] {
-  return [
-    `start a business in ${region.name}`,
-    `register a business in ${region.name}`,
-    `${region.name} business registration`,
-    `${region.name} small business checklist`,
-  ];
+export const regionKeywords = (region: LocalizedRegion, locale: Locale = DEFAULT_LOCALE) =>
+  getDictionary(locale).seo.regionKeywords(locale === DEFAULT_LOCALE ? region.name : region.in);
+
+/**
+ * hreflang alternates for a page: one entry per language the page exists in
+ * (a guide counts only once it is translated in full), plus x-default (English).
+ * `path` is the English path; `guide` is the region or topic slug, or absent
+ * for pages every language has (the home page).
+ */
+export function languageAlternates(
+  path: string,
+  guide?: { slug: string; country?: CountryCode },
+): Record<string, string> | undefined {
+  const available = locales().filter((l) => !guide || hasGuide(guide.slug, l));
+  if (available.length < 2) return undefined;
+  const languages: Record<string, string> = {};
+  for (const l of available) languages[localeTag(l, guide?.country)] = localePath(l, path);
+  languages["x-default"] = path;
+  return languages;
 }
 
 /**
@@ -104,20 +134,23 @@ export function pageMetadata({
   keywords,
   type = "article",
   locale = "en-CA",
+  languages,
 }: {
   title: string;
   description: string;
   path: string;
   keywords?: string[];
   type?: "website" | "article";
-  /** Country locale, "en-CA" or "en-US" (content/countries.json). */
+  /** Locale tag, "en-CA", "en-US" or "fr-CA" (content/locales.json). */
   locale?: string;
+  /** hreflang alternates, from languageAlternates(). */
+  languages?: Record<string, string>;
 }): Metadata {
   return {
     title,
     description,
     keywords,
-    alternates: { canonical: path },
+    alternates: { canonical: path, ...(languages && { languages }) },
     openGraph: {
       type,
       siteName: SITE_NAME,
@@ -157,6 +190,7 @@ export function overviewJsonLd({
   basePath,
   steps,
   crumbs,
+  inLanguage,
 }: {
   name: string;
   description: string;
@@ -164,6 +198,8 @@ export function overviewJsonLd({
   basePath: string;
   steps: Step[];
   crumbs: Crumb[];
+  /** Locale tag of the page, "fr-CA". */
+  inLanguage: string;
 }) {
   return [
     {
@@ -171,6 +207,7 @@ export function overviewJsonLd({
       "@type": "HowTo",
       name,
       description,
+      inLanguage,
       url: absoluteUrl(path),
       publisher,
       step: steps.map((s) => ({
@@ -193,6 +230,8 @@ export function stepJsonLd({
   description,
   path,
   crumbs,
+  locale,
+  inLanguage,
 }: {
   guide: string;
   step: Step;
@@ -200,14 +239,17 @@ export function stepJsonLd({
   description: string;
   path: string;
   crumbs: Crumb[];
+  locale: Locale;
+  inLanguage: string;
 }) {
-  const shots = getGuideShots(guide, step.slug);
+  const shots = getGuideShots(guide, step.slug, locale);
   return [
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
       name,
       description,
+      inLanguage,
       url: absoluteUrl(path),
       publisher,
       ...(shots.length && {
@@ -225,23 +267,27 @@ export function stepJsonLd({
   ];
 }
 
-export const siteJsonLd = (description: string) => [
+export const siteJsonLd = (description: string, locale: Locale) => [
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: SITE_NAME,
-    url: SITE_URL,
+    url: absoluteUrl(localePath(locale, "/")),
     description,
+    inLanguage: localeTag(locale),
     publisher,
   },
 ];
 
-export const regionCrumbs = (region: Region): Crumb[] => [
-  { name: SITE_NAME, path: "/" },
-  { name: `Start a business in ${region.name}`, path: `/${region.slug}` },
+export const regionCrumbs = (region: LocalizedRegion, locale: Locale): Crumb[] => [
+  { name: SITE_NAME, path: localePath(locale, "/") },
+  {
+    name: getDictionary(locale).seo.regionCrumb(region.in),
+    path: localePath(locale, `/${region.slug}`),
+  },
 ];
 
-export const topicCrumbs = (topic: Topic): Crumb[] => [
-  { name: SITE_NAME, path: "/" },
-  { name: topic.title, path: `/topics/${topic.slug}` },
+export const topicCrumbs = (topic: Topic, locale: Locale): Crumb[] => [
+  { name: SITE_NAME, path: localePath(locale, "/") },
+  { name: topic.title, path: localePath(locale, `/topics/${topic.slug}`) },
 ];

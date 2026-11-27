@@ -5,47 +5,62 @@ import { JsonLd } from "@/components/JsonLd";
 import { SignupBanner } from "@/components/SignupBanner";
 import { StepArticle } from "@/components/StepArticle";
 import { StepList } from "@/components/StepList";
+import { TranslationNotice } from "@/components/TranslationNotice";
+import { getDictionary } from "@/lib/i18n/dictionary";
+import { DEFAULT_LOCALE, localePath, localeTag, locales, type Locale } from "@/lib/i18n/locales";
 import {
   clip,
+  languageAlternates,
   overviewJsonLd,
   pageMetadata,
   stepDescription,
   stepJsonLd,
   topicCrumbs,
 } from "@/lib/seo";
-import { getSteps } from "@/lib/steps";
-import { getTopic, getTopics } from "@/lib/topics";
+import { getLocalizedSteps } from "@/lib/steps";
+import { getLocalizedTopic, getLocalizedTopics } from "@/lib/topics";
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return getTopics().map((topic) => ({ topic: topic.slug }));
+  return locales().flatMap((lang) =>
+    getLocalizedTopics(lang).map((topic) => ({ lang, topic: topic.slug })),
+  );
+}
+
+function load(slug: string, locale: Locale) {
+  const topic = getLocalizedTopic(slug, locale);
+  const steps = topic && getLocalizedSteps(slug, locale);
+  return topic && steps ? { topic, steps } : undefined;
 }
 
 export async function generateMetadata(
-  props: PageProps<"/topics/[topic]">,
+  props: PageProps<"/[lang]/topics/[topic]">,
 ): Promise<Metadata> {
-  const { topic } = await props.params;
-  const found = getTopic(topic);
-  if (!found) return { title: "Not found" };
-  const steps = getSteps(topic);
+  const { lang, topic: slug } = await props.params;
+  const page = load(slug, lang);
+  if (!page) return { title: "Not found" };
+  const { topic, steps } = page;
   return pageMetadata({
-    title: found.title,
+    title: topic.title,
     // A one-step topic is that step's page, so describe it from the step.
-    description:
-      steps.length === 1 ? stepDescription(steps[0]) : clip(found.summary),
-    path: `/topics/${topic}`,
+    description: steps.length === 1 ? stepDescription(steps[0]) : clip(topic.summary),
+    path: localePath(lang, `/topics/${slug}`),
+    locale: localeTag(lang),
+    languages: languageAlternates(`/topics/${slug}`, { slug }),
   });
 }
 
-export default async function TopicPage(props: PageProps<"/topics/[topic]">) {
-  const { topic: slug } = await props.params;
-  const topic = getTopic(slug);
-  if (!topic) notFound();
+export default async function TopicPage(props: PageProps<"/[lang]/topics/[topic]">) {
+  const { lang, topic: slug } = await props.params;
+  const page = load(slug, lang);
+  if (!page) notFound();
+  const { topic, steps: all } = page;
+  const t = getDictionary(lang);
 
-  const all = getSteps(slug);
+  const english = `/topics/${slug}`;
+  const path = localePath(lang, english);
   // One-step topics skip the overview and show the step on this page.
-  const path = `/topics/${slug}`;
   if (all.length === 1)
     return (
       <>
@@ -56,13 +71,17 @@ export default async function TopicPage(props: PageProps<"/topics/[topic]">) {
             name: topic.title,
             description: stepDescription(all[0]),
             path,
-            crumbs: topicCrumbs(topic),
+            crumbs: topicCrumbs(topic, lang),
+            locale: lang,
+            inLanguage: localeTag(lang),
           })}
         />
         <StepArticle
           guide={slug}
-          basePath="/"
-          backLabel="All guides"
+          locale={lang}
+          englishPath={lang === DEFAULT_LOCALE ? undefined : english}
+          basePath={localePath(lang, "/")}
+          backLabel={t.topic.back}
           step={all[0]}
           steps={all}
         />
@@ -81,10 +100,10 @@ export default async function TopicPage(props: PageProps<"/topics/[topic]">) {
   return (
     <>
       <Link
-        href="/"
+        href={localePath(lang, "/")}
         className="text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-200"
       >
-        ← All guides
+        ← {t.topic.back}
       </Link>
       <JsonLd
         data={overviewJsonLd({
@@ -93,17 +112,18 @@ export default async function TopicPage(props: PageProps<"/topics/[topic]">) {
           path,
           basePath: path,
           steps: all,
-          crumbs: topicCrumbs(topic),
+          crumbs: topicCrumbs(topic, lang),
+          inLanguage: localeTag(lang),
         })}
       />
       <h1 className="mt-6 text-3xl font-bold tracking-tight">{topic.title}</h1>
       <p className="mt-3 text-neutral-600 dark:text-neutral-400">
-        {topic.summary} Work through the steps at your own pace. Your progress
-        is saved in this browser, or to your account if you sign in.
+        {topic.summary} {t.topic.intro}
       </p>
+      <TranslationNotice locale={lang} englishPath={english} stale={all.some((s) => s.stale)} />
       <div className="mt-10">
         <SignupBanner />
-        <StepList region={slug} basePath={`/topics/${slug}`} steps={steps} />
+        <StepList region={slug} basePath={path} steps={steps} />
       </div>
     </>
   );
