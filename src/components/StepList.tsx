@@ -45,7 +45,7 @@ export function StepList({
           <span className="font-medium">
             {t.done(completed, total)}
           </span>
-          <span className="text-neutral-500 dark:text-neutral-400">{percent}%</span>
+          <span className="text-neutral-500 dark:text-neutral-400">{t.percent(percent)}</span>
         </div>
         <div
           className="h-2 overflow-hidden rounded-full bg-neutral-200 dark:bg-neutral-800"

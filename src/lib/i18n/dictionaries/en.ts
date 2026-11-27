@@ -95,6 +95,7 @@ export const en = {
   progress: {
     done: (completed: number, total: number) => `${completed} of ${total} tasks done`,
     overall: "Overall progress",
+    percent: (n: number) => `${n}%`,
     completed: "Completed",
     step: (n: number) => `Step ${n}`,
     tasks: (done: number, total: number) => `${done}/${total} tasks`,

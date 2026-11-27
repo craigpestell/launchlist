@@ -96,6 +96,7 @@ export const fr: Dictionary = {
     done: (completed: number, total: number) =>
       `${completed} tâche${completed > 1 ? "s" : ""} sur ${total} terminée${completed > 1 ? "s" : ""}`,
     overall: "Progression globale",
+    percent: (n: number) => `${n}${nb}%`,
     completed: "Terminée",
     step: (n: number) => `Étape ${n}`,
     tasks: (done: number, total: number) => `${done}/${total} tâches`,
