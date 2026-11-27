@@ -375,7 +375,11 @@
     "country": "US",
     "code": "NY",
     "name": "New York",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": "LLC publication requirement and $9 biennial statement; NYC rules flagged as city-only. dos.ny.gov blocked. Not confirmed: Certificate of Authority fee (none listed), publication costs, no general state license."
   },
   {
     "id": "us-nc",
