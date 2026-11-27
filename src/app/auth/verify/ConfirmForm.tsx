@@ -20,7 +20,7 @@ export function ConfirmForm({ token }: { token: string }) {
       <button
         type="submit"
         disabled={pending}
-        className="rounded-lg bg-emerald-600 px-5 py-2 text-sm font-medium text-white hover:bg-emerald-700 disabled:opacity-60"
+        className="rounded-lg bg-emerald-700 px-5 py-2 text-sm font-medium text-white hover:bg-emerald-800 disabled:opacity-60"
       >
         {pending ? "Signing in…" : "Sign in"}
       </button>

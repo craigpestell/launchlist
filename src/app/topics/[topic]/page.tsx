@@ -82,7 +82,7 @@ export default async function TopicPage(props: PageProps<"/topics/[topic]">) {
     <>
       <Link
         href="/"
-        className="text-sm text-neutral-500 hover:text-neutral-800 dark:hover:text-neutral-200"
+        className="text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-200"
       >
         ← All guides
       </Link>

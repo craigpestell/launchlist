@@ -15,17 +15,17 @@ checklist:
 
 We found no general New Brunswick business licence for a small retailer. Each city or town sets its own rules, so the answer can be different a few kilometres away.
 
-In **Fredericton**, for example, a home occupation is allowed in a single detached house or mini-home, but the zoning by-law lists **retail sale of goods not made on the premises** as a use a home business can't have. If you resell products from home, ask the city's Community Planning office whether online sales shipped from home are allowed before you start.
+In **Fredericton**, for example, a home occupation is allowed in a single detached house or mini-home, but the zoning bylaw lists **retail sale of goods not made on the premises** as a use a home business can't have. If you resell products from home, ask the city's Community Planning office whether online sales shipped from home are allowed before you start.
 
 Look up your own municipality rather than assuming Fredericton's answer applies to you.
 
 ## Home-based business
 
-Even when no licence is required, **zoning by-laws** may limit what you can do from home, such as customer visits, signage, deliveries or storing stock. Check before you start.
+Even when no licence is required, **zoning bylaws** may limit what you can do from home, such as customer visits, signage, deliveries or storing stock. Check before you start.
 
 ## Be upfront about what you sell
 
-Some products or business types carry extra by-laws or requirements, including food. Tell your municipality exactly what you will sell so you know before you start, not after.
+Some products or business types carry extra bylaws or requirements, including food. Tell your municipality exactly what you will sell so you know before you start, not after.
 
 ## Keep the answer
 

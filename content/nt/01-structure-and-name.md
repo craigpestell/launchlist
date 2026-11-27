@@ -4,7 +4,7 @@ summary: Decide whether to start as a sole proprietorship or incorporate, then p
 time: 1–2 hours
 cost: Free
 linkLabel: NWT Corporate Registries — business names
-linkUrl: https://www.justice.gov.nt.ca/en/business-names/
+linkUrl: https://gnwt.ca/business-and-economy/business-licences-taxes-and-regulations/business-names-and-partnerships
 checklist:
   - Decide on a sole proprietorship (recommended to start)
   - Pick a business name, or decide to trade under your exact legal name

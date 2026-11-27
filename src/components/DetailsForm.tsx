@@ -163,7 +163,7 @@ export function DetailsForm() {
                     className="mt-1 w-full rounded-lg border border-neutral-300 bg-transparent px-3 py-2 dark:border-neutral-700"
                   />
                   {f.hint && (
-                    <span className="mt-1 block text-neutral-500">{f.hint}</span>
+                    <span className="mt-1 block text-neutral-500 dark:text-neutral-400">{f.hint}</span>
                   )}
                   <span
                     role="status"
@@ -172,7 +172,7 @@ export function DetailsForm() {
                         ? "text-red-600"
                         : fieldStatus[f.key] === "saved"
                           ? "text-emerald-700 dark:text-emerald-500"
-                          : "text-neutral-500"
+                          : "text-neutral-500 dark:text-neutral-400"
                     }`}
                   >
                     {fieldStatus[f.key] === "saving" && "Saving…"}

@@ -19,7 +19,7 @@ checklist:
 
 ## Privacy
 
-You fall under Canada's privacy law, **PIPEDA**. Customer data needs care, so:
+Most businesses in BC fall under BC's own private-sector privacy law, the **Personal Information Protection Act (PIPA)**. Customer data needs care, so:
 
 - Collect only what you need.
 - Never share it with advertising networks.
@@ -28,3 +28,7 @@ You fall under Canada's privacy law, **PIPEDA**. Customer data needs care, so:
 ## Marketing email
 
 Canada's anti-spam law, **CASL**, requires clear consent and an unsubscribe link in every marketing email.
+
+## Consumer rules
+
+BC's **Business Practices and Consumer Protection Act** has its own rules for distance sales, including online sales. Check the current requirements with Consumer Protection BC or a lawyer before you publish your terms of sale.

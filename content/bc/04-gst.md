@@ -10,12 +10,16 @@ checklist:
   - Register for a GST/HST account with the CRA (sign in with your CRA account)
   - Choose a filing frequency (annual is common for small businesses)
   - Note your GST number and filing due dates
-  - Ask your accountant how to handle sales outside BC
+  - Ask your accountant how to handle sales to customers outside BC
 ---
+
+## Federal tax
+
+BC customers pay **5% GST** to the federal government plus BC's own **7% PST**, which you register for separately in step 5. GST is registered, collected and filed with the **CRA**.
 
 ## When you must register
 
-You must register once your taxable sales pass **$30,000 over four consecutive calendar quarters**.
+You must register once your taxable sales pass **$30,000 in a single calendar quarter or over four consecutive calendar quarters**. If one quarter takes you over, you start charging tax on the sale that pushed you past $30,000.
 
 ## Why register earlier
 
@@ -27,4 +31,4 @@ You will choose how often to file. Annual filing is common for small businesses,
 
 ## Selling outside BC
 
-Tax gets more complicated once you ship to other provinces. Some charge HST, and Quebec, Saskatchewan and Manitoba have their own taxes. Ask your accountant, or begin by selling to BC customers only.
+The rate you charge depends on where the customer receives the goods, not where you are based. A customer in Ontario pays 13% HST, for example, and some provinces have their own sales taxes. Ask your accountant before you ship outside BC, or begin by selling to BC customers only.

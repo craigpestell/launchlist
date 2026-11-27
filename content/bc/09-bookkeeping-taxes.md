@@ -5,7 +5,7 @@ time: 2–3 hours
 cost: Software from about $0–$30/month; accountant consult about $150–$300
 checklist:
   - Pick bookkeeping software (Wave, QuickBooks or Xero)
-  - Set up separate tracking for GST collected, PST collected and expenses
+  - Set up separate tracking for GST collected, PST collected, GST paid and expenses
   - Book a one-time consult with an accountant
   - Learn when income tax instalments may apply
   - Decide where you will keep receipts and records for six years
@@ -13,7 +13,7 @@ checklist:
 
 ## Bookkeeping
 
-Use simple software such as Wave, QuickBooks or Xero. Track sales, **GST collected**, **PST collected** and expenses separately. Keep every receipt.
+Use simple software such as Wave, QuickBooks or Xero. Track sales, **GST collected**, **PST collected**, **GST you paid on purchases** and expenses separately. Keep every receipt.
 
 ## Income tax
 

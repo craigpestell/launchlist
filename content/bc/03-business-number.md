@@ -22,4 +22,4 @@ You may be offered a BN while registering with BC Registry. If not, register dir
 
 ## Sign in with a CRA account
 
-Since July 14, 2026, BRO is only available through your **CRA account**. Sign in first, then complete the registration online. If you don't have a CRA account yet, you can create one from the CRA sign-in page. You will need it later to register for GST, file returns and make payments.
+BRO is only available through your **CRA account**. Sign in first, then complete the registration online. If you don't have a CRA account yet, you can create one from the CRA sign-in page. You will need it later to register for GST, file returns and make payments.

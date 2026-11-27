@@ -4,7 +4,7 @@ summary: Decide whether to start as a sole proprietorship or incorporate, then p
 time: 1–2 hours
 cost: Free
 linkLabel: Registry of Companies — about
-linkUrl: https://www.gov.nl.ca/dgsnl/registries/companies/corp-about/
+linkUrl: https://www.gov.nl.ca/gs/registries/companies/corp-about/
 checklist:
   - Decide on a sole proprietorship (recommended to start)
   - Pick a business name, or decide to trade under your own legal name
