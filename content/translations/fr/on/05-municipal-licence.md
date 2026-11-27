@@ -12,12 +12,12 @@ checklist:
   - Conserver tout permis ou toute confirmation écrite qu'aucun permis n'est requis
 ---
 
-## Ça dépend de votre municipalité
+## Cela dépend de votre municipalité
 
 Il n'existe pas de permis d'affaires unique pour tout l'Ontario. Chaque ville ou municipalité décide de ce qu'elle réglemente, donc la réponse peut changer à quelques kilomètres de distance.
 
 - À **Toronto**, la Ville indique que les commerces de détail qui vendent des **articles neufs et aucun aliment** n'ont pas besoin de permis d'exploitation municipal.
-- À **Ottawa**, vous pourriez avoir besoin d'un permis d'affaires municipal selon votre entreprise; consultez ses pages sur les permis.
+- À **Ottawa**, vous pourriez avoir besoin d'un permis d'affaires municipal selon votre entreprise. Consultez ses pages sur les permis.
 
 Renseignez-vous sur votre propre municipalité plutôt que de supposer que l'une de ces réponses s'applique à vous.
 

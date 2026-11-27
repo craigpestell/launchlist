@@ -10,7 +10,7 @@ checklist:
   - Opter pour une entreprise individuelle (recommandé pour commencer)
   - Choisir une raison sociale, ou décider d'exercer sous votre nom légal exact
   - Chercher les raisons sociales semblables dans le système en ligne gratuit de Corporate Registries
-  - Vérifier que le nom de domaine .ca et les noms d'utilisateur sur les réseaux sociaux sont libres
+  - Vérifier que le nom de domaine .ca et les noms d'utilisateur correspondants sur les réseaux sociaux sont libres
 ---
 
 ## Structure
@@ -21,8 +21,8 @@ En contrepartie, vous êtes **personnellement responsable** de l'entreprise. Le 
 
 ## Raison sociale
 
-- Seule une entreprise exploitée sous votre **nom légal exact** (par exemple «  Jeanne Tremblay ») est dispensée d'enregistrement.
-- Tout autre nom, même «  Créations Jeanne Tremblay », **doit être enregistré** à l'étape suivante.
+- Seule une entreprise exploitée sous votre **nom légal exact** (par exemple « Jeanne Tremblay ») est dispensée d'enregistrement.
+- Tout autre nom, même « Créations Jeanne Tremblay », **doit être enregistré** à l'étape suivante.
 
 Faites une recherche dans le système en ligne de Corporate Registries avant d'arrêter votre choix. Une recherche de base est gratuite.
 

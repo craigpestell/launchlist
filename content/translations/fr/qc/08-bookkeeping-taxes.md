@@ -1,14 +1,14 @@
 ---
-source: b57fb8e91562
+source: 688c3c91485a
 title: Mettre en place la tenue de livres et l'impôt sur le revenu
-summary: Suivez vos ventes, la TPS, la TVQ et vos dépenses dès le premier jour.
+summary: Tenez dès le premier jour des livres qui suivent vos ventes, la TPS, la TVQ et vos dépenses, et déclarez vos revenus d'entreprise.
 time: 2 à 3 heures
 cost: Logiciel d'environ 0 à 30 $ par mois; consultation d'un comptable d'environ 150 à 300 $
 checklist:
   - Choisir un logiciel de tenue de livres (Wave, QuickBooks ou Xero)
   - Suivre séparément la TPS et la TVQ perçues, la TPS et la TVQ payées, et les dépenses
-  - Prendre rendez-vous une fois avec un comptable
-  - Savoir quand des acomptes provisionnels d'impôt peuvent s'appliquer
+  - Prévoir une consultation unique avec un comptable
+  - Vérifier quand des acomptes provisionnels d'impôt peuvent s'appliquer
   - Décider où vous conserverez vos reçus et vos registres pendant six ans
 ---
 

@@ -19,7 +19,7 @@ Votre nom commercial, votre numéro d'entreprise et votre numéro de TPS. Demand
 
 ## La TPS sur vos stocks
 
-Vous payerez normalement la TPS sur les stocks que vous achetez et la récupérerez dans votre déclaration de TPS, ce qui est une des raisons de vous inscrire tôt (étape 4). Demandez à votre comptable comment cela fonctionne dans votre situation.
+Vous paierez normalement la TPS sur les stocks que vous achetez et la récupérerez dans votre déclaration de TPS, ce qui est une des raisons de vous inscrire tôt (étape 4). Demandez à votre comptable comment cela fonctionne dans votre situation.
 
 ## Questions à poser
 
@@ -28,6 +28,6 @@ Vous payerez normalement la TPS sur les stocks que vous achetez et la récupére
 - Y a-t-il un **prix minimum annoncé** à respecter?
 - La livraison directe (dropshipping) est-elle offerte?
 
-## Commencez petit
+## Commencer petit
 
 Passez une petite commande d'essai pour vérifier le produit, l'emballage et le délai de livraison avant de vous engager pour une commande plus importante.

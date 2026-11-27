@@ -22,12 +22,12 @@ Renseignez-vous auprès de votre propre municipalité plutôt que de supposer qu
 
 ## Entreprise à domicile
 
-Même si aucun permis n'est exigé, les **arrêtés de zonage** peuvent limiter ce que vous pouvez faire chez vous, par exemple recevoir des clients, installer une enseigne, recevoir des livraisons ou entreposer du stock. Vérifiez avant de commencer.
+Même si aucun permis n'est exigé, les **arrêtés de zonage** peuvent limiter ce que vous pouvez faire chez vous, par exemple recevoir des clients, installer une enseigne, recevoir des livraisons ou entreposer des stocks. Vérifiez avant de commencer.
 
-## Soyez transparent sur ce que vous vendez
+## Dire clairement ce que vous vendez
 
 Certains produits ou types d'entreprises, notamment les aliments, sont soumis à des arrêtés ou exigences supplémentaires. Dites précisément à votre municipalité ce que vous vendrez, pour le savoir avant de commencer, et non après.
 
-## Conservez la réponse
+## Conserver la réponse
 
 Si la ville confirme que vous n'avez pas besoin de permis, obtenez-le par écrit ou sauvegardez la page. Les banques et les fournisseurs le demandent parfois.

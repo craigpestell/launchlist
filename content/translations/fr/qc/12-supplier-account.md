@@ -19,7 +19,7 @@ Votre nom commercial, votre numéro d'entreprise, votre NEQ et vos numéros de T
 
 ## La TPS et la TVQ sur vos stocks
 
-Vous paierez normalement la TPS et la TVQ sur les stocks que vous achetez et les récupérerez au moyen de vos déclarations à Revenu Québec, ce qui est une raison de vous inscrire tôt (étape 4). Demandez à votre comptable comment cela s'applique à votre situation.
+Vous paierez normalement la TPS et la TVQ sur les stocks que vous achetez et les récupérerez au moyen des déclarations que vous produisez auprès de Revenu Québec, ce qui est une raison de vous inscrire tôt (étape 4). Demandez à votre comptable comment cela s'applique à votre situation.
 
 ## Questions à poser
 
@@ -28,6 +28,6 @@ Vous paierez normalement la TPS et la TVQ sur les stocks que vous achetez et les
 - Y a-t-il un **prix minimum annoncé** à respecter?
 - La livraison directe (dropshipping) est-elle offerte?
 
-## Commencez petit
+## Commencer petit
 
 Passez une petite commande d'essai pour vérifier le produit, l'emballage et le délai de livraison avant de vous engager pour une commande plus importante.

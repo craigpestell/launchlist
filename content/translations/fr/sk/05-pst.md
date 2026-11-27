@@ -7,10 +7,10 @@ cost: Gratuit
 linkLabel: Saskatchewan — demander un numéro de TVP
 linkUrl: https://www.saskatchewan.ca/business/taxes-licensing-and-reporting/provincial-taxes-policies-and-bulletins/provincial-sales-tax/apply-for-a-pst-number
 checklist:
-  - Demander un permis de vendeur pour la TVP dans Saskatchewan eTax Services (SETS)
-  - Noter votre numéro de permis de vendeur
+  - Demander une licence de vendeur pour la TVP dans Saskatchewan eTax Services (SETS)
+  - Noter votre numéro de licence de vendeur
   - Donner ce numéro à votre fournisseur pour acheter vos stocks destinés à la revente sans TVP
-  - Afficher votre permis à un endroit où les clients peuvent le voir
+  - Afficher votre licence à un endroit où les clients peuvent le voir
   - Inscrire les dates de production de vos déclarations de TVP dans votre calendrier
 ---
 
@@ -24,11 +24,11 @@ Selon la Saskatchewan, **toutes les entreprises qui font des ventes au détail d
 
 ## Comment s'inscrire
 
-Inscrivez-vous en ligne dans **Saskatchewan eTax Services (SETS)** (services fiscaux en ligne de la Saskatchewan) au moyen du formulaire New Business Registration (inscription d'une nouvelle entreprise). Vous recevez un **numéro de permis de vendeur**. Nous n'avons trouvé aucuns frais d'inscription, mais le ministère peut demander une garantie avant de délivrer un permis.
+Inscrivez-vous en ligne dans **Saskatchewan eTax Services (SETS)** (services fiscaux en ligne de la Saskatchewan) au moyen du formulaire New Business Registration (inscription d'une nouvelle entreprise). Vous recevez un **numéro de licence de vendeur**. Nous n'avons trouvé aucuns frais d'inscription, mais le ministère peut demander une garantie avant de délivrer une licence.
 
 ## Votre fournisseur a besoin de ce numéro
 
-Les vendeurs titulaires d'un permis achètent des biens **destinés à la revente sans payer la TVP** en fournissant leur numéro de permis de vendeur. Il n'y a pas de certificat distinct. Ce numéro ne vous permet pas d'acheter en franchise de taxe des biens pour votre propre usage.
+Les vendeurs titulaires d'une licence achètent des biens **destinés à la revente sans payer la TVP** en fournissant leur numéro de licence de vendeur. Il n'y a pas de certificat distinct. Ce numéro ne vous permet pas d'acheter en franchise de taxe des biens pour votre propre usage.
 
 ## Perception et déclarations
 

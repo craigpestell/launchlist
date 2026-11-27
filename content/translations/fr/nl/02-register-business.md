@@ -20,6 +20,6 @@ La province indique qu'elle **n'a pas de loi régissant un registre des noms com
 
 Le Registry of Companies (registre des sociétés de Terre-Neuve-et-Labrador) enregistre seulement les sociétés par actions et certaines autres entités. Si vous constituez une société plus tard, vous devrez faire approuver un nom et constituer la société auprès du registre.
 
-## Gardez une trace
+## Garder une trace
 
 Notez le nom sous lequel vous exercez et la date de votre démarrage. Votre banque, l'ARC et vos fournisseurs pourraient vous demander comment l'entreprise est structurée.

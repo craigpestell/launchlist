@@ -4,7 +4,7 @@ title: Choisir une structure et un nom d'entreprise
 summary: Choisissez entre l'entreprise individuelle et la société par actions, puis trouvez un nom et vérifiez qu'il est libre.
 time: 1 à 2 heures
 cost: Gratuit
-linkLabel: "Office des compagnies du Manitoba : noms commerciaux"
+linkLabel: Office des compagnies du Manitoba — noms commerciaux
 linkUrl: https://companiesoffice.gov.mb.ca/starting_business_name.html
 checklist:
   - Choisir l'entreprise individuelle (recommandé pour commencer)

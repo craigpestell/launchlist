@@ -28,7 +28,7 @@ La plupart des entreprises de l'Alberta sont assujetties à la loi albertaine su
 
 ## Courriels de marketing
 
-La loi canadienne antipourriel, la **LCAP**, exige un consentement clair et un lien de désabonnement dans chaque courriel de marketing.
+La **Loi canadienne anti-pourriel (LCAP)** exige un consentement clair et un lien de désabonnement dans chaque courriel de marketing.
 
 ## Règles de protection du consommateur
 

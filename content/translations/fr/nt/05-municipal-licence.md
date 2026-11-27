@@ -7,7 +7,7 @@ cost: 200 $ par année à Yellowknife (vu en octobre 2026; vérifiez le tarif e
 linkLabel: Ville de Yellowknife — permis d'affaires
 linkUrl: https://www.yellowknife.ca/business-licences
 checklist:
-  - Vérifier si votre collectivité délivre son propre permis ou si c'est le territoire
+  - Vérifier si votre collectivité délivre son propre permis ou si le territoire délivre une licence
   - À Yellowknife, remplir le formulaire combiné de permis d'entreprise à domicile et de permis d'aménagement
   - Décrire exactement ce que vous vendez et où vous entreposez votre stock
   - Payer les frais du permis d'affaires et du permis d'aménagement
@@ -16,7 +16,7 @@ checklist:
 
 ## Il vous faut un permis
 
-Les Territoires du Nord-Ouest précisent que **toute personne qui exploite une entreprise doit détenir un permis d'affaires valide**. La plupart des collectivités, dont Yellowknife, délivrent leur propre permis. Le territoire délivre les permis seulement dans les collectivités qui ne le font pas, et à l'extérieur des limites des collectivités.
+Les Territoires du Nord-Ouest précisent que **toute personne qui exploite une entreprise doit détenir un permis d'affaires valide**. La plupart des collectivités, dont Yellowknife, délivrent leur propre permis. Le territoire délivre une licence d'exploitation de commerce seulement dans les collectivités qui ne délivrent pas de permis, et à l'extérieur de leurs limites.
 
 ## À Yellowknife
 
@@ -24,7 +24,7 @@ La Ville indique qu'un permis est exigé **quel que soit le type d'entreprise**.
 
 ## À l'extérieur de Yellowknife
 
-Renseignez-vous d'abord auprès du bureau de votre collectivité. Là où le territoire délivre le permis, les frais sont de 218 $, et les permis expirent le 31 mars de chaque année.
+Renseignez-vous d'abord auprès du bureau de votre collectivité. Là où le territoire délivre la licence d'exploitation de commerce, les frais sont de 218 $, et ces licences expirent le 31 mars de chaque année.
 
 ## Dire clairement ce que vous vendez
 

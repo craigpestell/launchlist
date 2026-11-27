@@ -4,7 +4,7 @@ title: Choisir une structure et un nom d'entreprise
 summary: Choisissez entre l'entreprise individuelle et la société par actions, puis trouvez un nom et vérifiez qu'il est libre.
 time: 1 à 2 heures
 cost: Gratuit
-linkLabel: Guide de démarrage pour l'enregistrement d'une entreprise à l'Î.-P.-É.
+linkLabel: Î.-P.-É. — guide de démarrage pour l'enregistrement d'une entreprise
 linkUrl: https://www.princeedwardisland.ca/sites/default/files/publications/provincial_business_registration_-_starter_guide_en_0.pdf
 checklist:
   - Opter pour l'entreprise individuelle (recommandé pour commencer)
@@ -24,6 +24,6 @@ En contrepartie, vous êtes **personnellement responsable** des obligations de l
 - Vous pouvez exercer sans enregistrement seulement sous **votre propre nom**.
 - Si vous y ajoutez quoi que ce soit, comme un préfixe ou un suffixe, vous **devez enregistrer** le nom à l'étape suivante.
 
-## Restez pratique
+## Rester pratique
 
 Choisissez un nom que vous serez à l'aise de voir sur un relevé bancaire, un permis et une étiquette d'expédition.

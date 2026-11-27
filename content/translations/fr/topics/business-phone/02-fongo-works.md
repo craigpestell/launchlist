@@ -4,7 +4,7 @@ title: Configurer Fongo Works
 summary: Obtenez un numéro local gratuit qui transfère les appels vers votre cellulaire. Sautez cette étape si vous avez choisi TextNow.
 time: 30 à 45 minutes
 cost: Gratuit; Pro à 10 $ par mois (vu en octobre 2026; vérifiez le tarif en vigueur)
-linkLabel: Inscription à Fongo Works
+linkLabel: Fongo Works — inscription
 linkUrl: https://www.fongoworks.com/signup
 checklist:
   - S'inscrire au forfait gratuit de Fongo Works avec votre adresse courriel d'entreprise

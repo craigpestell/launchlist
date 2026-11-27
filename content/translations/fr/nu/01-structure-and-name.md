@@ -10,7 +10,7 @@ checklist:
   - Opter pour une entreprise individuelle (recommandé pour commencer)
   - Choisir un nom commercial, ou décider d'exercer sous votre propre nom
   - Vérifier qu'aucune autre entreprise n'utilise déjà un nom semblable
-  - Vérifier que le nom de domaine .ca et les noms d'utilisateur sur les réseaux sociaux sont libres
+  - Vérifier que le nom de domaine .ca et les noms d'utilisateur correspondants sur les réseaux sociaux sont libres
 ---
 
 ## Structure
@@ -21,8 +21,8 @@ En contrepartie, vous êtes **personnellement responsable** de l'entreprise. Les
 
 ## Nom
 
-- Si vous faites affaire uniquement sous votre propre nom (par exemple «  Jeanne Tremblay »), vous n'avez pas à enregistrer de nom.
-- Si vous utilisez un autre nom, par exemple «  Boutique cadeaux chez Jeanne », vous **devez l'enregistrer** à l'étape suivante.
+- Si vous faites affaire uniquement sous votre propre nom (par exemple « Jeanne Tremblay »), vous n'avez pas à enregistrer de nom.
+- Si vous utilisez un autre nom, par exemple « Boutique cadeaux chez Jeanne », vous **devez l'enregistrer** à l'étape suivante.
 
 Le Nunavut n'exige pas de recherche de nom officielle, mais vérifiez que personne dans votre région n'utilise déjà un nom semblable.
 

@@ -5,23 +5,23 @@ summary: "Un code provenant de votre téléphone empêche une personne qui a vot
 time: 10 minutes
 cost: "Gratuit"
 checklist:
-  - "Installer une application d'authentification sur le téléphone (Google Authenticator, Microsoft Authenticator)"
-  - "Se connecter au site sur l'ordinateur et ouvrir ses paramètres de sécurité ou de validation en deux étapes"
+  - "Installer une application d'authentification sur votre téléphone, comme Google ou Microsoft Authenticator"
+  - "Vous connecter au site sur votre ordinateur et ouvrir ses paramètres de sécurité ou à deux facteurs"
   - "Choisir l'option d'application d'authentification et balayer le code QR avec l'application"
   - "Saisir le code à six chiffres de l'application pour terminer"
-  - "Conserver les codes de secours ou de récupération en lieu sûr, loin de votre téléphone"
+  - "Conserver les codes de secours en lieu sûr, loin de votre téléphone"
 ---
 ## Installer une application, puis aller sur le site
 
 Installez une application d'authentification gratuite sur votre téléphone à partir de l'App Store ou de Google Play. Google Authenticator et Microsoft Authenticator fonctionnent tous deux avec presque tous les sites. Bien des gestionnaires de mots de passe peuvent aussi conserver les codes, dont l'app Mots de passe d'Apple, 1Password et Bitwarden.
 
-Connectez-vous ensuite au site sur votre ordinateur. Ouvrez les paramètres de votre compte ou de votre profil et cherchez **Sécurité**, **Authentification à deux facteurs**, **Validation en deux étapes** ou **Vérification de connexion**. Quand le site vous demande comment recevoir les codes, choisissez l'option **application d'authentification** plutôt que les messages texte.
+Connectez-vous ensuite au site sur votre ordinateur. Ouvrez les paramètres de votre compte ou de votre profil et cherchez **Sécurité**, **Authentification à deux facteurs**, **Validation en deux étapes** ou **Vérification de connexion**. Quand le site vous demande comment recevoir les codes, choisissez l'option **application d'authentification** plutôt que les textos.
 
 ## Balayer le code
 
 Le site affiche un code QR carré. Dans l'application, touchez le bouton **+** et choisissez de balayer un code QR, puis pointez l'appareil photo de votre téléphone vers l'écran. L'application ajoute le compte et commence à afficher un code à six chiffres qui **change toutes les 30 secondes**. Saisissez le code en cours sur le site pour terminer.
 
-Si vous faites la configuration uniquement sur votre téléphone, vous ne pouvez pas balayer votre propre écran. Cherchez sous le code QR un lien comme «  Impossible de balayer le code? » pour obtenir une clé de configuration, puis choisissez d'entrer une clé dans l'application et collez-la.
+Si vous faites la configuration uniquement sur votre téléphone, vous ne pouvez pas balayer votre propre écran. Cherchez sous le code QR un lien comme « Impossible de balayer le code? » pour obtenir une clé de configuration, puis choisissez d'entrer une clé dans l'application et collez-la.
 
 ## Conserver vos codes de secours
 

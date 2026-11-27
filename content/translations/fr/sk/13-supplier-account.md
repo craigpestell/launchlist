@@ -5,8 +5,8 @@ summary: Ouvrez un compte de grossiste chez votre fournisseur pour commander vos
 time: 30 minutes
 cost: Gratuit
 checklist:
-  - Avoir sous la main votre nom commercial, votre NE, votre numéro de TPS et votre numéro de permis de vendeur
-  - Donner votre numéro de permis de vendeur à votre fournisseur pour acheter vos stocks destinés à la revente sans TVP
+  - Avoir sous la main votre nom commercial, votre NE, votre numéro de TPS et votre numéro de licence de vendeur
+  - Donner votre numéro de licence de vendeur à votre fournisseur pour acheter sans TVP vos stocks destinés à la revente
   - S'entendre sur les prix, la commande minimale et la livraison
   - Se renseigner sur les photos et les descriptions des produits, et sur la façon de les utiliser
   - Demander s'il existe des règles de prix minimum annoncé
@@ -15,11 +15,11 @@ checklist:
 
 ## Ce dont votre fournisseur a besoin
 
-Votre nom commercial, votre numéro d'entreprise, votre numéro de TPS et votre **numéro de permis de vendeur pour la TVP**. Demandez-lui ce qu'il exige d'autre.
+Votre nom commercial, votre numéro d'entreprise, votre numéro de TPS et votre **numéro de licence de vendeur pour la TVP**. Demandez-lui ce qu'il exige d'autre.
 
 ## La TPS sur vos stocks
 
-Vous paierez normalement la TPS sur les stocks que vous achetez et la récupérerez au moyen de votre déclaration de TPS, ce qui est une raison de vous inscrire tôt (étape 4). En fournissant votre numéro de permis de vendeur, vous achetez vos stocks destinés à la revente **sans payer la TVP** (étape 5). Demandez à votre comptable comment cela s'applique à votre situation.
+Vous paierez normalement la TPS sur les stocks que vous achetez et la récupérerez au moyen de votre déclaration de TPS, ce qui est une raison de vous inscrire tôt (étape 4). En fournissant votre numéro de licence de vendeur, vous achetez vos stocks destinés à la revente **sans payer la TVP** (étape 5). Demandez à votre comptable comment cela s'applique à votre situation.
 
 ## Questions à poser
 
@@ -28,6 +28,6 @@ Vous paierez normalement la TPS sur les stocks que vous achetez et la récupére
 - Y a-t-il un **prix minimum annoncé** à respecter?
 - La livraison directe (dropshipping) est-elle offerte?
 
-## Commencez petit
+## Commencer petit
 
 Passez une petite commande d'essai pour vérifier le produit, l'emballage et le délai de livraison avant de vous engager pour une commande plus importante.

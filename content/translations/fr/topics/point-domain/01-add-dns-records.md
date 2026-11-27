@@ -5,7 +5,7 @@ summary: Votre domaine et votre site Web sont souvent chez des entreprises diff�
 time: 15 minutes, plus jusqu'à 48 heures pour que le changement prenne effet
 cost: Gratuit
 checklist:
-  - Vous connecter chez votre hébergeur et trouver sa page de connexion de domaine ou de domaine personnalisé
+  - Vous connecter chez votre hébergeur et trouver sa page pour connecter un domaine ou un domaine personnalisé
   - Noter les enregistrements DNS demandés, ou utiliser son option de connexion automatique s'il en offre une
   - Vous connecter là où vous avez acheté votre domaine et ouvrir ses paramètres DNS
   - Ajouter ou modifier seulement les enregistrements indiqués par l'hébergeur, sans toucher à ceux du courriel
@@ -15,7 +15,7 @@ checklist:
 
 ## Commencer chez votre hébergeur
 
-Votre hébergeur est l'entreprise qui fait fonctionner votre site, comme Shopify, Squarespace, Wix ou une entreprise d'hébergement Web. Connectez-vous et cherchez **Domaines**, **Connecter un domaine** ou **Domaine personnalisé** (en anglais, **Domains**, **Connect a domain** ou **Custom domain**). Beaucoup d'hébergeurs peuvent connecter le domaine pour vous une fois que vous vous êtes connecté, depuis leur site, à l'entreprise qui gère votre domaine. Si le vôtre le permet, utilisez cette option et passez à la dernière section.
+Votre hébergeur est l'entreprise qui fait fonctionner votre site, comme Shopify, Squarespace, Wix ou une entreprise d'hébergement Web. Connectez-vous et cherchez **Domaines**, **Connecter un domaine** ou **Domaine personnalisé** (en anglais, **Domains**, **Connect a domain** ou **Custom domain**). Beaucoup d'hébergeurs peuvent connecter le domaine pour vous si vous ouvrez, depuis leur site, une session chez l'entreprise qui gère votre domaine. Si le vôtre le permet, utilisez cette option et passez à la dernière section.
 
 Sinon, l'hébergeur affiche les enregistrements à ajouter. Ils ressemblent habituellement à ceci (les valeurs sont des exemples) :
 
@@ -34,4 +34,4 @@ Certains hébergeurs vous demandent plutôt de changer les **serveurs de noms** 
 
 ## Attendre et vérifier
 
-Les changements fonctionnent habituellement en moins d'une heure, mais peuvent prendre jusqu'à 48 heures. Ouvrez votre domaine dans une fenêtre de navigation privée pour vérifier. Le cadenas de sécurité (HTTPS) peut prendre un peu plus de temps, car l'hébergeur le met en place après avoir vu les nouveaux enregistrements. Si le site ne s'affiche toujours pas après une journée, comparez chaque enregistrement avec ce que votre hébergeur a demandé, puis communiquez avec le soutien de votre hébergeur en joignant une capture d'écran de vos paramètres DNS.
+Les changements fonctionnent habituellement en moins d'une heure, mais peuvent prendre jusqu'à 48 heures. Ouvrez votre domaine dans une fenêtre de navigation privée pour vérifier. Le cadenas de sécurité (HTTPS) peut prendre un peu plus de temps, car l'hébergeur le met en place après avoir vu les nouveaux enregistrements. Si le site ne s'affiche toujours pas après une journée, comparez chaque enregistrement avec ce que votre hébergeur a demandé, puis communiquez avec l'équipe de soutien de votre hébergeur en joignant une capture d'écran de vos paramètres DNS.

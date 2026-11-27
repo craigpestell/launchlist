@@ -4,7 +4,7 @@ title: Créer un lien PayPal.me
 summary: Créez le compte et le lien court que les donateurs utiliseront. Sautez cette étape si vous avez choisi Ko-fi.
 time: 15 à 30 minutes
 cost: Inscription gratuite; frais sur chaque paiement
-linkLabel: Inscription à PayPal Canada
+linkLabel: PayPal Canada — inscription
 linkUrl: https://www.paypal.com/ca/webapps/mpp/account-selection
 checklist:
   - Vous inscrire à PayPal Canada pour un compte personnel

@@ -1,7 +1,7 @@
 ---
-source: e05b419b27fb
+source: b4ab23b767c8
 title: Enregistrer votre nom commercial auprès de Legal Registries
-summary: Enregistrez le nom sous lequel vous faites affaire, sauf s'il s'agit uniquement de votre propre nom.
+summary: Enregistrez auprès de Legal Registries du Nunavut tout nom autre que le vôtre, dans les 60 jours suivant sa première utilisation.
 time: 1 heure
 cost: 50 $ (vu en octobre 2026; vérifiez le tarif en vigueur)
 linkLabel: Legal Registries du Nunavut — sociétés de personnes et noms commerciaux
@@ -18,10 +18,10 @@ checklist:
 
 Au Nunavut, vous enregistrez un nom commercial si vous faites affaire sous un autre nom que le vôtre. Vous devez le faire dans les **60 jours** suivant la première utilisation du nom.
 
-## Ce que ça coûte
+## Ce que cela coûte
 
-L'enregistrement coûte **50 $**. Aucune recherche de nom n'est exigée. Nous n'avons pas pu confirmer si l'enregistrement doit être renouvelé; posez la question à Legal Registries (registres juridiques du Nunavut) au moment du dépôt.
+L'enregistrement coûte **50 $**. Aucune recherche de nom n'est exigée. Nous n'avons pas pu confirmer si l'enregistrement doit être renouvelé. Posez la question à Legal Registries (registres juridiques du Nunavut) au moment du dépôt.
 
-## La conserver
+## Conserver la confirmation
 
-Conservez la confirmation. Vous en aurez besoin pour le compte bancaire, votre permis d'affaires et votre compte fournisseur.
+Conservez la confirmation. Vous en aurez besoin pour le compte bancaire, votre licence d'exploitation de commerce et votre compte fournisseur.

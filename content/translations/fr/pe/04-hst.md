@@ -9,7 +9,7 @@ linkUrl: https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/
 checklist:
   - Décider de vous inscrire volontairement dès le départ (recommandé)
   - Ouvrir un compte de TPS/TVH auprès de l'ARC (en vous connectant à votre compte de l'ARC)
-  - Choisir une fréquence de production (annuelle, souvent, pour les petites entreprises)
+  - Choisir une fréquence de production (souvent annuelle pour les petites entreprises)
   - Noter votre numéro de TVH et les dates limites de production
   - Demander à votre comptable comment traiter les ventes aux clients de l'extérieur de l'Île-du-Prince-Édouard
 ---

@@ -8,7 +8,7 @@ linkLabel: ARC — TPS/TVH pour les entreprises
 linkUrl: https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html
 checklist:
   - Décider si vous vous inscrivez volontairement dès le départ (recommandé)
-  - Ouvrir un compte de TPS/TVH auprès de l'ARC (connectez-vous à votre compte de l'ARC)
+  - Ouvrir un compte de TPS/TVH auprès de l'ARC (en vous connectant à votre compte de l'ARC)
   - Choisir une fréquence de production (la production annuelle est courante pour les petites entreprises)
   - Noter votre numéro de TPS et vos dates d'échéance de déclaration
   - Demander à votre comptable comment traiter les ventes aux clients à l'extérieur du Yukon

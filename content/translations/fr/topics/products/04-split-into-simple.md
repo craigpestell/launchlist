@@ -1,7 +1,7 @@
 ---
-source: 78a0c2235d0f
+source: 0023439615ed
 title: Séparer un produit variable en produits simples
-summary: Transformez chaque variation d'un produit variable WooCommerce en fiche de produit distincte.
+summary: Retransformez chaque variation d'un produit variable WooCommerce en produit simple distinct, avec des noms modifiables.
 time: 5 minutes par produit
 cost: Gratuit
 checklist:
@@ -18,7 +18,7 @@ Ouvrez l'onglet **Split** (séparer) et cherchez le produit variable, ou utilise
 
 ## Vérifier les noms
 
-Vous obtenez une ligne par variation avec un nom de produit suggéré, comme «  Classic Tee Black ». Modifiez tout nom qui devrait être formulé autrement et décochez les variations que vous ne voulez pas comme produits distincts.
+Vous obtenez une ligne par variation avec un nom de produit suggéré, comme « Classic Tee Black ». Modifiez tout nom qui devrait être formulé autrement et décochez les variations que vous ne voulez pas comme produits distincts.
 
 ## Séparer le produit
 

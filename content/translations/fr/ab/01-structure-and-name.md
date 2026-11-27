@@ -4,7 +4,7 @@ title: Choisir une structure et un nom d'entreprise
 summary: Choisissez entre l'entreprise individuelle et la société par actions, puis trouvez un nom et vérifiez qu'il est libre.
 time: 1 à 2 heures
 cost: Gratuit, ou des frais si vous commandez un rapport de recherche NUANS
-linkLabel: "Alberta : enregistrer un nom commercial"
+linkLabel: Alberta — enregistrer un nom commercial
 linkUrl: https://www.alberta.ca/register-business-name
 checklist:
   - Choisir l'entreprise individuelle (recommandé pour commencer)

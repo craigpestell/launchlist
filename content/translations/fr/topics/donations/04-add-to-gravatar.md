@@ -1,10 +1,10 @@
 ---
-source: 551d776d0b02
+source: 83fcca7d2756
 title: Ajouter votre lien à votre portefeuille Gravatar
-summary: Affichez votre lien de don sur votre profil public pour que les gens puissent le trouver.
+summary: Ajoutez votre lien PayPal.me ou Ko-fi à votre portefeuille Gravatar pour afficher un bouton « Send money » sur votre profil public.
 time: 10 minutes
 cost: Gratuit
-linkLabel: Portefeuille Gravatar
+linkLabel: Gravatar — portefeuille
 linkUrl: https://gravatar.com/profile/wallet
 checklist:
   - Vous connecter à Gravatar et ouvrir « Wallet » (portefeuille) depuis votre profil

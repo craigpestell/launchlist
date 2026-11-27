@@ -4,7 +4,7 @@ title: Choisir une structure et un nom d'entreprise
 summary: Choisissez entre l'entreprise individuelle et la société par actions, puis trouvez un nom et vérifiez qu'il est libre.
 time: 1 à 2 heures
 cost: Gratuit
-linkLabel: Recherche de nom au BC Registry
+linkLabel: BC Registry — recherche de nom
 linkUrl: https://www.bcregistry.gov.bc.ca
 checklist:
   - Choisir l'entreprise individuelle (recommandé pour commencer)

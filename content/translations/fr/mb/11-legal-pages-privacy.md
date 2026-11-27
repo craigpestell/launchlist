@@ -28,7 +28,7 @@ Votre entreprise est assujettie à la loi canadienne sur la protection des rense
 
 ## Courriels de marketing
 
-La loi canadienne antipourriel, la **LCAP**, exige un consentement clair et un lien de désabonnement dans chaque courriel de marketing.
+La **Loi canadienne anti-pourriel (LCAP)** exige un consentement clair et un lien de désabonnement dans chaque courriel de marketing.
 
 ## Règles de protection du consommateur
 

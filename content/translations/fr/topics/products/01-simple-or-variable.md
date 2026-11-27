@@ -8,7 +8,7 @@ checklist:
   - Dresser la liste des produits qui ne diffèrent que par la couleur, la taille, le parfum ou une autre option
   - Décider lesquels de ces produits deviendront une seule fiche avec options
   - Noter les produits variables qui se vendraient mieux en fiches distinctes
-  - Vérifier que chaque produit a une UGS, puisque le regroupement s'en sert
+  - Vérifier que chaque produit a une UGS, car l'extension s'en sert pour regrouper les produits
 ---
 
 ## Deux façons de présenter le même article

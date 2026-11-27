@@ -15,7 +15,7 @@ checklist:
 
 ## Structure
 
-Commencez en **entreprise individuelle**. C'est l'option la plus simple et la moins coûteuse, et vous pourrez constituer une société plus tard si l'entreprise prend de l'ampleur.
+Commencez en **entreprise individuelle**. C'est l'option la plus simple et la moins coûteuse, et vous pourrez constituer une société par actions plus tard si l'entreprise prend de l'ampleur.
 
 En contrepartie, vous êtes **personnellement responsable** de l'entreprise. Les créanciers peuvent saisir vos biens personnels pour régler les dettes de l'entreprise. L'assurance (étape 6) vous permet de gérer ce risque.
 
@@ -24,6 +24,6 @@ En contrepartie, vous êtes **personnellement responsable** de l'entreprise. Les
 - Si vous exercez sous votre propre prénom et nom (par exemple « Jeanne Tremblay »), vous n'avez pas à enregistrer de nom.
 - Si vous utilisez un autre nom, par exemple « Boutique cadeaux de Jeanne », vous **devez le réserver et l'enregistrer** à l'étape suivante.
 
-## Restez pratique
+## Rester pratique
 
 Choisissez un nom que vous serez à l'aise de voir sur un relevé bancaire, un permis et une étiquette d'expédition.

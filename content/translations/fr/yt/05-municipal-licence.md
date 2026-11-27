@@ -22,10 +22,10 @@ Nous n'avons trouvé aucun permis d'affaires général du Yukon pour un petit d�
 
 Renseignez-vous auprès de votre propre collectivité plutôt que de supposer que la réponse de Whitehorse s'applique à vous.
 
-## Dites clairement ce que vous vendez
+## Être transparent sur ce que vous vendez
 
 Certains produits ou types d'entreprises sont soumis à des règlements ou à des exigences supplémentaires, notamment les aliments. Dites précisément à votre municipalité ce que vous vendrez, pour le savoir avant de commencer et non après.
 
-## Conservez le permis
+## Garder le permis
 
 Gardez-le. Les banques et les fournisseurs demandent parfois à le voir.

@@ -1,9 +1,9 @@
 ---
 source: 896cc369dd1e
 title: Rédiger la politique de confidentialité et les pages légales de votre site Web
-summary: Rédigez votre politique de confidentialité et vos conditions, et respectez les lois sur la vie privée et contre les pourriels.
+summary: Rédigez vos politiques de confidentialité et de retour et vos conditions, en respectant les lois sur la vie privée et le pourriel.
 time: 3 à 5 heures
-cost: Gratuit à quelques centaines de dollars si un avocat les révise
+cost: Gratuit, ou quelques centaines de dollars si un avocat les révise
 checklist:
   - Rédiger une politique de confidentialité
   - Rédiger des conditions de vente
@@ -28,7 +28,7 @@ Vous êtes assujetti à la loi canadienne sur la protection des renseignements p
 
 ## Courriels de marketing
 
-La loi canadienne anti-pourriel, la **LCAP**, exige un consentement clair et un lien de désabonnement dans chaque courriel de marketing.
+La Loi canadienne anti-pourriel, la **LCAP**, exige un consentement clair et un lien de désabonnement dans chaque courriel de marketing.
 
 ## Règles de protection du consommateur
 

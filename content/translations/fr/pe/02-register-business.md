@@ -30,6 +30,6 @@ Une fois le nom approuvé, vous recevez par courriel un NIP et une clé d'entrep
 
 L'enregistrement est valide **trois ans**, et le renouvellement coûte 75 $. Un délai de grâce de six mois s'applique. Après ce délai, l'enregistrement devient inactif.
 
-## Gardez-le
+## Garder le certificat
 
 Conservez le certificat. Vous en aurez besoin pour le compte bancaire et le compte chez votre fournisseur.

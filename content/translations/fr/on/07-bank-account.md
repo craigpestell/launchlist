@@ -17,7 +17,7 @@ Un compte distinct rend les livres beaucoup plus clairs au moment des impôts et
 
 ## Quoi apporter
 
-Votre confirmation d'enregistrement au Registre des entreprises de l'Ontario, votre numéro d'entreprise et une pièce d'identité émise par le gouvernement.
+Votre confirmation d'enregistrement au Registre des entreprises de l'Ontario, votre numéro d'entreprise et une pièce d'identité délivrée par le gouvernement.
 
 ## Dire à la banque ce que vous vendez
 

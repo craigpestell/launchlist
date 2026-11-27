@@ -7,7 +7,7 @@ cost: Gratuit, ou quelques centaines de dollars si un avocat les révise
 checklist:
   - Rédiger une politique de confidentialité
   - Rédiger des conditions de vente
-  - Rédiger une politique de livraison et une politique de retour
+  - Rédiger une politique d'expédition et une politique de retour
   - Mettre en place un consentement et un désabonnement conformes à la LCAP pour tout courriel de marketing
   - Décider combien de temps vous conservez les données des clients et qui peut y accéder
 ---
@@ -16,7 +16,7 @@ checklist:
 
 - **Politique de confidentialité**
 - **Conditions de vente**
-- **Politique de livraison et de retour**
+- **Politique d'expédition et de retour**
 
 ## Vie privée
 
@@ -28,7 +28,7 @@ Le Québec a sa propre loi pour les entreprises privées, la **Loi sur la protec
 
 ## Courriels de marketing
 
-La loi canadienne antipourriel, la **LCAP**, exige un consentement clair et un lien de désabonnement dans chaque courriel de marketing.
+La Loi canadienne anti-pourriel, la **LCAP**, exige un consentement clair et un lien de désabonnement dans chaque courriel de marketing.
 
 ## Règles de protection du consommateur
 

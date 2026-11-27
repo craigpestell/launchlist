@@ -1,7 +1,7 @@
 ---
-source: 816da70786fa
+source: 266fb0fa09c7
 title: Vérifier votre catalogue et annuler les erreurs
-summary: Vérifiez par échantillonnage ce qui a changé et annulez ce qui ne convient pas.
+summary: Vérifiez dans l'onglet History ce que chaque conversion a changé, contrôlez votre boutique et annulez ce qui ne convient pas.
 time: 15 minutes
 cost: Gratuit
 checklist:

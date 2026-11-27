@@ -25,7 +25,7 @@ Renseignez-vous auprès de votre propre municipalité plutôt que de supposer qu
 
 Certaines villes exigent aussi un **permis d'aménagement** pour une entreprise à domicile. Edmonton en exige un lorsque l'entreprise est plus visible, par exemple si des clients viennent chez vous. Vérifiez les règles de zonage qui s'appliquent à votre adresse avant de commencer.
 
-## Dites clairement ce que vous vendez
+## Dire clairement ce que vous vendez
 
 Certains produits ou types d'entreprises sont soumis à des règlements municipaux ou à des exigences supplémentaires, notamment les aliments. Dites exactement à votre municipalité ce que vous vendrez, pour le savoir avant de commencer et non après.
 

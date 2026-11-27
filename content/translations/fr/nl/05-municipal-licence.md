@@ -20,10 +20,10 @@ Nous n'avons trouvé aucun permis d'affaires provincial général pour un petit 
 
 Renseignez-vous auprès de votre propre municipalité plutôt que de supposer que la réponse de St. John's s'applique à vous.
 
-## Soyez transparent sur ce que vous vendez
+## Dire clairement ce que vous vendez
 
 Certains produits ou types d'entreprises, notamment les aliments, sont soumis à des règlements ou exigences supplémentaires. Dites précisément à votre municipalité ce que vous vendrez, pour le savoir avant de commencer, et non après.
 
-## Conservez la réponse
+## Conserver la réponse
 
 Si la Ville confirme que vous n'avez pas besoin de permis, obtenez-le par écrit ou sauvegardez la page. Les banques et les fournisseurs le demandent parfois.

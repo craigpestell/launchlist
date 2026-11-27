@@ -1,7 +1,7 @@
 ---
-source: 647f6e80ccdb
+source: 364698cd78c5
 title: Enregistrer votre nom commercial auprès du Corporate Registry
-summary: Réservez votre nom commercial, puis enregistrez-le en ligne auprès du registre des entreprises de la Saskatchewan.
+summary: Réservez votre nom commercial, puis enregistrez-le en ligne auprès du Corporate Registry pour votre entreprise individuelle.
 time: 1 à 2 heures
 cost: 50 $ pour la réservation du nom, plus 65 $ pour 3 ans (vu en octobre 2026; vérifiez le tarif en vigueur)
 linkLabel: Corporate Registry de la Saskatchewan — rechercher et réserver un nom
@@ -16,7 +16,7 @@ checklist:
 
 ## D'abord, réserver le nom
 
-Il vous faut un **numéro de réservation de nom** avant de vous enregistrer. Réservez le nom en ligne dans l'application du Corporate Registry (registre des entreprises de la Saskatchewan) en choisissant "Saskatchewan business name registration" (enregistrement d'un nom commercial de la Saskatchewan) et "sole proprietor" (entreprise individuelle). Si vous choisissez le mauvais motif, vous devrez payer de nouveau. Une réservation coûte **50 $** et est valide **90 jours**.
+Il vous faut un **numéro de réservation de nom** avant de vous enregistrer. Réservez le nom en ligne dans l'application du Corporate Registry (registre des entreprises de la Saskatchewan) en choisissant « Saskatchewan business name registration » (enregistrement d'un nom commercial de la Saskatchewan) et « sole proprietor » (entreprise individuelle). Si vous choisissez le mauvais motif, vous devrez payer de nouveau. Une réservation coûte **50 $** et est valide **90 jours**.
 
 ## S'enregistrer en ligne
 

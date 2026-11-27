@@ -22,10 +22,10 @@ Nous n'avons trouvé aucun permis d'affaires général en Saskatchewan pour un p
 
 Renseignez-vous auprès de votre propre municipalité plutôt que de supposer que la réponse de Saskatoon s'applique à vous.
 
-## Soyez clair sur ce que vous vendez
+## Être transparent sur ce que vous vendez
 
 Certains produits ou types d'entreprises sont soumis à des règlements ou à des exigences supplémentaires, notamment les aliments. Dites à votre municipalité exactement ce que vous vendrez, pour le savoir avant de commencer plutôt qu'après.
 
-## Gardez le permis
+## Garder le permis
 
 Conservez-le. Les banques et les fournisseurs demandent parfois à le voir.

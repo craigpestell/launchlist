@@ -9,7 +9,7 @@ checklist:
   - "Faire une capture d'écran avec les touches de l'appareil, ou enregistrer l'écran s'il faut plusieurs étapes"
   - "Trouver l'image ou la vidéo là où votre appareil l'a enregistrée"
   - "Y repérer les mots de passe, numéros de carte ou autres renseignements privés et les retirer en recadrant"
-  - "Joindre le fichier à votre courriel ou message au soutien, avec l'adresse Web et l'heure du problème"
+  - "Joindre le fichier à votre courriel ou message à l'équipe de soutien, avec l'adresse Web et l'heure"
 ---
 ## Afficher le problème à l'écran
 
@@ -29,8 +29,8 @@ Sur un **Chromebook**, appuyez sur **Ctrl + Afficher les fenêtres** (la touche 
 
 Sur un **iPhone**, appuyez en même temps sur le bouton latéral et sur le bouton d'augmentation du volume. Sur un iPhone plus ancien doté d'un bouton principal, appuyez sur le bouton latéral ou supérieur et sur le bouton principal. Pour enregistrer l'écran, ouvrez le Centre de contrôle et touchez le bouton d'enregistrement de l'écran. Les captures et les enregistrements sont enregistrés dans l'app Photos.
 
-Sur **Android**, appuyez en même temps sur le bouton d'alimentation et sur le bouton de baisse du volume. Pour enregistrer l'écran, balayez deux fois vers le bas à partir du haut de l'écran et touchez **«  Screen record »** (enregistrement de l'écran). Si vous ne le voyez pas, touchez l'icône de crayon pour l'ajouter. Les fichiers sont enregistrés dans votre app Photos ou Galerie.
+Sur **Android**, appuyez en même temps sur le bouton d'alimentation et sur le bouton de baisse du volume. Pour enregistrer l'écran, balayez deux fois vers le bas à partir du haut de l'écran et touchez **« Screen record »** (enregistrement de l'écran). Si vous ne le voyez pas, touchez l'icône de crayon pour l'ajouter. Les fichiers sont enregistrés dans votre app Photos ou Galerie.
 
 ## Avant de l'envoyer
 
-Examinez l'image avant de l'envoyer. Recadrez ou masquez les mots de passe, les numéros de carte et tout ce que vous ne voudriez pas que d'autres lisent. Joignez ensuite le fichier à votre courriel ou à votre message au soutien, et ajoutez l'adresse Web, à peu près quand le problème est survenu et ce sur quoi vous avez cliqué juste avant. Les longs enregistrements peuvent être trop lourds pour un courriel : gardez-les sous une minute.
+Examinez l'image avant de l'envoyer. Recadrez ou masquez les mots de passe, les numéros de carte et tout ce que vous ne voudriez pas que d'autres lisent. Joignez ensuite le fichier à votre courriel ou à votre message à l'équipe de soutien, et ajoutez l'adresse Web, à peu près quand le problème est survenu et ce sur quoi vous avez cliqué juste avant. Les longs enregistrements peuvent être trop lourds pour un courriel : gardez-les sous une minute.

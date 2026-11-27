@@ -20,10 +20,10 @@ Nous n'avons trouvé aucun permis d'affaires général de la Nouvelle-Écosse po
 
 Renseignez-vous auprès de votre propre municipalité plutôt que de supposer que la réponse d'Halifax s'applique à vous.
 
-## Soyez transparent sur ce que vous vendez
+## Dire clairement ce que vous vendez
 
 Certains produits ou types d'entreprises, notamment les aliments, sont soumis à des règlements ou exigences supplémentaires. Dites précisément à votre municipalité ce que vous vendrez, pour le savoir avant de commencer, et non après.
 
-## Conservez la réponse
+## Conserver la réponse
 
 Conservez votre permis. Si la municipalité confirme que vous n'en avez pas besoin, obtenez-le par écrit, car les banques et les fournisseurs le demandent parfois.

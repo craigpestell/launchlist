@@ -19,7 +19,7 @@ Un numéro d'entreprise protège la confidentialité de votre cellulaire personn
 
 **Fongo Works** (recommandé) est un système téléphonique d'entreprise gratuit offert par une entreprise canadienne. Il transfère gratuitement les appels vers votre cellulaire et ajoute une boîte vocale et un message d'accueil. Les textos exigent son forfait payant Pro.
 
-**TextNow** est une application gratuite d'appels et de textos. Les appels et les textos sonnent dans l'application sur votre téléphone, par Wi-Fi ou par données mobiles. Le forfait gratuit affiche des publicités, et vous devez utiliser le numéro souvent, sinon il peut vous être retiré.
+**TextNow** est une application gratuite d'appels et de textos. Les appels et les textos sonnent dans l'application sur votre téléphone, par Wi-Fi ou par données cellulaires. Le forfait gratuit affiche des publicités, et vous devez utiliser le numéro souvent, sinon il peut vous être retiré.
 
 ## Options à écarter
 

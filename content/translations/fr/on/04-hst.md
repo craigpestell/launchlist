@@ -1,14 +1,14 @@
 ---
-source: f7987e9c8261
+source: 0f4ce4f0ebe1
 title: S'inscrire à la TVH (13 %)
-summary: L'Ontario a une seule taxe de vente combinée, que vous percevez pour l'ARC.
+summary: Inscrivez-vous à la TVH auprès de l'ARC. Cette taxe unique de 13 % combine les taxes de vente fédérale et provinciale.
 time: 30 minutes
 cost: Gratuit
 linkLabel: ARC — TPS/TVH pour les entreprises
 linkUrl: https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html
 checklist:
   - Décider de vous inscrire volontairement dès le départ (recommandé)
-  - Ouvrir un compte de TPS/TVH auprès de l'ARC (connectez-vous à votre compte de l'ARC)
+  - Ouvrir un compte de TPS/TVH auprès de l'ARC (en vous connectant à votre compte de l'ARC)
   - Choisir une fréquence de production (annuelle, souvent, pour les petites entreprises)
   - Noter votre numéro de TVH et les dates d'échéance de vos déclarations
   - Demander à votre comptable comment traiter les ventes aux clients hors de l'Ontario
@@ -16,7 +16,7 @@ checklist:
 
 ## Une seule taxe, pas deux
 
-L'Ontario applique la **TVH (taxe de vente harmonisée) de 13 %**, qui réunit les parts fédérale et provinciale en une seule taxe. Elle est inscrite, perçue et déclarée auprès de l'**ARC**. Contrairement à la Colombie-Britannique, l'Ontario n'a **aucun compte de taxe de vente provinciale distinct** à ouvrir.
+L'Ontario applique la **TVH (taxe de vente harmonisée) de 13 %**, qui réunit les parts fédérale et provinciale en une seule taxe. L'inscription, la perception et les déclarations se font auprès de l'**ARC**. Contrairement à la Colombie-Britannique, l'Ontario n'a **aucun compte de taxe de vente provinciale distinct** à ouvrir.
 
 ## Quand l'inscription est obligatoire
 

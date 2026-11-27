@@ -12,7 +12,7 @@ checklist:
   - "Essayer le site sur votre téléphone avec le Wi-Fi désactivé, au moyen des données cellulaires"
   - "Attendre et réessayer plus tard si le site est en panne pour tout le monde"
   - "Effacer les données du site ou essayer un autre navigateur s'il n'est en panne que pour vous"
-  - "Envoyer au soutien le message d'erreur, l'heure et votre navigateur si le problème persiste"
+  - "Envoyer à l'équipe de soutien le message d'erreur, l'heure et votre navigateur si le problème persiste"
 ---
 ## Vérifier d'abord votre connexion Internet
 
@@ -28,8 +28,8 @@ Sur votre téléphone, désactivez le Wi-Fi et ouvrez le site au moyen des donn�
 
 ## Lire le message d'erreur
 
-Le message affiché sur la page est un indice. «  Ce site est inaccessible » ou «  Serveur introuvable » signifie souvent une faute de frappe dans l'adresse ou un problème de réseau. «  404 » ou «  Page introuvable » signifie que la page a été déplacée : essayez la page d'accueil du site. Les erreurs qui commencent par 5, comme 500, 502 ou 503, signifient que le serveur du site a un problème, et la solution est de leur côté.
+Le message affiché sur la page est un indice. « Ce site est inaccessible » ou « Serveur introuvable » signifie souvent une faute de frappe dans l'adresse ou un problème de réseau. « 404 » ou « Page introuvable » signifie que la page a été déplacée : essayez la page d'accueil du site. Les erreurs qui commencent par 5, comme 500, 502 ou 503, signifient que le serveur du site a un problème, et la solution est de son côté.
 
 ## Si le problème ne touche que vous
 
-Essayez un autre navigateur, ou une fenêtre privée ou de navigation privée. Si cela fonctionne, suivez le guide Effacer le cache et les témoins d'un seul site, ou le guide Désactiver les bloqueurs de publicités ou les extensions pour un site. Si rien n'y fait, communiquez avec le soutien du site en indiquant l'erreur exacte, le moment où elle est survenue, ainsi que votre navigateur et votre appareil. Une capture d'écran de l'erreur aide.
+Essayez un autre navigateur, ou une fenêtre de navigation privée. Si cela fonctionne, suivez le guide Effacer le cache et les témoins d'un seul site, ou le guide Désactiver les bloqueurs de publicités ou les extensions pour un site. Si rien n'y fait, communiquez avec l'équipe de soutien du site en indiquant l'erreur exacte, le moment où elle est survenue, ainsi que votre navigateur et votre appareil. Une capture d'écran de l'erreur aide.

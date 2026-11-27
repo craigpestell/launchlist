@@ -4,7 +4,7 @@ title: Créer une page Ko-fi
 summary: Créez une page de dons qui vous verse l'argent sans compte PayPal. Sautez cette étape si vous avez choisi PayPal.me.
 time: 20 à 30 minutes
 cost: Inscription gratuite; frais sur chaque paiement
-linkLabel: Inscription à Ko-fi
+linkLabel: Ko-fi — inscription
 linkUrl: https://ko-fi.com/account/register
 checklist:
   - Vous inscrire à Ko-fi et choisir le nom de votre page

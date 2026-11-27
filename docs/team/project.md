@@ -13,11 +13,11 @@ Every role reads this file first. It holds everything specific to Launchlist, so
 ## Stack
 
 - Next.js (App Router, TypeScript; a newer Next than most training data, so read `node_modules/next/dist/docs/` first, per `AGENTS.md`), Tailwind CSS, Drizzle ORM on Postgres (Neon in production), Resend for sign-in email, Cloudflare Turnstile, Playwright for guide captures.
-- Code map: `content/<code>/`, `content/shared/<country>/` and `content/topics/<slug>/` (guide steps as Markdown with frontmatter; the `new-guide` skill explains which goes where), `content/countries.json`, `research/` (`queue.json` and per-region research), `guides/` (capture scripts and `manifest.json`), `public/guides/` (screenshots), `src/app/` (routes: `[region]`, `topics`, `account`, `admin`, `api`, `privacy`), `src/lib/` (`countries.ts`, `regions.ts`, `maps/`, `steps.ts`, `guides.ts`, `progress*.ts`, `auth.ts`, `request-guard.ts`, `turnstile.ts`), `src/db/` and `drizzle/` (schema and migrations), `scripts/`.
+- Code map: `content/<code>/`, `content/shared/<country>/` and `content/topics/<slug>/` (guide steps as Markdown with frontmatter; the `new-guide` skill explains which goes where), `content/countries.json`, `content/locales.json` and `content/translations/<locale>/` (languages and translated guides, served under `/fr/...`; see "Translations" in the `new-guide` skill), `src/lib/i18n/` (locale routing helpers and interface text), `research/` (`queue.json` and per-region research), `guides/` (capture scripts and `manifest.json`), `public/guides/` (screenshots), `src/app/` (routes: `[region]`, `topics`, `account`, `admin`, `api`, `privacy`), `src/lib/` (`countries.ts`, `regions.ts`, `maps/`, `steps.ts`, `guides.ts`, `progress*.ts`, `auth.ts`, `request-guard.ts`, `turnstile.ts`), `src/db/` and `drizzle/` (schema and migrations), `scripts/`.
 
 ## Project specialists
 
-The content pipeline has its own agents in `.claude/agents/`, run in order per region: `jurisdiction-researcher`, `guide-editor` (also "review" mode), `guide-screenshotter`. Canada is complete, so there their work is refreshes; US states are being added. Government sites block the cloud container, so research and captures that need them run on the founder's Mac via Remote Control. They own `research/`, `content/` and `guides/`. `product-lead` decides which regions and topics come next; `engineering-lead` owns everything in `src/`, `scripts/` and the database.
+The content pipeline has its own agents in `.claude/agents/`, run in order per region: `jurisdiction-researcher`, `guide-editor` (also "review" mode), `guide-screenshotter`, then `guide-translator` for each language that covers the region. Canada is complete, so there their work is refreshes; US states are being added. Government sites block the cloud container, so research and captures that need them run on the founder's Mac via Remote Control. They own `research/`, `content/` and `guides/`. `product-lead` decides which regions and topics come next; `engineering-lead` owns everything in `src/`, `scripts/` and the database.
 
 ## Commands
 
@@ -28,6 +28,7 @@ The content pipeline has its own agents in `.claude/agents/`, run in order per r
 | Build | `npm run build` |
 | Lint | `npm run lint` |
 | Content checks | `npm run content:check` (or `-- <code>`) |
+| Translation status | `npm run translations` (missing and stale translations per language) |
 | Migrations | `npm run db:generate`, `npm run db:migrate` |
 | Capture a guide's screenshots | `npm run guides:capture guides/capture/<code>/<step>.mts` (most government sites need a local machine) |
 

@@ -19,6 +19,6 @@ Un compte distinct rend vos livres beaucoup plus clairs au moment des impôts et
 
 Votre preuve d'enregistrement du nom commercial (si vous en avez enregistré un), votre numéro d'entreprise et une pièce d'identité délivrée par un gouvernement.
 
-## Dites à la banque ce que vous vendez
+## Dire à la banque ce que vous vendez
 
-Certaines banques et certains processeurs de paiement considèrent certaines catégories de produits comme plus risquées. Être transparent dès maintenant évite de voir votre compte fermé plus tard.
+Des banques et des processeurs de paiement jugent certaines catégories de produits plus risquées. En étant transparent dès maintenant, vous évitez que votre compte soit fermé plus tard.

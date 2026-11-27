@@ -1,10 +1,10 @@
 ---
-source: 10dc7da35f5d
+source: 9449fa03f545
 title: Enregistrer votre nom commercial auprès d'un agent d'enregistrement
-summary: Enregistrez le nom sous lequel votre entreprise individuelle exerce ses activités.
+summary: Enregistrez votre nom commercial auprès d'un agent d'enregistrement si vous vendez sous un autre nom que votre nom personnel.
 time: 30 à 60 minutes, plus le déplacement chez un agent d'enregistrement
 cost: Droits gouvernementaux plus les frais de service de l'agent (non confirmés; renseignez-vous auprès de votre agent)
-linkLabel: "Alberta : trouver un bureau d'enregistrement"
+linkLabel: Alberta — trouver un bureau d'enregistrement
 linkUrl: https://www.alberta.ca/find-business-registry
 checklist:
   - Vérifier si vous devez vous enregistrer (seulement si vous exercez sous un autre nom que le vôtre)
@@ -16,13 +16,13 @@ checklist:
 
 ## Qui doit s'enregistrer
 
-En Alberta, vous enregistrez un **nom commercial** lorsque vous faites affaire sous un autre nom que votre nom personnel. Si vous exercez simplement sous le nom «  Jane Smith », vous pouvez sauter cette étape.
+En Alberta, vous enregistrez un **nom commercial** lorsque vous faites affaire sous un autre nom que votre nom personnel. Si vous exercez simplement sous le nom « Jane Smith », vous pouvez sauter cette étape.
 
 ## S'enregistrer en personne
 
 Vous vous enregistrez par l'entremise d'un **fournisseur de services du Corporate Registry** (registre des sociétés de l'Alberta) autorisé, aussi appelé agent d'enregistrement (registry agent), et non directement en ligne auprès du gouvernement. Remplissez d'abord le formulaire **Declaration of Trade Name** (déclaration de nom commercial), puis apportez-le avec une pièce d'identité valide et le paiement. Il vous faut aussi une adresse courriel, car l'Alberta en exige une pour l'enregistrement d'un nom commercial.
 
-## Ce que ça coûte
+## Coût
 
 Vous payez des **droits gouvernementaux plus les frais de service de l'agent**. Selon l'Alberta, les frais de service ne sont pas réglementés et varient d'un agent à l'autre : appelez-en deux ou trois avant de vous déplacer. Nous n'avons pas pu confirmer le montant actuel des droits gouvernementaux, alors demandez le total à l'agent.
 

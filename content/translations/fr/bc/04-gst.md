@@ -1,13 +1,13 @@
 ---
-source: 3ef2a1eb1afc
+source: 09c74493cfbd
 title: S'inscrire à la TPS (5 %)
-summary: Percevez la TPS auprès de vos clients et récupérez la TPS que vous payez sur vos stocks.
+summary: Inscrivez-vous à la TPS auprès de l'ARC pour la percevoir auprès de vos clients et récupérer celle que vous payez sur vos stocks.
 time: 30 minutes
 cost: Gratuit
-linkLabel: "ARC : TPS/TVH pour les entreprises"
+linkLabel: ARC — TPS/TVH pour les entreprises
 linkUrl: https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html
 checklist:
-  - Décider de vous inscrire volontairement dès le départ (recommandé)
+  - Décider de vous inscrire ou non volontairement dès le départ (recommandé)
   - Ouvrir un compte de TPS/TVH auprès de l'ARC (en ouvrant une session dans votre compte de l'ARC)
   - Choisir une fréquence de production (annuelle, souvent, pour les petites entreprises)
   - Noter votre numéro de TPS et les dates d'échéance de vos déclarations
@@ -16,7 +16,7 @@ checklist:
 
 ## Taxe fédérale
 
-Les clients de la Colombie-Britannique paient la **TPS (taxe sur les produits et services) de 5 %** au gouvernement fédéral, plus la **TVP de 7 %** propre à la province, à laquelle vous vous inscrivez séparément à l'étape 5. L'inscription, la perception et la production des déclarations de TPS se font auprès de l'**ARC**.
+Les clients de la Colombie-Britannique paient la **TPS (taxe sur les produits et services) de 5 %** au gouvernement fédéral, plus la **TVP (taxe de vente provinciale) de 7 %** propre à la province, à laquelle vous vous inscrivez séparément à l'étape 5. L'inscription, la perception et la production des déclarations de TPS se font auprès de l'**ARC**.
 
 ## Quand l'inscription est obligatoire
 

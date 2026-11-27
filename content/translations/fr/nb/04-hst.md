@@ -1,13 +1,13 @@
 ---
-source: 28ae6ce120a2
+source: 401a0d7fa929
 title: S'inscrire à la TVH (15 %)
-summary: Le Nouveau-Brunswick a une seule taxe de vente combinée, perçue pour l'ARC.
+summary: Inscrivez-vous à la TVH auprès de l'ARC, une taxe unique de 15 % qui combine les taxes de vente fédérale et provinciale.
 time: 30 minutes
 cost: Gratuit
 linkLabel: ARC — TPS/TVH pour les entreprises
 linkUrl: https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html
 checklist:
-  - Décider de vous inscrire volontairement dès le départ (recommandé)
+  - Décider de vous inscrire ou non volontairement dès le départ (recommandé)
   - Ouvrir un compte de TPS/TVH auprès de l'ARC (en ouvrant une session dans votre compte de l'ARC)
   - Choisir une fréquence de production (annuelle, souvent, pour les petites entreprises)
   - Noter votre numéro de TVH et vos dates limites de déclaration
@@ -16,7 +16,7 @@ checklist:
 
 ## Une taxe, pas deux
 
-Le Nouveau-Brunswick applique une **TVH de 15 %**, qui combine les parts fédérale et provinciale en une seule taxe. L'inscription, la perception et les déclarations se font auprès de l'**ARC**. Contrairement à la Colombie-Britannique, le Nouveau-Brunswick n'a **aucun compte distinct de taxe de vente provinciale** auquel s'inscrire.
+Le Nouveau-Brunswick applique la **TVH (taxe de vente harmonisée) de 15 %**, qui combine les parts fédérale et provinciale en une seule taxe. L'inscription, la perception et les déclarations se font auprès de l'**ARC**. Contrairement à la Colombie-Britannique, le Nouveau-Brunswick n'a **aucun compte distinct de taxe de vente provinciale** auquel s'inscrire.
 
 ## Quand l'inscription est obligatoire
 
@@ -26,7 +26,7 @@ Vous devez vous inscrire dès que vos ventes taxables dépassent **30 000 $ au
 
 Nous recommandons de vous inscrire dès le départ. En tant qu'inscrit, vous pouvez **récupérer la TVH que vous payez** sur vos stocks et vos dépenses d'entreprise. En général, une fois inscrit volontairement, vous devez le rester au moins un an.
 
-## Déclarations
+## Produire les déclarations
 
 Vous choisirez la fréquence de vos déclarations. La production annuelle est courante pour les petites entreprises, mais vérifiez quelle option s'applique à vous. Produisez une déclaration même si vous n'avez rien perçu.
 

@@ -10,7 +10,7 @@ checklist:
   - Opter pour une entreprise individuelle (recommandé pour commencer)
   - Choisir un nom d'entreprise, ou décider d'exercer uniquement sous votre nom personnel
   - Vérifier que le nom ne ressemble pas à celui d'une entreprise existante avant de le réserver
-  - Vérifier que le nom de domaine .ca et les comptes de réseaux sociaux correspondants sont libres
+  - Vérifier que le nom de domaine .ca et les noms d'utilisateur correspondants sur les réseaux sociaux sont libres
 ---
 
 ## Structure
@@ -21,11 +21,11 @@ En contrepartie, vous êtes **personnellement responsable** de l'entreprise. Les
 
 ## Nom
 
-- Si vous exercez uniquement sous votre nom personnel (par exemple «  Jeanne Leblanc »), vous n'avez pas à vous enregistrer.
-- Tout autre nom, même «  Jeanne Leblanc Consultation », **doit être enregistré** à l'étape suivante.
+- Si vous exercez uniquement sous votre nom personnel (par exemple « Jeanne Leblanc »), vous n'avez pas à vous enregistrer.
+- Tout autre nom, même « Jeanne Leblanc Consultation », **doit être enregistré** à l'étape suivante.
 
 Le nom doit d'abord être approuvé, et l'approbation comprend une recherche de nom payante, alors arrêtez votre choix avant de présenter la demande.
 
-## Restez pratique
+## Rester pratique
 
 Choisissez un nom que vous serez à l'aise de voir sur un relevé bancaire, un permis et une étiquette d'expédition.

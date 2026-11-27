@@ -4,10 +4,10 @@ title: S'inscrire à la TPS (5 %)
 summary: L'Alberta n'a pas de taxe de vente provinciale, donc la TPS est la seule taxe de vente que vous percevez.
 time: 30 minutes
 cost: Gratuit
-linkLabel: "ARC : TPS/TVH pour les entreprises"
+linkLabel: ARC — TPS/TVH pour les entreprises
 linkUrl: https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html
 checklist:
-  - Décider de vous inscrire volontairement dès le départ (recommandé)
+  - Décider de vous inscrire ou non volontairement dès le départ (recommandé)
   - Ouvrir un compte de TPS/TVH auprès de l'ARC (en ouvrant une session dans votre compte de l'ARC)
   - Choisir une fréquence de production (annuelle, souvent, pour les petites entreprises)
   - Noter votre numéro de TPS et les dates d'échéance de vos déclarations

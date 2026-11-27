@@ -56,7 +56,7 @@
   },
   "guides/clear-site-data/01-clear-one-site/01.webp": {
     "alt": "Page « Site settings » (paramètres du site) de Chrome pour un site d'exemple, avec le nom du site et le bouton « Delete data » en surbrillance",
-    "caption": "Dans Chrome, « Site settings » (paramètres du site) ouvre une page pour le site où vous étiez (1). Cliquez sur « Delete data » (supprimer les données) (2), puis confirmez. Cette capture d'écran utilise un site d'exemple.",
+    "caption": "Dans Chrome, « Paramètres des sites » (Site settings) ouvre une page pour le site où vous étiez (1). Cliquez sur « Delete data » (supprimer les données) (2), puis confirmez. Cette capture d'écran utilise un site d'exemple.",
     "source": "7eab623f8da6"
   },
   "guides/ip-address/01-look-up-your-ip/01.webp": {
@@ -66,7 +66,7 @@
   },
   "guides/mb/01-structure-and-name/01.webp": {
     "alt": "Page du Manitoba sur le choix de la structure d'entreprise, avec la section sur l'entreprise individuelle et le point sur la responsabilité personnelle en surbrillance",
-    "caption": "Lisez le guide du Manitoba sur les structures d'entreprise. L'entreprise individuelle est la façon la plus simple de commencer, mais le propriétaire est personnellement responsable de toutes les dettes de l'entreprise.",
+    "caption": "Lisez le guide du Manitoba sur les structures d'entreprise. L'entreprise individuelle est la façon la plus simple de commencer, mais la personne propriétaire est personnellement responsable de toutes les dettes de l'entreprise.",
     "source": "7e739ea3b809"
   },
   "guides/mb/01-structure-and-name/02.webp": {
@@ -96,22 +96,22 @@
   },
   "guides/nb/01-structure-and-name/01.webp": {
     "alt": "Page du Registre corporatif de Services Nouveau-Brunswick, avec le lien « Register a business name » en surbrillance",
-    "caption": "Le Registre corporatif de Services Nouveau-Brunswick enregistre les noms commerciaux sous lesquels exercent les propriétaires uniques. Vous n'en avez besoin que si vous utilisez un autre nom que le vôtre.",
+    "caption": "Le Registre corporatif de Services Nouveau-Brunswick enregistre les appellations commerciales sous lesquelles exercent les propriétaires uniques. Vous n'en avez besoin que si vous utilisez un autre nom que le vôtre.",
     "source": "3b55c0b2b222"
   },
   "guides/nb/02-register-business/01.webp": {
-    "alt": "Page de Services Nouveau-Brunswick pour enregistrer ou renouveler un nom commercial, avec la phrase sur qui doit s'enregistrer en surbrillance",
-    "caption": "Enregistrez votre nom commercial si vous exercez sous un autre nom que le vôtre. Faites-le dans les deux mois suivant le début de vos activités.",
+    "alt": "Page de Services Nouveau-Brunswick pour enregistrer ou renouveler une appellation commerciale, avec la phrase sur qui doit s'enregistrer en surbrillance",
+    "caption": "Enregistrez votre appellation commerciale si vous exercez sous un autre nom que le vôtre. Faites-le dans les deux mois suivant le début de vos activités.",
     "source": "b0ab1679349d"
   },
   "guides/nb/02-register-business/02.webp": {
-    "alt": "Page de Services Nouveau-Brunswick pour enregistrer ou renouveler un nom commercial, à l'onglet « Fees », avec les frais du certificat de nom commercial en surbrillance",
-    "caption": "Un certificat de nom commercial (« Certificate of Business Name ») coûte 112 $, y compris les 12 $ de frais de la Gazette royale. Le renouvellement tous les cinq ans coûte 62 $.",
+    "alt": "Page de Services Nouveau-Brunswick pour enregistrer ou renouveler une appellation commerciale, à l'onglet « Fees », avec les frais du certificat d'appellation commerciale en surbrillance",
+    "caption": "Un certificat d'appellation commerciale (« Certificate of Business Name ») coûte 112 $, y compris les 12 $ de frais de la Gazette royale. Le renouvellement tous les cinq ans coûte 62 $.",
     "source": "756f6c82f51a"
   },
   "guides/nb/05-municipal-licence/01.webp": {
     "alt": "Page de la Ville de Fredericton sur le zonage et l'utilisation des terrains, avec la question sur l'exploitation d'une entreprise à domicile en surbrillance",
-    "caption": "Chaque municipalité fixe ses propres règles. Fredericton, par exemple, permet une activité professionnelle à domicile dans une maison individuelle ou une mini-maison, selon son règlement de zonage. Renseignez-vous de la même façon auprès de votre ville.",
+    "caption": "Chaque municipalité fixe ses propres règles. Fredericton, par exemple, permet une activité professionnelle à domicile dans une maison individuelle ou une mini-maison, selon son arrêté de zonage. Renseignez-vous de la même façon auprès de votre ville.",
     "source": "0e27f410e196"
   },
   "guides/nl/05-municipal-licence/01.webp": {
@@ -135,12 +135,12 @@
     "source": "b4283bc281ad"
   },
   "guides/nt/01-structure-and-name/01.webp": {
-    "alt": "Page des noms commerciaux de NWT Corporate Registries (registres des sociétés des Territoires du Nord-Ouest), à l'onglet des types d'entités, avec la description de l'entreprise individuelle en surbrillance",
+    "alt": "Page des raisons sociales de NWT Corporate Registries (registres des sociétés des Territoires du Nord-Ouest), à l'onglet des types d'entités, avec la description de l'entreprise individuelle en surbrillance",
     "caption": "Une entreprise individuelle (proprietorship) appartient à une seule personne, sans distinction juridique entre vous et l'entreprise. Vous êtes donc personnellement responsable.",
     "source": "3515e79a644a"
   },
   "guides/nt/02-register-business/01.webp": {
-    "alt": "Onglet des formulaires de la page des noms commerciaux de NWT Corporate Registries, avec les formulaires pour entreprise individuelle en surbrillance",
+    "alt": "Onglet des formulaires de la page des raisons sociales de NWT Corporate Registries, avec les formulaires pour entreprise individuelle en surbrillance",
     "caption": "Téléchargez les formulaires pour entreprise individuelle, puis envoyez par la poste ou déposez les originaux signés. La réservation coûte 25 $ et l'enregistrement, 50 $.",
     "source": "807acd18a7f1"
   },
@@ -181,12 +181,12 @@
   },
   "guides/products/02-install-variation-converter/01.webp": {
     "alt": "Menu « Products » de l'administration WordPress, avec Variation Converter et ses onglets « Combine », « Split » et « History » en surbrillance",
-    "caption": "Une fois l'extension activée, ouvrez « Products > Variation Converter ». Elle a trois onglets : « Combine » (combiner), « Split » (séparer) et « History » (historique).",
+    "caption": "Une fois l'extension activée, ouvrez Produits > Variation Converter. Elle a trois onglets : « Combine » (regrouper), « Split » (séparer) et « History » (historique).",
     "source": "ee8905b17dd2"
   },
   "guides/products/03-combine-into-variable/01.webp": {
     "alt": "Onglet « Combine » de Variation Converter après une recherche de « Tee », avec la zone de recherche, le groupe Classic Crew Tee coché et le bouton « Combine into one product » en surbrillance",
-    "caption": "Cherchez le produit. Cochez les groupes et les produits qui forment un seul produit, ici le groupe Classic Crew Tee, puis cliquez sur « Combine into one product » (combiner en un seul produit). Pocket Tee Olive est un autre t-shirt, donc il reste décoché.",
+    "caption": "Cherchez le produit. Cochez les groupes et les produits qui forment un seul produit, ici le groupe Classic Crew Tee, puis cliquez sur « Combine into one product » (regrouper en un seul produit). Pocket Tee Olive est un autre t-shirt, donc il reste décoché.",
     "source": "4eff065ee4e7"
   },
   "guides/products/03-combine-into-variable/02.webp": {
@@ -215,7 +215,7 @@
     "source": "948cdc38e51a"
   },
   "guides/products/05-check-and-undo/01.webp": {
-    "alt": "Onglet « History » de Variation Converter listant une combinaison et une séparation, avec un bouton « Undo » en surbrillance",
+    "alt": "Onglet « History » de Variation Converter qui liste un regroupement et une séparation, avec un bouton « Undo » en surbrillance",
     "caption": "L'historique liste chaque conversion, de la plus récente à la plus ancienne. « Undo » (annuler) remet les produits comme ils étaient.",
     "source": "8b1e8d5d8f14"
   },
@@ -251,7 +251,7 @@
   },
   "guides/shared-ca/gst-hst/02.webp": {
     "alt": "Page de l'ARC sur la TPS/TVH pour les entreprises, avec la section « Get a GST/HST number and manage your account » en surbrillance",
-    "caption": "Quand vous êtes prêt, ouvrez « Get a GST/HST number and manage your account » (obtenir un numéro de TPS/TVH et gérer votre compte). L'inscription se fait dans Inscription en direct des entreprises, en vous connectant avec votre compte de l'ARC.",
+    "caption": "Le moment venu, ouvrez « Get a GST/HST number and manage your account » (obtenir un numéro de TPS/TVH et gérer votre compte). L'inscription se fait dans Inscription en direct des entreprises, en vous connectant avec votre compte de l'ARC.",
     "source": "e485055f8296"
   },
   "guides/sk/01-structure-and-name/01.webp": {

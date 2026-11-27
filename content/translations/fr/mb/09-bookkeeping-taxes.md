@@ -1,7 +1,7 @@
 ---
-source: 672d4531340f
+source: adf349039dd3
 title: Mettre en place la tenue de livres et l'impôt sur le revenu
-summary: Faites le suivi des ventes, de la TPS, de la TVD et des dépenses dès le premier jour.
+summary: Tenez vos livres (ventes, TPS, TVD, dépenses) dès le départ et déclarez le revenu d'entreprise dans votre déclaration de revenus.
 time: 2 à 3 heures
 cost: Logiciel d'environ 0 à 30 $ par mois; consultation avec un comptable d'environ 150 à 300 $
 checklist:

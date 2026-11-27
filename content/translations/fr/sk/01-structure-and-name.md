@@ -21,8 +21,8 @@ En contrepartie, vous êtes **personnellement responsable** des obligations de l
 
 ## Nom
 
-La loi de la Saskatchewan vous demande d'enregistrer le nom sous lequel vous exercez, et **sa définition comprend votre nom de famille**. Prévoyez donc de vous enregistrer à l'étape suivante, même si vous exercez sous le nom «  Smith ». Si vous êtes certain d'utiliser seulement vos nom et prénoms légaux complets, demandez au Corporate Registry (registre des entreprises de la Saskatchewan) si vous devez quand même vous enregistrer.
+La loi de la Saskatchewan vous demande d'enregistrer le nom sous lequel vous exercez, et **sa définition comprend votre nom de famille**. Prévoyez donc de vous enregistrer à l'étape suivante, même si vous exercez sous le nom « Smith ». Si vous êtes certain d'utiliser seulement vos nom et prénoms légaux complets, demandez au Corporate Registry (registre des entreprises de la Saskatchewan) si vous devez quand même vous enregistrer.
 
-## Restez pratique
+## Rester pratique
 
 Choisissez un nom que vous serez à l'aise de voir sur un relevé bancaire, un permis et une étiquette d'expédition.

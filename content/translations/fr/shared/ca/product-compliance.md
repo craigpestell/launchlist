@@ -28,6 +28,6 @@ Les produits textiles peuvent devoir porter un **étiquetage de la teneur en fib
 
 Vos descriptions et votre publicité doivent être exactes et non trompeuses. Le Bureau de la concurrence veille au respect de ces règles, y compris pour les vendeurs en ligne.
 
-## Vérifiez les règles en vigueur
+## Vérifier les règles en vigueur
 
-Les règles changent. Confirmez auprès de Santé Canada ou du Bureau de la concurrence tout ce qui compte ici pour un produit précis.
+Les règles changent. Confirmez auprès de Santé Canada ou du Bureau de la concurrence tout point de cette page qui compte pour un produit précis.

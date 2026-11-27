@@ -22,14 +22,14 @@ Les Territoires du Nord-Ouest exigent l'enregistrement de la raison sociale, sau
 
 L'enregistrement en ligne n'existe pas. Corporate Registries (registre des sociétés des Territoires du Nord-Ouest) n'accepte que les **formulaires originaux signés**, envoyés par la poste ou déposés en personne, et non les télécopies ni les courriels. Joignez le formulaire de réservation de nom et ses frais si vous n'avez pas encore réservé le nom.
 
-## Ce que ça coûte
+## Ce que cela coûte
 
-La réservation du nom coûte **25 $** et l'enregistrement **50 $**, soit 75 $ en tout. Ces tarifs proviennent d'un barème de 2018; confirmez-les auprès de Corporate Registries avant de payer.
+La réservation du nom coûte **25 $** et l'enregistrement **50 $**, soit 75 $ en tout. Ces tarifs proviennent d'un barème de 2018. Confirmez-les auprès de Corporate Registries avant de payer.
 
 ## Renouveler tous les quatre ans
 
 L'enregistrement est valide **quatre ans** et coûte 50 $ à renouveler. Un enregistrement expiré ne peut pas être renouvelé. Il faudrait réserver et enregistrer le nom de nouveau.
 
-## Le conserver
+## Conserver l'enregistrement
 
 Conservez l'enregistrement. Vous en aurez besoin pour le compte bancaire, votre permis d'affaires et votre compte fournisseur.

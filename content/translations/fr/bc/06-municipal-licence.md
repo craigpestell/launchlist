@@ -1,7 +1,7 @@
 ---
-source: 399c6639d173
+source: c1f7b925ec22
 title: Obtenir un permis d'affaires municipal
-summary: Votre ville ou votre district délivre des permis aux entreprises qui y exercent leurs activités.
+summary: Obtenez un permis d'affaires de votre ville ou district, et vérifiez d'abord ses règles sur les entreprises à domicile.
 time: 1 à 2 heures
 cost: Variable selon la municipalité
 checklist:
@@ -20,7 +20,7 @@ Présentez votre demande à l'hôtel de ville ou au bureau de district, généra
 
 Certaines municipalités exigent un **permis d'occupation à domicile** (home-occupation permit) ou limitent les visites de clients et l'affichage. Vérifiez avant de présenter votre demande.
 
-## Dites clairement ce que vous vendez
+## Dire clairement ce que vous vendez
 
 Dites exactement ce que vous vendrez. Certains produits ou types d'entreprises sont soumis à des règlements municipaux ou à des exigences supplémentaires : mieux vaut le savoir avant de commencer qu'après.
 

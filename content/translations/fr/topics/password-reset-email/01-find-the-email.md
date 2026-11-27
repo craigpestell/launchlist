@@ -10,7 +10,7 @@ checklist:
   - "Vérifier votre dossier des courriels indésirables et, dans Gmail, les onglets Promotions et Mises à jour"
   - "Chercher le nom du site ou de l'entreprise dans vos courriels"
   - "Essayer chaque adresse courriel avec laquelle vous avez pu vous inscrire"
-  - "Communiquer avec le soutien du site en indiquant l'adresse utilisée si rien n'arrive"
+  - "Communiquer avec l'équipe de soutien du site en indiquant l'adresse utilisée si rien n'arrive"
 ---
 ## Demander une fois, puis attendre
 
@@ -24,12 +24,12 @@ Les courriels du travail et de l'école peuvent retenir des messages pour les v�
 
 ## Vérifier l'adresse
 
-Bien des gens ont plus d'une adresse courriel. Essayez chacune de celles avec lesquelles vous avez pu vous inscrire, y compris les anciennes. Cherchez un courriel de bienvenue ou de commande du site pour savoir quelle adresse il connaît. Pour protéger la vie privée, bien des sites disent qu'un courriel a été envoyé même quand aucun compte n'utilise cette adresse : un message «  Vérifiez vos courriels » ne prouve donc pas que l'adresse est la bonne.
+Bien des gens ont plus d'une adresse courriel. Essayez chacune de celles avec lesquelles vous avez pu vous inscrire, y compris les anciennes. Cherchez un courriel de bienvenue ou de commande du site pour savoir quelle adresse il connaît. Pour protéger la vie privée, bien des sites disent qu'un courriel a été envoyé même quand aucun compte n'utilise cette adresse : un message « Vérifiez vos courriels » ne prouve donc pas que l'adresse est la bonne.
 
 ## Utiliser le lien le plus récent
 
-Quand le courriel arrive, cliquez sur le lien du **plus récent**. Les liens expirent, souvent en moins d'une heure, alors utilisez-le rapidement. Si vous vous êtes inscrit en cliquant sur «  Continuer avec Google » ou Apple, vous n'avez peut-être aucun mot de passe à réinitialiser : utilisez ce même bouton pour vous connecter.
+Quand le courriel arrive, cliquez sur le lien du **plus récent**. Les liens expirent, souvent en moins d'une heure, alors utilisez-le rapidement. Si vous avez créé votre compte en cliquant sur « Continuer avec Google » ou Apple, vous n'avez peut-être aucun mot de passe à réinitialiser : utilisez ce même bouton pour vous connecter.
 
-## Quand communiquer avec le soutien
+## Quand communiquer avec l'équipe de soutien
 
-Si rien n'arrive après 15 minutes et que vous avez vérifié les courriels indésirables et toutes vos adresses, communiquez avec le soutien du site. Indiquez l'adresse courriel essayée, à peu près quand vous avez demandé la réinitialisation, et si vous avez trouvé quelque chose dans les courriels indésirables. Ne lui envoyez jamais votre ancien ni votre nouveau mot de passe.
+Si rien n'arrive après 15 minutes et que vous avez vérifié les courriels indésirables et toutes vos adresses, communiquez avec l'équipe de soutien du site. Indiquez l'adresse courriel essayée, à peu près quand vous avez demandé la réinitialisation, et si vous avez trouvé quelque chose dans les courriels indésirables. Ne lui envoyez jamais votre ancien ni votre nouveau mot de passe.

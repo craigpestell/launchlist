@@ -1,7 +1,7 @@
 ---
-source: 9ad9eeedc2dd
+source: 4c772b5daa62
 title: S'inscrire à la TVH (14 %)
-summary: La Nouvelle-Écosse a une seule taxe de vente combinée, perçue pour l'ARC.
+summary: Inscrivez-vous à la TVH auprès de l'ARC. Cette taxe unique de 14 % combine les taxes de vente fédérale et provinciale.
 time: 30 minutes
 cost: Gratuit
 linkLabel: ARC — TPS/TVH pour les entreprises

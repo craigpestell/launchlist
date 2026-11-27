@@ -1,7 +1,7 @@
 ---
-source: 229187e08914
+source: dd1da970520e
 title: S'inscrire à la TVP de la Colombie-Britannique (7 %)
-summary: Une taxe distincte de la TPS, et l'étape que l'on oublie le plus souvent.
+summary: Inscrivez-vous gratuitement à la TVP de 7 % de la C.-B. dans eTaxBC. Distincte de la TPS, c'est l'étape la plus souvent oubliée.
 time: 30 à 45 minutes
 cost: Gratuit
 linkLabel: eTaxBC

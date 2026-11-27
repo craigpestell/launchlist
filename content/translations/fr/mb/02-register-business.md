@@ -1,10 +1,10 @@
 ---
-source: c37810babe5d
+source: e06435e4d976
 title: Enregistrer votre nom commercial auprès de l'Office des compagnies
-summary: Réservez et enregistrez le nom sous lequel votre entreprise individuelle exerce ses activités.
+summary: Réservez et enregistrez votre nom commercial auprès de l'Office des compagnies, sauf si vous exercez sous votre propre nom.
 time: 30 à 60 minutes, plus l'attente de l'approbation du nom
 cost: 45 $ pour la réservation du nom plus 60 $ pour l'enregistrement (vu en octobre 2026; vérifiez les tarifs en vigueur)
-linkLabel: "Office des compagnies du Manitoba : formulaires et droits pour les noms commerciaux"
+linkLabel: Office des compagnies du Manitoba — formulaires et droits pour les noms commerciaux
 linkUrl: https://companiesoffice.gov.mb.ca/forms_business.html
 checklist:
   - Vérifier si vous devez vous enregistrer (seulement si vous exercez sous un autre nom que le vôtre)

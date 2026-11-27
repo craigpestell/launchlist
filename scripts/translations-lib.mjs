@@ -110,7 +110,7 @@ export function frenchTypography(text) {
   out = out
     .replace(/(\S) +([:%»])/g, "$1 $2")
     .replace(/([^\s *])(\**)([:»])(?=[\s*]|$)/gm, "$1$2 $3")
-    .replace(/« */g, "« ")
+    .replace(/«[ \u00a0]*/g, "«\u00a0")
     .replace(/(\d) *\$/g, "$1 $")
     .replace(/(\d)%/g, "$1 %")
     .replace(/(\d) (?=\d{3}\b)/g, "$1 ");

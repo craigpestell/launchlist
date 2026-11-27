@@ -1,7 +1,7 @@
 ---
-source: b8b42b228fe4
+source: 6f9136ed57fe
 title: Mettre en place la tenue de livres et l'impôt sur le revenu
-summary: Suivez vos ventes, la TVH perçue et payée et vos dépenses dès le premier jour.
+summary: Tenez vos livres dès le départ (ventes, TVH, dépenses) et déclarez le revenu d'entreprise dans votre déclaration de revenus.
 time: 2 à 3 heures
 cost: Logiciel d'environ 0 à 30 $ par mois; consultation d'un comptable d'environ 150 à 300 $
 checklist:

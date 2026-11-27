@@ -14,7 +14,7 @@ checklist:
 
 ## Pourquoi c'est important
 
-En tant que propriétaire unique, vous êtes personnellement responsable. L'assurance est ce qui se trouve entre un problème lié à un produit et vos propres économies.
+En tant que propriétaire unique, vous êtes personnellement responsable. L'assurance fait rempart entre un problème lié à un produit et vos propres économies.
 
 ## Quoi demander
 
@@ -22,6 +22,6 @@ En tant que propriétaire unique, vous êtes personnellement responsable. L'assu
 - **Assurance responsabilité du fait des produits**, qui couvre les réclamations liées aux produits que vous vendez
 - Si votre **assurance habitation** couvre une entreprise à domicile et ses stocks
 
-## Dites ce que vous vendez
+## Dire ce que vous vendez
 
-**Dites à chaque assureur exactement ce que vous vendez.** Certaines polices excluent certains types de produits, et vous voulez l'apprendre avant de souscrire une police, pas au moment de faire une réclamation. Faites-le confirmer par écrit.
+**Dites à chaque assureur exactement ce que vous vendez.** Certaines polices excluent certains types de produits, et mieux vaut l'apprendre avant de souscrire une police qu'au moment de faire une réclamation. Faites-le confirmer par écrit.

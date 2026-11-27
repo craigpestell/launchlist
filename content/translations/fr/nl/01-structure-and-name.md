@@ -10,7 +10,7 @@ checklist:
   - Opter pour une entreprise individuelle (recommandé pour commencer)
   - Choisir un nom d'entreprise, ou décider d'exercer sous votre propre nom légal
   - Chercher les noms semblables dans la base de données fédérale sur les marques de commerce
-  - Vérifier que le nom de domaine .ca et les comptes de réseaux sociaux correspondants sont libres
+  - Vérifier que le nom de domaine .ca et les noms d'utilisateur correspondants sur les réseaux sociaux sont libres
 ---
 
 ## Structure
@@ -25,6 +25,6 @@ Terre-Neuve-et-Labrador n'a **aucun registre des noms commerciaux** : il n'exis
 
 Avant de vous engager, faites une recherche dans la base de données fédérale sur les marques de commerce et vérifiez que le nom de domaine est libre. Choisissez un nom unique, facile à épeler et facile à prononcer.
 
-## Restez pratique
+## Rester pratique
 
 Choisissez un nom que vous serez à l'aise de voir sur un relevé bancaire, un permis et une étiquette d'expédition.

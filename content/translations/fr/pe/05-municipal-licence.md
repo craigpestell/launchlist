@@ -20,10 +20,10 @@ Nous n'avons trouvé aucun permis d'affaires général à l'Île-du-Prince-Édou
 
 Renseignez-vous auprès de votre propre municipalité plutôt que de supposer que la réponse de Charlottetown s'applique à vous.
 
-## Soyez clair sur ce que vous vendez
+## Être transparent sur ce que vous vendez
 
 Certains produits ou types d'entreprises sont soumis à des règlements ou à des exigences supplémentaires, notamment les aliments. Dites à votre municipalité exactement ce que vous vendrez, pour le savoir avant de commencer plutôt qu'après.
 
-## Gardez la réponse
+## Garder la réponse
 
-Conservez votre permis. Si la municipalité confirme que vous n'en avez pas besoin, obtenez-le par écrit, car les banques et les fournisseurs le demandent parfois.
+Conservez votre permis. Si la municipalité confirme que vous n'en avez pas besoin, obtenez cette confirmation par écrit, car les banques et les fournisseurs le demandent parfois.

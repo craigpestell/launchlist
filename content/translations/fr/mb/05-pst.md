@@ -4,11 +4,11 @@ title: S'inscrire à la TVD du Manitoba (7 %)
 summary: La taxe de vente propre au Manitoba, distincte de la TPS et déclarée auprès de la province.
 time: 30 à 45 minutes
 cost: Gratuit
-linkLabel: "Finances Manitoba : TAXcess"
+linkLabel: Finances Manitoba — TAXcess
 linkUrl: https://taxcess.gov.mb.ca/
 checklist:
   - Vérifier si vous devez vous inscrire (c'est le cas de la plupart des détaillants qui achètent hors province)
-  - Vous inscrire à TAXcess et ouvrir un compte de taxe de vente au détail
+  - Vous inscrire à TAXcess et ouvrir un compte de taxe sur les ventes au détail
   - Noter votre numéro de TVD à 7 chiffres
   - Donner votre numéro de TVD à votre fournisseur pour acheter en vue de la revente sans payer la TVD
   - Inscrire les dates de production de vos déclarations de TVD dans votre calendrier
@@ -16,7 +16,7 @@ checklist:
 
 ## Ce que c'est
 
-Le Manitoba applique une **taxe de vente au détail (TVD) de 7 %** sur la plupart des biens vendus au détail dans la province. Elle est distincte de la TPS. L'inscription, la perception et la production des déclarations se font auprès de **Finances Manitoba**, et non de l'ARC. L'inscription est gratuite.
+Le Manitoba applique une **taxe sur les ventes au détail (TVD) de 7 %** sur la plupart des biens vendus au détail dans la province. Elle est distincte de la TPS. L'inscription, la perception et la production des déclarations se font auprès de **Finances Manitoba**, et non de l'ARC. L'inscription est gratuite.
 
 ## Qui doit s'inscrire
 

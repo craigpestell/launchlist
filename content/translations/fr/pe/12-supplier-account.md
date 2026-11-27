@@ -28,6 +28,6 @@ Vous paierez normalement la TVH sur les stocks que vous achetez et la récupére
 - Y a-t-il un **prix minimum annoncé** à respecter?
 - La livraison directe (dropshipping) est-elle offerte?
 
-## Commencez petit
+## Commencer petit
 
 Passez une petite commande d'essai pour vérifier le produit, l'emballage et le délai de livraison avant de vous engager pour une commande plus importante.

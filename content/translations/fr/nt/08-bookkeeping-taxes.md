@@ -1,7 +1,7 @@
 ---
-source: 120ec974705c
+source: e4e6c3dbcc1c
 title: Organiser la tenue de livres et l'impôt sur le revenu
-summary: Faites le suivi de vos ventes, de la TPS et de vos dépenses dès le premier jour.
+summary: Tenez vos livres dès le départ (ventes, TPS, dépenses) et déclarez le revenu d'entreprise dans votre déclaration de revenus.
 time: 2 à 3 heures
 cost: Logiciel d'environ 0 à 30 $ par mois; consultation avec un comptable d'environ 150 à 300 $
 checklist:

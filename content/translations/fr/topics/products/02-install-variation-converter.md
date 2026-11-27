@@ -1,7 +1,7 @@
 ---
-source: 64a76489f5c1
+source: b2c9e2c9ba0f
 title: Installer Variation Converter
-summary: Ajoutez l'extension gratuite qui regroupe et sépare les produits WooCommerce.
+summary: Sauvegardez votre boutique, puis installez l'extension gratuite Variation Converter, qui regroupe et sépare les produits WooCommerce.
 time: 10 minutes
 cost: Gratuit
 linkLabel: Variation Converter

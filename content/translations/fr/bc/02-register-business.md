@@ -1,7 +1,7 @@
 ---
-source: 490e71de2b37
+source: 0b96361ff8f9
 title: Enregistrer l'entreprise au BC Registry
-summary: Enregistrez votre entreprise individuelle et votre nom commercial auprès du BC Registry.
+summary: Obtenez une Name Request et enregistrez votre entreprise individuelle au BC Registry, sauf si vous exercez sous votre nom légal.
 time: 30 à 60 minutes
 cost: 30 $ pour la Name Request plus 40 $ pour l'enregistrement (vu en novembre 2026; vérifiez les tarifs en vigueur)
 linkLabel: BC Registry Services

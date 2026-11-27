@@ -7,15 +7,15 @@ cost: Gratuit
 checklist:
   - Chercher le produit dans l'onglet Combine
   - Cocher ses groupes et les produits correspondants qui ne font partie d'aucun groupe
-  - Cliquer sur «  Combine into one product »
+  - Cliquer sur « Combine into one product »
   - Vérifier le nom du produit, l'attribut et l'étiquette de chaque variation
-  - Cliquer sur «  Create variable product »
+  - Cliquer sur « Create variable product »
   - Ouvrir le produit variable dans votre boutique et vérifier le menu des options
 ---
 
 ## Chercher le produit
 
-Allez à **Produits > Variation Converter**. En haut de l'onglet **Combine** (regrouper), tapez le nom ou l'UGS (SKU) du produit dans **Find the products to combine** (trouver les produits à regrouper), par exemple «  Tee », puis cliquez sur **Search** (rechercher).
+Allez à **Produits > Variation Converter**. En haut de l'onglet **Combine** (regrouper), tapez le nom ou l'UGS (SKU) du produit dans **Find the products to combine** (trouver les produits à regrouper), par exemple « Tee », puis cliquez sur **Search** (rechercher).
 
 Les résultats sont présentés en deux parties. Les **Suggested groups** (groupes suggérés) sont des produits que l'extension a déjà regroupés, parce que leurs UGS appartiennent à une même famille (TEE100-BLA, TEE100-NAV) et que leurs noms commencent de la même façon. Les **Products not in a group** (produits hors groupe) sont d'autres produits qui correspondent à votre recherche, mais que l'extension n'a pas regroupés.
 
@@ -23,12 +23,12 @@ Les résultats sont présentés en deux parties. Les **Suggested groups** (group
 
 Cochez les groupes et les produits qui forment réellement un seul produit, puis cliquez sur **Combine into one product** (regrouper en un seul produit). Laissez de côté ce qui n'est que semblable. Dans l'exemple, Pocket Tee Olive est un autre t-shirt, alors il reste décoché.
 
-- Un seul groupe, ou des produits isolés, deviennent un produit variable avec une option, comme Couleur.
-- Deux groupes ou plus, comme les groupes Vanille et Caramel d'un sirop, deviennent un seul produit variable avec deux options, comme Saveur et Format.
+- Un seul groupe, ou des produits isolés, deviennent un produit variable avec une option, comme « Color » (couleur).
+- Deux groupes ou plus, comme les groupes Vanille et Caramel d'un sirop, deviennent un seul produit variable avec deux options, comme Flavor et Size (saveur et format).
 
 ## Vérifier le produit variable
 
-Avant que quoi que ce soit change, vous voyez le produit variable. Pour chaque produit d'origine, il affiche l'étiquette que l'extension a tirée de son nom («  Black », «  Navy ») et l'attribut qu'elle a deviné (Color, Size, Flavor, Scent ou Volume, soit couleur, taille, saveur, parfum ou volume).
+Avant que quoi que ce soit change, vous voyez le produit variable. Pour chaque produit d'origine, il affiche l'étiquette que l'extension a tirée de son nom (« Black », « Navy ») et l'attribut qu'elle a deviné (Color, Size, Flavor, Scent ou Volume, soit couleur, taille, saveur, parfum ou volume).
 
 - Décochez tout produit qui ne fait pas partie de ce produit.
 - Modifiez le nom du produit variable, l'attribut et toute étiquette mal formulée.
@@ -40,4 +40,4 @@ Cliquez sur **Create variable product** (créer le produit variable). Chaque pro
 
 ## Traiter tout le catalogue
 
-Vous n'êtes pas obligé de chercher. Quand la zone de recherche est vide, l'onglet Combine affiche tous les groupes que l'extension suggère. La vue **Ready** (prêts) montre les groupes sans avertissement, dont les prix, les catégories et les étiquettes concordent déjà. Cochez-les et cliquez sur **Create a product for each group** (créer un produit pour chaque groupe) pour les créer tous en même temps, puis passez à **Needs review** (à vérifier). Si un groupe n'est pas vraiment un seul produit, utilisez **Skip, not variants** (ignorer, pas des variantes) et les analyses suivantes le laisseront de côté.
+Vous n'avez pas à chercher. Quand la zone de recherche est vide, l'onglet Combine affiche tous les groupes que l'extension suggère. La vue **Ready** (prêts) montre les groupes sans avertissement, dont les prix, les catégories et les étiquettes concordent déjà. Cochez-les et cliquez sur **Create a product for each group** (créer un produit pour chaque groupe) pour les créer tous en même temps, puis passez à **Needs review** (à vérifier). Si un groupe n'est pas vraiment un seul produit, utilisez **Skip, not variants** (ignorer, pas des variantes) et les analyses suivantes le laisseront de côté.

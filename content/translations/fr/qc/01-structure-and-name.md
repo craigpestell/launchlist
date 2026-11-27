@@ -21,11 +21,11 @@ En contrepartie, vous êtes **personnellement responsable** des obligations de l
 
 ## Nom
 
-- Si vous exercez sous un nom qui comprend vos prénom et nom (par exemple «  Jeanne Tremblay »), l'immatriculation n'est pas obligatoire, mais vous pouvez vous immatriculer quand même.
-- Si vous utilisez un autre nom, par exemple «  Boutique Jeanne », vous **devez vous immatriculer** à l'étape suivante.
+- Si vous exercez sous un nom qui comprend vos prénom et nom (par exemple « Jeanne Tremblay »), l'immatriculation n'est pas obligatoire, mais vous pouvez vous immatriculer quand même.
+- Si vous utilisez un autre nom, par exemple « Boutique Jeanne », vous **devez vous immatriculer** à l'étape suivante.
 
 Selon la Charte de la langue française, le nom de votre entreprise **doit être en français**. Il ne doit pas non plus prêter à confusion avec le nom d'une autre entreprise. Consultez donc le registre des entreprises avant de l'arrêter.
 
-## Restez pratique
+## Rester pratique
 
 Choisissez un nom que vous serez à l'aise de voir sur un relevé bancaire, un permis et une étiquette d'expédition.

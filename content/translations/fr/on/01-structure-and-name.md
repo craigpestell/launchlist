@@ -10,7 +10,7 @@ checklist:
   - Opter pour une entreprise individuelle (recommandé pour commencer)
   - Choisir un nom commercial, ou décider d'exercer sous votre propre nom légal
   - Chercher le nom dans le Registre des entreprises de l'Ontario pour confirmer qu'il n'est pas déjà pris
-  - Vérifier que le nom de domaine .ca et les noms d'utilisateur sur les réseaux sociaux sont libres
+  - Vérifier que le nom de domaine .ca et les noms d'utilisateur correspondants sur les réseaux sociaux sont libres
 ---
 
 ## Structure
@@ -21,8 +21,8 @@ En contrepartie, vous êtes **personnellement responsable** de l'entreprise. Le 
 
 ## Nom
 
-- Si vous faites affaire uniquement sous votre propre nom légal (par exemple «  Jeanne Tremblay »), vous n'avez généralement pas à enregistrer de nom.
-- Si vous utilisez un autre nom, par exemple «  Boutique cadeaux chez Jeanne », vous **devez l'enregistrer** à l'étape suivante.
+- Si vous faites affaire uniquement sous votre propre nom légal (par exemple « Jeanne Tremblay »), vous n'avez généralement pas à enregistrer de nom.
+- Si vous utilisez un autre nom, par exemple « Boutique cadeaux chez Jeanne », vous **devez l'enregistrer** à l'étape suivante.
 
 Choisissez un nom unique, facile à épeler et facile à prononcer. Cherchez-le dans le Registre des entreprises de l'Ontario avant de vous y attacher.
 

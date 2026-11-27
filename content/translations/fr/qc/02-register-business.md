@@ -8,10 +8,10 @@ linkLabel: Québec.ca — à propos de l'immatriculation
 linkUrl: https://www.quebec.ca/en/businesses-and-self-employed-workers/start-entreprise/register-constitute-enterprise/learn-about-registration/about-registration
 checklist:
   - Vérifier si vous devez vous immatriculer (seulement si votre nom ne comprend pas vos prénom et nom)
-  - Obtenir un code d'accès clicSÉQUR pour produire en ligne
+  - Obtenir un code d'accès clicSÉQUR pour faire vos démarches en ligne
   - Produire une déclaration d'immatriculation auprès du Registraire des entreprises et payer 41 $
   - Noter votre numéro d'entreprise du Québec (NEQ)
-  - Produire chaque année la déclaration de mise à jour annuelle gratuite, au besoin avec votre déclaration de revenus du Québec
+  - Produire chaque année la déclaration de mise à jour annuelle gratuite, au choix avec votre déclaration de revenus du Québec
 ---
 
 ## Qui doit s'immatriculer

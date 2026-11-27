@@ -4,7 +4,7 @@ title: Obtenir votre numéro d'entreprise de l'ARC
 summary: Obtenez le numéro gratuit à neuf chiffres de l'Agence du revenu du Canada auquel se rattachent vos comptes d'impôt fédéraux.
 time: 20 à 30 minutes
 cost: Gratuit
-linkLabel: "ARC : inscription d'une entreprise"
+linkLabel: ARC — inscription d'une entreprise
 linkUrl: https://www.canada.ca/en/services/taxes/business-registration.html
 checklist:
   - Ouvrir une session dans votre compte de l'ARC

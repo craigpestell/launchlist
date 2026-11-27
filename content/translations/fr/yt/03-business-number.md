@@ -12,13 +12,13 @@ checklist:
   - Conserver votre numéro d'entreprise en lieu sûr
 ---
 
-## De quoi s'agit-il
+## Ce que c'est
 
 Le **numéro d'entreprise (NE)** est un numéro à neuf chiffres que l'Agence du revenu du Canada utilise pour identifier votre entreprise. Votre compte de TPS (étape 4) y est rattaché.
 
 ## Distinct de votre nom commercial
 
-L'enregistrement d'un nom commercial auprès de Corporate Affairs du Yukon (étape 2) ne vous donne **pas** de NE fédéral. Inscrivez-vous donc séparément auprès de l'ARC.
+L'enregistrement d'une dénomination sociale auprès de Corporate Affairs du Yukon (étape 2) ne vous donne **pas** de NE fédéral. Inscrivez-vous donc séparément auprès de l'ARC.
 
 ## Comment l'obtenir
 
