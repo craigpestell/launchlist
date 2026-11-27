@@ -2,7 +2,7 @@
 title: Choose your structure and business name
 summary: Decide how the business is set up in Pennsylvania and what it is called.
 time: 1–2 hours
-cost: Free to decide ($125 if you form an LLC)
+cost: Free to decide ($125 if you form an LLC, seen November 2026; confirm current fee)
 linkLabel: Pennsylvania Department of State LLC page
 linkUrl: https://www.pa.gov/agencies/dos/programs/business/types-of-filings-and-registrations/pennsylvania-limited-liability-company
 checklist:

@@ -2,7 +2,7 @@
 title: Choose your structure and business name
 summary: Decide how the business is set up in New Jersey, what it is called, and which state rules apply to you.
 time: 1–2 hours
-cost: Free to decide ($100 plus a $75 yearly report if you form an LLC)
+cost: Free to decide ($100 plus a $75 yearly report if you form an LLC, seen November 2026; confirm current fee)
 linkLabel: Business.NJ.gov business structure and registration
 linkUrl: https://business.nj.gov/pages/register-your-business
 checklist:

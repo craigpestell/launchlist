@@ -2,7 +2,7 @@
 title: Choose your structure and business name
 summary: Decide how the business is set up in Michigan, what it is called, and which state and city taxes apply to you.
 time: 1–2 hours
-cost: Free to decide ($50 if you form an LLC)
+cost: Free to decide ($50 if you form an LLC, seen November 2026; confirm current fee)
 linkLabel: Michigan LLC name rules (MCL 450.4204)
 linkUrl: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-450-4204
 checklist:

@@ -2,7 +2,7 @@
 title: Check your local business license (BPOL) and permits
 summary: Find out whether your Virginia county, city or town requires a BPOL business license or other local permits.
 time: 30–60 minutes
-cost: Varies by locality (state law caps the basic license fee at $30–$50)
+cost: Varies by locality (state law caps the basic license fee at $30–$50, seen November 2026; confirm current fee)
 linkLabel: Virginia.gov local government directory
 linkUrl: https://www.virginia.gov/local-government/
 checklist:

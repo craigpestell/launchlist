@@ -2,7 +2,7 @@
 title: Choose your structure and business name
 summary: Decide how the business is set up in Illinois and what it is called before you register anything.
 time: 1–2 hours
-cost: Free to decide ($150 if you form an LLC)
+cost: Free to decide ($150 if you form an LLC, seen November 2026; confirm current fee)
 linkLabel: DCEO Begin Here for small businesses
 linkUrl: https://dceo.illinois.gov/smallbizassistance/beginhere.html
 checklist:
