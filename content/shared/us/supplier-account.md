@@ -14,11 +14,11 @@ checklist:
 
 ## What your supplier needs
 
-Your business name, EIN and your **{region} sales tax permit number** from {step:sales-tax}.
+Your business name, EIN and the **{region} sales tax registration number** you got in {step:sales-tax}.
 
 ## Resale certificate
 
-You don't pay sales tax on stock you buy to resell. To show this, give the supplier a **resale certificate**: usually {region}'s own form. Suppliers in other states may accept the Multistate Tax Commission's uniform certificate or the Streamlined Sales Tax exemption certificate instead. Keep a copy of each one you give.
+You don't pay sales tax on stock you buy to resell. To show this, give the supplier a **resale certificate**. Each state has its own form and name for it, such as a reseller permit or an exemption certificate, and {step:sales-tax} names the one {region} uses. Suppliers in other states may accept the Multistate Tax Commission's uniform certificate or the Streamlined Sales Tax exemption certificate instead. Keep a copy of each one you give.
 
 ## Questions to ask
 

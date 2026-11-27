@@ -2,7 +2,7 @@
 title: Choose your structure and business name
 summary: Decide how the business is set up in Virginia and what it is called, before you file anything.
 time: 1–2 hours
-cost: Free to decide ($100 plus $50 a year if you form an LLC)
+cost: Free to decide ($100 plus $50 a year if you form an LLC, seen November 2026; confirm current fee)
 linkLabel: Virginia SCC LLC forms and fees
 linkUrl: https://www.scc.virginia.gov/businesses/forms-and-fees/virginia-limited-liability-companies/
 checklist:

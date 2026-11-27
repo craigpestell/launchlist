@@ -13,11 +13,11 @@ checklist:
 
 ## Bookkeeping
 
-Use simple software such as Wave, QuickBooks or Xero. Keep **sales tax collected** separate from your income: it belongs to the state. Keep every receipt.
+Use simple software such as Wave, QuickBooks or Xero. Keep **sales tax collected** separate from your income: that money is owed to the state, not yours to spend. Keep every receipt.
 
 ## Federal income tax
 
-As a sole proprietor, or a single-member LLC that hasn't chosen otherwise, you report business profit on your personal return with **Schedule C**. You also pay **self-employment tax** of 15.3% on net earnings of $400 or more, on Schedule SE (seen November 2026). {region} may also have its own income tax: see {step:structure-and-name}.
+As a sole proprietor, or a single-member LLC that hasn't chosen otherwise, you report business profit on your personal return with **Schedule C**. You also pay **self-employment tax** of 15.3% on net earnings of $400 or more, on Schedule SE (seen November 2026). This step covers federal tax only. Whether {region} also taxes business income, and whether you owe state estimated payments, is in {step:structure-and-name}.
 
 ## Quarterly estimated tax
 

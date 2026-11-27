@@ -2,7 +2,7 @@
 title: Choose your structure and business name
 summary: Decide how the business is set up in Georgia and what it is called before you register anything.
 time: 1–2 hours
-cost: Free to decide ($100–$110 if you form an LLC)
+cost: Free to decide ($100–$110 if you form an LLC, seen November 2026; confirm current fee)
 linkLabel: Georgia.gov starting a business guide
 linkUrl: https://georgia.gov/starting-business-guide
 checklist:

@@ -2,7 +2,7 @@
 title: Choose your structure and business name
 summary: Decide how the business is set up in North Carolina, what it is called, and how state income tax applies to you.
 time: 1–2 hours
-cost: Free to decide ($125 if you form an LLC, then $200 a year)
+cost: Free to decide ($125 if you form an LLC, then $200 a year, seen November 2026; confirm current fee)
 linkLabel: NC Secretary of State LLC fees
 linkUrl: https://www.sosnc.gov/fees/by_title/_Business_Registration_limited_liability_companies
 checklist:
