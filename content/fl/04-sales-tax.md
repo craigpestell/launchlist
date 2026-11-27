@@ -1,6 +1,6 @@
 ---
 title: Get your Florida sales and use tax certificate of registration (6%)
-summary: Register with the Florida Department of Revenue for a sales and use tax certificate of registration before you start selling taxable goods.
+summary: Register with the Florida Department of Revenue for a sales and use tax certificate before you sell taxable goods.
 time: 30–60 minutes to apply
 cost: No fee listed (confirm when you apply)
 linkLabel: Florida Department of Revenue account registration

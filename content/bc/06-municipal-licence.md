@@ -1,6 +1,6 @@
 ---
 title: Get a municipal business licence
-summary: Your city or district licences businesses operating there.
+summary: Get a business licence from your city or district, and check its rules for home-based businesses before you apply.
 time: 1–2 hours
 cost: Varies by municipality
 checklist:

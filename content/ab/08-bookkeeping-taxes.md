@@ -1,6 +1,6 @@
 ---
 title: Set up bookkeeping and income tax
-summary: Track sales, GST and expenses from day one.
+summary: Set up bookkeeping that tracks sales, GST and expenses from day one, and report business income on your tax return.
 time: 2–3 hours
 cost: Software from about $0–$30/month; accountant consult about $150–$300
 checklist:

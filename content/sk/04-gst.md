@@ -1,6 +1,6 @@
 ---
 title: Register for GST (5%)
-summary: Collect GST from customers and claim back the GST you pay on stock.
+summary: Register for GST with the CRA so you can collect it from customers and claim back the GST you pay on stock.
 time: 30 minutes
 cost: Free
 linkLabel: CRA — GST/HST for businesses

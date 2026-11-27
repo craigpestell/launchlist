@@ -1,6 +1,6 @@
 ---
 title: Register your trade name with a registry agent
-summary: Register the name your sole proprietorship trades under.
+summary: Register your trade name through a registry agent if you sell under any name other than your own personal name.
 time: 30–60 minutes, plus travel to a registry agent
 cost: Government fee plus the agent's service fee (not confirmed; ask your registry agent)
 linkLabel: Alberta — find a business registry

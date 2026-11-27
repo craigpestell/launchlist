@@ -1,6 +1,6 @@
 ---
 title: Product labeling and compliance
-summary: What to check before you list products for sale.
+summary: Check product safety certificates and labeling rules before you list products, and ask your supplier for the paperwork.
 time: 1–2 hours
 cost: Free
 checklist:

@@ -1,6 +1,6 @@
 ---
 title: Register your business name with the Companies Office
-summary: Reserve and register the name your sole proprietorship trades under.
+summary: Reserve and register the business name you trade under with the Companies Office, unless you trade under your own name.
 time: 30–60 minutes, plus a wait for the name approval
 cost: $45 name reservation plus $60 registration (seen October 2026; confirm current fees)
 linkLabel: Manitoba Companies Office — business name forms and fees

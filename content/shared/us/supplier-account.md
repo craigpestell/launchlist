@@ -1,6 +1,6 @@
 ---
 title: Open your reseller account
-summary: The final step before you can order stock.
+summary: Open a reseller account with your supplier and give them a resale certificate, so you don't pay sales tax on stock.
 time: 30 minutes
 cost: Free
 checklist:

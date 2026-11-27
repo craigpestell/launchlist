@@ -1,6 +1,6 @@
 ---
 title: Get approved by a payment processor
-summary: Do this early. Processors review each business before approving it.
+summary: Apply to payment processors early, since many restrict some products and review each business before approving it.
 time: Days to weeks
 cost: Per-transaction fees
 checklist:

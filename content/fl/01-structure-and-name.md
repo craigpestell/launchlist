@@ -1,6 +1,6 @@
 ---
 title: Choose your structure and business name
-summary: Decide how the business is set up in Florida and what it is called.
+summary: Choose a sole proprietorship (recommended to start) or an LLC, and pick a business name that meets the state's rules.
 time: 1–2 hours
 cost: Free to decide ($125 if you form an LLC)
 linkLabel: Florida Division of Corporations (Sunbiz)

@@ -1,6 +1,6 @@
 ---
 title: Check your catalog and undo mistakes
-summary: Spot-check what changed and reverse anything that isn't right.
+summary: Check what each conversion changed in the History tab, spot-check your shop, and undo anything that isn't right.
 time: 15 minutes
 cost: Free
 checklist:
