@@ -420,7 +420,10 @@
     "country": "US",
     "code": "OH",
     "name": "Ohio",
-    "status": "pending"
+    "status": "blocked",
+    "researchedAt": "2026-11-26",
+    "confidence": "low",
+    "note": "ohiosos.gov blocks automated access; LLC \\$99 and trade name \\$39 fees seen only in search snippets. Confirm https://www.ohiosos.gov/business/business-filing-forms in a normal browser, then restore the drafts."
   },
   {
     "id": "us-ok",
