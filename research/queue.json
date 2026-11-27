@@ -221,7 +221,11 @@
     "country": "US",
     "code": "GA",
     "name": "Georgia",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": ""
   },
   {
     "id": "us-hi",
@@ -242,7 +246,11 @@
     "country": "US",
     "code": "IL",
     "name": "Illinois",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": ""
   },
   {
     "id": "us-in",
@@ -305,7 +313,11 @@
     "country": "US",
     "code": "MI",
     "name": "Michigan",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": ""
   },
   {
     "id": "us-mn",
@@ -361,7 +373,11 @@
     "country": "US",
     "code": "NJ",
     "name": "New Jersey",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": ""
   },
   {
     "id": "us-nm",
@@ -386,7 +402,11 @@
     "country": "US",
     "code": "NC",
     "name": "North Carolina",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": ""
   },
   {
     "id": "us-nd",
@@ -400,7 +420,10 @@
     "country": "US",
     "code": "OH",
     "name": "Ohio",
-    "status": "pending"
+    "status": "blocked",
+    "researchedAt": "2026-11-26",
+    "confidence": "low",
+    "note": "ohiosos.gov blocks automated access; LLC \\$99 and trade name \\$39 fees seen only in search snippets. Confirm https://www.ohiosos.gov/business/business-filing-forms in a normal browser, then restore the drafts."
   },
   {
     "id": "us-ok",
@@ -421,7 +444,11 @@
     "country": "US",
     "code": "PA",
     "name": "Pennsylvania",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "high",
+    "note": ""
   },
   {
     "id": "us-ri",
@@ -481,7 +508,11 @@
     "country": "US",
     "code": "VA",
     "name": "Virginia",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "high",
+    "note": ""
   },
   {
     "id": "us-wa",
