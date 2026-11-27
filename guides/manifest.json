@@ -99,40 +99,58 @@
     "capturedAt": "2026-10-06"
   },
   {
-    "region": "shared-ca",
-    "step": "business-number",
-    "file": "guides/shared-ca/business-number/01.webp",
-    "url": "https://www.canada.ca/en/services/taxes/business-registration.html",
-    "alt": "CRA business registration page with the Register with Business Registration Online link highlighted",
-    "caption": "On the CRA business registration page, choose Register with Business Registration Online (BRO).",
-    "capturedAt": "2026-10-18"
+    "region": "ca",
+    "step": "01-structure-and-name",
+    "file": "guides/ca/01-structure-and-name/01.webp",
+    "url": "https://www.sos.ca.gov/business-programs/business-entities/name-reservations",
+    "alt": "California Secretary of State Name Reservations page with the Reserving a Name heading and the Business Search link highlighted",
+    "caption": "Search your name in the Secretary of State Business Search first. It is only a preliminary check and does not cover county fictitious business names or trademarks.",
+    "capturedAt": "2026-11-27"
   },
   {
-    "region": "shared-ca",
-    "step": "business-number",
-    "file": "guides/shared-ca/business-number/02.webp",
-    "url": "https://www.canada.ca/en/services/taxes/business-registration.html",
-    "alt": "CRA page listing ways to register for a business number and program accounts",
-    "caption": "This section explains what a business number covers and which program accounts (like GST/HST) you can add to it.",
-    "capturedAt": "2026-10-18"
+    "region": "ca",
+    "step": "02-register-business",
+    "file": "guides/ca/02-register-business/01.webp",
+    "url": "https://www.sos.ca.gov/business-programs/business-entities/forms/limited-liability-companies-california-domestic",
+    "alt": "California Secretary of State LLC forms table with the Articles of Organization and Statement of Information rows highlighted",
+    "caption": "Forming an LLC costs $70 for the Articles of Organization. The Statement of Information costs $20 and is due within 90 days, then every two years.",
+    "capturedAt": "2026-11-27"
   },
   {
-    "region": "shared-ca",
-    "step": "gst-hst",
-    "file": "guides/shared-ca/gst-hst/01.webp",
-    "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
-    "alt": "CRA GST/HST for businesses page with the Who needs to register section highlighted",
-    "caption": "Check Who needs to register for GST/HST. Most businesses must register once taxable sales pass $30,000 in four consecutive calendar quarters.",
-    "capturedAt": "2026-10-18"
+    "region": "ca",
+    "step": "02-register-business",
+    "file": "guides/ca/02-register-business/02.webp",
+    "url": "https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html",
+    "alt": "Franchise Tax Board LLC page with the Annual Tax section and the $800 annual tax sentence highlighted",
+    "caption": "Every California LLC also pays an $800 annual tax to the Franchise Tax Board, even in a year with no sales.",
+    "capturedAt": "2026-11-27"
   },
   {
-    "region": "shared-ca",
-    "step": "gst-hst",
-    "file": "guides/shared-ca/gst-hst/02.webp",
-    "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
-    "alt": "CRA GST/HST for businesses page with the Get a GST/HST number and manage your account section highlighted",
-    "caption": "When you're ready, open Get a GST/HST number and manage your account. Registration is done in Business Registration Online, signed in with your CRA account.",
-    "capturedAt": "2026-10-18"
+    "region": "ca",
+    "step": "04-sales-tax",
+    "file": "guides/ca/04-sales-tax/01.webp",
+    "url": "https://cdtfa.ca.gov/formspubs/pub107/applying-for-a-sellers-permit.htm",
+    "alt": "CDTFA Publication 107 Applying for a Seller's Permit page with the no charge sentence highlighted",
+    "caption": "The seller's permit is free. The CDTFA may ask for a security deposit depending on your type of business and expected sales.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "ca",
+    "step": "04-sales-tax",
+    "file": "guides/ca/04-sales-tax/02.webp",
+    "url": "https://cdtfa.ca.gov/taxes-and-fees/sales-use-tax-rates.htm",
+    "alt": "CDTFA sales and use tax rates page with the Tax Districts heading and the statewide rate sentence highlighted",
+    "caption": "The statewide rate is 7.25%. Most areas add district taxes, so look up the rate for your address with the CDTFA tool on this page.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "ca",
+    "step": "05-local-licence",
+    "file": "guides/ca/05-local-licence/01.webp",
+    "url": "https://www.calgold.ca.gov/",
+    "alt": "CalGold permit assistance page with the Select a City and Select a Business Type fields highlighted",
+    "caption": "Choose your city and type of business in CalGold to see the permits that may apply. Confirm each one with the agency listed.",
+    "capturedAt": "2026-11-27"
   },
   {
     "region": "clear-site-data",
@@ -142,6 +160,24 @@
     "alt": "Chrome's Site settings page for an example site, with the site name and the Delete data button highlighted",
     "caption": "In Chrome, Site settings opens a page for the site you were on (1). Click Delete data (2), then confirm. This shot uses an example site.",
     "capturedAt": "2026-11-26"
+  },
+  {
+    "region": "fl",
+    "step": "04-sales-tax",
+    "file": "guides/fl/04-sales-tax/01.webp",
+    "url": "https://floridarevenue.com/taxes/eservices/Pages/registration.aspx",
+    "alt": "Florida Department of Revenue account registration page with the Register Online to Collect and Pay Taxes or Fees link highlighted",
+    "caption": "Register online with the Florida Business Tax Application. You receive your certificate of registration and annual resale certificate.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "fl",
+    "step": "04-sales-tax",
+    "file": "guides/fl/04-sales-tax/02.webp",
+    "url": "https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx",
+    "alt": "Florida Department of Revenue sales and use tax page with the 6% state rate and the Discretionary Sales Surtax heading highlighted",
+    "caption": "Charge the 6% state rate plus the surtax for the county where the item is delivered.",
+    "capturedAt": "2026-11-27"
   },
   {
     "region": "ip-address",
@@ -315,6 +351,69 @@
     "capturedAt": "2026-10-18"
   },
   {
+    "region": "ny",
+    "step": "01-structure-and-name",
+    "file": "guides/ny/01-structure-and-name/01.webp",
+    "url": "https://www.businessexpress.ny.gov/app/answers/cms/a_id/3050",
+    "alt": "NY Business Express Sole Proprietorship page with the sentence describing a sole proprietorship highlighted",
+    "caption": "Read the Business Express overview of a sole proprietorship, the simplest way to start.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "ny",
+    "step": "01-structure-and-name",
+    "file": "guides/ny/01-structure-and-name/02.webp",
+    "url": "https://www.businessexpress.ny.gov/app/answers/cms/a_id/2443",
+    "alt": "NY Business Express LLC Articles of Organization page with the Required Fees section highlighted",
+    "caption": "If you are weighing an LLC, check the filing and publication fees before you decide.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "ny",
+    "step": "02-register-business",
+    "file": "guides/ny/02-register-business/01.webp",
+    "url": "https://www.businessexpress.ny.gov/app/answers/cms/a_id/3050",
+    "alt": "NY Business Express Sole Proprietorship page with the assumed name filing fees highlighted",
+    "caption": "Check the county clerk filing fee for your assumed name certificate.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "ny",
+    "step": "02-register-business",
+    "file": "guides/ny/02-register-business/02.webp",
+    "url": "https://www.businessexpress.ny.gov/app/answers/cms/a_id/2443",
+    "alt": "NY Business Express LLC Articles of Organization page with the newspaper publication requirement highlighted",
+    "caption": "If you formed an LLC, read the newspaper publication requirement and its 120-day deadline.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "ny",
+    "step": "04-sales-tax",
+    "file": "guides/ny/04-sales-tax/01.webp",
+    "url": "https://www.tax.ny.gov/bus/st/register.htm",
+    "alt": "New York Tax Department Register as a sales tax vendor page with the Apply online button highlighted",
+    "caption": "Apply online for a Certificate of Authority at least 20 days before you start selling.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "ny",
+    "step": "04-sales-tax",
+    "file": "guides/ny/04-sales-tax/02.webp",
+    "url": "https://www.tax.ny.gov/bus/st/rates.htm",
+    "alt": "New York Tax Department Find sales tax rates page with the rate lookup by address button highlighted",
+    "caption": "Look up the combined state and local rate for each delivery address.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "ny",
+    "step": "05-local-licence",
+    "file": "guides/ny/05-local-licence/01.webp",
+    "url": "https://www.businessexpress.ny.gov/app/portal/content/start_a_business",
+    "alt": "NY Business Express How to Start a Business page with the note on local permits and licenses highlighted",
+    "caption": "Check with the local offices where you are based and where you sell for any local permits.",
+    "capturedAt": "2026-11-27"
+  },
+  {
     "region": "on",
     "step": "01-structure-and-name",
     "file": "guides/on/01-structure-and-name/01.webp",
@@ -459,6 +558,69 @@
     "capturedAt": "2026-10-18"
   },
   {
+    "region": "shared-ca",
+    "step": "business-number",
+    "file": "guides/shared-ca/business-number/01.webp",
+    "url": "https://www.canada.ca/en/services/taxes/business-registration.html",
+    "alt": "CRA business registration page with the Register with Business Registration Online link highlighted",
+    "caption": "On the CRA business registration page, choose Register with Business Registration Online (BRO).",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "shared-ca",
+    "step": "business-number",
+    "file": "guides/shared-ca/business-number/02.webp",
+    "url": "https://www.canada.ca/en/services/taxes/business-registration.html",
+    "alt": "CRA page listing ways to register for a business number and program accounts",
+    "caption": "This section explains what a business number covers and which program accounts (like GST/HST) you can add to it.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "shared-ca",
+    "step": "gst-hst",
+    "file": "guides/shared-ca/gst-hst/01.webp",
+    "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
+    "alt": "CRA GST/HST for businesses page with the Who needs to register section highlighted",
+    "caption": "Check Who needs to register for GST/HST. Most businesses must register once taxable sales pass $30,000 in four consecutive calendar quarters.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "shared-ca",
+    "step": "gst-hst",
+    "file": "guides/shared-ca/gst-hst/02.webp",
+    "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
+    "alt": "CRA GST/HST for businesses page with the Get a GST/HST number and manage your account section highlighted",
+    "caption": "When you're ready, open Get a GST/HST number and manage your account. Registration is done in Business Registration Online, signed in with your CRA account.",
+    "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "shared-us",
+    "step": "ein",
+    "file": "guides/shared-us/ein/01.webp",
+    "url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+    "alt": "IRS Get an employer identification number page with the Apply for an EIN button highlighted",
+    "caption": "On the IRS EIN page, choose Apply for an EIN. Applying is free and takes one session.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "shared-us",
+    "step": "ein",
+    "file": "guides/shared-us/ein/02.webp",
+    "url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+    "alt": "IRS Get an employer identification number page with the warning about sites that charge for an EIN highlighted",
+    "caption": "Apply only on irs.gov. The IRS never charges for an EIN, so skip any site that asks for a fee.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "shared-us",
+    "step": "sales-tax-other-states",
+    "file": "guides/shared-us/sales-tax-other-states/01.webp",
+    "url": "https://www.streamlinedsalestax.org/for-businesses/sales-tax-registration-sstrs",
+    "alt": "Streamlined Sales Tax Registration System page listing the member states, with the no-fee note highlighted",
+    "caption": "If you reach a threshold in a Streamlined member state, you can register for several states at once here. The system itself is free.",
+    "capturedAt": "2026-11-27"
+  },
+  {
     "region": "sk",
     "step": "01-structure-and-name",
     "file": "guides/sk/01-structure-and-name/01.webp",
@@ -493,6 +655,69 @@
     "alt": "City of Saskatoon home-based business licence page with the $135 new licence fee highlighted",
     "caption": "Each municipality sets its own rules. Saskatoon, for example, charges $135 for a new home-based business licence and $95 a year to renew. Look up your own city or town in the same way.",
     "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "tx",
+    "step": "01-structure-and-name",
+    "file": "guides/tx/01-structure-and-name/01.webp",
+    "url": "https://www.sos.state.tx.us/corp/sosda/index.shtml",
+    "alt": "Texas Secretary of State SOSPortal page with the $1.00 search fee highlighted",
+    "caption": "Search business names on SOSPortal before you settle on one. Each search costs $1.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "tx",
+    "step": "01-structure-and-name",
+    "file": "guides/tx/01-structure-and-name/02.webp",
+    "url": "https://www.sos.state.tx.us/corp/instructions/205.shtml",
+    "alt": "Texas Secretary of State Form 205 instructions with the entity name and organizational designation rule highlighted",
+    "caption": "Read the name rules before you form an LLC. The name needs an organizational designation that shows it is an LLC.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "tx",
+    "step": "02-register-business",
+    "file": "guides/tx/02-register-business/01.webp",
+    "url": "https://www.sos.state.tx.us/corp/namefilingsfaqs.shtml",
+    "alt": "Texas Secretary of State name filings FAQ with the answer on filing an assumed name certificate with the county clerk highlighted",
+    "caption": "File your assumed name certificate with the county clerk in each county where you keep a business office. Ask the county clerk for the current fee.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "tx",
+    "step": "02-register-business",
+    "file": "guides/tx/02-register-business/02.webp",
+    "url": "https://www.sos.state.tx.us/corp/instructions/205.shtml",
+    "alt": "Texas Secretary of State Form 205 instructions with the $300 LLC filing fee highlighted",
+    "caption": "Check the fee before you form an LLC. A certificate of formation costs $300.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "tx",
+    "step": "04-sales-tax",
+    "file": "guides/tx/04-sales-tax/01.webp",
+    "url": "https://comptroller.texas.gov/taxes/permit/",
+    "alt": "Texas Online Tax Registration Application page with the Apply for Permit via eSystems link highlighted",
+    "caption": "Apply for your sales and use tax permit through eSystems. Allow 2–3 weeks to receive it.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "tx",
+    "step": "04-sales-tax",
+    "file": "guides/tx/04-sales-tax/02.webp",
+    "url": "https://comptroller.texas.gov/taxes/sales/faq/permit.php",
+    "alt": "Texas Comptroller sales tax permit FAQ with the answer that there is no fee for the permit highlighted",
+    "caption": "Note that the permit itself is free. You may be asked to post a security bond.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "tx",
+    "step": "05-local-licence",
+    "file": "guides/tx/05-local-licence/01.webp",
+    "url": "https://gov.texas.gov/business/page/business-permits-office",
+    "alt": "Texas Business Permit Office page with the General Business License section highlighted",
+    "caption": "Read the General Business License section. Texas has no general license, so check the licenses guide and your city and county instead.",
+    "capturedAt": "2026-11-27"
   },
   {
     "region": "yt",

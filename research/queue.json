@@ -171,7 +171,11 @@
     "country": "US",
     "code": "CA",
     "name": "California",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": "Seller's permit with CDTFA; $800 yearly LLC tax. Not confirmed: FBN fees and publication deadlines outside Fresno/LA, CDTFA security deposit, CA estimated tax threshold; leginfo blocked."
   },
   {
     "id": "us-co",
@@ -206,7 +210,11 @@
     "country": "US",
     "code": "FL",
     "name": "Florida",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": "Fictitious names filed with the state after a newspaper notice; local business tax receipts. Sunbiz blocked, fees taken from Florida Statutes and Division forms. Not confirmed: registration fee (none listed), local tax amounts, 2027 surtax rates."
   },
   {
     "id": "us-ga",
@@ -367,7 +375,11 @@
     "country": "US",
     "code": "NY",
     "name": "New York",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": "LLC publication requirement and $9 biennial statement; NYC rules flagged as city-only. dos.ny.gov blocked. Not confirmed: Certificate of Authority fee (none listed), publication costs, no general state license."
   },
   {
     "id": "us-nc",
@@ -444,7 +456,11 @@
     "country": "US",
     "code": "TX",
     "name": "Texas",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": "No state income tax; franchise tax reports to the Comptroller for LLCs. Not confirmed: county assumed name fees, sales tax security bond amount, LLC name wording rules, TDPSA SBA size standard."
   },
   {
     "id": "us-ut",
