@@ -3,8 +3,8 @@ title: Choose your structure and business name
 summary: Decide how the business is set up and what it is called.
 time: 1–2 hours
 cost: Free
-linkLabel: NWT Corporate Registries — business names
-linkUrl: https://www.justice.gov.nt.ca/en/business-names/
+linkLabel: GNWT — business names and partnerships
+linkUrl: https://gnwt.ca/business-and-economy/business-licences-taxes-and-regulations/business-names-and-partnerships
 checklist:
   - Decide on a sole proprietorship (recommended to start)
   - Pick a business name, or decide to trade under your exact legal name

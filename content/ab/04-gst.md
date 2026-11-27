@@ -19,7 +19,7 @@ Alberta charges **5% GST** and has **no provincial sales tax**, so there is no s
 
 ## When you must register
 
-You must register once your taxable sales pass **$30,000 over four consecutive calendar quarters**.
+You must register once your taxable sales pass **$30,000 in a single calendar quarter or over four consecutive calendar quarters**.
 
 ## Why register earlier
 

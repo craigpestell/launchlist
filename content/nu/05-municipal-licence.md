@@ -19,7 +19,7 @@ Nunavut requires a **territorial business licence**. It costs **$50** and runs f
 
 ## Municipal licence
 
-Your community may need its own licence as well. **Iqaluit** does. Its fee depends on how many hours a week you operate: $50 for a new licence under 30 hours a week, or $100 for 30–90 hours. Renewals cost half that. These fees date from 2018, so confirm them with the City.
+Your community may need its own licence as well. **Iqaluit** does. Its fee depends on how many worker hours the business uses each week: $50 for a new licence under 30 worker hours a week, or $100 for 30–90. Renewing by January 31 costs half that; from February 1, a renewal costs the full fee. These fees date from 2018, so confirm them with the City.
 
 ## Home-based business
 
