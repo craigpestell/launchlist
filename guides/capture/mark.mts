@@ -1,7 +1,7 @@
 import type { Page } from "playwright";
 
 /**
- * Business Express puts a whole section in one element separated by <br>, so
+ * Some sites (NY Business Express, for one) put a whole section in one element, so
  * getByText outlines the section. Wrap just the matching text in a span to
  * outline that instead. Returns the span's selector.
  */
