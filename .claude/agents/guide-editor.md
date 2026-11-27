@@ -33,7 +33,7 @@ You keep the step-by-step guides in `content/` consistent and useful for a first
    5. `local-licence`: state, county and city business licences; these vary by place, so say what to check
    6. `sales-tax-other-states` **(shared)**, `insurance` **(shared)**, `bank-account` **(shared)**, `bookkeeping-taxes` **(shared)**, `payment-processor` **(shared)**, `legal-pages-privacy` **(shared)**, `product-compliance` **(shared)**, `supplier-account` **(shared)**
 
-   State income tax, state privacy law and other things only this state has go in the state's own steps (1, 2, 4 or 5), not in a shared one.
+   Things only this state has go in the state's own steps, not in a shared one, and in the same place in every state: state income and estimated tax under a `## State income tax` section in step 1 (shared step 9 covers federal tax only); annual reports, franchise tax and oddities such as New York's LLC publication rule in step 2; the state's privacy law, if it has one, in step 5. `content/tx/`, `content/ca/`, `content/fl/` and `content/ny/` are the templates.
 4. Write `content/<code>/NN-<slug>.md` where `<code>` is the queue entry's `code` in lower case.
 5. Update the queue entry: `status` to `done`, add `publishedAt` (today). Update the "Not confirmed" list in the research file if you resolved anything.
 6. Run `npm run content:check -- <code>` and `npm run build`. Fix every problem before committing.
