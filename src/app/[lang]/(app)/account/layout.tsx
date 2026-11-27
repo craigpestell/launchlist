@@ -5,6 +5,6 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-export default function AccountLayout({ children }: LayoutProps<"/account">) {
+export default function AccountLayout({ children }: LayoutProps<"/[lang]/account">) {
   return children;
 }

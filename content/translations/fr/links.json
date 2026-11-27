@@ -1,0 +1,16 @@
+{
+  "_comment": "English official page -> its official French version, each checked on 2026-11-27 (found from the page's own hreflang or language toggle, then confirmed to load with html lang fr). French pages swap these in automatically; leave English URLs in the translated files. Pages with no French version are left out. Not yet checked (bot-blocked): revenuquebec.ca, gov.nu.ca, yukon.ca, princeedwardisland.ca PDFs.",
+  "https://companiesoffice.gov.mb.ca/forms_business.html": "https://companiesoffice.gov.mb.ca/forms_business.fr.html",
+  "https://companiesoffice.gov.mb.ca/starting_business_name.html": "https://companiesoffice.gov.mb.ca/starting_business_name.fr.html",
+  "https://gnwt.ca/business-and-economy/business-licences-taxes-and-regulations/business-names-and-partnerships": "https://gtno.ca/affaires-et-economie/licences-dexploitation-de-commerce-taxes-impots-et-reglementation/raison-sociale-et-enregistrement",
+  "https://gnwt.ca/business-and-economy/business-licences-taxes-and-regulations/business-names-and-partnerships/sole-proprietorship": "https://gtno.ca/affaires-et-economie/licences-dexploitation-de-commerce-taxes-impots-et-reglementation/raison-sociale-et-enregistrement/entreprise-individuelle",
+  "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html": "https://www.canada.ca/fr/agence-revenu/services/impot/entreprises/sujets/tps-tvh-entreprises.html",
+  "https://www.canada.ca/en/services/taxes/business-registration.html": "https://www.canada.ca/fr/services/impots/inscription-entreprise.html",
+  "https://www.novascotia.ca/choose-legal-structure-your-business-or-non-profit": "https://www.novascotia.ca/fr/choix-dune-structure-juridique-pour-une-entreprise-ou-un-organisme-non-lucratif",
+  "https://www.novascotia.ca/register-sole-proprietorship": "https://www.novascotia.ca/fr/enregistrer-une-entreprise-individuelle",
+  "https://www.ontario.ca/page/ontario-business-registry": "https://www.ontario.ca/fr/page/registre-des-entreprises-de-lontario",
+  "https://www.quebec.ca/en/businesses-and-self-employed-workers/start-entreprise/legal-forms": "https://www.quebec.ca/entreprises-et-travailleurs-autonomes/demarrer-entreprise/formes-juridiques-entreprise",
+  "https://www.quebec.ca/en/businesses-and-self-employed-workers/start-entreprise/register-constitute-enterprise/learn-about-registration/about-registration": "https://www.quebec.ca/entreprises-et-travailleurs-autonomes/demarrer-entreprise/immatriculer-constituer-entreprise/immatriculation-entreprise/a-propos",
+  "https://www2.gnb.ca/content/gnb/en/services/services_renderer.201450.Register__Renewal_of_a_Business_Name.html": "https://www2.gnb.ca/content/gnb/fr/services/services_renderer.201450.Enregistrement__Renouvellement_d_une_appellation_commerciale.html",
+  "https://www2.snb.ca/content/snb/en/sites/corporate-registry.html": "https://www2.snb.ca/content/snb/fr/sites/registre-corporatif.html"
+}

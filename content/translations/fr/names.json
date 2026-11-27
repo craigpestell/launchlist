@@ -1,0 +1,24 @@
+{
+  "countries": {
+    "CA": {
+      "name": "Canada",
+      "inName": "au Canada",
+      "unit": "provinces et territoires"
+    }
+  },
+  "regions": {
+    "ab": { "name": "Alberta", "in": "en Alberta" },
+    "bc": { "name": "Colombie-Britannique", "in": "en Colombie-Britannique" },
+    "mb": { "name": "Manitoba", "in": "au Manitoba" },
+    "nb": { "name": "Nouveau-Brunswick", "in": "au Nouveau-Brunswick" },
+    "nl": { "name": "Terre-Neuve-et-Labrador", "in": "à Terre-Neuve-et-Labrador" },
+    "ns": { "name": "Nouvelle-Écosse", "in": "en Nouvelle-Écosse" },
+    "nt": { "name": "Territoires du Nord-Ouest", "in": "aux Territoires du Nord-Ouest" },
+    "nu": { "name": "Nunavut", "in": "au Nunavut" },
+    "on": { "name": "Ontario", "in": "en Ontario" },
+    "pe": { "name": "Île-du-Prince-Édouard", "in": "à l'Île-du-Prince-Édouard" },
+    "qc": { "name": "Québec", "in": "au Québec" },
+    "sk": { "name": "Saskatchewan", "in": "en Saskatchewan" },
+    "yt": { "name": "Yukon", "in": "au Yukon" }
+  }
+}

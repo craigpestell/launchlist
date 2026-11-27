@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   robots: { index: false },
 };
 
-export default async function AdminPage(props: PageProps<"/admin">) {
+export default async function AdminPage(props: PageProps<"/[lang]/admin">) {
   const admin = await getSessionUser();
   if (!admin || !isAdmin(admin)) notFound();
 

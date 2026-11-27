@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 // The token is only consumed when the button is pressed (a POST), so email
 // link scanners that prefetch the URL can't use it up.
-export default async function VerifyPage(props: PageProps<"/auth/verify">) {
+export default async function VerifyPage(props: PageProps<"/[lang]/auth/verify">) {
   const { token } = await props.searchParams;
   if (typeof token !== "string" || !token) redirect("/login?error=expired");
 

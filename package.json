@@ -10,7 +10,8 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "node --env-file-if-exists=.env.local scripts/migrate.mjs",
     "guides:capture": "tsx",
-    "content:check": "node scripts/check-content.mjs"
+    "content:check": "node scripts/check-content.mjs",
+    "translations": "node scripts/translations.mjs"
   },
   "dependencies": {
     "@next/third-parties": "^16.3.8",
