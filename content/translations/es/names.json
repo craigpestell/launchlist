@@ -1,0 +1,215 @@
+{
+  "countries": {
+    "US": {
+      "name": "Estados Unidos",
+      "inName": "en Estados Unidos",
+      "unit": "estados"
+    }
+  },
+  "regions": {
+    "al": {
+      "name": "Alabama",
+      "in": "en Alabama"
+    },
+    "ak": {
+      "name": "Alaska",
+      "in": "en Alaska"
+    },
+    "az": {
+      "name": "Arizona",
+      "in": "en Arizona"
+    },
+    "ar": {
+      "name": "Arkansas",
+      "in": "en Arkansas"
+    },
+    "ca": {
+      "name": "California",
+      "in": "en California"
+    },
+    "co": {
+      "name": "Colorado",
+      "in": "en Colorado"
+    },
+    "ct": {
+      "name": "Connecticut",
+      "in": "en Connecticut"
+    },
+    "de": {
+      "name": "Delaware",
+      "in": "en Delaware"
+    },
+    "dc": {
+      "name": "Distrito de Columbia",
+      "in": "en el Distrito de Columbia"
+    },
+    "fl": {
+      "name": "Florida",
+      "in": "en Florida"
+    },
+    "ga": {
+      "name": "Georgia",
+      "in": "en Georgia"
+    },
+    "hi": {
+      "name": "Hawái",
+      "in": "en Hawái"
+    },
+    "id": {
+      "name": "Idaho",
+      "in": "en Idaho"
+    },
+    "il": {
+      "name": "Illinois",
+      "in": "en Illinois"
+    },
+    "in": {
+      "name": "Indiana",
+      "in": "en Indiana"
+    },
+    "ia": {
+      "name": "Iowa",
+      "in": "en Iowa"
+    },
+    "ks": {
+      "name": "Kansas",
+      "in": "en Kansas"
+    },
+    "ky": {
+      "name": "Kentucky",
+      "in": "en Kentucky"
+    },
+    "la": {
+      "name": "Luisiana",
+      "in": "en Luisiana"
+    },
+    "me": {
+      "name": "Maine",
+      "in": "en Maine"
+    },
+    "md": {
+      "name": "Maryland",
+      "in": "en Maryland"
+    },
+    "ma": {
+      "name": "Massachusetts",
+      "in": "en Massachusetts"
+    },
+    "mi": {
+      "name": "Michigan",
+      "in": "en Michigan"
+    },
+    "mn": {
+      "name": "Minnesota",
+      "in": "en Minnesota"
+    },
+    "ms": {
+      "name": "Misisipi",
+      "in": "en Misisipi"
+    },
+    "mo": {
+      "name": "Missouri",
+      "in": "en Missouri"
+    },
+    "mt": {
+      "name": "Montana",
+      "in": "en Montana"
+    },
+    "ne": {
+      "name": "Nebraska",
+      "in": "en Nebraska"
+    },
+    "nv": {
+      "name": "Nevada",
+      "in": "en Nevada"
+    },
+    "nh": {
+      "name": "Nuevo Hampshire",
+      "in": "en Nuevo Hampshire"
+    },
+    "nj": {
+      "name": "Nueva Jersey",
+      "in": "en Nueva Jersey"
+    },
+    "nm": {
+      "name": "Nuevo México",
+      "in": "en Nuevo México"
+    },
+    "ny": {
+      "name": "Nueva York",
+      "in": "en Nueva York"
+    },
+    "nc": {
+      "name": "Carolina del Norte",
+      "in": "en Carolina del Norte"
+    },
+    "nd": {
+      "name": "Dakota del Norte",
+      "in": "en Dakota del Norte"
+    },
+    "oh": {
+      "name": "Ohio",
+      "in": "en Ohio"
+    },
+    "ok": {
+      "name": "Oklahoma",
+      "in": "en Oklahoma"
+    },
+    "or": {
+      "name": "Oregón",
+      "in": "en Oregón"
+    },
+    "pa": {
+      "name": "Pensilvania",
+      "in": "en Pensilvania"
+    },
+    "ri": {
+      "name": "Rhode Island",
+      "in": "en Rhode Island"
+    },
+    "sc": {
+      "name": "Carolina del Sur",
+      "in": "en Carolina del Sur"
+    },
+    "sd": {
+      "name": "Dakota del Sur",
+      "in": "en Dakota del Sur"
+    },
+    "tn": {
+      "name": "Tennessee",
+      "in": "en Tennessee"
+    },
+    "tx": {
+      "name": "Texas",
+      "in": "en Texas"
+    },
+    "ut": {
+      "name": "Utah",
+      "in": "en Utah"
+    },
+    "vt": {
+      "name": "Vermont",
+      "in": "en Vermont"
+    },
+    "va": {
+      "name": "Virginia",
+      "in": "en Virginia"
+    },
+    "wa": {
+      "name": "Washington",
+      "in": "en Washington"
+    },
+    "wv": {
+      "name": "Virginia Occidental",
+      "in": "en Virginia Occidental"
+    },
+    "wi": {
+      "name": "Wisconsin",
+      "in": "en Wisconsin"
+    },
+    "wy": {
+      "name": "Wyoming",
+      "in": "en Wyoming"
+    }
+  }
+}

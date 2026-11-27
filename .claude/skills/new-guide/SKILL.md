@@ -53,7 +53,7 @@ The cloud container's proxy blocks most third-party sites (`curl` gets 000 / 403
 
 ## 3. Write the content
 
-- `content/topics/<slug>/topic.json`: `{ "title", "summary", "group" }`. Title starts with a verb; summary is one sentence ending with a full stop. `group` picks the home page section: `"business"` (Run your business: phone number, donations, products) or `"help"` (Quick help: everyday tech and support tasks like IP address, cache, screenshots).
+- `content/topics/<slug>/topic.json`: `{ "title", "summary", "group" }`. Title starts with a verb; summary is one sentence ending with a full stop. `group` picks the home page section: `"business"` (Run your business: phone number, donations, products) or `"help"` (Quick help: everyday tech and support tasks like IP address, cache, screenshots). Add `"countries": ["CA"]` when the guide only works in some countries (it names Canadian providers, banks or prices): the English page still shows everywhere, but only languages covering one of those countries translate and offer it.
 - Steps: `NN-kebab-slug.md`, numbered from 01 with no gaps. Two to five steps is right for a small guide.
 - Frontmatter keys are listed in `.claude/agents/guide-editor.md`; put `linkLabel`/`linkUrl` on the step where the reader acts. Everything about the wording (checklist items, sections, spelling, example data) follows the `writing-style` skill.
 - Run `npm run content:check -- <slug>` (needs `npm ci` first in a fresh container).

@@ -1,0 +1,717 @@
+{
+  "guides/az/01-structure-and-name/01.webp": {
+    "alt": "Preguntas frecuentes de servicios para empresas de la Arizona Corporation Commission, con la oración que indica la tarifa de $85 para registrar una LLC en línea resaltada",
+    "caption": "Si está considerando una LLC, consulte con la Corporation Commission la tarifa de los artículos de organización (Articles of Organization).",
+    "source": "edfc63a395b3"
+  },
+  "guides/az/01-structure-and-name/02.webp": {
+    "alt": "Página \"10 Steps to Starting a Business in Arizona\" de la Arizona Corporation Commission, con el paso sobre verificar la disponibilidad del nombre abierto y resaltado",
+    "caption": "Busque su nombre comercial en la búsqueda de la Corporation Commission, que incluye corporaciones, LLC y nombres comerciales (trade names).",
+    "source": "6ae8260aa0aa"
+  },
+  "guides/az/02-register-business/01.webp": {
+    "alt": "Página de 10 pasos de la Arizona Corporation Commission, con la oración que dice que un nombre comercial dura 5 años y lo registra la Secretary of State resaltada",
+    "caption": "Registre su nombre comercial (trade name) ante la Secretary of State (Secretaría de Estado), no ante la Corporation Commission. El registro dura 5 años.",
+    "source": "3115cbaf0915"
+  },
+  "guides/az/02-register-business/02.webp": {
+    "alt": "Respuesta de las preguntas frecuentes de la Arizona Corporation Commission sobre la publicación de documentos, con la oración sobre la carta de publicación resaltada",
+    "caption": "Si formó una LLC, espere la carta de la Commission que le indica si debe publicar un aviso.",
+    "source": "05989b195bec"
+  },
+  "guides/az/02-register-business/03.webp": {
+    "alt": "Respuesta de las preguntas frecuentes de la Arizona Corporation Commission que dice que las LLC no tienen que presentar informes anuales, resaltada",
+    "caption": "Las LLC de Arizona no presentan un informe anual.",
+    "source": "325df08f1b61"
+  },
+  "guides/az/04-sales-tax/01.webp": {
+    "alt": "Página de inicio de AZTaxes.gov con la sección \"Businesses\" resaltada",
+    "caption": "Solicite su licencia del transaction privilege tax (TPT, impuesto sobre el privilegio de realizar transacciones) en AZTaxes.gov antes de su primera venta. Los servicios para empresas están en \"Businesses\" (empresas) (1).",
+    "source": "4ce65326d45b"
+  },
+  "guides/az/05-local-licence/01.webp": {
+    "alt": "Página de 10 pasos de la Arizona Corporation Commission, con el paso sobre impuestos y licencias comerciales de la ciudad o el condado abierto y resaltado",
+    "caption": "Para cualquier licencia comercial local, regístrese con su ciudad, o con su condado si está fuera de los límites de la ciudad.",
+    "source": "f745111cf0c6"
+  },
+  "guides/ca/01-structure-and-name/01.webp": {
+    "alt": "Página \"Name Reservations\" de la California Secretary of State, con el encabezado \"Reserving a Name\" y el enlace \"Business Search\" resaltados",
+    "caption": "Primero busque su nombre en \"Business Search\" (búsqueda de negocios) de la Secretary of State. Es solo una verificación preliminar: no incluye los nombres comerciales ficticios de los condados (fictitious business names) ni las marcas registradas.",
+    "source": "787d848ebe66"
+  },
+  "guides/ca/02-register-business/01.webp": {
+    "alt": "Tabla de formularios para LLC de la California Secretary of State, con las filas \"Articles of Organization\" y \"Statement of Information\" resaltadas",
+    "caption": "Formar una LLC cuesta $70 por los artículos de organización (Articles of Organization). El Statement of Information (declaración de información) cuesta $20 y se presenta dentro de 90 días y luego cada dos años.",
+    "source": "4c42dd528f45"
+  },
+  "guides/ca/02-register-business/02.webp": {
+    "alt": "Página sobre LLC del Franchise Tax Board, con la sección \"Annual Tax\" y la oración sobre el impuesto anual de $800 resaltadas",
+    "caption": "Toda LLC de California también paga un impuesto anual de $800 al Franchise Tax Board (la agencia de impuestos sobre los ingresos de California), aunque no tenga ventas ese año.",
+    "source": "1e5f59e14894"
+  },
+  "guides/ca/04-sales-tax/01.webp": {
+    "alt": "Página de la Publicación 107 del CDTFA, \"Applying for a Seller's Permit\", con la oración que dice que no tiene costo resaltada",
+    "caption": "El permiso de vendedor (seller's permit) es gratis. El CDTFA puede pedirle un depósito de garantía según su tipo de negocio y las ventas que espera.",
+    "source": "1979d9a5fb26"
+  },
+  "guides/ca/04-sales-tax/02.webp": {
+    "alt": "Página de tasas del impuesto sobre las ventas y el uso del CDTFA, con el encabezado \"Tax Districts\" y la oración sobre la tasa estatal resaltados",
+    "caption": "La tasa estatal es de 7.25%. La mayoría de las zonas agregan impuestos de distrito, así que busque la tasa de su dirección con la herramienta del CDTFA en esta página.",
+    "source": "8507f380c5c8"
+  },
+  "guides/ca/05-local-licence/01.webp": {
+    "alt": "Página de ayuda con permisos de CalGold, con los campos \"Select a City\" y \"Select a Business Type\" resaltados",
+    "caption": "En CalGold, elija su ciudad y su tipo de negocio para ver los permisos que pueden aplicarse. Confirme cada uno con la agencia indicada.",
+    "source": "b0ffb9f43dd0"
+  },
+  "guides/clear-site-data/01-clear-one-site/01.webp": {
+    "alt": "Página \"Site settings\" de Chrome para un sitio de ejemplo, con el nombre del sitio y el botón \"Delete data\" resaltados",
+    "caption": "En Chrome, \"Site settings\" (configuración de sitios) abre una página del sitio en el que estaba (1). Haga clic en \"Delete data\" (borrar datos) (2) y confirme. Esta captura usa un sitio de ejemplo.",
+    "source": "7eab623f8da6"
+  },
+  "guides/fl/01-structure-and-name/01.webp": {
+    "alt": "Búsqueda por nombre de entidad en Sunbiz, de la Florida Division of Corporations, con el campo del nombre y el botón \"Search Now\" resaltados",
+    "caption": "Busque su nombre en Sunbiz antes de decidirse: escríbalo en \"Entity Name\" (nombre de la entidad) (1) y seleccione \"Search Now\" (buscar ahora) (2). El nombre de una LLC debe poder distinguirse de los que ya están registrados.",
+    "source": "755406e2ba14"
+  },
+  "guides/fl/04-sales-tax/01.webp": {
+    "alt": "Página de registro de cuentas del Florida Department of Revenue, con el enlace \"Register Online to Collect and Pay Taxes or Fees\" resaltado",
+    "caption": "Regístrese en línea con la Florida Business Tax Application (solicitud de impuestos comerciales de Florida). Recibirá su certificado de registro y su certificado de reventa anual.",
+    "source": "b56557d3d65d"
+  },
+  "guides/fl/04-sales-tax/02.webp": {
+    "alt": "Página del impuesto sobre las ventas y el uso del Florida Department of Revenue, con la tasa estatal de 6% y el encabezado \"Discretionary Sales Surtax\" resaltados",
+    "caption": "Cobre la tasa estatal de 6% más el recargo (surtax) del condado donde se entrega el artículo.",
+    "source": "3e1acfca893c"
+  },
+  "guides/ga/01-structure-and-name/01.webp": {
+    "alt": "Guía para iniciar un negocio de Georgia.gov, con la respuesta \"Sole Proprietorship\" abierta y la oración que dice que las empresas individuales no se registran resaltada",
+    "caption": "Lea la nota de Georgia.gov: una empresa individual (sole proprietorship) no se registra ante la Secretary of State (Secretaría de Estado).",
+    "source": "4e284d801343"
+  },
+  "guides/ga/01-structure-and-name/02.webp": {
+    "alt": "Página \"Register an LLC\" de Georgia.gov, con la sección \"Register online\" abierta y la tarifa de registro de $100 resaltada",
+    "caption": "Si está considerando una LLC, revise la tarifa de registro de la Secretary of State antes de decidir.",
+    "source": "d3006c69ee80"
+  },
+  "guides/ga/02-register-business/01.webp": {
+    "alt": "Página de Georgia.gov sobre el registro anual de una LLC, con la oración sobre la fecha límite del 1 de abril resaltada",
+    "caption": "Si formó una LLC, anote la fecha límite del 1 de abril para su registro anual.",
+    "source": "70d5e08fd7b4"
+  },
+  "guides/ga/04-sales-tax/01.webp": {
+    "alt": "Preguntas frecuentes sobre el registro del impuesto sobre las ventas y el uso del Georgia Department of Revenue, con la respuesta sobre quién debe registrarse resaltada",
+    "caption": "Todo vendedor (dealer) se registra para obtener un número del impuesto sobre las ventas y el uso, aunque todas sus ventas sean en línea.",
+    "source": "616f0d6a5b75"
+  },
+  "guides/ga/04-sales-tax/02.webp": {
+    "alt": "Página del Georgia Department of Revenue sobre quién debe cobrar el impuesto sobre las ventas, con la pregunta sobre el umbral para ventas desde fuera del estado resaltada",
+    "caption": "Si vende desde fuera de Georgia, revise el umbral de 200 ventas o $100,000.",
+    "source": "d9a438f0ae98"
+  },
+  "guides/ga/04-sales-tax/03.webp": {
+    "alt": "Página de tasas de impuestos del Georgia Department of Revenue, con la oración sobre qué tasa se aplica resaltada",
+    "caption": "Cobre la tasa del condado donde su cliente recibe la entrega.",
+    "source": "656b3ea430c9"
+  },
+  "guides/il/01-structure-and-name/01.webp": {
+    "alt": "Página \"Begin Here\" del Illinois DCEO, con el enlace a \"Starting Your Business in Illinois Handbook\" resaltado",
+    "caption": "Lea el manual \"Starting Your Business in Illinois Handbook\" del DCEO (el departamento de comercio y desarrollo económico del estado) para comparar una empresa individual y una LLC.",
+    "source": "a79294469b9f"
+  },
+  "guides/il/01-structure-and-name/02.webp": {
+    "alt": "Página \"Income Tax Rates\" del Illinois Department of Revenue, con la etiqueta \"Individual Income Tax\" resaltada",
+    "caption": "Illinois grava las ganancias de su negocio con una tasa fija del impuesto sobre los ingresos personales.",
+    "source": "9e1e3e6b10c4"
+  },
+  "guides/il/02-register-business/01.webp": {
+    "alt": "Página \"Assumed Business Name Registration\" del Cook County Clerk, con el texto de \"How to Apply\" sobre la tarifa de $50 resaltado",
+    "caption": "Los secretarios de condado (county clerks) registran los nombres comerciales (assumed names). El condado de Cook, por ejemplo, acepta solicitudes en línea.",
+    "source": "88175e937907"
+  },
+  "guides/il/02-register-business/02.webp": {
+    "alt": "Página del Cook County Clerk, con la oración sobre publicar el aviso una vez por semana durante tres semanas seguidas resaltada",
+    "caption": "Publique el aviso en un periódico local una vez por semana durante tres semanas. Empiece dentro de los 15 días siguientes.",
+    "source": "43e3d82424f5"
+  },
+  "guides/il/02-register-business/03.webp": {
+    "alt": "Página del Cook County Clerk, con la oración sobre entregar la prueba de publicación dentro de 50 días resaltada",
+    "caption": "Entregue al secretario del condado la prueba de publicación del periódico dentro de 50 días.",
+    "source": "c2ef50b53d31"
+  },
+  "guides/il/04-sales-tax/01.webp": {
+    "alt": "Página \"Business Registration\" del Illinois Department of Revenue, con el enlace a MyTax Illinois resaltado",
+    "caption": "Regístrese en línea en MyTax Illinois con \"Register a New Business\" (registrar un negocio nuevo) (Formulario REG-1).",
+    "source": "bbde8715f153"
+  },
+  "guides/il/04-sales-tax/02.webp": {
+    "alt": "Página \"Business Registration\" del Illinois Department of Revenue, con la oración sobre registrarse antes de cualquier compra o venta resaltada",
+    "caption": "Regístrese antes de comprar inventario para revender o de hacer cualquier venta.",
+    "source": "580d18f2e21c"
+  },
+  "guides/il/04-sales-tax/03.webp": {
+    "alt": "Página de respuestas del Illinois Department of Revenue, con la tasa de 6.25% para mercancía general resaltada",
+    "caption": "La tasa estatal es de 6.25% para la mercancía general. Las tasas locales se suman.",
+    "source": "a5eebefd2068"
+  },
+  "guides/in/01-structure-and-name/01.webp": {
+    "alt": "Preguntas frecuentes para empresas del Indiana Department of Revenue, con la oración de que las empresas individuales no tienen que registrarse ante la Secretary of State resaltada",
+    "caption": "Una empresa individual (sole proprietorship) no se registra ante la Indiana Secretary of State (Secretaría de Estado de Indiana).",
+    "source": "363fd6e4eae2"
+  },
+  "guides/in/01-structure-and-name/02.webp": {
+    "alt": "Página de tasas del Indiana Department of Revenue, con la tasa del impuesto sobre los ingresos personales de 2026 resaltada",
+    "caption": "La tasa del impuesto sobre los ingresos personales de Indiana es de 2.95% para 2026, más el impuesto sobre los ingresos de su condado.",
+    "source": "d5421dcbca1d"
+  },
+  "guides/in/02-register-business/01.webp": {
+    "alt": "Página de nombres comerciales (assumed business names) del Monroe County Recorder, con la tarifa de registro de $25 resaltada",
+    "caption": "Consulte la tarifa del registrador de su condado (county recorder) por un nombre comercial (assumed business name). El condado de Monroe cobra $25.",
+    "source": "8793f1b5f7e1"
+  },
+  "guides/in/02-register-business/02.webp": {
+    "alt": "Página \"Business Entity Reports\" de la Indiana Secretary of State, con la fecha límite cada dos años resaltada",
+    "caption": "Si formó una LLC, presente un informe de la entidad (business entity report) cada dos años, en el mes en que se formó.",
+    "source": "46763ea0dc4d"
+  },
+  "guides/in/04-sales-tax/01.webp": {
+    "alt": "Página del impuesto sobre las ventas del Indiana Department of Revenue, con la oración sobre el registro y el 7% resaltada",
+    "caption": "Regístrese ante el Department of Revenue (el departamento de impuestos del estado) para cobrar el impuesto sobre las ventas de 7% de Indiana.",
+    "source": "39efe6c59d4b"
+  },
+  "guides/in/04-sales-tax/02.webp": {
+    "alt": "Página para vendedores remotos del Indiana Department of Revenue, con el umbral de $100,000 resaltado",
+    "caption": "Los vendedores de otros estados se registran cuando sus ventas a Indiana superan $100,000 en un año calendario.",
+    "source": "e7a965cd50ce"
+  },
+  "guides/in/05-local-licence/01.webp": {
+    "alt": "Indiana Business Owner's Guide (guía para propietarios de negocios), con la oración de que Indiana no tiene una licencia comercial única resaltada",
+    "caption": "Indiana no tiene una licencia comercial general única. Revise las reglas del estado, el condado y la ciudad para lo que vende.",
+    "source": "fe755a36a0d3"
+  },
+  "guides/ip-address/01-look-up-your-ip/01.webp": {
+    "alt": "Página de inicio de WhatIsMyIP.com con una dirección IPv4 de ejemplo, su botón \"Copy\" y la fila de la dirección IPv6 resaltados",
+    "caption": "Su dirección IPv4 está arriba (1). Haga clic en \"Copy\" (copiar) junto a ella (2) para copiarla. La fila de abajo (3) es su dirección IPv6. Si ve las dos, envíe las dos. Esta captura usa direcciones de ejemplo y oculta el mapa.",
+    "source": "ccb13b181caa"
+  },
+  "guides/ma/01-structure-and-name/01.webp": {
+    "alt": "Leyes Generales de Massachusetts (General Laws), capítulo 156C, sección 12, con las tarifas de $500 del certificado de organización y del informe anual resaltadas",
+    "caption": "Si está considerando una LLC, tenga en cuenta que el certificado de organización (certificate of organization) y cada informe anual cuestan $500.",
+    "source": "051779744f01"
+  },
+  "guides/ma/01-structure-and-name/02.webp": {
+    "alt": "Leyes Generales de Massachusetts, capítulo 156C, sección 3, con la regla sobre las palabras que debe contener el nombre de una LLC resaltada",
+    "caption": "Asegúrese de que el nombre de su LLC incluya \"LLC\" u otra de las palabras que indica la ley.",
+    "source": "9f7cdde6e5c5"
+  },
+  "guides/ma/02-register-business/01.webp": {
+    "alt": "Leyes Generales de Massachusetts, capítulo 110, sección 5, con la regla de presentar un certificado comercial ante el secretario de la ciudad o el pueblo resaltada",
+    "caption": "Presente su certificado comercial (business certificate) ante el secretario (clerk) de cada ciudad o pueblo donde tenga una oficina de negocio. Pregunte al secretario la tarifa vigente.",
+    "source": "5b431563afdc"
+  },
+  "guides/ma/02-register-business/02.webp": {
+    "alt": "Leyes Generales de Massachusetts, capítulo 110, sección 5, con la regla de renovación cada cuatro años resaltada",
+    "caption": "Renueve su certificado comercial cada cuatro años, o vencerá.",
+    "source": "26863374df3c"
+  },
+  "guides/ma/04-sales-tax/01.webp": {
+    "alt": "Leyes Generales de Massachusetts, capítulo 64H, sección 2, con la tasa del impuesto sobre las ventas de 6.25% resaltada",
+    "caption": "Cobre la tasa estatal de 6.25% en las ventas sujetas a impuestos que se entregan en Massachusetts.",
+    "source": "cd972f2fa41d"
+  },
+  "guides/ma/04-sales-tax/02.webp": {
+    "alt": "Leyes Generales de Massachusetts, capítulo 64H, sección 34, con el umbral de $100,000 para vendedores remotos resaltado",
+    "caption": "Los vendedores con sede fuera de Massachusetts deben registrarse cuando sus ventas al estado superan $100,000 en el año en curso o en el anterior.",
+    "source": "b65c85a508a4"
+  },
+  "guides/md/01-structure-and-name/01.webp": {
+    "alt": "Página \"Choose a Business Structure\" de Maryland Business Express, con la descripción de la empresa individual resaltada",
+    "caption": "Lea la descripción de Business Express de una empresa individual (sole proprietorship), la forma más sencilla de empezar.",
+    "source": "47cd790b3e66"
+  },
+  "guides/md/01-structure-and-name/02.webp": {
+    "alt": "Página \"Select a Business Name\" de Maryland Business Express, con el enlace de búsqueda de nombres resaltado",
+    "caption": "Busque su nombre comercial en Maryland Business Express antes de decidirse.",
+    "source": "65c737606d16"
+  },
+  "guides/md/02-register-business/01.webp": {
+    "alt": "Página \"Register a Business\" de Maryland Business Express, con la nota de que los propietarios únicos necesitan un número de identificación del SDAT resaltada",
+    "caption": "Tenga en cuenta que un propietario único también necesita un número de identificación del SDAT (el departamento estatal de tasaciones e impuestos) para abrir una cuenta bancaria comercial.",
+    "source": "773884857769"
+  },
+  "guides/md/02-register-business/02.webp": {
+    "alt": "Página \"Select a Business Name\" de Maryland Business Express, con el enlace \"Register a Trade Name\" resaltado",
+    "caption": "Si usa un nombre que no es el suyo, registre un nombre comercial (trade name) con su número de identificación del SDAT (SDAT Department ID).",
+    "source": "76390e873e55"
+  },
+  "guides/md/04-sales-tax/01.webp": {
+    "alt": "Página de cuentas de impuestos de Maryland Business Express, con la explicación de la \"Combined Registration Application\" resaltada",
+    "caption": "Solicite su licencia del impuesto sobre las ventas y el uso (sales and use tax license) con la Combined Registration Application (solicitud de registro combinado).",
+    "source": "0e6505b83b6d"
+  },
+  "guides/md/04-sales-tax/02.webp": {
+    "alt": "Página de cuentas de impuestos de Maryland Business Express, con la entrada \"Sales and Use Tax License\" resaltada",
+    "caption": "Confirme que la licencia del impuesto sobre las ventas y el uso es la cuenta que necesita para vender productos en Maryland.",
+    "source": "85c1592a07d7"
+  },
+  "guides/md/05-local-licence/01.webp": {
+    "alt": "Página de licencias de Maryland Business Express, con la descripción de la licencia de comerciante (trader's license) resaltada",
+    "caption": "Lea cuándo Maryland exige una licencia de comerciante (trader's license) para vender productos.",
+    "source": "8ec8d7fc670b"
+  },
+  "guides/md/05-local-licence/02.webp": {
+    "alt": "Página de licencias de Maryland Business Express, con el enlace \"List of Circuit Court Clerks\" resaltado",
+    "caption": "Busque al Clerk of the Circuit Court (secretario del Tribunal de Circuito) de su condado para la licencia de comerciante y las preguntas sobre licencias locales.",
+    "source": "bea13aec72c2"
+  },
+  "guides/mi/01-structure-and-name/01.webp": {
+    "alt": "Ley MCL 450.5101 de la Michigan Legislature sobre las tarifas de registro de LLC, con la tarifa de $50 de los artículos de organización resaltada",
+    "caption": "Si está considerando una LLC, anote la tarifa de registro. Los artículos de organización (Articles of Organization) cuestan $50.",
+    "source": "35912fd4406d"
+  },
+  "guides/mi/01-structure-and-name/02.webp": {
+    "alt": "Ley MCL 450.4204 de la Michigan Legislature, con la regla de que el nombre de una LLC debe contener \"limited liability company\", \"L.L.C.\" o \"L.C.\" resaltada",
+    "caption": "Lea las reglas sobre el nombre antes de formar una LLC. El nombre debe indicar que es una compañía de responsabilidad limitada.",
+    "source": "a4c6f30aedee"
+  },
+  "guides/mi/02-register-business/01.webp": {
+    "alt": "Ley MCL 445.1 de la Michigan Legislature, con el requisito de presentar un certificado de nombre comercial ante el secretario del condado resaltado",
+    "caption": "Presente su certificado de nombre comercial (assumed name certificate) ante el secretario del condado (county clerk) de cada condado donde haga negocios. Pregunte al secretario la tarifa vigente.",
+    "source": "dced2a2b3516"
+  },
+  "guides/mi/02-register-business/02.webp": {
+    "alt": "Ley MCL 450.4207 de la Michigan Legislature, con la fecha límite del 15 de febrero para la declaración anual resaltada",
+    "caption": "Si formó una LLC, presente su declaración anual (annual statement) ante LARA (el departamento estatal de licencias y regulación) a más tardar el 15 de febrero de cada año.",
+    "source": "c4bd8cd3153a"
+  },
+  "guides/mi/04-sales-tax/01.webp": {
+    "alt": "Ley MCL 205.52 de la Michigan Legislature, la General Sales Tax Act (ley general del impuesto sobre las ventas), con la tasa de 6% resaltada",
+    "caption": "Anote la tasa. El impuesto sobre las ventas de Michigan es de 6%, sin impuestos de condado ni de ciudad adicionales.",
+    "source": "9e6bfe3a5d46"
+  },
+  "guides/mi/04-sales-tax/02.webp": {
+    "alt": "Ley MCL 205.52c de la Michigan Legislature, con los umbrales de $100,000 y 200 transacciones para vendedores de otros estados resaltados",
+    "caption": "Los vendedores fuera de Michigan se registran cuando superan $100,000 en ventas o 200 transacciones a Michigan en el año calendario anterior.",
+    "source": "860c39d17cb3"
+  },
+  "guides/mo/01-structure-and-name/01.webp": {
+    "alt": "Página \"Starting a Business\" de la Missouri Secretary of State, con la oración sobre las empresas individuales resaltada",
+    "caption": "Una empresa individual (sole proprietorship) no necesita registrarse ante la Secretary of State (Secretaría de Estado). Es la forma más sencilla de empezar.",
+    "source": "e9bb6737a3fe"
+  },
+  "guides/mo/01-structure-and-name/02.webp": {
+    "alt": "Preguntas frecuentes de la Missouri Secretary of State, con las tarifas en línea y en papel para registrar una LLC resaltadas",
+    "caption": "Si está considerando una LLC, presentar los artículos en línea cuesta menos que presentarlos en papel.",
+    "source": "268e9f3b6300"
+  },
+  "guides/mo/02-register-business/01.webp": {
+    "alt": "Preguntas frecuentes sobre nombres ficticios de la Missouri Secretary of State, con la respuesta sobre la tarifa de registro resaltada",
+    "caption": "Registre su nombre ficticio (fictitious name) ante la Secretary of State en línea o por correo con el Formulario Corp. 56.",
+    "source": "2081a763cec3"
+  },
+  "guides/mo/02-register-business/02.webp": {
+    "alt": "Preguntas frecuentes sobre nombres ficticios de la Missouri Secretary of State, con la oración sobre el periodo de registro de cinco años resaltada",
+    "caption": "El registro dura cinco años. Renuévelo en los seis meses antes de que venza.",
+    "source": "15e286d9ad33"
+  },
+  "guides/mo/02-register-business/03.webp": {
+    "alt": "Preguntas frecuentes de la Missouri Secretary of State, con la pregunta sobre los informes anuales de las LLC resaltada",
+    "caption": "Si formó una LLC, Missouri no exige un informe anual.",
+    "source": "4bb76f941af4"
+  },
+  "guides/mo/04-sales-tax/01.webp": {
+    "alt": "Página de registro de negocios del Missouri Department of Revenue, con el botón \"Start Registration Here\" resaltado",
+    "caption": "Solicite en línea su licencia del impuesto sobre las ventas al por menor (retail sales tax license) antes de su primera venta.",
+    "source": "7e77c7e6d5e2"
+  },
+  "guides/mo/04-sales-tax/02.webp": {
+    "alt": "Preguntas frecuentes sobre el registro del Missouri Department of Revenue, con la respuesta que dice que ya no se exigen fianzas resaltada",
+    "caption": "Desde 2018, un vendedor nuevo no deposita una fianza (bond), salvo que el Department se la pida.",
+    "source": "da9de89576d4"
+  },
+  "guides/mo/04-sales-tax/03.webp": {
+    "alt": "Página \"Sales/Use Tax\" del Missouri Department of Revenue, con la oración sobre la tasa estatal de 4.225% resaltada",
+    "caption": "La tasa estatal es de 4.225%, y las ciudades, los condados y los distritos agregan impuestos locales.",
+    "source": "707a73146293"
+  },
+  "guides/nc/01-structure-and-name/01.webp": {
+    "alt": "Página \"Business Structure\" del EDPNC, con el encabezado \"Sole Proprietorship\" resaltado",
+    "caption": "Lea cómo funciona una empresa individual (sole proprietorship), la forma más sencilla de empezar.",
+    "source": "1ec1b91e3714"
+  },
+  "guides/nc/01-structure-and-name/02.webp": {
+    "alt": "Página de tarifas para LLC de la NC Secretary of State, con la tarifa de los artículos de organización resaltada",
+    "caption": "Si está considerando una LLC, anote la tarifa de registro de $125 de los artículos de organización (Articles of Organization).",
+    "source": "74ebf70f74a8"
+  },
+  "guides/nc/02-register-business/01.webp": {
+    "alt": "Preguntas frecuentes sobre \"Assumed Business Names\" de la NC Secretary of State, con la respuesta sobre dónde presentarlo resaltada",
+    "caption": "Presente su certificado de nombre comercial (assumed business name certificate) ante el register of deeds (registro de escrituras) de su condado.",
+    "source": "ec0b78dc0fd3"
+  },
+  "guides/nc/02-register-business/02.webp": {
+    "alt": "Página \"Maintaining Registration\" de la NC Secretary of State, con la fecha límite del informe anual de las LLC resaltada",
+    "caption": "Si formó una LLC, tenga en cuenta que su informe anual vence el 15 de abril de cada año, a partir del año siguiente a su formación.",
+    "source": "8236faf1a62b"
+  },
+  "guides/nc/04-sales-tax/01.webp": {
+    "alt": "Página \"Sales and Use Tax Registration\" del NC Department of Revenue, con el enlace \"Register Online\" y el aviso de que no hay tarifa resaltados",
+    "caption": "Regístrese en línea para obtener un Certificate of Registration (certificado de registro). No tiene costo.",
+    "source": "ab4a3b2d5197"
+  },
+  "guides/nc/04-sales-tax/02.webp": {
+    "alt": "Página \"Current Sales and Use Tax Rates\" del NC Department of Revenue, con la nota sobre la tasa estatal de 4.75% resaltada",
+    "caption": "Busque la tasa total, estatal y local, de cada condado al que vende.",
+    "source": "20bd70059020"
+  },
+  "guides/nc/04-sales-tax/03.webp": {
+    "alt": "Página \"Remote Sales\" del NC Department of Revenue, con el umbral de $100,000 para vendedores remotos resaltado",
+    "caption": "Los vendedores con sede fuera de Carolina del Norte deben registrarse cuando sus ventas al estado superan $100,000 al año.",
+    "source": "ad44e8d0ab9d"
+  },
+  "guides/nc/05-local-licence/01.webp": {
+    "alt": "Página \"Business Licenses and Permits\" del EDPNC, con la nota de que Carolina del Norte no tiene una licencia comercial estatal genérica resaltada",
+    "caption": "Carolina del Norte no tiene una licencia comercial estatal única, así que consulte el directorio de licencias para lo que vende.",
+    "source": "3a14e935f4b7"
+  },
+  "guides/nj/01-structure-and-name/01.webp": {
+    "alt": "Página \"Getting Registered\" de la NJ Division of Revenue, con la tarifa de formación de $100 resaltada",
+    "caption": "Si está considerando una LLC, revise la tarifa del certificado de constitución (Certificate of Formation) antes de decidir.",
+    "source": "aa2104a86738"
+  },
+  "guides/nj/02-register-business/01.webp": {
+    "alt": "Página \"Register Your Business\" de Business.NJ.gov, con la oración de que todos los negocios deben registrarse para los impuestos estatales resaltada",
+    "caption": "Todo negocio, incluido un propietario único, se registra para los impuestos estatales ante la Division of Revenue (la oficina estatal de registro de negocios).",
+    "source": "24b40136370d"
+  },
+  "guides/nj/02-register-business/02.webp": {
+    "alt": "Página \"Taxes and Annual Report\" de Business.NJ.gov, con el requisito del informe anual y la tarifa de $75 resaltados",
+    "caption": "Si formó una LLC, anote el informe anual de $75, que vence cada año en el mes de su formación.",
+    "source": "3bfb7e9146c3"
+  },
+  "guides/nj/04-sales-tax/01.webp": {
+    "alt": "Página del impuesto sobre las ventas de la NJ Division of Taxation, con el requisito de registro para todos los vendedores resaltado",
+    "caption": "Regístrese para cobrar el impuesto sobre las ventas, aunque solo venda en mercados de pulgas o ferias de artesanías.",
+    "source": "adfe6c321850"
+  },
+  "guides/nj/04-sales-tax/02.webp": {
+    "alt": "Página del impuesto sobre las ventas de la NJ Division of Taxation, con el requisito de presentar declaraciones trimestrales resaltado",
+    "caption": "Presente declaraciones trimestrales a más tardar el día 20 del mes siguiente a cada trimestre.",
+    "source": "3d96e6801c87"
+  },
+  "guides/nj/04-sales-tax/03.webp": {
+    "alt": "Página para vendedores remotos de la NJ Division of Taxation, con el umbral económico de $100,000 resaltado",
+    "caption": "Los vendedores de otros estados se registran cuando superan $100,000 o 200 ventas a Nueva Jersey.",
+    "source": "87153ac823b3"
+  },
+  "guides/nj/05-local-licence/01.webp": {
+    "alt": "Licensing and Certification Guide (guía de licencias y certificaciones) de Business.NJ.gov, con el cuadro de búsqueda y el botón de resultados resaltados",
+    "caption": "Busque en la guía de licencias del estado las que corresponden a lo que vende: escriba una palabra clave en \"Search\" (buscar) (1) y luego muestre los resultados (2).",
+    "source": "20a4dea006a0"
+  },
+  "guides/ny/01-structure-and-name/01.webp": {
+    "alt": "Página \"Sole Proprietorship\" de NY Business Express, con la oración que describe una empresa individual resaltada",
+    "caption": "Lea el resumen de Business Express sobre la empresa individual (sole proprietorship), la forma más sencilla de empezar.",
+    "source": "26d6d49a410d"
+  },
+  "guides/ny/01-structure-and-name/02.webp": {
+    "alt": "Página de NY Business Express sobre los artículos de organización de una LLC, con la sección \"Required Fees\" resaltada",
+    "caption": "Si está considerando una LLC, revise las tarifas de registro y de publicación antes de decidir.",
+    "source": "b1cd8e033d42"
+  },
+  "guides/ny/02-register-business/01.webp": {
+    "alt": "Página \"Sole Proprietorship\" de NY Business Express, con las tarifas para registrar un nombre comercial (assumed name) resaltadas",
+    "caption": "Revise la tarifa del county clerk (secretario del condado) por su certificado de nombre comercial (assumed name certificate).",
+    "source": "30c6b87a862f"
+  },
+  "guides/ny/02-register-business/02.webp": {
+    "alt": "Página de NY Business Express sobre los artículos de organización de una LLC, con el requisito de publicar en periódicos resaltado",
+    "caption": "Si formó una LLC, lea el requisito de publicación en periódicos y su plazo de 120 días.",
+    "source": "c27b2ebab74d"
+  },
+  "guides/ny/04-sales-tax/01.webp": {
+    "alt": "Página \"Register as a sales tax vendor\" del New York Tax Department, con el botón \"Apply online\" resaltado",
+    "caption": "Solicite en línea un Certificate of Authority (certificado de autorización) al menos 20 días antes de empezar a vender.",
+    "source": "ce56111dc088"
+  },
+  "guides/ny/04-sales-tax/02.webp": {
+    "alt": "Página \"Find sales tax rates\" del New York Tax Department, con el botón para buscar la tasa por dirección resaltado",
+    "caption": "Busque la tasa combinada, estatal y local, de cada dirección de entrega.",
+    "source": "c515524b0c0a"
+  },
+  "guides/ny/05-local-licence/01.webp": {
+    "alt": "Página \"How to Start a Business\" de NY Business Express, con la nota sobre permisos y licencias locales resaltada",
+    "caption": "Consulte con las oficinas locales de donde tiene su negocio y de donde vende si necesita algún permiso local.",
+    "source": "80318a648b64"
+  },
+  "guides/pa/01-structure-and-name/01.webp": {
+    "alt": "Página de tarifas del Pennsylvania Department of State, con la tarifa de $125 del certificado de organización de una LLC resaltada",
+    "caption": "Si está considerando una LLC, revise la tarifa del certificado de organización (Certificate of Organization) antes de decidir.",
+    "source": "f60896d3694e"
+  },
+  "guides/pa/01-structure-and-name/02.webp": {
+    "alt": "Página sobre LLC del Pennsylvania Department of State, con la oración que dice que no se exige publicar anuncios resaltada",
+    "caption": "A diferencia de un nombre ficticio, formar una LLC en Pensilvania no requiere un anuncio en el periódico.",
+    "source": "bbb66676b28f"
+  },
+  "guides/pa/02-register-business/01.webp": {
+    "alt": "Página \"Fictitious Names\" del Pennsylvania Department of State, con la oración que exige el registro ante el Department of State resaltada",
+    "caption": "Un nombre ficticio (fictitious name) se registra ante el Pennsylvania Department of State (la oficina del estado que registra los negocios), no ante su condado.",
+    "source": "74b0d1bbb8d6"
+  },
+  "guides/pa/02-register-business/02.webp": {
+    "alt": "Página de tarifas del Pennsylvania Department of State, con la tarifa de $70 del registro de nombre ficticio resaltada",
+    "caption": "Revise la tarifa vigente para registrar un nombre ficticio.",
+    "source": "e5f0947c4075"
+  },
+  "guides/pa/02-register-business/03.webp": {
+    "alt": "Página \"Fictitious Names\" del Pennsylvania Department of State, con la regla de anunciar en dos periódicos resaltada",
+    "caption": "Publique un anuncio del nombre en dos periódicos de su condado, uno de ellos un periódico legal.",
+    "source": "fa17fd3f3597"
+  },
+  "guides/pa/02-register-business/04.webp": {
+    "alt": "Página \"Annual Reports\" del Pennsylvania Department of State, con la fila de fechas de presentación de las LLC resaltada",
+    "caption": "Si formó una LLC, presente su informe anual entre el 1 de enero y el 30 de septiembre.",
+    "source": "8cbcbcd93965"
+  },
+  "guides/pa/04-sales-tax/01.webp": {
+    "alt": "Página \"Register My Business for Taxes\" del Pennsylvania Department of Revenue, con el botón \"Register Now\" resaltado",
+    "caption": "Solicite su licencia del impuesto sobre las ventas (sales tax license) con el registro de impuestos comerciales en línea de myPATH.",
+    "source": "167b3a58c2e6"
+  },
+  "guides/pa/04-sales-tax/02.webp": {
+    "alt": "Página del impuesto sobre las ventas del Pennsylvania Department of Revenue, con la tasa de 6% y los impuestos locales de Allegheny y Filadelfia resaltados",
+    "caption": "La tasa estatal es de 6%, con 1% más en el condado de Allegheny y 2% más en Filadelfia.",
+    "source": "33567c9d6e29"
+  },
+  "guides/pa/05-local-licence/01.webp": {
+    "alt": "Guía \"Clothing Stores and Boutiques\" del PA Business One-Stop Shop, con la oración que dice que no hay una licencia comercial general resaltada",
+    "caption": "Pensilvania no tiene una licencia comercial general, así que revise las licencias para su actividad y su municipio.",
+    "source": "3191e969e9b5"
+  },
+  "guides/products/02-install-variation-converter/01.webp": {
+    "alt": "Menú \"Products\" del administrador de WordPress, con Variation Converter y sus pestañas \"Combine\", \"Split\" y \"History\" resaltados",
+    "caption": "Después de activar el plugin, abra \"Products\" > \"Variation Converter\". Tiene tres pestañas: \"Combine\" (combinar), \"Split\" (dividir) y \"History\" (historial).",
+    "source": "ee8905b17dd2"
+  },
+  "guides/products/03-combine-into-variable/01.webp": {
+    "alt": "Pestaña \"Combine\" de Variation Converter después de buscar \"Tee\", con el cuadro de búsqueda, el grupo Classic Crew Tee marcado y el botón \"Combine into one product\" resaltados",
+    "caption": "Busque el producto. Marque los grupos y productos que son un mismo producto, aquí el grupo Classic Crew Tee, y haga clic en \"Combine into one product\" (combinar en un producto). Pocket Tee Olive es otra camiseta, así que queda sin marcar.",
+    "source": "4eff065ee4e7"
+  },
+  "guides/products/03-combine-into-variable/02.webp": {
+    "alt": "Classic Crew Tee abierto para revisión, con la etiqueta \"Black\" y el botón \"Create variable product\" resaltados",
+    "caption": "Revise el producto nuevo: la etiqueta de cada producto, el atributo y el nombre. Desmarque los que no correspondan y haga clic en \"Create variable product\" (crear producto variable).",
+    "source": "fb609fbc2182"
+  },
+  "guides/products/03-combine-into-variable/03.webp": {
+    "alt": "Variation Converter después de crear el producto variable Classic Crew Tee, con el mensaje de éxito resaltado",
+    "caption": "Las cuatro camisetas ahora son un solo producto variable con una opción \"Color\". Los originales quedan ocultos, no eliminados, y \"Undo conversion\" (deshacer la conversión) los restaura.",
+    "source": "da399dbf4876"
+  },
+  "guides/products/03-combine-into-variable/04.webp": {
+    "alt": "Página del producto Classic Crew Tee en la tienda, con el menú \"Color\" resaltado",
+    "caption": "En su tienda, los compradores ahora ven una sola Classic Crew Tee y eligen un color en el menú.",
+    "source": "ce2564bde4c4"
+  },
+  "guides/products/04-split-into-simple/01.webp": {
+    "alt": "Pestaña \"Split\" de Variation Converter con el producto variable Canvas Apron abierto, y los nombres de los productos nuevos y el botón \"Split\" resaltados",
+    "caption": "En la pestaña \"Split\" (dividir), abra un producto variable. Revise el nombre que tendrá cada producto nuevo, desmarque los que no quiera y haga clic en \"Split into 2 simple products\" (dividir en 2 productos simples).",
+    "source": "a52992176dc8"
+  },
+  "guides/products/04-split-into-simple/02.webp": {
+    "alt": "Lista \"All Products\" con los nuevos productos simples Canvas Apron Sand y Canvas Apron Charcoal resaltados",
+    "caption": "Cada variación ahora es un producto simple con su propio SKU, precio e inventario. El producto variable sigue en su lista, pero está oculto en la tienda.",
+    "source": "948cdc38e51a"
+  },
+  "guides/products/05-check-and-undo/01.webp": {
+    "alt": "Pestaña \"History\" de Variation Converter con una combinación y una división, y un botón \"Undo\" resaltado",
+    "caption": "\"History\" (historial) muestra cada conversión, de la más reciente a la más antigua. \"Undo\" (deshacer) deja los productos como estaban.",
+    "source": "8b1e8d5d8f14"
+  },
+  "guides/shared-us/ein/01.webp": {
+    "alt": "Página \"Get an employer identification number\" del IRS, con el botón \"Apply for an EIN\" resaltado",
+    "caption": "En la página del EIN del Servicio de Impuestos Internos (IRS), elija \"Apply for an EIN\" (solicitar un EIN). La solicitud es gratis y se hace en una sola sesión.",
+    "source": "ee1ebce77b61"
+  },
+  "guides/shared-us/ein/02.webp": {
+    "alt": "Página \"Get an employer identification number\" del IRS, con la advertencia sobre los sitios que cobran por un EIN resaltada",
+    "caption": "Solicítelo solo en irs.gov. El IRS nunca cobra por un EIN, así que evite cualquier sitio que le pida un pago.",
+    "source": "9754591fb904"
+  },
+  "guides/shared-us/sales-tax-other-states/01.webp": {
+    "alt": "Página del Streamlined Sales Tax Registration System con la lista de estados miembros y la nota de que no tiene costo resaltada",
+    "caption": "Si alcanza un umbral en un estado miembro del Streamlined Sales Tax (programa de impuesto simplificado entre estados), aquí puede registrarse en varios estados a la vez. El sistema en sí es gratis.",
+    "source": "4721cc51312e"
+  },
+  "guides/tn/01-structure-and-name/01.webp": {
+    "alt": "Página de información para establecer un negocio del Tennessee Department of Revenue, con la oración sobre el registro de una empresa individual resaltada",
+    "caption": "Una empresa individual (sole proprietorship) se registra con su nombre legal, y se le agrega su nombre comercial.",
+    "source": "cc16f51060f2"
+  },
+  "guides/tn/02-register-business/01.webp": {
+    "alt": "Página del franchise and excise tax (impuestos de franquicia y de consumo) del Tennessee Department of Revenue, con la oración sobre el impuesto de franquicia mínimo resaltada",
+    "caption": "Una LLC también paga al menos $100 al año de franchise tax (impuesto de franquicia).",
+    "source": "ca8bfc821482"
+  },
+  "guides/tn/04-sales-tax/01.webp": {
+    "alt": "Página de tasas del impuesto sobre las ventas del Tennessee Department of Revenue, con la oración sobre la tasa general de 7% resaltada",
+    "caption": "La tasa estatal es de 7% para la mayoría de los productos, y las tasas locales se suman.",
+    "source": "543c6ac5698d"
+  },
+  "guides/tn/04-sales-tax/02.webp": {
+    "alt": "Página del certificado de reventa del Tennessee Department of Revenue, con la oración sobre su emisión automática resaltada",
+    "caption": "Su certificado de reventa (Certificate of Resale) se emite automáticamente cuando se registra.",
+    "source": "9a1484a2b3b2"
+  },
+  "guides/tn/05-local-licence/01.webp": {
+    "alt": "Página de licencias del Tennessee Department of Revenue, con la oración sobre dónde obtener una licencia comercial resaltada",
+    "caption": "Obtenga su licencia comercial del secretario del condado (county clerk) y del secretario de la ciudad (city clerk). Cada una cuesta $15.",
+    "source": "febe00b12170"
+  },
+  "guides/tn/05-local-licence/02.webp": {
+    "alt": "Página de licencias del Tennessee Department of Revenue, con la lista de umbrales de ventas brutas resaltada",
+    "caption": "Sus ventas brutas anuales determinan si necesita una licencia de actividad mínima (minimum activity license) o una licencia estándar.",
+    "source": "9dc3648b4eed"
+  },
+  "guides/tx/01-structure-and-name/01.webp": {
+    "alt": "Página de SOSPortal de la Texas Secretary of State, con la tarifa de búsqueda de $1.00 resaltada",
+    "caption": "Busque nombres de negocios en SOSPortal antes de decidirse por uno. Cada búsqueda cuesta $1.",
+    "source": "32af22afc6fd"
+  },
+  "guides/tx/01-structure-and-name/02.webp": {
+    "alt": "Instrucciones del Formulario 205 de la Texas Secretary of State, con la regla sobre el nombre de la entidad y la designación organizativa resaltada",
+    "caption": "Lea las reglas sobre el nombre antes de formar una LLC. El nombre necesita una designación organizativa que indique que es una LLC.",
+    "source": "48c7581c0d04"
+  },
+  "guides/tx/02-register-business/01.webp": {
+    "alt": "Preguntas frecuentes sobre registros de nombres de la Texas Secretary of State, con la respuesta sobre presentar un certificado de nombre comercial ante el secretario del condado resaltada",
+    "caption": "Presente su certificado de nombre comercial (assumed name certificate) ante el county clerk (secretario del condado) de cada condado donde tenga una oficina de negocio. Pregúntele la tarifa vigente.",
+    "source": "f0bf2d9ed5be"
+  },
+  "guides/tx/02-register-business/02.webp": {
+    "alt": "Instrucciones del Formulario 205 de la Texas Secretary of State, con la tarifa de $300 para registrar una LLC resaltada",
+    "caption": "Revise la tarifa antes de formar una LLC. Un certificado de constitución (certificate of formation) cuesta $300.",
+    "source": "2a0f6721481f"
+  },
+  "guides/tx/04-sales-tax/01.webp": {
+    "alt": "Página \"Texas Online Tax Registration Application\", con el enlace \"Apply for Permit via eSystems\" resaltado",
+    "caption": "Solicite su permiso del impuesto sobre las ventas y el uso (sales and use tax permit) en eSystems. Cuente con 2–3 semanas para recibirlo.",
+    "source": "8ae741211d16"
+  },
+  "guides/tx/04-sales-tax/02.webp": {
+    "alt": "Preguntas frecuentes del Texas Comptroller sobre el permiso del impuesto sobre las ventas, con la respuesta de que el permiso no tiene costo resaltada",
+    "caption": "Tenga en cuenta que el permiso en sí es gratis. Es posible que le pidan depositar una fianza de garantía (security bond).",
+    "source": "4c454be1df78"
+  },
+  "guides/tx/05-local-licence/01.webp": {
+    "alt": "Página de la Texas Business Permit Office, con la sección \"General Business License\" resaltada",
+    "caption": "Lea la sección \"General Business License\" (licencia comercial general). Texas no tiene una licencia general, así que revise la guía de licencias y consulte con su ciudad y su condado.",
+    "source": "bbef42b6b3f8"
+  },
+  "guides/va/01-structure-and-name/01.webp": {
+    "alt": "Página de formularios y tarifas para LLC de la Virginia SCC, con la fila \"Form a new Virginia LLC (LLC1011)\" y su tarifa de $100 resaltadas",
+    "caption": "Si está considerando una LLC, revise la tarifa de la SCC (la comisión estatal que registra las empresas) por los artículos de organización (Articles of Organization) antes de decidir.",
+    "source": "e7b8709567e2"
+  },
+  "guides/va/01-structure-and-name/02.webp": {
+    "alt": "Preguntas frecuentes \"Business Entity Names\" de la Virginia SCC, con la regla sobre las palabras que debe incluir el nombre de una LLC resaltada",
+    "caption": "El nombre de una LLC debe incluir \"LLC\" o una palabra similar, así que revise la regla de la SCC antes de elegirlo.",
+    "source": "12abc546ca0a"
+  },
+  "guides/va/02-register-business/01.webp": {
+    "alt": "Preguntas frecuentes \"Fictitious Names\" de la Virginia SCC, con la tarifa de registro de $10.00 resaltada",
+    "caption": "Revise la tarifa de la SCC por un certificado de nombre ficticio (fictitious name certificate), que los propietarios únicos también presentan ante la SCC.",
+    "source": "c3fb1c6b144d"
+  },
+  "guides/va/02-register-business/02.webp": {
+    "alt": "Preguntas frecuentes \"Annual Registration Fees\" de la Virginia SCC, con la fila \"Limited Liability Companies\", su fecha límite y la tarifa de $50.00 resaltadas",
+    "caption": "Si formó una LLC, anote la tarifa de registro anual y que vence al final del mes de su formación.",
+    "source": "0fed7d5ee4c6"
+  },
+  "guides/va/04-sales-tax/01.webp": {
+    "alt": "Página \"Retail Sales and Use Tax\" de Virginia Tax, con el enlace \"Register for sales tax online\" resaltado",
+    "caption": "Regístrese ante Virginia Tax (la oficina de impuestos del estado) para obtener su Sales Tax Certificate of Registration (certificado de registro del impuesto sobre las ventas) antes de su primera venta.",
+    "source": "76d8c981b78b"
+  },
+  "guides/va/04-sales-tax/02.webp": {
+    "alt": "Tabla de tasas del impuesto sobre las ventas de Virginia Tax, con la fila \"Everywhere else\" de 5.3% resaltada",
+    "caption": "Revise la tasa de donde vende: 5.3% en la mayor parte de Virginia, y más alta en algunas regiones.",
+    "source": "897733bdd36b"
+  },
+  "guides/wa/01-structure-and-name/01.webp": {
+    "alt": "Página de registro de LLC de la Washington Secretary of State, con la tarifa del certificado de constitución resaltada",
+    "caption": "Si está considerando una LLC, revise la tarifa del certificado de constitución (Certificate of Formation) antes de decidir.",
+    "source": "c4963a4dfc16"
+  },
+  "guides/wa/01-structure-and-name/02.webp": {
+    "alt": "Página del impuesto B&O del Washington Department of Revenue, con la oración que describe el impuesto sobre los ingresos brutos resaltada",
+    "caption": "Washington no tiene impuesto estatal sobre los ingresos, pero la mayoría de los negocios pagan el impuesto B&O (business and occupation), que se cobra sobre los ingresos brutos.",
+    "source": "b44ed8fca4f1"
+  },
+  "guides/wa/02-register-business/01.webp": {
+    "alt": "Página de nombres comerciales del Washington Department of Revenue, con la tarifa de $5 resaltada",
+    "caption": "Registre un nombre comercial (trade name) ante el Department of Revenue por $5 más la cargo de procesamiento de la licencia.",
+    "source": "7631ee2484dc"
+  },
+  "guides/wa/02-register-business/02.webp": {
+    "alt": "Página de registro de LLC de la Washington Secretary of State, con la tarifa del informe anual resaltada",
+    "caption": "Una LLC presenta un informe anual ante la Secretary of State cada año.",
+    "source": "67b973eaa467"
+  },
+  "guides/wa/04-sales-tax/01.webp": {
+    "alt": "Página de cargos de procesamiento del Washington Department of Revenue, con la tarifa de $50 para abrir un negocio resaltada",
+    "caption": "Un negocio nuevo paga un cargo de procesamiento de $50 en la Business License Application (solicitud de licencia comercial).",
+    "source": "69a50c1e7125"
+  },
+  "guides/wa/04-sales-tax/02.webp": {
+    "alt": "Página del impuesto sobre las ventas al por menor del Washington Department of Revenue, con la tasa estatal de 6.5% resaltada",
+    "caption": "La tasa estatal es de 6.5%, y se agrega una tasa local según dónde reciba el cliente los productos.",
+    "source": "aedecbbe7e0e"
+  },
+  "guides/wa/04-sales-tax/03.webp": {
+    "alt": "Página de permisos de revendedor (reseller permits) del Washington Department of Revenue, con la oración sobre la vigencia del permiso resaltada",
+    "caption": "Solicite un permiso de revendedor (reseller permit) para no pagar impuesto sobre las ventas por el inventario que revende.",
+    "source": "9a3b8ad7486e"
+  },
+  "guides/wa/05-local-licence/01.webp": {
+    "alt": "Página de endosos de ciudades (city endorsements) del Washington Department of Revenue, con la oración que las explica resaltada",
+    "caption": "Revise si su ciudad está en la lista. Si no está, comuníquese directamente con la ciudad.",
+    "source": "fc50992ada9f"
+  },
+  "guides/wi/01-structure-and-name/01.webp": {
+    "alt": "Página de tarifas para entidades comerciales del Wisconsin DFI, con la fila de registro de organización en línea resaltada",
+    "caption": "Si está considerando una LLC, anote la tarifa de registro en línea de $130 en la columna \"LLC\".",
+    "source": "b94d5f49417a"
+  },
+  "guides/wi/01-structure-and-name/02.webp": {
+    "alt": "Preguntas frecuentes sobre entidades comerciales del Wisconsin DFI, con la pregunta sobre verificar la disponibilidad de un nombre resaltada",
+    "caption": "Antes de presentar los documentos, verifique en los registros del DFI (la agencia estatal que registra las empresas) que el nombre de su LLC esté disponible.",
+    "source": "a538dbbecb11"
+  },
+  "guides/wi/02-register-business/01.webp": {
+    "alt": "Página de información general sobre marcas del Wisconsin DFI, con la oración que dice que el registro no es obligatorio resaltada",
+    "caption": "Decida si registra su nombre comercial (trade name) ante el DFI. Es opcional y cuesta $15.",
+    "source": "8d1d0ade99d6"
+  },
+  "guides/wi/02-register-business/02.webp": {
+    "alt": "Preguntas frecuentes sobre entidades comerciales del Wisconsin DFI, con la oración sobre la fecha límite del informe anual resaltada",
+    "caption": "Si formó una LLC, presente su informe anual en el trimestre del aniversario de su formación.",
+    "source": "07e19aeecc73"
+  },
+  "guides/wi/04-sales-tax/01.webp": {
+    "alt": "Preguntas frecuentes del Wisconsin DOR sobre el permiso de vendedor, con la oración sobre solicitarlo tres semanas antes de abrir resaltada",
+    "caption": "Solicite su permiso de vendedor (seller's permit) al menos tres semanas antes de abrir.",
+    "source": "1877abec31ce"
+  },
+  "guides/wi/04-sales-tax/02.webp": {
+    "alt": "Preguntas frecuentes \"Business Tax Registration\" del Wisconsin DOR, con la oración sobre la tarifa inicial de $20 resaltada",
+    "caption": "Pague la tarifa de registro de $20, que cubre dos años.",
+    "source": "307d9f806058"
+  },
+  "guides/wi/04-sales-tax/03.webp": {
+    "alt": "Preguntas frecuentes del Wisconsin DOR sobre tasas de impuestos, con la oración sobre el impuesto sobre las ventas de 5% resaltada",
+    "caption": "Cobre la tasa estatal de 5% más cualquier impuesto del condado o la ciudad donde el comprador recibe los productos.",
+    "source": "48ce22e14dd5"
+  }
+}

@@ -1,4 +1,5 @@
 import { en, type Dictionary } from "./dictionaries/en";
+import { es } from "./dictionaries/es";
 import { fr } from "./dictionaries/fr";
 import { DEFAULT_LOCALE, type Locale } from "./locales";
 
@@ -7,7 +8,7 @@ import { DEFAULT_LOCALE, type Locale } from "./locales";
  * (TypeScript makes it match en.ts) and an entry here and in
  * content/locales.json. Client-safe.
  */
-const DICTIONARIES: Record<Locale, Dictionary> = { en, fr };
+const DICTIONARIES: Record<Locale, Dictionary> = { en, es, fr };
 
 export const getDictionary = (locale: Locale): Dictionary =>
   DICTIONARIES[locale] ?? DICTIONARIES[DEFAULT_LOCALE];

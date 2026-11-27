@@ -37,7 +37,7 @@ const mdFiles = (dir) =>
 /**
  * The English files a locale covers: every published region of the countries
  * it lists, those countries' shared steps, and (when `topics` is set) every
- * topic guide with its topic.json. Region stubs (`shared: <slug>`) need no
+ * topic guide with its topic.json (unless its "countries" list excludes them). Region stubs (`shared: <slug>`) need no
  * translation. With { shots: true }, the manifest entries for the same guides.
  */
 export function scope(locale, { shots = false } = {}) {
@@ -50,7 +50,14 @@ export function scope(locale, { shots = false } = {}) {
     .filter((code) => fs.existsSync(path.join(CONTENT, code)));
   const topicsDir = path.join(CONTENT, "topics");
   const topics = config.topics
-    ? fs.readdirSync(topicsDir).filter((t) => fs.existsSync(path.join(topicsDir, t, "topic.json")))
+    ? fs
+        .readdirSync(topicsDir)
+        .filter((t) => fs.existsSync(path.join(topicsDir, t, "topic.json")))
+        // A topic.json "countries" list limits a topic to languages covering one of them.
+        .filter((t) => {
+          const only = JSON.parse(fs.readFileSync(path.join(topicsDir, t, "topic.json"), "utf8")).countries;
+          return !only || only.some((c) => countries.includes(c));
+        })
     : [];
   if (shots) {
     const keys = new Set([...regions, ...countries.map((c) => `shared-${c.toLowerCase()}`), ...topics]);

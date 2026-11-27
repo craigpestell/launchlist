@@ -104,6 +104,10 @@ export type TopicText = { title: string; summary: string; stale: boolean };
 export function topicText(slug: string, locale: Locale): TopicText | undefined {
   if (locale === DEFAULT_LOCALE || !coversTopics(locale)) return undefined;
   const english = path.join(CONTENT, "topics", slug, "topic.json");
+  // A topic tied to some countries (topic.json "countries", e.g. a phone guide
+  // naming Canadian providers) is offered only in languages covering one of them.
+  const only = readJson<{ countries?: CountryCode[] }>(english, {}).countries;
+  if (only && !only.some((c) => coversCountry(locale, c))) return undefined;
   const file = translationFile(locale, english);
   if (!fs.existsSync(file)) return undefined;
   const t = readJson<{ title: string; summary: string; source?: string }>(file, {
