@@ -1,0 +1,3 @@
+---
+shared: legal-pages-privacy
+---

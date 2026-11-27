@@ -444,7 +444,11 @@
     "country": "US",
     "code": "TX",
     "name": "Texas",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": "No state income tax; franchise tax reports to the Comptroller for LLCs. Not confirmed: county assumed name fees, sales tax security bond amount, LLC name wording rules, TDPSA SBA size standard."
   },
   {
     "id": "us-ut",
