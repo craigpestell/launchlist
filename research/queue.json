@@ -354,7 +354,11 @@
     "country": "US",
     "code": "MO",
     "name": "Missouri",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": "Retail license fee not confirmed; no comprehensive privacy law (secondary sources only); kcmo.gov blocks automated browsers."
   },
   {
     "id": "us-mt",
