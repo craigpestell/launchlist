@@ -235,6 +235,24 @@
   },
   {
     "region": "fl",
+    "step": "02-register-business",
+    "file": "guides/fl/02-register-business/01.webp",
+    "url": "https://dos.fl.gov/sunbiz/start-business/efile/fl-fictitious-name-registration/",
+    "alt": "Sunbiz Florida Fictitious Name Registration page with the $50 registration fee row highlighted",
+    "caption": "Register your fictitious name on Sunbiz after you have advertised it in a local newspaper. The fee is $50 (1).",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "fl",
+    "step": "02-register-business",
+    "file": "guides/fl/02-register-business/02.webp",
+    "url": "https://dos.fl.gov/sunbiz/start-business/efile/fl-llc/",
+    "alt": "Sunbiz Florida Limited Liability Company page with the Articles of Organization and Registered Agent Designation fee rows highlighted",
+    "caption": "Forming an LLC instead? Articles of Organization cost $100 (1) and the registered agent designation $25 (2), so $125 in all.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "fl",
     "step": "04-sales-tax",
     "file": "guides/fl/04-sales-tax/01.webp",
     "url": "https://floridarevenue.com/taxes/eservices/Pages/registration.aspx",
