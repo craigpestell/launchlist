@@ -307,7 +307,11 @@
     "country": "US",
     "code": "MD",
     "name": "Maryland",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": "Sales and use tax license fee, new seller filing schedule and trader's license for home online sellers not confirmed."
   },
   {
     "id": "us-ma",
