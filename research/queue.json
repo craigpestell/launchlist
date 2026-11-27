@@ -485,7 +485,11 @@
     "country": "US",
     "code": "VA",
     "name": "Virginia",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "high",
+    "note": ""
   },
   {
     "id": "us-wa",
