@@ -1,0 +1,3 @@
+---
+shared: bank-account
+---

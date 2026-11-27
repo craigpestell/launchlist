@@ -537,7 +537,11 @@
     "country": "US",
     "code": "WI",
     "name": "Wisconsin",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "high",
+    "note": ""
   },
   {
     "id": "us-wy",
