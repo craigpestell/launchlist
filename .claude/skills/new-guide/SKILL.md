@@ -7,6 +7,8 @@ description: Create or extend any LaunchList guide - a region guide (a province,
 
 Every guide is the same thing: numbered Markdown steps with a checklist, shown with annotated screenshots. Only where the files live differs. Pick the kind first.
 
+This skill covers where files go and how a guide is built. **How a guide reads** (voice, titles, summaries, checklist items, numbers, fees, uncertain facts, spelling, captions, translations) is in the `writing-style` skill, `.claude/skills/writing-style/SKILL.md`. Read it before writing or editing any words.
+
 | Kind | Content | Screenshots (`region` in the manifest) | Listed in |
 |---|---|---|---|
 | Region guide: one province, territory or state | `content/<code>/NN-<slug>.md` | `guides/capture/<code>/` | `research/queue.json` |
@@ -53,8 +55,7 @@ The cloud container's proxy blocks most third-party sites (`curl` gets 000 / 403
 
 - `content/topics/<slug>/topic.json`: `{ "title", "summary", "group" }`. Title starts with a verb; summary is one sentence ending with a full stop. `group` picks the home page section: `"business"` (Run your business: phone number, donations, products) or `"help"` (Quick help: everyday tech and support tasks like IP address, cache, screenshots).
 - Steps: `NN-kebab-slug.md`, numbered from 01 with no gaps. Two to five steps is right for a small guide.
-- Follow the house rules in `.claude/agents/guide-editor.md` (frontmatter keys, 3–6 checklist items starting with a verb, `##` sections, no em dashes, spelling of the country the guide is for, bold one fact per section, `linkLabel`/`linkUrl` on the step where the reader acts).
-- Use documentation examples for any address or number shown in text: IPv4 `203.0.113.x` (RFC 5737), IPv6 `2001:db8::` (RFC 3849), phone `555-01xx`.
+- Frontmatter keys are listed in `.claude/agents/guide-editor.md`; put `linkLabel`/`linkUrl` on the step where the reader acts. Everything about the wording (checklist items, sections, spelling, example data) follows the `writing-style` skill.
 - Run `npm run content:check -- <slug>` (needs `npm ci` first in a fresh container).
 
 ### Write for how readers use it
@@ -75,7 +76,7 @@ Linked guides get read by people outside LaunchList's usual audience, so keep th
 Write `guides/capture/<slug>/<NN-step>.mts` with `captureStep("<slug>", "<NN-step>", [...])` from `guides/capture/lib.mts`. Copy the shape of `guides/capture/ip-address/01-look-up-your-ip.mts`.
 
 - **Mask personal data before the shot.** Sites like IP checkers show the capturer's real IP, city, postal code, ISP and map. In `setup`, overwrite those with documentation examples via `page.evaluate`, hide maps, and say in the caption that the shot uses example values. Nothing from the owner's own connection or accounts goes into `public/`.
-- Highlights are numbered in order; refer to them as (1), (2), (3) in the caption. Captions end with a full stop; alt text describes what is highlighted.
+- Highlights are numbered in order. Captions and alt text follow "Captions and alt text" in the `writing-style` skill.
 - Scroll the target into view in `setup`; the viewport is 1280×800.
 
 ## 5. Run the capture on the Mac
@@ -105,21 +106,17 @@ Search metadata is generated from each guide's own content by `src/lib/seo.ts`, 
 | Image alt and title | Each screenshot's `alt` and `caption` in `guides/manifest.json` |
 | Sitemap | `src/app/sitemap.ts` lists every region, topic and step from `content/` |
 
-So, when writing:
+So the words do the SEO work. The `writing-style` skill holds the rules that matter for search: titles that name the thing people search for, a 70 to 130 character `summary` that stands on its own, a plain-prose opening sentence, `##` headings, descriptive alt text, and links between guides. In short:
 
-- **Titles use the words people search for**, starting with the verb: "Register for HST (13%)", "Get a municipal business licence", "Find your IP address". Name the thing (the tax, the registry, the licence), not a category ("Website legal pages and privacy" became "Write your website's privacy policy and legal pages"). Don't add the region to a step title; the page title adds it.
-- **The `summary` is the start of the search snippet.** One sentence, 70 to 130 characters, that says what the reader gets and includes the main term ("Get the free nine-digit number from the Canada Revenue Agency..."). Avoid summaries that only make sense on the page ("The final step before you can order stock.").
-- **Open the body with a sentence or two of plain prose**, before any list, that answers the question the title asks. It completes the description.
-- Topic titles are the search itself: "Clear cache and cookies for one site", "Check if a site is down for everyone or just you".
-- **Alt text** says what the screenshot shows and what is highlighted, naming the site and page ("Ontario Business Registry sign-in page with the Register a business button highlighted"). Never "screenshot" or an empty alt.
-- **Headings**: the page `h1` is the title, so body sections start at `##`, never `#`, and don't skip levels.
-- **Link between guides** where the reader needs another one: "step N" for the same guide, and a link to a topic guide (`/topics/<slug>`) where it helps. Every guide is also linked from the footer and home page automatically.
+- The page `h1` is the title, so body sections start at `##`.
+- The `summary` and the first body paragraph become the meta description, so both must make sense out of context.
+- Every guide is linked from the footer and home page automatically; link to another guide in the body only where the reader needs it.
 - Changing a `title` or `summary` doesn't reset saved progress; changing checklist wording does.
 - Meta keywords: region overviews get a few generated ones. Google ignores the tag, so don't add keywords to front matter.
 - After shipping a new region or topic, nothing else is needed: it appears in the sitemap, which is listed in `/robots.txt`.
 
 ## 6. Ship
 
-- `npm run content:check`, `npm run lint` and `npm run build` pass. Run the full content check, not only `-- <code>`: shared steps are checked on a full run.
+- `npm run content:check`, `npm run lint` and `npm run build` pass. Content check warnings (summary length, undated fees, topic spelling) don't fail it, but fix the ones in files you touched. Run the full content check, not only `-- <code>`: shared steps are checked on a full run.
 - The owner checks UI in a browser themselves, so skip Playwright runs of the app; say in the PR that it wasn't checked in a browser.
 - Mark the PR ready and turn on auto-merge (the owner's standing preference).

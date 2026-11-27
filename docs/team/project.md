@@ -45,7 +45,7 @@ The content pipeline has its own agents in `.claude/agents/`, run in order per r
 - Anonymous visitors' progress never leaves the browser.
 - Sign-in tokens stay hashed, single use, short-lived; sign-in requests stay rate limited; state-changing API calls keep the same-origin check; production fails closed without Turnstile.
 - Editing or reordering checklist items resets saved ticks; avoid it on live regions unless the content needs it, and say so in the PR.
-- Content passes `npm run content:check`.
+- Content passes `npm run content:check`, and every guide (including translations) follows the `writing-style` skill in `.claude/skills/writing-style/`.
 
 ## Merging
 

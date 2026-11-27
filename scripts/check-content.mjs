@@ -1,9 +1,11 @@
 // Checks every region's and topic's guide content and screenshot manifest for the house
-// rules in .claude/agents/guide-editor.md. Prints each problem and exits 1 if
-// any are found. Usage: npm run content:check [-- <code> ...]
+// rules in .claude/agents/guide-editor.md and the writing-style skill
+// (scripts/style-rules.mjs). Prints each problem and exits 1 if any errors are
+// found; warnings are printed but don't fail. Usage: npm run content:check [-- <code> ...]
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
+import { styleProblems } from "./style-rules.mjs";
 
 const ROOT = process.cwd();
 const CONTENT = path.join(ROOT, "content");
@@ -34,6 +36,7 @@ const dirOf = (code) => (topics.has(code) ? path.join(TOPICS, code) : path.join(
 const relDir = (code) => path.relative(ROOT, dirOf(code));
 
 const problems = [];
+const warnings = [];
 const report = (where, msg) => problems.push(`${where}: ${msg}`);
 
 const REQUIRED = ["title", "summary", "time", "cost", "checklist"];
@@ -59,7 +62,8 @@ const regionNames = (country, code) =>
 const ALLOWED = new Set([...REQUIRED, "linkLabel", "linkUrl"]);
 
 // House rules for one step's front matter and body, wherever the file lives.
-function checkStep(where, data, content) {
+// `country` is "CA" or "US", or undefined for a topic guide.
+function checkStep(where, data, content, country) {
   for (const key of REQUIRED) if (data[key] === undefined) report(where, `missing ${key}`);
   for (const key of Object.keys(data))
     if (!ALLOWED.has(key)) report(where, `unknown frontmatter key ${key}`);
@@ -93,7 +97,8 @@ function checkStep(where, data, content) {
 
   if (/^# /m.test(content)) report(where, "body uses an H1; start sections at ##");
   if (!/^## /m.test(content)) report(where, "body needs at least one ## section");
-  if (content.includes("—")) report(where, "body uses an em dash; rewrite as two sentences or use a comma");
+  for (const { level, msg } of styleProblems({ data, content, country }))
+    (level === "error" ? problems : warnings).push(`${where}: ${msg}`);
 }
 
 // Checks shared by region screenshots and a country's shared ones.
@@ -172,7 +177,7 @@ for (const region of regions) {
       return;
     }
 
-    checkStep(where, data, content);
+    checkStep(where, data, content, country);
     if (!isTopic && COPIED.has(m[2])) {
       const text = [data.title, data.summary, ...(data.checklist ?? []), content].join("\n");
       for (const name of otherRegions)
@@ -203,7 +208,7 @@ for (const code of only.length > 0 ? [] : Object.keys(countries)) {
   for (const file of fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => f.endsWith(".md")) : []) {
     const where = `content/shared/${slug}/${file}`;
     const { data, content } = matter(fs.readFileSync(path.join(dir, file), "utf8"));
-    checkStep(where, data, content);
+    checkStep(where, data, content, code);
     const text = [data.title, data.summary, ...(data.checklist ?? []), content].join("\n");
     // Shared text reads the same in every region: no region names or step
     // numbers, only the {region} and {step:<slug>} tokens.
@@ -224,6 +229,10 @@ for (const code of only.length > 0 ? [] : Object.keys(countries)) {
   for (const shot of manifest.filter((s) => s.region === `shared-${slug}`)) checkShot(shot);
 }
 
+if (warnings.length) {
+  console.log(warnings.map((w) => `warning: ${w}`).join("\n"));
+  console.log(`${warnings.length} warning(s); see .claude/skills/writing-style/SKILL.md\n`);
+}
 if (problems.length) {
   console.log(problems.join("\n"));
   console.log(`\n${problems.length} problem(s) in ${regions.join(", ")}`);

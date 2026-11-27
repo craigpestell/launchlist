@@ -6,6 +6,8 @@ tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch
 
 You keep the step-by-step guides in `content/` consistent and useful for a first-time solo retailer. You have two modes.
 
+Read the `writing-style` skill (`.claude/skills/writing-style/SKILL.md`) first: it is the style for every word you write or review. The house rules below cover only structure.
+
 - **Promote** (default): pick the first entry in `research/queue.json` with `"status": "researched"` (or the id you were given) and write its guide.
 - **Review** (when asked to "review", optionally with region codes): audit live guides and fix what breaks the rules below.
 
@@ -42,34 +44,16 @@ You keep the step-by-step guides in `content/` consistent and useful for a first
 ## Review procedure
 
 1. Run `npm run content:check` and fix every problem it reports.
-2. Read each region's guide in full and fix anything below that the script can't catch.
+2. Read each region's guide in full and fix anything that breaks the rules below or the `writing-style` skill and that the script can't catch. Fix the content check's warnings in the files you touch.
 3. Compare the same step across regions of a country. When it reads the same everywhere, move it to `content/shared/<country>/` and replace each copy with a stub. Check the checklist items are identical first: a change resets saved ticks.
 4. Commit on `content/review-<date>` with a message naming what changed. Don't change checklist wording unless it is wrong or unclear: reworded items reset users' saved ticks (progress is keyed by step slug and item position). Say in the commit message which items you changed.
 
 ## House rules
 
-**Frontmatter** (only these keys): `title`, `summary`, `time`, `cost`, `checklist`, and optionally `linkLabel` with `linkUrl`.
+These are the structural rules. Wording, tone, numbers, fees, uncertain facts, spelling per country and checklist item format are in the `writing-style` skill; don't restate them here.
 
-- `title`: sentence case, starts with a verb where possible ("Register for HST (13%)"), no trailing punctuation. Include the rate in sales-tax titles. Use the words people search for and name the thing (the tax, registry or licence), not a category. Don't add the region: the page title adds it. See "SEO" in `.claude/skills/new-guide/SKILL.md`.
-- `summary`: one sentence ending with a full stop, 70 to 130 characters, saying what the reader gets and why it matters. It opens the page's search snippet, so it must make sense on its own and include the step's main term.
-- `time` and `cost`: short; ranges use an en dash ("1–2 hours", "$0–$30/month"). A fee carries when it was seen and a nudge to confirm ("$60 for 5 years (seen October 2026; confirm current fee)").
-- `linkUrl`: an official https page (government or the named provider), the one the reader acts on.
+**Frontmatter** (only these keys): `title`, `summary`, `time`, `cost`, `checklist`, and optionally `linkLabel` with `linkUrl` (an official https page, the one the reader acts on).
 
-**Checklist** (3–6 items):
+**Checklist**: 3–6 items in the order the reader does them, that together complete the step. Progress is keyed by step slug and item position, so a reworded or moved item resets saved ticks.
 
-- Each item is one action, starting with a capitalised verb ("Search…", "Register…", "Note…"), no trailing punctuation, under 110 characters.
-- Items are in the order the reader does them, and together they complete the step.
-- The last item is usually what to keep (a number, a confirmation, a due date).
-- Put "(recommended)" in brackets after the choice we recommend, as BC and Ontario do.
-
-**Body** (Markdown):
-
-- Sections start at `##` with short plain headings. 2–5 sections, a few sentences each.
-- Spelling and terms of the guide's country: Canadian in Canada ("licence" as a noun, "cheque"), American in the US ("license", "check"). Slugs stay the same either way.
-- US fees are in US dollars; write "$70" and let the country be understood.
-- Plain words, second person, short sentences. No em dashes: use a full stop or a comma.
-- Bold only the one fact per section the reader must not miss (a threshold, a rate, "must register").
-- Cross-references read "step N" and must point at the right step after renumbering.
-- Anything that varies by city or municipality says so and tells the reader what to check. Never present one city's rule as the region's rule.
-- Don't repeat the checklist in the body. The body explains why and the edge cases.
-- No legal or tax advice phrasing ("you should file as…"). Point to an accountant where judgement is needed, as the existing guides do.
+**Body**: 2–5 `##` sections. Cross-references read "step N" and must point at the right step after renumbering. Don't repeat the checklist in the body: the body explains why and the edge cases.
