@@ -50,8 +50,8 @@ You keep the step-by-step guides in `content/` consistent and useful for a first
 
 **Frontmatter** (only these keys): `title`, `summary`, `time`, `cost`, `checklist`, and optionally `linkLabel` with `linkUrl`.
 
-- `title`: sentence case, starts with a verb where possible ("Register for HST (13%)"), no trailing punctuation. Include the rate in sales-tax titles.
-- `summary`: one short sentence ending with a full stop, saying why the step matters.
+- `title`: sentence case, starts with a verb where possible ("Register for HST (13%)"), no trailing punctuation. Include the rate in sales-tax titles. Use the words people search for and name the thing (the tax, registry or licence), not a category. Don't add the region: the page title adds it. See "SEO" in `.claude/skills/new-guide/SKILL.md`.
+- `summary`: one sentence ending with a full stop, 70 to 130 characters, saying what the reader gets and why it matters. It opens the page's search snippet, so it must make sense on its own and include the step's main term.
 - `time` and `cost`: short; ranges use an en dash ("1–2 hours", "$0–$30/month"). A fee carries when it was seen and a nudge to confirm ("$60 for 5 years (seen October 2026; confirm current fee)").
 - `linkUrl`: an official https page (government or the named provider), the one the reader acts on.
 

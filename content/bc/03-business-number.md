@@ -1,6 +1,6 @@
 ---
 title: Get your CRA Business Number
-summary: The federal number that your tax accounts attach to.
+summary: Get the free nine-digit number from the Canada Revenue Agency that your federal tax accounts attach to.
 time: 20–30 minutes
 cost: Free
 linkLabel: CRA — business registration

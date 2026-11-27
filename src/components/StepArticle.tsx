@@ -11,6 +11,7 @@ export function StepArticle({
   guide,
   basePath,
   backLabel,
+  guideLabel,
   step,
   steps,
   section,
@@ -20,6 +21,8 @@ export function StepArticle({
   /** Overview page, e.g. "/bc" or "/topics/products". */
   basePath: string;
   backLabel: string;
+  /** What the whole guide is, shown beside the step number: "Start a business in Ontario". */
+  guideLabel?: string;
   step: Step;
   steps: Step[];
   section?: ProfileSection;
@@ -40,7 +43,7 @@ export function StepArticle({
       </Link>
       {!single && (
         <p className="mt-6 text-sm font-medium text-emerald-700 dark:text-emerald-500">
-          Step {step.order} of {steps.length}
+          {guideLabel && `${guideLabel} · `}Step {step.order} of {steps.length}
         </p>
       )}
       <h1 className={`${single ? "mt-6" : "mt-1"} text-3xl font-bold tracking-tight`}>{step.title}</h1>

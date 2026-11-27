@@ -1,6 +1,6 @@
 ---
-title: Product labelling and compliance
-summary: What to check before you list products for sale.
+title: Check product labelling and safety rules
+summary: Check the labelling and safety rules your products must meet before you list them for sale.
 time: 1–2 hours
 cost: Free
 checklist:
