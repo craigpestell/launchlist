@@ -1,6 +1,6 @@
 ---
 title: Register the business with BC Registry
-summary: Register your sole proprietorship and business name.
+summary: Get a Name Request and register your sole proprietorship with BC Registry, unless you trade under your own legal name.
 time: 30–60 minutes
 cost: $30 Name Request plus $40 registration (seen November 2026; confirm current fees)
 linkLabel: BC Registry Services

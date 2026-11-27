@@ -1,6 +1,6 @@
 ---
 title: Register the business with the Ontario Business Registry
-summary: Register your sole proprietorship and business name.
+summary: Register your sole proprietorship online with the Ontario Business Registry if you trade under a name other than your own.
 time: 30–60 minutes
 cost: $60 for 5 years (seen October 2026; confirm current fee)
 linkLabel: Ontario Business Registry

@@ -1,6 +1,6 @@
 ---
 title: Choose your structure and business name
-summary: Decide how the business is set up in Texas and what it is called.
+summary: Choose a sole proprietorship (recommended to start) or an LLC, and pick a business name that meets the state's rules.
 time: 1–2 hours
 cost: Free to decide ($300 if you form an LLC)
 linkLabel: Texas Secretary of State SOSPortal

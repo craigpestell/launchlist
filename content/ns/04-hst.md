@@ -1,6 +1,6 @@
 ---
 title: Register for HST (14%)
-summary: Nova Scotia has one combined sales tax, collected for the CRA.
+summary: Register with the CRA for HST, a single 14% tax that combines the federal and provincial sales taxes.
 time: 30 minutes
 cost: Free
 linkLabel: CRA — GST/HST for businesses

@@ -1,6 +1,6 @@
 ---
 title: Check sales tax in other states
-summary: Selling online can make you owe sales tax in states you ship to.
+summary: Find out when online sales into other states make you owe their sales tax, and what to do once you pass a threshold.
 time: 1–2 hours, then a check every few months
 cost: Free to register in most states
 linkLabel: Streamlined Sales Tax registration

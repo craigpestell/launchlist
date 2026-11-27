@@ -1,6 +1,6 @@
 ---
 title: Split a variable product into simple products
-summary: Turn each variation of a product back into its own listing.
+summary: Turn each variation of a WooCommerce variable product back into its own simple product, with names you can edit.
 time: 5 minutes per product
 cost: Free
 checklist:

@@ -1,6 +1,6 @@
 ---
 title: Add your link to your Gravatar wallet
-summary: Show your donation link on your public profile so people can find it.
+summary: Add your PayPal.me or Ko-fi link to your Gravatar wallet, so a Send money button shows on your public profile.
 time: 10 minutes
 cost: Free
 linkLabel: Gravatar wallet

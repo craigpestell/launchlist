@@ -1,6 +1,6 @@
 ---
 title: Register for HST (13%)
-summary: Ontario has one combined sales tax, collected for the CRA.
+summary: Register with the CRA for HST, a single 13% tax that combines the federal and provincial sales taxes.
 time: 30 minutes
 cost: Free
 linkLabel: CRA — GST/HST for businesses

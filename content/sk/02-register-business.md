@@ -1,6 +1,6 @@
 ---
 title: Register your business name with the Corporate Registry
-summary: Reserve your business name and register it online.
+summary: Reserve your business name, then register it online with the Saskatchewan Corporate Registry for your sole proprietorship.
 time: 1–2 hours
 cost: $50 name reservation plus $65 for 3 years (seen October 2026; confirm current fee)
 linkLabel: Saskatchewan Corporate Registry — search and reserve a name

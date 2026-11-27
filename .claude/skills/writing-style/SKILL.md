@@ -153,7 +153,8 @@ A translation says the same thing as the English, in natural writing for that la
 
 French covers the Canadian guides and the topic guides. US state guides are not translated into French.
 
-- **Vous**, always. Imperative for actions: "Inscrivez-vous", "Notez votre numéro".
+- **Titles, headings and checklist items use the infinitive**, as Canada.ca and Québec.ca write task titles and lists: "S'inscrire à la TPS (5 %)", "Noter votre numéro d'entreprise".
+- **Body text uses vous, always, with the imperative** for actions: "Inscrivez-vous en ligne", "Notez votre numéro".
 - Follow Canadian usage (Office québécois de la langue française and the federal Translation Bureau), not France's: "courriel" (not "e-mail"), "entreprise individuelle", "numéro d'entreprise (NE)", "en ligne", "site Web", "magasin en ligne".
 - **Taxes**: TPS (GST), TVH (HST), TVQ (QST), TVP (PST in BC and Saskatchewan), and taxe de vente au détail (TVD) for Manitoba's RST. Agencies: Agence du revenu du Canada (ARC), Revenu Québec, Registraire des entreprises.
 - **Typography** (the translation stamp script applies the spacing; check it is there):
@@ -163,7 +164,7 @@ French covers the Canadian guides and the topic guides. US state guides are not 
   - guillemets with non-breaking spaces inside: « Copier »;
   - 24-hour time: "9 h", "17 h 30";
   - dates: "31 janvier", "le 15 avril 2027"; months and days in lower case.
-- **Titles and headings in sentence case**, as in English ("Inscrivez-vous à la TPS (5 %)").
+- **Titles and headings in sentence case**, as in English ("S'inscrire à la TPS (5 %)").
 - Gender-neutral where it reads naturally ("la personne propriétaire", "votre entreprise"), without dotted forms like "propriétaire.s".
 - The rule of about 20 words a sentence stretches a little in French; still split anything over 25.
 - The em dash rule holds; French uses the same commas and full stops instead.
