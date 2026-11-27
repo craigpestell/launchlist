@@ -21,7 +21,7 @@ The trade-off is that you are **personally liable** for the business. Creditors 
 ## Name
 
 - You can trade without registering only under **your own name**.
-- Adding anything to it, a prefix or a suffix, means you **must register** the name in the next step.
+- Adding anything to it, such as a prefix or a suffix, means you **must register** the name in the next step.
 
 ## Keep it practical
 

@@ -27,7 +27,7 @@ You can register online, by mail or in person at an Access Nova Scotia centre. R
 
 ## Renew every year
 
-Unlike most provinces, Nova Scotia renews **every year**, for $68.55, and you must also file an annual return. The registry sends a reminder, but renewing on time is your job.
+Unlike most provinces, Nova Scotia renews **every year**, for $68.55. The registry sends a reminder, but renewing on time is your job.
 
 ## Your details are public
 

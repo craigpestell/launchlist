@@ -4,7 +4,7 @@ summary: Newfoundland and Labrador has no business name registry for sole propri
 time: 15 minutes
 cost: Free
 linkLabel: Registry of Companies — about
-linkUrl: https://www.gov.nl.ca/dgsnl/registries/companies/corp-about/
+linkUrl: https://www.gov.nl.ca/gs/registries/companies/corp-about/
 checklist:
   - Confirm you are setting up a sole proprietorship, not a corporation
   - Note that there is no provincial business name to register or renew
