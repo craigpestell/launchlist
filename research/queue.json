@@ -171,7 +171,11 @@
     "country": "US",
     "code": "CA",
     "name": "California",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": "Seller's permit with CDTFA; $800 yearly LLC tax. Not confirmed: FBN fees and publication deadlines outside Fresno/LA, CDTFA security deposit, CA estimated tax threshold; leginfo blocked."
   },
   {
     "id": "us-co",
