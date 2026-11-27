@@ -65,7 +65,7 @@ export function GuideShots({
             type="button"
             onClick={() => dialog.current?.close()}
             aria-label="Close guide"
-            className="rounded-md px-2 py-1 text-xl leading-none text-neutral-500 hover:bg-neutral-100 dark:hover:bg-neutral-800"
+            className="rounded-md px-2 py-1 text-xl leading-none text-neutral-500 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800"
           >
             ×
           </button>
@@ -90,7 +90,7 @@ export function GuideShots({
           ))}
         </ol>
 
-        <p className="border-t border-neutral-200 px-5 py-4 text-xs text-neutral-500 dark:border-neutral-800">
+        <p className="border-t border-neutral-200 px-5 py-4 text-xs text-neutral-500 dark:text-neutral-400 dark:border-neutral-800">
           Screenshots captured {capturedAt}.{" "}
           <a
             href={reportHref(stepTitle, capturedAt)}

@@ -187,7 +187,7 @@ export default function Home() {
           if (!soon.length) return null;
           return (
             <div key={country.code} className="mt-5">
-              <h3 className="text-sm font-medium text-neutral-500">
+              <h3 className="text-sm font-medium text-neutral-500 dark:text-neutral-400">
                 {country.name}: {country.unit}
               </h3>
               <ul className="mt-2 flex flex-wrap gap-2">

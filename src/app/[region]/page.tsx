@@ -42,7 +42,7 @@ export default async function RegionPage(props: PageProps<"/[region]">) {
     <>
       <Link
         href="/"
-        className="text-sm text-neutral-500 hover:text-neutral-800 dark:hover:text-neutral-200"
+        className="text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-200"
       >
         ← Choose a different region
       </Link>
