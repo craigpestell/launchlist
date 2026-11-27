@@ -110,36 +110,38 @@ export default function Home() {
         </ul>
       </nav>
 
-      {coverage.map(({ country, regions, available }, i) => (
-        <section
-          key={country.code}
-          id={i === 0 ? "start" : `start-${country.slug}`}
-          className="mt-14 scroll-mt-6"
-          aria-labelledby={`start-${country.slug}-heading`}
-        >
-          <h2 id={`start-${country.slug}-heading`} className="text-xl font-semibold">
-            Start a business in {country.inName}
-          </h2>
-          <p className={`mt-1 text-sm ${muted}`}>
-            Register your business, sign up for tax accounts and get the
-            licences you need. Rules differ across {country.unit}, so choose
-            where your business will be based.
-          </p>
-          <CoverageMap country={country} regions={regions} />
-          <ul className="mt-5 grid grid-cols-2 gap-2 sm:grid-cols-3">
-            {available.map((region) => (
-              <li key={region.slug}>
-                <Link
-                  href={`/${region.slug}`}
-                  className="block h-full rounded-lg border border-neutral-200 px-3 py-2 text-sm font-medium transition hover:border-emerald-600 dark:border-neutral-800"
-                >
-                  {region.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-      ))}
+      <div id="start" className="scroll-mt-6">
+        {coverage.map(({ country, regions, available }) => (
+          <section
+            key={country.code}
+            id={`start-${country.slug}`}
+            className="mt-14 scroll-mt-6"
+            aria-labelledby={`start-${country.slug}-heading`}
+          >
+            <h2 id={`start-${country.slug}-heading`} className="text-xl font-semibold">
+              Start a business in {country.inName}
+            </h2>
+            <p className={`mt-1 text-sm ${muted}`}>
+              Register your business, sign up for tax accounts and get the
+              licences you need. Rules differ across {country.unit}, so choose
+              where your business will be based.
+            </p>
+            <CoverageMap country={country} regions={regions} />
+            <ul className="mt-5 grid grid-cols-2 gap-2 sm:grid-cols-3">
+              {available.map((region) => (
+                <li key={region.slug}>
+                  <Link
+                    href={`/${region.slug}`}
+                    className="block h-full rounded-lg border border-neutral-200 px-3 py-2 text-sm font-medium transition hover:border-emerald-600 dark:border-neutral-800"
+                  >
+                    {region.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+      </div>
 
       {business.length > 0 && (
         <section id="run" className="mt-14 scroll-mt-6" aria-labelledby="run-heading">
