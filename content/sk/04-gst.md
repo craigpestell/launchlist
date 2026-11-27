@@ -19,7 +19,7 @@ Saskatchewan customers pay **5% GST** to the federal government plus Saskatchewa
 
 ## When you must register
 
-You must register once your taxable sales pass **$30,000 over four consecutive calendar quarters**.
+You must register once your taxable sales pass **$30,000 in a single calendar quarter or over four consecutive calendar quarters**. If one quarter takes you over, you start charging tax on the sale that pushed you past $30,000.
 
 ## Why register earlier
 
