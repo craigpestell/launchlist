@@ -310,7 +310,11 @@
     "country": "US",
     "code": "MA",
     "name": "Massachusetts",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": "mass.gov and sec.state.ma.us block automated browsers; sales tax registration fee, filing frequency and annual report date not confirmed."
   },
   {
     "id": "us-mi",
