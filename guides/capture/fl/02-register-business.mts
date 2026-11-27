@@ -1,6 +1,8 @@
-// Not captured: dos.fl.gov shows a Cloudflare "verify you are human" check, to
-// automated browsers and to a normal Chrome session alike (checked 2026-11-27).
-// A person has to pass the check first; don't work around it.
+// Captured by hand on 2026-11-27 in the owner's own Chrome (see the new-guide
+// skill, section 5), after the owner passed dos.fl.gov's Cloudflare human check
+// themselves. The images and manifest entries were added by hand; this script
+// is kept for the selectors. The page lists $100 for Articles of Organization
+// and $25 for the registered agent designation, $125 together.
 import { captureStep } from "../lib.mjs";
 
 // Sunbiz sits behind a Cloudflare bot check that blocked curl and WebFetch
