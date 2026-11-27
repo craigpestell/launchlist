@@ -713,5 +713,15 @@
     "alt": "Preguntas frecuentes del Wisconsin DOR sobre tasas de impuestos, con la oración sobre el impuesto sobre las ventas de 5% resaltada",
     "caption": "Cobre la tasa estatal de 5% más cualquier impuesto del condado o la ciudad donde el comprador recibe los productos.",
     "source": "48ce22e14dd5"
+  },
+  "guides/fl/02-register-business/01.webp": {
+    "alt": "Página \"Fictitious Name Registration\" de Sunbiz, de Florida, con la fila de la tarifa de registro de $50 resaltada",
+    "caption": "Registre su nombre ficticio (fictitious name) en Sunbiz después de anunciarlo en un periódico local. La tarifa es de $50 (1).",
+    "source": "1e7fea43945e"
+  },
+  "guides/fl/02-register-business/02.webp": {
+    "alt": "Página \"Limited Liability Company\" de Sunbiz, de Florida, con las filas de las tarifas de los Articles of Organization y de la designación del agente registrado resaltadas",
+    "caption": "¿Va a formar una LLC? Los Articles of Organization (artículos de organización) cuestan $100 (1) y la designación del agente registrado, $25 (2): $125 en total.",
+    "source": "15c99a63c89f"
   }
 }
