@@ -1,5 +1,6 @@
-// Not captured: azdor.gov and aztaxes.gov show a bot check to automated browsers
-// (checked 2026-11-26). Kept for a run from a normal browser session.
+// Captured by hand on 2026-11-27 in the owner's own Chrome (see the new-guide
+// skill, section 5): the site blocks automated browsers. The image and its
+// manifest entry were added by hand; this script is kept for the selectors.
 import { captureStep } from "../lib.mjs";
 
 const AZTAXES = "https://www.aztaxes.gov/";
