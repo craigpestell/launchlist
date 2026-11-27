@@ -56,6 +56,9 @@ export default function Home() {
     available: regions
       .filter((r) => r.available)
       .sort((a, b) => a.name.localeCompare(b.name)),
+    soon: regions
+      .filter((r) => !r.available)
+      .sort((a, b) => a.name.localeCompare(b.name)),
   }));
   const guideCount = coverage.reduce((n, c) => n + c.available.length, 0);
   const units = joinNames(coverage.flatMap((c) => c.country.unit.split(" and ")));
@@ -90,9 +93,8 @@ export default function Home() {
         Step-by-step guides, one task at a time
       </h1>
       <p className={`mt-3 ${muted}`}>
-        Checklists for starting and running a business in {coverageNames()}, plus
-        quick
-        how-tos for the tech tasks a website or support team might ask of you.
+        Checklists for starting and running a business in {coverageNames()},
+        plus quick how-tos for the tech tasks a website or support team might ask of you.
         Each step has a guide with screenshots, and you can tick tasks off as
         you go.
       </p>
@@ -111,7 +113,7 @@ export default function Home() {
       </nav>
 
       <div id="start" className="scroll-mt-6">
-        {coverage.map(({ country, regions, available }) => (
+        {coverage.map(({ country, regions, available, soon }) => (
           <section
             key={country.code}
             id={`start-${country.slug}`}
@@ -139,6 +141,23 @@ export default function Home() {
                 </li>
               ))}
             </ul>
+            {soon.length > 0 && (
+              <details className="mt-4">
+                <summary className={`cursor-pointer text-sm ${muted}`}>
+                  Coming soon: {soon.length} more {country.unit}
+                </summary>
+                <ul className="mt-3 flex flex-wrap gap-2">
+                  {soon.map((region) => (
+                    <li
+                      key={region.slug}
+                      className="rounded-full bg-neutral-100 px-3 py-1 text-sm text-neutral-600 dark:bg-neutral-900 dark:text-neutral-400"
+                    >
+                      {region.name}
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            )}
           </section>
         ))}
       </div>
@@ -173,8 +192,8 @@ export default function Home() {
           Coming soon
         </h2>
         <p className={`mt-1 text-sm ${muted}`}>
-          We research each business guide from official government sources and
-          add it when it is ready.
+          More business guides we are researching from official government
+          sources.
         </p>
         <ul className="mt-5 grid gap-3 sm:grid-cols-2">
           {UPCOMING_TOPICS.map((topic) => (
@@ -187,27 +206,6 @@ export default function Home() {
             </li>
           ))}
         </ul>
-        {coverage.map(({ country, regions }) => {
-          const soon = regions.filter((r) => !r.available);
-          if (!soon.length) return null;
-          return (
-            <div key={country.code} className="mt-5">
-              <h3 className="text-sm font-medium text-neutral-500 dark:text-neutral-400">
-                {country.name}: {country.unit}
-              </h3>
-              <ul className="mt-2 flex flex-wrap gap-2">
-                {soon.map((region) => (
-                  <li
-                    key={region.slug}
-                    className="rounded-full bg-neutral-100 px-3 py-1 text-sm text-neutral-600 dark:bg-neutral-900 dark:text-neutral-400"
-                  >
-                    {region.name}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          );
-        })}
       </section>
     </>
   );
