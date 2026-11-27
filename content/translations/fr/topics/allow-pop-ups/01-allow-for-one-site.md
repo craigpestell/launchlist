@@ -1,7 +1,7 @@
 ---
 source: ab949d854619
 title: "Autoriser les fenêtres contextuelles ou les notifications pour un site"
-summary: "Certains sites doivent ouvrir une fenêtre contextuelle (paiement, connexion, téléchargement) ou obtenir votre accord pour envoyer des alertes."
+summary: "Certains sites ont besoin d'une fenêtre contextuelle (paiement, connexion, téléchargement) ou de votre accord pour des alertes."
 time: 5 minutes
 cost: "Gratuit"
 checklist:

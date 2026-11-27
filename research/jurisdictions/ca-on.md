@@ -24,7 +24,8 @@ Published as `content/on/`. Researched by hand, not by the daily agent, so this 
 - The $30,000 small supplier threshold and the one-year minimum for voluntary registration are carried over from the BC guide. The CRA "who must register" page returned 404, so these were not re-verified for Ontario. They are federal rules, so they should match.
 - Whether a home-based sole proprietor trading under their own legal name must register because of the "employees, facilities or offices" wording.
 - Municipal rules outside Toronto and Ottawa.
-- Ontario consumer protection requirements for online sales (step 10 only points to them).
+- Ontario consumer protection requirements for online sales. Partly resolved November 2026: Consumer Protection Act, 2002, Part IV ss. 37-40 (internet agreements: disclosure before the agreement, express opportunity to accept, decline or correct errors, written copy within a prescribed period, cancellation rights; applies above a prescribed amount), https://www.ontario.ca/laws/statute/02c30. The Consumer Protection Act, 2023 (https://www.ontario.ca/laws/statute/23c23) says "THIS ACT IS NOT YET IN FORCE". Still not confirmed: the prescribed amount and copy period in the regulation.
+- Ottawa: which business types need a municipal licence. ottawa.ca blocked automated fetching again in November 2026.
 - WSIB and employer registrations are out of scope for a solo retailer.
 
 This is general information, not legal or tax advice.

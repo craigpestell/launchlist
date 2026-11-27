@@ -36,7 +36,7 @@ Rules for each step file:
 - Keep the tokens `{region}` and `{step:<slug>}` exactly. Where the language needs the region with its preposition, use `{in-region}` ("au Québec", "en Ontario"). In region files, "step 4" becomes the language's word for step with the same number.
 - Keep the Markdown structure: the same `##` sections in the same order, the same lists, the same bold facts.
 - Translate meaning, not words. A sentence should read as if written in the language by someone who knows the subject. Keep the English guide's facts exactly: amounts, rates, dates, thresholds, form and program names. Never add, drop or "update" a fact, fee or deadline, even if you believe it has changed; flag it in your report instead.
-- Names of sites, products and buttons: follow the glossary's rule. Don't invent a French label for a button on an English-only site.
+- Names of sites, products and buttons: follow the glossary's rule. Don't invent a translated label for a button on an English-only site.
 - Titles: sentence case, no trailing punctuation. Summaries: one sentence ending with a full stop. Checklist items start with a capital letter, have no trailing punctuation and stay under 110 characters.
 
 ## Stamp and check

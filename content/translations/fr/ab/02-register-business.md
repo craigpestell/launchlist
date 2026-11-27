@@ -1,5 +1,5 @@
 ---
-source: 9449fa03f545
+source: 8bebcf07324d
 title: Enregistrer votre nom commercial auprès d'un agent d'enregistrement
 summary: Enregistrez votre nom commercial auprès d'un agent d'enregistrement si vous vendez sous un autre nom que votre nom personnel.
 time: 30 à 60 minutes, plus le déplacement chez un agent d'enregistrement
@@ -16,11 +16,11 @@ checklist:
 
 ## Qui doit s'enregistrer
 
-En Alberta, vous enregistrez un **nom commercial** lorsque vous faites affaire sous un autre nom que votre nom personnel. Si vous exercez simplement sous le nom « Jane Smith », vous pouvez sauter cette étape.
+En Alberta, vous **enregistrez un nom commercial** lorsque vous faites affaire sous un autre nom que votre nom personnel. L'Alberta appelle « trade name » le nom enregistré d'une personne propriétaire unique : le formulaire s'appelle donc Declaration of Trade Name (déclaration de nom commercial). Si vous exercez simplement sous le nom « Jane Smith », vous pouvez sauter cette étape.
 
 ## S'enregistrer en personne
 
-Vous vous enregistrez par l'entremise d'un **fournisseur de services du Corporate Registry** (registre des sociétés de l'Alberta) autorisé, aussi appelé agent d'enregistrement (registry agent), et non directement en ligne auprès du gouvernement. Remplissez d'abord le formulaire **Declaration of Trade Name** (déclaration de nom commercial), puis apportez-le avec une pièce d'identité valide et le paiement. Il vous faut aussi une adresse courriel, car l'Alberta en exige une pour l'enregistrement d'un nom commercial.
+Vous vous enregistrez par l'entremise d'un **fournisseur de services du Corporate Registry** (registre des sociétés de l'Alberta) autorisé, aussi appelé agent d'enregistrement (registry agent), et non directement en ligne auprès du gouvernement. Remplissez d'abord le formulaire Declaration of Trade Name, puis apportez-le avec une pièce d'identité valide et le paiement. Il vous faut aussi une adresse courriel, car l'Alberta en exige une pour l'enregistrement d'un nom commercial.
 
 ## Coût
 

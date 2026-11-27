@@ -1,9 +1,9 @@
 ---
-source: 0e4ce61714f5
+source: f62cc3af39be
 title: Enregistrer votre raison sociale auprès de Corporate Registries
 summary: Enregistrez le nom sous lequel vous faites affaire, sauf s'il s'agit de votre nom légal exact.
 time: 1 heure, plus le délai postal
-cost: 75 $ pour 4 ans, réservation du nom comprise (vu en octobre 2026; vérifiez le tarif en vigueur)
+cost: 75 $ pour 4 ans, réservation du nom comprise (vu en novembre 2026; vérifiez le tarif en vigueur)
 linkLabel: TNO — enregistrer une entreprise individuelle
 linkUrl: https://gnwt.ca/business-and-economy/business-licences-taxes-and-regulations/business-names-and-partnerships/sole-proprietorship
 checklist:
@@ -24,7 +24,7 @@ L'enregistrement en ligne n'existe pas. Corporate Registries (registre des soci�
 
 ## Ce que cela coûte
 
-La réservation du nom coûte **25 $** et l'enregistrement **50 $**, soit 75 $ en tout. Ces tarifs proviennent d'un barème de 2018. Confirmez-les auprès de Corporate Registries avant de payer.
+La réservation du nom coûte **25 $** et l'enregistrement **50 $**, soit 75 $ en tout. Ces tarifs figurent dans le barème des droits vers lequel Corporate Registries renvoie depuis sa page de formulaires (vu en novembre 2026). Ce barème date de juin 2018 : confirmez les tarifs en vigueur auprès de Corporate Registries avant de payer.
 
 ## Renouveler tous les quatre ans
 

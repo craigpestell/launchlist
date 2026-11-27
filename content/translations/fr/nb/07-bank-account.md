@@ -1,5 +1,5 @@
 ---
-source: 23d3295c13db
+source: a3b8e7a46292
 title: Ouvrir un compte bancaire d'entreprise
 summary: Séparez l'argent de l'entreprise de votre argent personnel pour simplifier la tenue de livres et la période des impôts.
 time: 1 heure
@@ -17,7 +17,7 @@ Un compte distinct rend vos livres beaucoup plus clairs à la période des impô
 
 ## Quoi apporter
 
-Votre certificat d'appellation commerciale (si vous en avez enregistré une), votre numéro d'entreprise et une pièce d'identité délivrée par le gouvernement.
+Votre certificat d'appellation commerciale (l'enregistrement de votre appellation commerciale, si vous en avez enregistré une), votre numéro d'entreprise et une pièce d'identité délivrée par le gouvernement.
 
 ## Dire à la banque ce que vous vendez
 

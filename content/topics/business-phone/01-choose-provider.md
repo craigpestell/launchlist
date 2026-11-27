@@ -6,7 +6,7 @@ cost: Free
 checklist:
   - Decide whether you need texting with customers or mostly calls
   - Choose Fongo Works (recommended) or TextNow as your business line
-  - Note the local area codes you want, such as 604 or 778 in the Lower Mainland
+  - Note the area code you want, usually one that's local to your customers
   - Note the business email you'll sign up with
 ---
 
@@ -22,7 +22,9 @@ A business number keeps your personal cell private. It goes on your website, inv
 
 ## Options to skip
 
-**Skype is gone.** Microsoft retired it in May 2025, and Skype Numbers ended in May 2026. Google Voice is for US users only.
+**Skype is gone.** Microsoft retired it in May 2025, and Skype Number subscriptions ended in May 2026 (seen November 2026).
+
+**Google Voice** is offered in Canada only as a paid add-on to Google Workspace, Google's paid business email and apps (seen November 2026). So it isn't a free option.
 
 ## Prices change
 

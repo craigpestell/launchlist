@@ -7,7 +7,7 @@ checklist:
   - Open the Split tab and find the variable product
   - Check the suggested name for each variation
   - Untick any variation you don't want as its own product
-  - Click the Split button
+  - Click Split into N simple products (N is the number of variations you kept)
   - Check the new products in Products > All Products
 ---
 

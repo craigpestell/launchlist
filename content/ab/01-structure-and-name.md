@@ -16,12 +16,12 @@ checklist:
 
 Start as a **sole proprietorship**. It is the cheapest and simplest option, and you can incorporate later if the business grows.
 
-The trade-off is that you are **personally liable** for the business. Alberta's own guidance says a business name has no legal existence of its own, so your personal assets are on the line for business debts. Insurance (step 6) is how you manage that risk.
+The trade-off is that you are **personally liable** for the business. A sole proprietorship is not separate from you in law, so your personal assets are on the line for business debts. Registering a business name doesn't change that: Alberta says a business name has no legal existence of its own (seen November 2026). Insurance (step 6) is how you manage that risk.
 
 ## Name
 
 - If you trade under just your own legal name (for example "Jane Smith"), you do not have to register a name.
-- If you use any other name, for example "Jane's Gift Shop", you **must register it as a trade name** in the next step.
+- If you use any other name, for example "Jane's Gift Shop", you **must register it** in the next step. Alberta calls this a trade name registration.
 
 ## Checking the name
 

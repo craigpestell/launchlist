@@ -1,9 +1,9 @@
 ---
-source: d5d046fb750c
+source: 286dcc02b111
 title: Configurer Fongo Works
 summary: Obtenez un numéro local gratuit qui transfère les appels vers votre cellulaire. Sautez cette étape si vous avez choisi TextNow.
 time: 30 à 45 minutes
-cost: Gratuit; Pro à 10 $ par mois (vu en octobre 2026; vérifiez le tarif en vigueur)
+cost: Gratuit; Pro à 10 $ par mois (vu en novembre 2026; vérifiez le tarif en vigueur)
 linkLabel: Fongo Works — inscription
 linkUrl: https://www.fongoworks.com/signup
 checklist:
@@ -21,7 +21,7 @@ Le forfait gratuit n'a pas de limite de durée et n'exige aucune carte de crédi
 
 ## Choisir votre numéro
 
-Vous choisissez un numéro sans frais pendant l'inscription. Fongo propose des numéros locaux partout au Canada, par exemple le 778 pour New Westminster et Burnaby et le 604 pour Vancouver. **Choisissez-en un facile à dire à voix haute**, car vous le répéterez souvent.
+Vous choisissez un numéro sans frais pendant l'inscription. Fongo propose des numéros locaux partout au Canada. Bien des endroits ont plus d'un indicatif régional pour le même secteur : n'importe lequel paraîtra donc local à vos clients. **Choisissez-en un facile à dire à voix haute**, car vous le répéterez souvent.
 
 ## Utiliser la bonne application
 

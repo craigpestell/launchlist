@@ -1,5 +1,5 @@
 ---
-source: e4e6c3dbcc1c
+source: 561384dbed5f
 title: Organiser la tenue de livres et l'impôt sur le revenu
 summary: Tenez vos livres dès le départ (ventes, TPS, dépenses) et déclarez le revenu d'entreprise dans votre déclaration de revenus.
 time: 2 à 3 heures
@@ -28,4 +28,4 @@ Conservez vos registres pendant **six ans**.
 
 ## Une rencontre avec un comptable
 
-Une consultation unique au début coûte peu comparativement à la correction d'erreurs plus tard. Apportez cette liste de vérification et posez des questions sur les ventes à l'extérieur du territoire.
+Une consultation unique au début coûte peu comparativement à la correction d'erreurs plus tard. Apportez cette liste de vérification et posez des questions sur les ventes à l'extérieur du Nunavut.

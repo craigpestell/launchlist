@@ -1,5 +1,5 @@
 ---
-source: 0d1b1037d2e2
+source: 29eaed77fcef
 title: Choisir une structure et un nom d'entreprise
 summary: Choisissez entre l'entreprise individuelle et la société par actions, puis trouvez un nom et vérifiez qu'il est libre.
 time: 1 à 2 heures
@@ -17,12 +17,12 @@ checklist:
 
 Commencez en **entreprise individuelle**. C'est l'option la plus simple et la moins chère, et vous pourrez constituer une société plus tard si l'entreprise prend de l'ampleur.
 
-En contrepartie, vous êtes **personnellement responsable** de l'entreprise. Selon les indications du gouvernement de l'Alberta, un nom commercial n'a pas d'existence juridique propre : vos biens personnels répondent donc des dettes de l'entreprise. L'assurance (étape 6) sert à gérer ce risque.
+En contrepartie, vous êtes **personnellement responsable** de l'entreprise. En droit, une entreprise individuelle ne se distingue pas de vous : vos biens personnels répondent donc des dettes de l'entreprise. Enregistrer un nom commercial n'y change rien : selon l'Alberta, un nom commercial n'a pas d'existence juridique propre (constaté en novembre 2026). L'assurance (étape 6) sert à gérer ce risque.
 
 ## Nom
 
 - Si vous exercez uniquement sous votre propre nom légal (par exemple « Jane Smith »), vous n'avez pas à enregistrer de nom.
-- Si vous utilisez un autre nom, par exemple « Boutique cadeaux de Jane », vous **devez l'enregistrer comme nom commercial** à l'étape suivante.
+- Si vous utilisez un autre nom, par exemple « Boutique cadeaux de Jane », vous **devez l'enregistrer** à l'étape suivante. L'Alberta appelle cette démarche l'enregistrement d'un « trade name » (nom commercial).
 
 ## Vérifier le nom
 

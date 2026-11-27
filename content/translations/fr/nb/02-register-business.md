@@ -1,7 +1,7 @@
 ---
 source: a4e05e87cfda
 title: Enregistrer votre appellation commerciale auprès de Services Nouveau-Brunswick
-summary: Si vous vendez sous un autre nom que le vôtre, enregistrez-le auprès de Services Nouveau-Brunswick dans les deux mois suivant le démarrage.
+summary: Si vous vendez sous un autre nom que le vôtre, enregistrez-le auprès de Services Nouveau-Brunswick dans les deux mois du début.
 time: 1 à 2 heures, plus l'attente de la recherche de nom
 cost: 112 $ pour 5 ans, plus une recherche de nom NUANS (vu en octobre 2026; vérifiez le tarif en vigueur)
 linkLabel: Enregistrer ou renouveler une appellation commerciale

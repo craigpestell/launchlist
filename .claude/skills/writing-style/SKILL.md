@@ -169,14 +169,19 @@ French covers the Canadian guides and the topic guides. US state guides are not 
 - The rule of about 20 words a sentence stretches a little in French; still split anything over 25.
 - The em dash rule holds; French uses the same commas and full stops instead.
 
-### Spanish (es, planned)
+### US Spanish (es-US)
 
-Spanish is planned next, for the general topic guides and the US state guides. Before the first Spanish round, settle and write here:
+Spanish covers the topic guides and the US state guides. Canadian guides are not translated into Spanish.
 
-- usted or tú (default: **usted**, as US government sites do);
-- neutral US Spanish vocabulary, matching the IRS and state agencies' Spanish pages;
-- the official Spanish names of US taxes and agencies (most state sites have none, so keep the English official name with a Spanish explanation the first time);
-- number format (US Spanish usually keeps "$1,000.50" and "5%").
+- **Neutral US Spanish**, as the IRS, USA.gov and state agencies write it in Spanish: "computadora" (not "ordenador"), "correo electrónico", "sitio web", "tienda en línea", "celular", "aplicación". Avoid regionalisms from any one country.
+- **Usted, always**, as US government sites do. Body text uses the usted imperative for actions: "Solicite su EIN en línea", "Anote su número".
+- **Titles, headings and checklist items use the infinitive**: "Solicitar un EIN (gratis)", "Anotar su número de permiso". Sentence case, as in English.
+- **Agencies and taxes**: use the official Spanish name where the agency has one (Servicio de Impuestos Internos (IRS), Administración de Pequeñas Empresas (SBA), Comisión Federal de Comercio (FTC)), keeping the English acronym. Most state agencies have no Spanish name: keep the English name and add a Spanish explanation the first time, "Texas Comptroller (la oficina de impuestos del estado)". Forms keep their English names and numbers: "Formulario SS-4", "Anexo C (Formulario 1040)".
+- **Buttons and menus** on an English-only site stay in English in quotes, with a Spanish gloss in parentheses the first time: "Apply Online" (solicitar en línea).
+- **Numbers** follow US usage: "$1,000.50", "5%", "6.25%". Dates: "15 de abril de 2027"; months and days in lower case. Time: "9 a.m.", "5:30 p.m.".
+- Use plain double quotes "…", not « » (that is Spain and Canada French usage).
+- Gender-neutral where it reads naturally ("la persona propietaria", "su negocio"), without forms like "propietari@" or "propietarix".
+- Spanish runs longer than English; keep sentences under about 25 words and split longer ones.
 
 ## What content:check enforces
 

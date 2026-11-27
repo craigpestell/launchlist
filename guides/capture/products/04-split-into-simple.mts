@@ -11,7 +11,7 @@ await captureStep("products", "04-split-into-simple", [
     n: 1,
     alt: "Variation Converter Split tab with the Canvas Apron variable product opened, its new product names and the Split button highlighted",
     caption:
-      "On the Split tab, open a variable product. Check the name each new product will get, untick any you don't want, then click Split.",
+      "On the Split tab, open a variable product. Check the name each new product will get, untick any you don't want, then click Split into 2 simple products.",
     setup: async (page) => {
       await login(page);
       await admin(page, "edit.php?post_type=product&page=varconv&tab=split");

@@ -28,8 +28,8 @@ On your phone, turn off Wi-Fi and open the site on mobile data. If it works ther
 
 ## Read the error
 
-The message on the page is a clue. "This site can't be reached" or "Server not found" often means a typo in the address or a network problem. "404" or "Page not found" means that page has moved, so try the site's home page. Errors starting with 5, like 500, 502 or 503, mean the site's server has a problem, and the fix is on their side.
+The message on the page is a clue. "This site can't be reached" (Chrome and Edge) or "Hmm. We're having trouble finding that site." (Firefox) often means a typo in the address or a network problem. "404" or "Page not found" means that page has moved, so try the site's home page. Errors starting with 5, like 500, 502 or 503, mean the site's server has a problem, and the fix is on their side.
 
 ## If it's only you
 
-Try a different browser, or a private or incognito window. If that works, follow the Clear cache and cookies for one site guide, or the Turn off ad blockers or extensions for one site guide. If nothing helps, contact the site's support with the exact error, when it happened, and your browser and device. A screenshot of the error helps.
+Try a different browser, or a private or incognito window. If that works, follow [Clear cache and cookies for one site](/topics/clear-site-data) or [Turn off ad blockers or extensions for one site](/topics/turn-off-ad-blocker). If nothing helps, contact the site's support with the exact error, when it happened, and your browser and device. A screenshot of the error helps.

@@ -1,5 +1,5 @@
 ---
-source: 050ce25c9ae6
+source: f19dff1d36d8
 title: "Désactiver les bloqueurs de publicités ou les extensions pour un site"
 summary: "Un bloqueur de publicités ou une autre extension peut bloquer un paiement, un formulaire ou une connexion sans afficher d'erreur."
 time: 5 minutes
@@ -32,4 +32,4 @@ D'autres extensions peuvent aussi empêcher une page de fonctionner : outils de
 
 ## Ensuite
 
-Le réglage ne s'applique qu'à ce site : les autres sites continuent de bloquer les publicités. Si le site ne fonctionne toujours pas, consultez le guide Effacer le cache et les témoins d'un seul site, puis communiquez avec l'équipe de soutien.
+Le réglage ne s'applique qu'à ce site : les autres sites continuent de bloquer les publicités. Si le site ne fonctionne toujours pas, suivez [Effacer le cache et les témoins d'un seul site](/topics/clear-site-data), puis communiquez avec l'équipe de soutien.

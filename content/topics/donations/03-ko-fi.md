@@ -8,7 +8,7 @@ linkUrl: https://ko-fi.com/account/register
 checklist:
   - Sign up at Ko-fi and choose your page name
   - Add a profile photo, a short bio and a donate button label
-  - Connect Stripe and enter your Canadian bank details for payouts
+  - Connect Stripe or PayPal so donations reach your account
   - Open your page in a private window to check the donate button shows
   - Note your Ko-fi page link
 ---

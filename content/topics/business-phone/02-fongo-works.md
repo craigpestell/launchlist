@@ -2,7 +2,7 @@
 title: Set up Fongo Works
 summary: Get a free local number that forwards to your cell. Skip this step if you chose TextNow.
 time: 30–45 minutes
-cost: Free; Pro is $10/month (seen October 2026; confirm current price)
+cost: Free; Pro is $10/month (seen November 2026; confirm current price)
 linkLabel: Fongo Works sign up
 linkUrl: https://www.fongoworks.com/signup
 checklist:
@@ -20,7 +20,7 @@ The free plan has no time limit and needs no credit card. It includes a local nu
 
 ## Pick your number
 
-You choose a number at no cost during sign-up. Fongo lists local numbers across Canada, for example 778 for New Westminster and Burnaby and 604 for Vancouver. **Pick one that's easy to say out loud**, because you'll repeat it often.
+You choose a number at no cost during sign-up. Fongo lists local numbers across Canada. Many places have more than one area code for the same area, so any of them looks local to your customers. **Pick one that's easy to say out loud**, because you'll repeat it often.
 
 ## Use the right app
 

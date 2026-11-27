@@ -32,4 +32,4 @@ Other extensions can break a page too: coupon finders, password managers, transl
 
 ## Afterwards
 
-The setting stays for that site only, so other sites keep blocking ads. If the site still doesn't work, see the Clear cache and cookies for one site guide, then contact support.
+The setting stays for that site only, so other sites keep blocking ads. If the site still doesn't work, follow [Clear cache and cookies for one site](/topics/clear-site-data), then contact support.

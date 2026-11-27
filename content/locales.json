@@ -16,5 +16,13 @@
     },
     "topics": "fr-CA",
     "stepWord": "étape"
+  },
+  "es": {
+    "name": "Español",
+    "countries": {
+      "US": "es-US"
+    },
+    "topics": "es-US",
+    "stepWord": "paso"
   }
 }

@@ -69,7 +69,8 @@ CRA Business Number, shared with the other Canadian guides: https://www.canada.c
 
 ## Not confirmed
 
-- Whether the Consumer Protection Act (2024, c.1) internet-sales provisions are in force, and the regulation that prescribes required contract information.
+- Whether the Consumer Protection Act (2024, c.1) internet-sales provisions are in force, and the regulation that prescribes required contract information. Checked November 2026: laws.gnb.ca lists the Act (assented June 7, 2024; page shows no commencement note), and FCNB's consumer-protections page still describes it as proposed ("Until the new Consumer Protection Act becomes law"). Still not confirmed.
+- Consumer Product Warranty and Liability Act, C-18.1 (https://laws.gnb.ca/en/document/cs/C-18.1, seen November 2026): implied warranties of title, quality, fitness and durability on consumer products, applies to retailers; parties generally can't contract out. Added to the guide's step 10.
 - An official page stating NB has no provincial general business licence.
 - The cost of a NUANS report (set by private search firms).
 - Whether Fredericton treats online-only sales shipped from home as prohibited "retail sale of goods", and whether a home occupation needs a development permit or fee.

@@ -15,7 +15,7 @@ checklist:
 
 The **Business Number (BN)** is a nine-digit number the Canada Revenue Agency uses to identify your business. Your GST account (step 4) is attached to it.
 
-## Separate from your trade name
+## Separate from your business name
 
 Saskatchewan's Corporate Registry may set up a Business Number for you when you register your business name (step 2). If it doesn't, register with the CRA separately.
 

@@ -1,5 +1,5 @@
 ---
-source: fc6b282ffdd3
+source: 128ba5fde5fe
 title: "Trouver votre navigateur et sa version"
 summary: "L'équipe de soutien demande souvent quel navigateur vous utilisez, car un site peut fonctionner dans l'un et pas dans un autre."
 time: 2 minutes
@@ -26,7 +26,7 @@ Ouvrez Safari, cliquez sur le menu **Safari** en haut à gauche de l'écran, pui
 
 ## iPhone, iPad et Android
 
-Sur un iPhone ou un iPad, la version de Safari suit celle du système. Ouvrez l'app **Réglages**, puis **Général** et **Informations**, et notez la **Version d'iOS** (ou la version d'iPadOS). Si vous utilisez Chrome sur un iPhone, ouvrez le menu à trois points de Chrome, puis **Paramètres** et **À propos de Chrome**, tout en bas.
+Sur un iPhone ou un iPad, la version de Safari suit celle du système. Ouvrez l'app **Réglages**, puis **Général** et **Informations**, et notez la **Version d'iOS** (ou la version d'iPadOS). Si vous utilisez Chrome sur un iPhone, touchez les trois points, puis **Paramètres** et **Google Chrome**.
 
 Sur Android, ouvrez Chrome, touchez les trois points, puis **Paramètres** et **À propos de Chrome**. Pour trouver la version d'Android, ouvrez l'app **Paramètres** et cherchez **Version d'Android**.
 

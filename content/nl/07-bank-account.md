@@ -4,7 +4,7 @@ summary: Keep business money separate from personal money, so bookkeeping and ta
 time: 1 hour
 cost: Often a small monthly fee
 checklist:
-  - Bring your registration confirmation, Business Number and ID
+  - Bring your Business Number and government ID
   - Open a separate business chequing account
   - Tell the bank what you sell
   - Optionally get a business credit card
@@ -16,7 +16,7 @@ A separate account makes the books much cleaner at tax time and makes it easy to
 
 ## What to bring
 
-Your business name registration (if you registered one), your Business Number and government ID.
+Your Business Number and government ID. Newfoundland and Labrador has no business name registry for sole proprietors, so there is no registration to bring. Bring your note of the name you trade under and when you started using it, because the bank may ask how the business is set up.
 
 ## Tell the bank what you sell
 

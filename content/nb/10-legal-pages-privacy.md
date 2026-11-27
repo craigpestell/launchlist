@@ -31,4 +31,9 @@ Canada's anti-spam law, **CASL**, requires clear consent and an unsubscribe link
 
 ## Consumer rules
 
-New Brunswick's **Consumer Protection Act** has its own rules for internet sales to consumers, such as letting buyers correct errors before they accept and sending them a copy of the contract. Check the current requirements with the Financial and Consumer Services Commission or a lawyer before you publish your terms of sale.
+Two New Brunswick laws matter for your terms of sale:
+
+- The **Consumer Product Warranty and Liability Act** gives customers built-in warranties on the products you sell, covering quality, fitness for purpose and durability. In most cases your terms can't take these away.
+- The **Consumer Protection Act** (2024) has rules for internet sales, such as letting buyers correct errors before they accept and sending them a copy of the contract.
+
+New Brunswick passed the Consumer Protection Act in June 2024, but we could not confirm whether its internet sales rules are in force yet (checked November 2026). Check the current requirements with the Financial and Consumer Services Commission (FCNB) or a lawyer before you publish your terms of sale.

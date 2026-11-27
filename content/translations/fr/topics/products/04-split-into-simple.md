@@ -1,5 +1,5 @@
 ---
-source: 0023439615ed
+source: f5e7f4f623cc
 title: Séparer un produit variable en produits simples
 summary: Retransformez chaque variation d'un produit variable WooCommerce en produit simple distinct, avec des noms modifiables.
 time: 5 minutes par produit
@@ -8,7 +8,7 @@ checklist:
   - Ouvrir l'onglet Split et trouver le produit variable
   - Vérifier le nom suggéré pour chaque variation
   - Décocher toute variation qui ne doit pas devenir un produit distinct
-  - Cliquer sur le bouton Split
+  - Cliquer sur Split into N simple products (N est le nombre de variations conservées)
   - Vérifier les nouveaux produits dans Produits > Tous les produits
 ---
 

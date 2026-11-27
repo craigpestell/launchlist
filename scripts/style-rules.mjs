@@ -81,8 +81,13 @@ export function styleProblems({ data, content, country, lang = "en" }) {
 
   if (typeof data.summary === "string" && (data.summary.length < 70 || data.summary.length > 130))
     warning(`summary is ${data.summary.length} characters; aim for 70–130 (it starts the search snippet)`);
-  // Estimates ("about $150") aren't official fees and need no date.
-  if (typeof data.cost === "string" && /\$\s?\d/.test(data.cost) && !/\b(seen|about)\b/i.test(data.cost))
+  // Estimates ("about $150") aren't official fees and need no date. The
+  // translated words count too: French "vu"/"environ", Spanish "visto"/"unos".
+  if (
+    typeof data.cost === "string" &&
+    /\$\s?\d|\d\s?\$/.test(data.cost) &&
+    !/\b(seen|about|vu|environ|visto|vista|unos|unas|aproximadamente)\b/i.test(data.cost)
+  )
     warning('cost has a fee without "(seen <Month YYYY>; confirm current fee)"');
 
   if (lang !== "en") return out;

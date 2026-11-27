@@ -1,5 +1,5 @@
 ---
-source: 9c79d377b8c7
+source: da42ca2a240a
 title: Ouvrir un compte bancaire d'entreprise
 summary: Séparez l'argent de l'entreprise de votre argent personnel pour simplifier la tenue de livres et la période des impôts.
 time: 1 heure

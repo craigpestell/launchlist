@@ -1,5 +1,5 @@
 ---
-source: ec4a956f2c8e
+source: 068ff6a54405
 title: Créer une page Ko-fi
 summary: Créez une page de dons qui vous verse l'argent sans compte PayPal. Sautez cette étape si vous avez choisi PayPal.me.
 time: 20 à 30 minutes
@@ -9,7 +9,7 @@ linkUrl: https://ko-fi.com/account/register
 checklist:
   - Vous inscrire à Ko-fi et choisir le nom de votre page
   - Ajouter une photo de profil, une courte biographie et le texte du bouton de don
-  - Connecter Stripe et entrer vos coordonnées bancaires canadiennes pour les versements
+  - Connecter Stripe ou PayPal pour que les dons arrivent dans votre compte
   - Ouvrir votre page dans une fenêtre de navigation privée pour vérifier que le bouton de don s'affiche
   - Noter le lien de votre page Ko-fi
 ---

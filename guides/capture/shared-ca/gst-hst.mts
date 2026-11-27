@@ -8,7 +8,7 @@ await captureStep("shared-ca", "gst-hst", [
     n: 1,
     alt: "CRA GST/HST for businesses page with the Who needs to register section highlighted",
     caption:
-      "Check Who needs to register for GST/HST. Most businesses must register once taxable sales pass $30,000 in four consecutive calendar quarters.",
+      "Check Who needs to register for GST/HST. Most businesses must register once taxable sales pass $30,000 in a single calendar quarter or over four consecutive calendar quarters.",
     setup: async (page) => {
       await page.goto(GST);
       await page

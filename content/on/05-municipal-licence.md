@@ -16,7 +16,7 @@ checklist:
 There is no single Ontario business licence. Each city or town decides what it licenses, so the answer can be different a few kilometres away.
 
 - In **Toronto**, the city says retail and product stores that sell **new items and no food** do not need a municipal operating licence.
-- In **Ottawa**, you may need a municipal business licence depending on your business, so check its licensing pages.
+- In **Ottawa**, the city says some businesses need a municipal business licence. We could not confirm which types are on its list (checked November 2026), so check whether yours is on the City of Ottawa's business licence pages.
 
 Look up your own municipality rather than assuming either answer applies to you.
 

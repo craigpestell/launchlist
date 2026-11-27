@@ -1,7 +1,7 @@
 ---
-source: 72d9b15c1d67
+source: 6aa1d30a74ff
 title: Vérifier les permis municipaux et le zonage
-summary: La plupart des détaillants manitobains n'ont pas besoin de permis municipal, mais une entreprise à domicile peut avoir besoin d'un permis.
+summary: Le Manitoba n'a pas de permis d'affaires général, alors vérifiez les permis et le zonage à domicile de votre municipalité.
 time: 1 à 2 heures
 cost: Variable selon la municipalité
 checklist:
@@ -23,7 +23,7 @@ Renseignez-vous auprès de votre propre municipalité plutôt que de supposer qu
 
 ## Entreprise à domicile
 
-En vertu de son règlement de zonage, Winnipeg exige un **permis d'aménagement pour entreprise à domicile** si le courrier de l'entreprise arrive chez vous ou si vous y faites le travail administratif de l'entreprise. Cela touche la plupart des boutiques en ligne à domicile, alors vérifiez les règles de zonage qui s'appliquent à votre adresse avant de commencer.
+En vertu de son règlement de zonage, Winnipeg exige un **permis d'aménagement pour entreprise à domicile** si le courrier de l'entreprise arrive chez vous ou si vous y faites le travail administratif de l'entreprise. À Winnipeg, cela touche la plupart des boutiques en ligne à domicile. Les autres municipalités fixent leurs propres règles de zonage : vérifiez donc celles qui s'appliquent à votre adresse avant de commencer.
 
 ## Dire clairement ce que vous vendez
 

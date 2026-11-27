@@ -16,7 +16,7 @@ A separate account makes the books much cleaner at tax time and makes it easy to
 
 ## What to bring
 
-Your trade name registration (if you registered one), your Business Number and government ID.
+Your business name registration (if you registered one), your Business Number and government ID.
 
 ## Tell the bank what you sell
 
