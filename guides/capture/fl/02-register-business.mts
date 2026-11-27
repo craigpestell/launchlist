@@ -1,5 +1,6 @@
-// Not captured: Sunbiz shows a Cloudflare bot check to automated browsers
-// (checked 2026-11-26). Kept for a run from a normal browser session.
+// Not captured: dos.fl.gov shows a Cloudflare "verify you are human" check, to
+// automated browsers and to a normal Chrome session alike (checked 2026-11-27).
+// A person has to pass the check first; don't work around it.
 import { captureStep } from "../lib.mjs";
 
 // Sunbiz sits behind a Cloudflare bot check that blocked curl and WebFetch
