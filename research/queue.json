@@ -429,7 +429,11 @@
     "country": "US",
     "code": "PA",
     "name": "Pennsylvania",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "high",
+    "note": ""
   },
   {
     "id": "us-ri",
