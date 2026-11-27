@@ -155,8 +155,8 @@ French covers the Canadian guides and the topic guides. US state guides are not 
 
 - **Titles, headings and checklist items use the infinitive**, as Canada.ca and Québec.ca write task titles and lists: "S'inscrire à la TPS (5 %)", "Noter votre numéro d'entreprise".
 - **Body text uses vous, always, with the imperative** for actions: "Inscrivez-vous en ligne", "Notez votre numéro".
-- Follow Canadian usage (Office québécois de la langue française and the federal Translation Bureau), not France's: "courriel" (not "e-mail"), "entreprise individuelle", "numéro d'entreprise (NE)", "en ligne", "site Web", "magasin en ligne".
-- **Taxes**: TPS (GST), TVH (HST), TVQ (QST), TVP (PST in BC and Saskatchewan), and taxe de vente au détail (TVD) for Manitoba's RST. Agencies: Agence du revenu du Canada (ARC), Revenu Québec, Registraire des entreprises.
+- Follow Canadian usage (Office québécois de la langue française and the federal Translation Bureau), not France's: "courriel" (not "e-mail"), "entreprise individuelle", "numéro d'entreprise (NE)", "en ligne", "site Web", "boutique en ligne" (online store).
+- **Taxes**: TPS (GST), TVH (HST), TVQ (QST), TVP (PST in BC and Saskatchewan), and taxe sur les ventes au détail (TVD) for Manitoba's RST. Agencies and services: Agence du revenu du Canada (ARC), Revenu Québec, Registraire des entreprises, and Revenu Québec's « Inscription d'une entreprise en démarrage ».
 - **Typography** (the translation stamp script applies the spacing; check it is there):
   - a non-breaking space before the colon only, not before `;`, `?` or `!` (that is France's convention);
   - a non-breaking space before `%` and `$`: "5 %", "30 000 $", "60 $ pour 5 ans";
