@@ -43,7 +43,7 @@ export function StepList({
           <span className="font-medium">
             {completed} of {total} tasks done
           </span>
-          <span className="text-neutral-500">{percent}%</span>
+          <span className="text-neutral-500 dark:text-neutral-400">{percent}%</span>
         </div>
         <div
           className="h-2 overflow-hidden rounded-full bg-neutral-200 dark:bg-neutral-800"
@@ -75,7 +75,7 @@ export function StepList({
                 <span
                   className={`mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-sm font-semibold ${
                     complete
-                      ? "bg-emerald-600 text-white"
+                      ? "bg-emerald-700 text-white"
                       : "bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300"
                   }`}
                   aria-label={complete ? "Completed" : `Step ${step.order}`}
@@ -87,7 +87,7 @@ export function StepList({
                   <span className="block text-sm text-neutral-600 dark:text-neutral-400">
                     {step.summary}
                   </span>
-                  <span className="mt-1 block text-xs text-neutral-500">
+                  <span className="mt-1 block text-xs text-neutral-500 dark:text-neutral-400">
                     {stepDone}/{step.itemCount} tasks
                     {step.time ? ` · ${step.time}` : ""}
                   </span>
@@ -105,7 +105,7 @@ export function StepList({
             if (window.confirm("Clear all saved progress on this device?"))
               reset();
           }}
-          className="mt-8 text-sm text-neutral-500 underline hover:text-neutral-800 dark:hover:text-neutral-200"
+          className="mt-8 text-sm text-neutral-500 dark:text-neutral-400 underline hover:text-neutral-800 dark:hover:text-neutral-200"
         >
           Reset progress
         </button>

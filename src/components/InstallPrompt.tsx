@@ -139,7 +139,7 @@ export function InstallPrompt() {
           type="button"
           onClick={dismiss}
           aria-label="Dismiss install instructions"
-          className="-m-1 rounded-md p-1 text-neutral-500 hover:bg-neutral-100 dark:hover:bg-neutral-800"
+          className="-m-1 rounded-md p-1 text-neutral-500 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800"
         >
           <svg
             width="18"
@@ -167,7 +167,7 @@ export function InstallPrompt() {
           <button
             type="button"
             onClick={install}
-            className="rounded-lg bg-emerald-600 px-3 py-2 font-medium text-white hover:bg-emerald-700"
+            className="rounded-lg bg-emerald-700 px-3 py-2 font-medium text-white hover:bg-emerald-800"
           >
             Install
           </button>

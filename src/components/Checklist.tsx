@@ -27,7 +27,7 @@ export function Checklist({
                 onChange={() => toggle(id)}
                 className="mt-1 h-4 w-4 accent-emerald-600"
               />
-              <span className={checked ? "text-neutral-500 line-through" : ""}>
+              <span className={checked ? "text-neutral-500 dark:text-neutral-400 line-through" : ""}>
                 {item}
               </span>
             </label>
