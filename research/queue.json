@@ -210,7 +210,11 @@
     "country": "US",
     "code": "FL",
     "name": "Florida",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": "Fictitious names filed with the state after a newspaper notice; local business tax receipts. Sunbiz blocked, fees taken from Florida Statutes and Division forms. Not confirmed: registration fee (none listed), local tax amounts, 2027 surtax rates."
   },
   {
     "id": "us-ga",
