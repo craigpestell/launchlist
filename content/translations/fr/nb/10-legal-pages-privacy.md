@@ -1,5 +1,5 @@
 ---
-source: e0969e55afb6
+source: 280a36ff49c5
 title: Rédiger la politique de confidentialité et les pages juridiques de votre site Web
 summary: Rédigez vos politiques de confidentialité et de retour et vos conditions, en respectant les lois sur la vie privée et le pourriel.
 time: 3 à 5 heures
@@ -32,4 +32,9 @@ La **Loi canadienne anti-pourriel (LCAP)** exige un consentement clair et un lie
 
 ## Règles de protection du consommateur
 
-La **Loi sur la protection du consommateur** du Nouveau-Brunswick prévoit ses propres règles pour les ventes par Internet aux consommateurs, par exemple permettre à l'acheteur de corriger ses erreurs avant d'accepter et lui envoyer un exemplaire du contrat. Vérifiez les exigences en vigueur auprès de la Commission des services financiers et des services aux consommateurs ou d'un avocat avant de publier vos conditions de vente.
+Deux lois du Nouveau-Brunswick comptent pour vos conditions de vente :
+
+- La **Loi sur la responsabilité et les garanties relatives aux produits de consommation** donne à vos clients des garanties d'office sur les produits que vous vendez, qui portent sur la qualité, l'aptitude à l'usage prévu et la durabilité. Dans la plupart des cas, vos conditions ne peuvent pas les écarter.
+- La **Loi sur la protection du consommateur** (2024) prévoit des règles pour les ventes par Internet, par exemple permettre à l'acheteur de corriger ses erreurs avant d'accepter et lui envoyer un exemplaire du contrat.
+
+Le Nouveau-Brunswick a adopté la Loi sur la protection du consommateur en juin 2024, mais nous n'avons pas pu confirmer si ses règles sur les ventes par Internet sont déjà en vigueur (vérifié en novembre 2026). Vérifiez les exigences en vigueur auprès de la Commission des services financiers et des services aux consommateurs (FCNB) ou d'un avocat avant de publier vos conditions de vente.

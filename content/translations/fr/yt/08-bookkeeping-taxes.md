@@ -1,5 +1,5 @@
 ---
-source: e4e6c3dbcc1c
+source: 582309727c67
 title: Mettre en place la tenue de livres et l'impôt sur le revenu
 summary: Tenez dès le premier jour des livres qui suivent vos ventes, la TPS et vos dépenses, et déclarez vos revenus d'entreprise.
 time: 2 à 3 heures
@@ -28,4 +28,4 @@ Conservez vos registres pendant **six ans**.
 
 ## Une rencontre avec un comptable
 
-Une consultation unique au début coûte peu comparativement à la correction d'erreurs plus tard. Apportez cette liste de vérification et posez des questions sur les ventes à l'extérieur du territoire.
+Une consultation unique au début coûte peu comparativement à la correction d'erreurs plus tard. Apportez cette liste de vérification et posez des questions sur les ventes à l'extérieur du Yukon.

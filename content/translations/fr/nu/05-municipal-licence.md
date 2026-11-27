@@ -1,5 +1,5 @@
 ---
-source: 14917354268b
+source: f39cf63e6a58
 title: Obtenir votre licence d'exploitation de commerce et votre permis municipal
 summary: Le Nunavut exige une licence d'exploitation de commerce territoriale, et Iqaluit exige en plus son propre permis.
 time: 1 à 2 heures, plus le délai de traitement
@@ -20,7 +20,7 @@ Le Nunavut exige une **licence d'exploitation de commerce** territoriale. Elle c
 
 ## Permis municipal
 
-Votre collectivité peut aussi exiger son propre permis. C'est le cas d'**Iqaluit**. Les frais dépendent du nombre d'heures de travail par semaine dans l'entreprise : 50 $ pour un nouveau permis de moins de 30 heures, ou 100 $ pour 30 à 90 heures. Le renouvellement coûte la moitié de ce montant si vous le faites au plus tard le 31 janvier, et le plein tarif ensuite. Ces tarifs datent de 2018. Confirmez-les auprès de la Ville.
+Votre collectivité peut aussi exiger son propre permis. C'est le cas d'**Iqaluit**. Les frais dépendent du nombre d'heures de travail par semaine dans l'entreprise : 50 $ pour un nouveau permis de moins de 30 heures, ou 100 $ pour 30 à 90 heures. Le renouvellement coûte la moitié de ce montant si vous le faites au plus tard le 31 janvier, et le plein tarif ensuite. Ces tarifs proviennent du règlement no 859 de la Ville sur les permis d'affaires (Business Licensing Bylaw No. 859), adopté en 2018 (vu en novembre 2026). Nous n'avons pas trouvé de barème plus récent : confirmez les tarifs en vigueur auprès de la Ville avant de présenter votre demande.
 
 ## Entreprise à domicile
 

@@ -1,5 +1,5 @@
 ---
-source: 977572d99462
+source: b7ad36d43551
 title: Rédiger la politique de confidentialité et les pages juridiques de votre site Web
 summary: Rédigez vos politiques de confidentialité et de retour et vos conditions, en respectant les lois sur la vie privée et le pourriel.
 time: 3 à 5 heures
@@ -32,4 +32,8 @@ La loi canadienne anti-pourriel, la **LCAP**, exige un consentement clair et un 
 
 ## Règles de protection du consommateur
 
-L'Ontario a aussi ses propres règles de protection du consommateur pour la vente en ligne. Vérifiez les exigences en vigueur auprès du gouvernement de l'Ontario ou d'un avocat avant de publier vos conditions de vente.
+La **Loi de 2002 sur la protection du consommateur** de l'Ontario prévoit des règles pour les ventes par Internet aux consommateurs. Avant que le client commande, vous devez lui présenter les renseignements exigés et lui permettre d'accepter, de refuser ou de corriger ses erreurs. Après la vente, vous devez lui envoyer un exemplaire de la convention.
+
+Si vous ne respectez pas ces règles, le client pourrait avoir le droit d'annuler. Les règles s'appliquent au-delà d'un montant de vente minimal fixé par règlement.
+
+L'Ontario a adopté une nouvelle Loi de 2023 sur la protection du consommateur pour la remplacer, mais elle n'était pas encore en vigueur lors de notre vérification (novembre 2026). Vérifiez les exigences en vigueur auprès du gouvernement de l'Ontario ou d'un avocat avant de publier vos conditions de vente.

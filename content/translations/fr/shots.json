@@ -206,8 +206,8 @@
   },
   "guides/products/04-split-into-simple/01.webp": {
     "alt": "Onglet « Split » de Variation Converter avec le produit variable Canvas Apron ouvert, ses nouveaux noms de produits et le bouton « Split » en surbrillance",
-    "caption": "Dans l'onglet « Split », ouvrez un produit variable. Vérifiez le nom que recevra chaque nouveau produit, décochez ceux dont vous ne voulez pas, puis cliquez sur « Split » (séparer).",
-    "source": "8ee131ccd132"
+    "caption": "Dans l'onglet « Split », ouvrez un produit variable. Vérifiez le nom que recevra chaque nouveau produit, décochez ceux dont vous ne voulez pas, puis cliquez sur « Split into 2 simple products » (séparer en 2 produits simples).",
+    "source": "a52992176dc8"
   },
   "guides/products/04-split-into-simple/02.webp": {
     "alt": "Liste « All Products » (tous les produits), avec les nouveaux produits simples Canvas Apron Sand et Canvas Apron Charcoal en surbrillance",
@@ -246,8 +246,8 @@
   },
   "guides/shared-ca/gst-hst/01.webp": {
     "alt": "Page de l'ARC sur la TPS/TVH pour les entreprises, avec la section « Who needs to register » en surbrillance",
-    "caption": "Consultez « Who needs to register » (qui doit s'inscrire) à la TPS/TVH. La plupart des entreprises doivent s'inscrire une fois que leurs ventes taxables dépassent 30 000 $ sur quatre trimestres civils consécutifs.",
-    "source": "ddaee220fd31"
+    "caption": "Consultez « Who needs to register » (qui doit s'inscrire) à la TPS/TVH. La plupart des entreprises doivent s'inscrire une fois que leurs ventes taxables dépassent 30 000 $ au cours d'un seul trimestre civil ou de quatre trimestres civils consécutifs.",
+    "source": "98964f18f45d"
   },
   "guides/shared-ca/gst-hst/02.webp": {
     "alt": "Page de l'ARC sur la TPS/TVH pour les entreprises, avec la section « Get a GST/HST number and manage your account » en surbrillance",

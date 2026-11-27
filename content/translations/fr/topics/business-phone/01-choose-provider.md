@@ -1,5 +1,5 @@
 ---
-source: 8719d93eaa2f
+source: 9ba81a7f9903
 title: Choisir un service téléphonique gratuit
 summary: Choisissez un service gratuit pour que vos clients appellent un numéro d'entreprise plutôt que votre cellulaire personnel.
 time: 15 minutes
@@ -7,7 +7,7 @@ cost: Gratuit
 checklist:
   - Décider si vous avez besoin d'échanger des textos avec vos clients ou surtout de faire des appels
   - Choisir Fongo Works (recommandé) ou TextNow comme ligne d'entreprise
-  - Noter les indicatifs régionaux locaux voulus, comme 604 ou 778 dans le Lower Mainland
+  - Noter l'indicatif régional voulu, habituellement un indicatif local pour vos clients
   - Noter l'adresse courriel d'entreprise avec laquelle vous vous inscrirez
 ---
 
@@ -23,7 +23,9 @@ Un numéro d'entreprise protège la confidentialité de votre cellulaire personn
 
 ## Options à écarter
 
-**Skype n'existe plus.** Microsoft l'a abandonné en mai 2025, et les numéros Skype ont pris fin en mai 2026. Google Voice est réservé aux utilisateurs des États-Unis.
+**Skype n'existe plus.** Microsoft l'a abandonné en mai 2025, et les abonnements aux numéros Skype ont pris fin en mai 2026 (vu en novembre 2026).
+
+**Google Voice** n'est offert au Canada qu'en option payante de Google Workspace, la suite payante de courriel et d'applications d'entreprise de Google (vu en novembre 2026). Ce n'est donc pas une option gratuite.
 
 ## Les prix changent
 
