@@ -180,6 +180,132 @@
     "capturedAt": "2026-11-27"
   },
   {
+    "region": "ga",
+    "step": "01-structure-and-name",
+    "file": "guides/ga/01-structure-and-name/01.webp",
+    "url": "https://georgia.gov/starting-business-guide",
+    "alt": "Georgia.gov starting a business guide with the Sole Proprietorship answer open and the sentence saying sole proprietorships are not registered highlighted",
+    "caption": "Read Georgia.gov's note that a sole proprietorship is not registered with the Secretary of State.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "ga",
+    "step": "01-structure-and-name",
+    "file": "guides/ga/01-structure-and-name/02.webp",
+    "url": "https://georgia.gov/register-llc",
+    "alt": "Georgia.gov Register an LLC page with the Register online section open and the $100 filing fee highlighted",
+    "caption": "If you are weighing an LLC, check the Secretary of State filing fee before you decide.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "ga",
+    "step": "02-register-business",
+    "file": "guides/ga/02-register-business/01.webp",
+    "url": "https://georgia.gov/renew-llc",
+    "alt": "Georgia.gov annual registration for an LLC page with the April 1 deadline sentence highlighted",
+    "caption": "If you formed an LLC, note the April 1 deadline for its annual registration.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "ga",
+    "step": "04-sales-tax",
+    "file": "guides/ga/04-sales-tax/01.webp",
+    "url": "https://dor.georgia.gov/taxes/business-taxes/sales-use-tax/sales-and-use-tax-registration-faq",
+    "alt": "Georgia Department of Revenue sales and use tax registration FAQ with the answer on who must register highlighted",
+    "caption": "Every dealer registers for a sales and use tax number, even if all sales are online.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "ga",
+    "step": "04-sales-tax",
+    "file": "guides/ga/04-sales-tax/02.webp",
+    "url": "https://dor.georgia.gov/taxes/sales-use-tax/how-do-i-know-if-i-need-collect-sales-use-tax",
+    "alt": "Georgia Department of Revenue page on who needs to collect sales tax with the out-of-state sales threshold question highlighted",
+    "caption": "If you sell from outside Georgia, check the 200 sales or $100,000 threshold.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "ga",
+    "step": "04-sales-tax",
+    "file": "guides/ga/04-sales-tax/03.webp",
+    "url": "https://dor.georgia.gov/taxes/business-taxes/sales-use-tax/tax-rates",
+    "alt": "Georgia Department of Revenue tax rates page with the sentence on which rate applies highlighted",
+    "caption": "Charge the rate for the county where your customer takes delivery.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "il",
+    "step": "01-structure-and-name",
+    "file": "guides/il/01-structure-and-name/01.webp",
+    "url": "https://dceo.illinois.gov/smallbizassistance/beginhere.html",
+    "alt": "Illinois DCEO Begin Here page with the Starting Your Business in Illinois Handbook link highlighted",
+    "caption": "Read DCEO's Starting Your Business in Illinois Handbook to compare a sole proprietorship and an LLC.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "il",
+    "step": "01-structure-and-name",
+    "file": "guides/il/01-structure-and-name/02.webp",
+    "url": "https://tax.illinois.gov/research/taxrates/income.html",
+    "alt": "Illinois Department of Revenue Income Tax Rates page with the Individual Income Tax label highlighted",
+    "caption": "Illinois taxes your business profit at a flat individual income tax rate.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "il",
+    "step": "02-register-business",
+    "file": "guides/il/02-register-business/01.webp",
+    "url": "https://www.cookcountyclerkil.gov/vital-records/business-notary/assumed-business-name-registration",
+    "alt": "Cook County Clerk Assumed Business Name Registration page with the How to Apply text about the $50 fee highlighted",
+    "caption": "County clerks file assumed names. Cook County, for example, takes applications online.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "il",
+    "step": "02-register-business",
+    "file": "guides/il/02-register-business/02.webp",
+    "url": "https://www.cookcountyclerkil.gov/vital-records/business-notary/assumed-business-name-registration",
+    "alt": "Cook County Clerk page with the sentence about publishing the notice once a week for three consecutive weeks highlighted",
+    "caption": "Publish the notice in a local newspaper once a week for three weeks, starting within 15 days.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "il",
+    "step": "02-register-business",
+    "file": "guides/il/02-register-business/03.webp",
+    "url": "https://www.cookcountyclerkil.gov/vital-records/business-notary/assumed-business-name-registration",
+    "alt": "Cook County Clerk page with the sentence about submitting proof of publication within 50 days highlighted",
+    "caption": "Return the newspaper's proof of publication to the clerk within 50 days.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "il",
+    "step": "04-sales-tax",
+    "file": "guides/il/04-sales-tax/01.webp",
+    "url": "https://tax.illinois.gov/businesses/registration.html",
+    "alt": "Illinois Department of Revenue Business Registration page with the MyTax Illinois link highlighted",
+    "caption": "Register online with MyTax Illinois using Register a New Business (Form REG-1).",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "il",
+    "step": "04-sales-tax",
+    "file": "guides/il/04-sales-tax/02.webp",
+    "url": "https://tax.illinois.gov/businesses/registration.html",
+    "alt": "Illinois Department of Revenue Business Registration page with the sentence about registering before any purchases or sales highlighted",
+    "caption": "Register before you buy stock to resell or make any sales.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "il",
+    "step": "04-sales-tax",
+    "file": "guides/il/04-sales-tax/03.webp",
+    "url": "https://tax.illinois.gov/questionsandanswers/answer.139.html",
+    "alt": "Illinois Department of Revenue answer page with the 6.25 percent general merchandise rate highlighted",
+    "caption": "The state rate is 6.25% on general merchandise. Local rates add to it.",
+    "capturedAt": "2026-11-27"
+  },
+  {
     "region": "ip-address",
     "step": "01-look-up-your-ip",
     "file": "guides/ip-address/01-look-up-your-ip/01.webp",
@@ -243,6 +369,60 @@
     "capturedAt": "2026-10-18"
   },
   {
+    "region": "mi",
+    "step": "01-structure-and-name",
+    "file": "guides/mi/01-structure-and-name/01.webp",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-450-5101",
+    "alt": "Michigan Legislature MCL 450.5101 LLC filing fees with the $50 articles of organization fee highlighted",
+    "caption": "If you are weighing an LLC, note the filing fee. Articles of Organization cost $50.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "mi",
+    "step": "01-structure-and-name",
+    "file": "guides/mi/01-structure-and-name/02.webp",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-450-4204",
+    "alt": "Michigan Legislature MCL 450.4204 with the rule that an LLC name must contain limited liability company, L.L.C. or L.C. highlighted",
+    "caption": "Read the name rules before you form an LLC. The name must say it is a limited liability company.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "mi",
+    "step": "02-register-business",
+    "file": "guides/mi/02-register-business/01.webp",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-445-1",
+    "alt": "Michigan Legislature MCL 445.1 with the requirement to file an assumed name certificate with the county clerk highlighted",
+    "caption": "File your assumed name certificate with the clerk of each county where you do business. Ask the clerk for the current fee.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "mi",
+    "step": "02-register-business",
+    "file": "guides/mi/02-register-business/02.webp",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-450-4207",
+    "alt": "Michigan Legislature MCL 450.4207 with the February 15 annual statement deadline highlighted",
+    "caption": "If you formed an LLC, file its annual statement with LARA by February 15 each year.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "mi",
+    "step": "04-sales-tax",
+    "file": "guides/mi/04-sales-tax/01.webp",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-205-52",
+    "alt": "Michigan Legislature MCL 205.52 General Sales Tax Act with the 6% rate highlighted",
+    "caption": "Note the rate. Michigan sales tax is 6%, with no county or city sales taxes on top.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "mi",
+    "step": "04-sales-tax",
+    "file": "guides/mi/04-sales-tax/02.webp",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-205-52c",
+    "alt": "Michigan Legislature MCL 205.52c with the $100,000 and 200 transactions thresholds for out-of-state sellers highlighted",
+    "caption": "Sellers outside Michigan register once they pass $100,000 in sales or 200 transactions into Michigan in the previous calendar year.",
+    "capturedAt": "2026-11-27"
+  },
+  {
     "region": "nb",
     "step": "01-structure-and-name",
     "file": "guides/nb/01-structure-and-name/01.webp",
@@ -277,6 +457,114 @@
     "alt": "City of Fredericton zoning and land use page with the question about having a home based business highlighted",
     "caption": "Each municipality sets its own rules. Fredericton, for example, allows a home occupation in a single detached house or mini-home, under its zoning by-law. Look up your own city or town in the same way.",
     "capturedAt": "2026-10-18"
+  },
+  {
+    "region": "nc",
+    "step": "01-structure-and-name",
+    "file": "guides/nc/01-structure-and-name/01.webp",
+    "url": "https://edpnc.com/resources/publications/business-structure/",
+    "alt": "EDPNC Business Structure page with the Sole Proprietorship heading highlighted",
+    "caption": "Read how a sole proprietorship works, the simplest way to start.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "nc",
+    "step": "01-structure-and-name",
+    "file": "guides/nc/01-structure-and-name/02.webp",
+    "url": "https://www.sosnc.gov/fees/by_title/_Business_Registration_limited_liability_companies",
+    "alt": "NC Secretary of State limited liability company fees page with the Articles of Organization fee highlighted",
+    "caption": "If you are weighing an LLC, note the $125 filing fee for Articles of Organization.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "nc",
+    "step": "02-register-business",
+    "file": "guides/nc/02-register-business/01.webp",
+    "url": "https://www.sosnc.gov/frequently_asked_questions/by_title_direct/_Assumed_Business_Names",
+    "alt": "NC Secretary of State Assumed Business Names FAQ with the answer on where to file highlighted",
+    "caption": "File your assumed business name certificate with your county register of deeds.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "nc",
+    "step": "02-register-business",
+    "file": "guides/nc/02-register-business/02.webp",
+    "url": "https://www.sosnc.gov/manual/launching_a_business/maintaining_registration",
+    "alt": "NC Secretary of State Maintaining Registration page with the LLC annual report due date highlighted",
+    "caption": "If you formed an LLC, note that its annual report is due by April 15 each year, starting the year after you form it.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "nc",
+    "step": "04-sales-tax",
+    "file": "guides/nc/04-sales-tax/01.webp",
+    "url": "https://www.ncdor.gov/taxes-forms/sales-and-use-tax/sales-and-use-tax-registration",
+    "alt": "NC Department of Revenue Sales and Use Tax Registration page with the Register Online link and the no fee notice highlighted",
+    "caption": "Register online for a Certificate of Registration. There is no fee.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "nc",
+    "step": "04-sales-tax",
+    "file": "guides/nc/04-sales-tax/02.webp",
+    "url": "https://www.ncdor.gov/taxes-forms/sales-and-use-tax/sales-and-use-tax-rates/current-sales-and-use-tax-rates",
+    "alt": "NC Department of Revenue Current Sales and Use Tax Rates page with the note on the 4.75% state rate highlighted",
+    "caption": "Look up the total state and local rate for each county you sell into.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "nc",
+    "step": "04-sales-tax",
+    "file": "guides/nc/04-sales-tax/03.webp",
+    "url": "https://www.ncdor.gov/taxes-forms/sales-and-use-tax/other-sales-and-use-tax-resources/remote-sales",
+    "alt": "NC Department of Revenue Remote Sales page with the $100,000 remote seller threshold highlighted",
+    "caption": "Sellers based outside North Carolina must register once their sales into the state pass $100,000 a year.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "nc",
+    "step": "05-local-licence",
+    "file": "guides/nc/05-local-licence/01.webp",
+    "url": "https://edpnc.com/resources/publications/business-licenses-and-permits/",
+    "alt": "EDPNC Business Licenses and Permits page with the note that North Carolina has no generic state business license highlighted",
+    "caption": "North Carolina has no single state business license, so check the license directory for what you sell.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "nj",
+    "step": "01-structure-and-name",
+    "file": "guides/nj/01-structure-and-name/01.webp",
+    "url": "https://www.nj.gov/treasury/revenue/gettingregistered.shtml",
+    "alt": "NJ Division of Revenue Getting Registered page with the $100 formation fee highlighted",
+    "caption": "If you are weighing an LLC, check the Certificate of Formation fee before you decide.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "nj",
+    "step": "04-sales-tax",
+    "file": "guides/nj/04-sales-tax/01.webp",
+    "url": "https://www.nj.gov/treasury/taxation/su_12.shtml",
+    "alt": "NJ Division of Taxation sales tax page with the registration requirement for all sellers highlighted",
+    "caption": "Register to collect sales tax, even if you sell only at flea markets or craft shows.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "nj",
+    "step": "04-sales-tax",
+    "file": "guides/nj/04-sales-tax/02.webp",
+    "url": "https://www.nj.gov/treasury/taxation/su_12.shtml",
+    "alt": "NJ Division of Taxation sales tax page with the quarterly filing requirement highlighted",
+    "caption": "File quarterly returns by the 20th of the month after each quarter.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "nj",
+    "step": "04-sales-tax",
+    "file": "guides/nj/04-sales-tax/03.webp",
+    "url": "https://www.nj.gov/treasury/taxation/remotesellers.shtml",
+    "alt": "NJ Division of Taxation remote sellers page with the $100,000 economic threshold highlighted",
+    "caption": "Out-of-state sellers register once they pass $100,000 or 200 sales into New Jersey.",
+    "capturedAt": "2026-11-27"
   },
   {
     "region": "nl",
@@ -457,6 +745,87 @@
     "alt": "City of Toronto business regulations page with the list of businesses that do not need a licence open and the retail stores item highlighted",
     "caption": "Each city sets its own rules. Toronto, for example, says retail stores selling new, non-food items do not need a municipal operating licence. Look up your own city or town's licensing page in the same way.",
     "capturedAt": "2026-10-06"
+  },
+  {
+    "region": "pa",
+    "step": "01-structure-and-name",
+    "file": "guides/pa/01-structure-and-name/01.webp",
+    "url": "https://www.pa.gov/agencies/dos/programs/business/fees-and-payments",
+    "alt": "Pennsylvania Department of State Fees page with the $125 Certificate of Organization fee for an LLC highlighted",
+    "caption": "If you are weighing an LLC, check the Certificate of Organization fee before you decide.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "pa",
+    "step": "01-structure-and-name",
+    "file": "guides/pa/01-structure-and-name/02.webp",
+    "url": "https://www.pa.gov/agencies/dos/programs/business/types-of-filings-and-registrations/pennsylvania-limited-liability-company",
+    "alt": "Pennsylvania Department of State LLC page with the sentence saying no advertising is required highlighted",
+    "caption": "Unlike a fictitious name, forming a Pennsylvania LLC needs no newspaper ad.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "pa",
+    "step": "02-register-business",
+    "file": "guides/pa/02-register-business/01.webp",
+    "url": "https://www.pa.gov/agencies/dos/programs/business/types-of-filings-and-registrations/fictitious-names",
+    "alt": "Pennsylvania Department of State Fictitious Names page with the sentence requiring registration with the Department of State highlighted",
+    "caption": "A fictitious name is registered with the Pennsylvania Department of State, not your county.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "pa",
+    "step": "02-register-business",
+    "file": "guides/pa/02-register-business/02.webp",
+    "url": "https://www.pa.gov/agencies/dos/programs/business/fees-and-payments",
+    "alt": "Pennsylvania Department of State Fees page with the $70 fictitious name registration fee highlighted",
+    "caption": "Check the current fictitious name registration fee.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "pa",
+    "step": "02-register-business",
+    "file": "guides/pa/02-register-business/03.webp",
+    "url": "https://www.pa.gov/agencies/dos/programs/business/types-of-filings-and-registrations/fictitious-names",
+    "alt": "Pennsylvania Department of State Fictitious Names page with the two-newspaper advertising rule highlighted",
+    "caption": "Advertise the name in two newspapers in your county, one of them a legal newspaper.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "pa",
+    "step": "02-register-business",
+    "file": "guides/pa/02-register-business/04.webp",
+    "url": "https://www.pa.gov/agencies/dos/programs/business/types-of-filings-and-registrations/annual-reports",
+    "alt": "Pennsylvania Department of State Annual Reports page with the LLC filing dates row highlighted",
+    "caption": "If you formed an LLC, file its annual report between January 1 and September 30.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "pa",
+    "step": "04-sales-tax",
+    "file": "guides/pa/04-sales-tax/01.webp",
+    "url": "https://www.pa.gov/services/revenue/register-my-business-for-taxes",
+    "alt": "Pennsylvania Department of Revenue Register My Business for Taxes page with the Register Now button highlighted",
+    "caption": "Register for your sales tax license through myPATH's online business tax registration.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "pa",
+    "step": "04-sales-tax",
+    "file": "guides/pa/04-sales-tax/02.webp",
+    "url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/sales-use-and-hotel-occupancy-tax",
+    "alt": "Pennsylvania Department of Revenue sales tax page with the 6 percent rate and local Allegheny and Philadelphia taxes highlighted",
+    "caption": "The state rate is 6%, with 1% more in Allegheny County and 2% more in Philadelphia.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "pa",
+    "step": "05-local-licence",
+    "file": "guides/pa/05-local-licence/01.webp",
+    "url": "https://hub.business.pa.gov/Home/HelpCenterDetail/ClothingStoresandBoutiques",
+    "alt": "PA Business One-Stop Shop Clothing Stores and Boutiques guide with the sentence saying there is no general business license highlighted",
+    "caption": "Pennsylvania has no general business license, so check the licenses for your activity and your municipality.",
+    "capturedAt": "2026-11-27"
   },
   {
     "region": "products",
@@ -717,6 +1086,60 @@
     "url": "https://gov.texas.gov/business/page/business-permits-office",
     "alt": "Texas Business Permit Office page with the General Business License section highlighted",
     "caption": "Read the General Business License section. Texas has no general license, so check the licenses guide and your city and county instead.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "va",
+    "step": "01-structure-and-name",
+    "file": "guides/va/01-structure-and-name/01.webp",
+    "url": "https://www.scc.virginia.gov/businesses/forms-and-fees/virginia-limited-liability-companies/",
+    "alt": "Virginia SCC LLC forms and fees page with the Form a new Virginia LLC (LLC1011) row and its $100 fee highlighted",
+    "caption": "If you are weighing an LLC, check the SCC filing fee for Articles of Organization before you decide.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "va",
+    "step": "01-structure-and-name",
+    "file": "guides/va/01-structure-and-name/02.webp",
+    "url": "https://www.scc.virginia.gov/businesses/business-faqs/business-entity-names/",
+    "alt": "Virginia SCC Business Entity Names FAQ with the rule on words an LLC name must include highlighted",
+    "caption": "An LLC name must include \"LLC\" or a similar word, so check the SCC rule before you pick one.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "va",
+    "step": "02-register-business",
+    "file": "guides/va/02-register-business/01.webp",
+    "url": "https://www.scc.virginia.gov/businesses/business-faqs/fictitious-names/",
+    "alt": "Virginia SCC Fictitious Names FAQ with the $10.00 filing fee highlighted",
+    "caption": "Check the SCC filing fee for a fictitious name certificate, which sole proprietors file with the SCC too.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "va",
+    "step": "02-register-business",
+    "file": "guides/va/02-register-business/02.webp",
+    "url": "https://www.scc.virginia.gov/businesses/business-faqs/annual-registration-fees/",
+    "alt": "Virginia SCC Annual Registration Fees FAQ with the Limited Liability Companies row showing the due date and $50.00 fee highlighted",
+    "caption": "If you formed an LLC, note the yearly registration fee and that it is due by the end of your formation month.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "va",
+    "step": "04-sales-tax",
+    "file": "guides/va/04-sales-tax/01.webp",
+    "url": "https://www.tax.virginia.gov/retail-sales-and-use-tax",
+    "alt": "Virginia Tax Retail Sales and Use Tax page with the Register for sales tax online link highlighted",
+    "caption": "Register with Virginia Tax for your Sales Tax Certificate of Registration before your first sale.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "va",
+    "step": "04-sales-tax",
+    "file": "guides/va/04-sales-tax/02.webp",
+    "url": "https://www.tax.virginia.gov/retail-sales-and-use-tax",
+    "alt": "Virginia Tax sales tax rates table with the 5.3% Everywhere else row highlighted",
+    "caption": "Check the rate for where you sell: 5.3% in most of Virginia, higher in some regions.",
     "capturedAt": "2026-11-27"
   },
   {

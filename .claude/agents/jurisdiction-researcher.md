@@ -35,7 +35,7 @@ Then these sections, in order, one entry per step with: what it is, who administ
 ## Rules
 
 - Never invent a fee, rate or deadline. If you cannot find it on an official page, write `Not confirmed` and lower `confidence`.
-- Every fee and rate gets a date and a source URL.
+- Every fee and rate gets a date and a source URL. The guide shows it as "(seen <Month YYYY>; confirm current fee)" (see "Facts we aren't sure of" in the `writing-style` skill), so record the month you saw it.
 - Mark anything that varies by city or municipality as local, and say what to check rather than guessing.
 - This is general information, not legal or tax advice; say so once at the end.
 - One jurisdiction per run, then stop.

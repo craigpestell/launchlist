@@ -1,5 +1,5 @@
 import { captureStep } from "../lib.mjs";
-import { markText } from "./mark.mjs";
+import { markText } from "../mark.mjs";
 
 const SOLE = "https://www.businessexpress.ny.gov/app/answers/cms/a_id/3050";
 const LLC = "https://www.businessexpress.ny.gov/app/answers/cms/a_id/2443";

@@ -6,13 +6,14 @@
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
+import { styleProblems } from "./style-rules.mjs";
 import { CONTENT, ROOT, loadLocales, readShots } from "./translations-lib.mjs";
 
 const urls = (text) => new Set(text.match(/https?:\/\/[^\s)>"]+|\]\((\/[^)\s]*)\)/g) ?? []);
 const steps = (text) => [...text.matchAll(/\{step:[a-z0-9-]+\}/g)].map((m) => m[0]).sort().join(" ");
 const sameSet = (a, b) => a.size === b.size && [...a].every((x) => b.has(x));
 
-export function checkTranslations(report) {
+export function checkTranslations(report, warn = () => {}) {
   const locales = loadLocales();
   const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, "guides", "manifest.json"), "utf8"));
   const shotFiles = new Set(manifest.map((s) => s.file));
@@ -73,8 +74,9 @@ export function checkTranslations(report) {
       if (typeof data.summary === "string" && !/[.!?]$/.test(data.summary))
         report(where, "summary should be a sentence ending with a full stop");
 
-      const enText = [JSON.stringify(en.data), en.content].join("\n");
-      const text = [JSON.stringify(data), tr.content].join("\n");
+      const flat = (d, c) => [...Object.values(d).flat().filter((v) => typeof v === "string"), c].join("\n");
+      const enText = flat(en.data, en.content);
+      const text = flat(data, tr.content);
       if (!sameSet(urls(enText), urls(text))) report(where, "links differ from the English; keep every URL as it is");
       if (steps(enText) !== steps(text)) report(where, "{step:...} tokens differ from the English");
       for (const [token] of text.matchAll(/\{[^}]*\}/g))
@@ -86,7 +88,9 @@ export function checkTranslations(report) {
       const sections = (c) => (c.match(/^## /gm) ?? []).length;
       if (sections(tr.content) !== sections(en.content)) report(where, "number of ## sections differs from the English");
       if (/^# /m.test(tr.content)) report(where, "body uses an H1; start sections at ##");
-      if (tr.content.includes("—")) report(where, "body uses an em dash");
+      const country = rel.startsWith("shared/") ? rel.split("/")[1].toUpperCase() : undefined;
+      for (const { level, msg } of styleProblems({ data, content: tr.content, country, lang: locale }))
+        (level === "error" ? report : warn)(where, msg);
     }
 
     const shots = readShots(locale);
