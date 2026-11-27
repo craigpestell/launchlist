@@ -1,6 +1,6 @@
 ---
 title: Get business insurance
-summary: Protects you personally if something goes wrong.
+summary: Get general and product liability insurance, so a claim about something you sell doesn't come out of your own savings.
 time: 1–2 hours
 cost: Varies
 checklist:

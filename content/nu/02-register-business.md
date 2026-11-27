@@ -1,6 +1,6 @@
 ---
 title: Register your business name with Legal Registries
-summary: Register the name you trade under, unless it is just your own name.
+summary: If you sell under a name other than your own, register it with Nunavut Legal Registries within 60 days of first using it.
 time: 1 hour
 cost: $50 (seen October 2026; confirm current fee)
 linkLabel: Nunavut Legal Registries — partnerships and business names

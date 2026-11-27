@@ -1,6 +1,6 @@
 ---
 title: Install Variation Converter
-summary: Add the free plugin that combines and splits WooCommerce products.
+summary: Back up your store, then install the free Variation Converter plugin that combines and splits WooCommerce products.
 time: 10 minutes
 cost: Free
 linkLabel: Variation Converter

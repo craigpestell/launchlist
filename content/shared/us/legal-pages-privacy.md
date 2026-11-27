@@ -1,6 +1,6 @@
 ---
 title: Website legal pages and privacy
-summary: Policies, shipping promises and email rules for your store.
+summary: Write the privacy policy, terms of sale and shipping policy your store needs, and keep the shipping promises you make.
 time: 3–5 hours
 cost: Free to a few hundred dollars if a lawyer reviews them
 checklist:

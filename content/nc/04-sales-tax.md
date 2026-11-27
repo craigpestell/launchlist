@@ -1,6 +1,6 @@
 ---
 title: Get your North Carolina Certificate of Registration for sales tax (4.75% plus local)
-summary: Register free with the North Carolina Department of Revenue for a sales and use tax Certificate of Registration before you start selling.
+summary: Register free with the North Carolina Department of Revenue for a sales tax Certificate of Registration before you sell.
 time: 30–60 minutes online, certificate by mail within about 10 business days
 cost: Free (seen November 2026; confirm with the Department of Revenue)
 linkLabel: NCDOR sales and use tax registration

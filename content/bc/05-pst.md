@@ -1,6 +1,6 @@
 ---
 title: Register for BC PST (7%)
-summary: Separate from GST, and the step people most often miss.
+summary: Register free for BC's 7% PST through eTaxBC. It is separate from GST, and the step people most often miss.
 time: 30–45 minutes
 cost: Free
 linkLabel: eTaxBC

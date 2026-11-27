@@ -1,6 +1,6 @@
 ---
 title: Register your business name with Service New Brunswick
-summary: Register the name you trade under, unless it is just your own name.
+summary: If you sell under a name other than your own, register it with Service New Brunswick within two months of starting.
 time: 1–2 hours, plus waiting for the name search
 cost: $112 for 5 years, plus a NUANS name search (seen October 2026; confirm current fee)
 linkLabel: Register or renew a business name
