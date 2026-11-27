@@ -519,7 +519,11 @@
     "country": "US",
     "code": "WA",
     "name": "Washington",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "high",
+    "note": "SOS online processing fee and city endorsement fees not confirmed."
   },
   {
     "id": "us-wv",
