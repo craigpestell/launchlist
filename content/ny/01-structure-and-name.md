@@ -2,7 +2,7 @@
 title: Choose your structure and business name
 summary: Choose a sole proprietorship (recommended to start) or an LLC, and pick a business name that meets the state's rules.
 time: 1–2 hours
-cost: Free to decide ($200 plus newspaper publication if you form an LLC)
+cost: Free to decide ($200 plus newspaper publication if you form an LLC, seen November 2026; confirm current fees)
 linkLabel: NY Business Express sole proprietorship guide
 linkUrl: https://www.businessexpress.ny.gov/app/answers/cms/a_id/3050
 checklist:
