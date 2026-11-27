@@ -2,7 +2,7 @@
 title: Register your fictitious name or LLC
 summary: Register your trade name with the Florida Division of Corporations, or form your LLC there.
 time: 1–3 hours, plus time for a newspaper notice
-cost: $50 for a fictitious name, or $125 for an LLC
+cost: $50 for a fictitious name, or $125 for an LLC (seen November 2026; confirm current fees)
 linkLabel: Sunbiz e-filing services
 linkUrl: https://dos.fl.gov/sunbiz/start-business/efile/
 checklist:

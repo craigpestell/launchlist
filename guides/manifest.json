@@ -45,6 +45,60 @@
     "capturedAt": "2026-10-17"
   },
   {
+    "region": "az",
+    "step": "01-structure-and-name",
+    "file": "guides/az/01-structure-and-name/01.webp",
+    "url": "https://azcc.gov/faqs/BusinessServicesFAQs",
+    "alt": "Arizona Corporation Commission business services FAQ with the sentence giving the $85 online LLC filing fee highlighted",
+    "caption": "If you are weighing an LLC, check the Articles of Organization fee with the Corporation Commission.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "az",
+    "step": "01-structure-and-name",
+    "file": "guides/az/01-structure-and-name/02.webp",
+    "url": "https://azcc.gov/corporations/10-steps-to-starting-a-business-in-arizona",
+    "alt": "Arizona Corporation Commission 10 steps page with the step on checking name availability opened and highlighted",
+    "caption": "Check your business name against corporations, LLCs and trade names on the Corporation Commission's search.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "az",
+    "step": "02-register-business",
+    "file": "guides/az/02-register-business/01.webp",
+    "url": "https://azcc.gov/corporations/10-steps-to-starting-a-business-in-arizona",
+    "alt": "Arizona Corporation Commission 10 steps page with the sentence saying a trade name lasts 5 years and is registered by the Secretary of State highlighted",
+    "caption": "Register a trade name with the Secretary of State, not the Corporation Commission. It lasts 5 years.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "az",
+    "step": "02-register-business",
+    "file": "guides/az/02-register-business/02.webp",
+    "url": "https://azcc.gov/faqs/BusinessServicesFAQs",
+    "alt": "Arizona Corporation Commission FAQ answer on publishing documents with the sentence about the publication letter highlighted",
+    "caption": "If you formed an LLC, watch for the Commission's letter saying whether you must publish a notice.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "az",
+    "step": "02-register-business",
+    "file": "guides/az/02-register-business/03.webp",
+    "url": "https://azcc.gov/faqs/BusinessServicesFAQs",
+    "alt": "Arizona Corporation Commission FAQ answer saying LLCs are not required to file annual reports, highlighted",
+    "caption": "Arizona LLCs do not file an annual report.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "az",
+    "step": "05-local-licence",
+    "file": "guides/az/05-local-licence/01.webp",
+    "url": "https://azcc.gov/corporations/10-steps-to-starting-a-business-in-arizona",
+    "alt": "Arizona Corporation Commission 10 steps page with the step on city or county taxes and business licensing opened and highlighted",
+    "caption": "Register with your city, or your county if you are outside city limits, for any local business license.",
+    "capturedAt": "2026-11-27"
+  },
+  {
     "region": "bc",
     "step": "01-structure-and-name",
     "file": "guides/bc/01-structure-and-name/01.webp",
@@ -306,6 +360,69 @@
     "capturedAt": "2026-11-27"
   },
   {
+    "region": "in",
+    "step": "01-structure-and-name",
+    "file": "guides/in/01-structure-and-name/01.webp",
+    "url": "https://www.in.gov/dor/i-am-a/business-corp/business-faq/#What_is_the_difference_between_LLC__LLP__LP__S_Corporation__sole_proprietorship_and_partnership_",
+    "alt": "Indiana Department of Revenue business FAQ with the sentence that sole proprietorships need not register with the Secretary of State highlighted",
+    "caption": "A sole proprietorship does not register with the Indiana Secretary of State.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "in",
+    "step": "01-structure-and-name",
+    "file": "guides/in/01-structure-and-name/02.webp",
+    "url": "https://www.in.gov/dor/resources/tax-rates-and-reports/rates-fees-and-penalties/",
+    "alt": "Indiana Department of Revenue rates page with the 2026 individual income tax rate highlighted",
+    "caption": "Indiana's individual income tax rate is 2.95% for 2026, plus your county's income tax.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "in",
+    "step": "02-register-business",
+    "file": "guides/in/02-register-business/01.webp",
+    "url": "https://secure.in.gov/counties/monroe/Departments/recorder/assumed-business-names/",
+    "alt": "Monroe County Recorder assumed business names page with the $25 recording fee highlighted",
+    "caption": "Check your county recorder's fee for an assumed business name. Monroe County charges $25.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "in",
+    "step": "02-register-business",
+    "file": "guides/in/02-register-business/02.webp",
+    "url": "https://www.in.gov/sos/business/business-entity-reports",
+    "alt": "Indiana Secretary of State business entity reports page with the every-other-year due date highlighted",
+    "caption": "If you formed an LLC, file a business entity report every other year in the month it was formed.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "in",
+    "step": "04-sales-tax",
+    "file": "guides/in/04-sales-tax/01.webp",
+    "url": "https://www.in.gov/dor/i-am-a/business-corp/sales-tax/",
+    "alt": "Indiana Department of Revenue sales tax page with the seven percent registration sentence highlighted",
+    "caption": "Register with the Department of Revenue to collect Indiana's 7% sales tax.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "in",
+    "step": "04-sales-tax",
+    "file": "guides/in/04-sales-tax/02.webp",
+    "url": "https://www.in.gov/dor/i-am-a/business-corp/remote-sellers/",
+    "alt": "Indiana Department of Revenue remote sellers page with the $100,000 threshold highlighted",
+    "caption": "Out-of-state sellers register once sales into Indiana exceed $100,000 in a calendar year.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "in",
+    "step": "05-local-licence",
+    "file": "guides/in/05-local-licence/01.webp",
+    "url": "https://www.in.gov/core/business_guide.html",
+    "alt": "Indiana Business Owner's Guide with the sentence that Indiana has no single business license highlighted",
+    "caption": "Indiana has no single general business license. Check state, county and city rules for what you sell.",
+    "capturedAt": "2026-11-27"
+  },
+  {
     "region": "ip-address",
     "step": "01-look-up-your-ip",
     "file": "guides/ip-address/01-look-up-your-ip/01.webp",
@@ -313,6 +430,60 @@
     "alt": "WhatIsMyIP.com home page with an example IPv4 address, its Copy button and the IPv6 address row highlighted",
     "caption": "Your IPv4 address is at the top (1). Click Copy beside it (2) to copy it. The row below (3) is your IPv6 address. If you see both, send both. This shot uses example addresses and hides the map.",
     "capturedAt": "2026-11-26"
+  },
+  {
+    "region": "ma",
+    "step": "01-structure-and-name",
+    "file": "guides/ma/01-structure-and-name/01.webp",
+    "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXII/Chapter156C/Section12",
+    "alt": "Massachusetts General Laws chapter 156C section 12 with the $500 certificate of organization and annual report fees highlighted",
+    "caption": "If you are weighing an LLC, note that the certificate of organization and each annual report cost $500.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "ma",
+    "step": "01-structure-and-name",
+    "file": "guides/ma/01-structure-and-name/02.webp",
+    "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXII/Chapter156C/Section3",
+    "alt": "Massachusetts General Laws chapter 156C section 3 with the rule on words an LLC name must contain highlighted",
+    "caption": "Make sure an LLC name includes \"LLC\" or one of the other words the law lists.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "ma",
+    "step": "02-register-business",
+    "file": "guides/ma/02-register-business/01.webp",
+    "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter110/Section5",
+    "alt": "Massachusetts General Laws chapter 110 section 5 with the rule to file a business certificate with the city or town clerk highlighted",
+    "caption": "File your business certificate with the clerk of each city or town where you have a business office. Ask the clerk for the current fee.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "ma",
+    "step": "02-register-business",
+    "file": "guides/ma/02-register-business/02.webp",
+    "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter110/Section5",
+    "alt": "Massachusetts General Laws chapter 110 section 5 with the four-year renewal rule highlighted",
+    "caption": "Renew your business certificate every four years, or it lapses.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "ma",
+    "step": "04-sales-tax",
+    "file": "guides/ma/04-sales-tax/01.webp",
+    "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter64H/Section2",
+    "alt": "Massachusetts General Laws chapter 64H section 2 with the 6.25 percent sales tax rate highlighted",
+    "caption": "Charge the statewide 6.25% rate on taxable sales delivered in Massachusetts.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "ma",
+    "step": "04-sales-tax",
+    "file": "guides/ma/04-sales-tax/02.webp",
+    "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter64H/Section34",
+    "alt": "Massachusetts General Laws chapter 64H section 34 with the $100,000 remote retailer threshold highlighted",
+    "caption": "Sellers based outside Massachusetts must register once their sales into the state exceed $100,000 in the current or prior year.",
+    "capturedAt": "2026-11-27"
   },
   {
     "region": "mb",
@@ -369,6 +540,78 @@
     "capturedAt": "2026-10-18"
   },
   {
+    "region": "md",
+    "step": "01-structure-and-name",
+    "file": "guides/md/01-structure-and-name/01.webp",
+    "url": "https://businessexpress.maryland.gov/plan/choose-business-structure",
+    "alt": "Maryland Business Express Choose a Business Structure page with the sole proprietorship description highlighted",
+    "caption": "Read the Business Express description of a sole proprietorship, the simplest way to start.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "md",
+    "step": "01-structure-and-name",
+    "file": "guides/md/01-structure-and-name/02.webp",
+    "url": "https://businessexpress.maryland.gov/plan/select-business-name",
+    "alt": "Maryland Business Express Select a Business Name page with the name search link highlighted",
+    "caption": "Search your business name on Maryland Business Express before you commit to it.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "md",
+    "step": "02-register-business",
+    "file": "guides/md/02-register-business/01.webp",
+    "url": "https://businessexpress.maryland.gov/start/register-a-business-in-maryland",
+    "alt": "Maryland Business Express Register a Business page with the note that sole proprietors need an SDAT ID number highlighted",
+    "caption": "Note that a sole proprietor still needs an SDAT ID number to open a business bank account.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "md",
+    "step": "02-register-business",
+    "file": "guides/md/02-register-business/02.webp",
+    "url": "https://businessexpress.maryland.gov/plan/select-business-name",
+    "alt": "Maryland Business Express Select a Business Name page with the Register a Trade Name link highlighted",
+    "caption": "If you use a name other than your own, register a trade name with your SDAT Department ID.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "md",
+    "step": "04-sales-tax",
+    "file": "guides/md/04-sales-tax/01.webp",
+    "url": "https://businessexpress.maryland.gov/start/taxes-and-insurance",
+    "alt": "Maryland Business Express tax accounts page with the Combined Registration Application explanation highlighted",
+    "caption": "Register for your sales and use tax license with the Combined Registration Application.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "md",
+    "step": "04-sales-tax",
+    "file": "guides/md/04-sales-tax/02.webp",
+    "url": "https://businessexpress.maryland.gov/start/taxes-and-insurance",
+    "alt": "Maryland Business Express tax accounts page with the Sales and Use Tax License entry highlighted",
+    "caption": "Check that the sales and use tax license is the account you need for selling goods in Maryland.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "md",
+    "step": "05-local-licence",
+    "file": "guides/md/05-local-licence/01.webp",
+    "url": "https://businessexpress.maryland.gov/start/licenses-and-permits",
+    "alt": "Maryland Business Express licenses page with the trader's license description highlighted",
+    "caption": "Read when Maryland requires a trader's license for selling goods.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "md",
+    "step": "05-local-licence",
+    "file": "guides/md/05-local-licence/02.webp",
+    "url": "https://businessexpress.maryland.gov/start/licenses-and-permits",
+    "alt": "Maryland Business Express licenses page with the List of Circuit Court Clerks link highlighted",
+    "caption": "Find your county's Clerk of the Circuit Court for the trader's license and local license questions.",
+    "capturedAt": "2026-11-27"
+  },
+  {
     "region": "mi",
     "step": "01-structure-and-name",
     "file": "guides/mi/01-structure-and-name/01.webp",
@@ -420,6 +663,78 @@
     "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-205-52c",
     "alt": "Michigan Legislature MCL 205.52c with the $100,000 and 200 transactions thresholds for out-of-state sellers highlighted",
     "caption": "Sellers outside Michigan register once they pass $100,000 in sales or 200 transactions into Michigan in the previous calendar year.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "mo",
+    "step": "01-structure-and-name",
+    "file": "guides/mo/01-structure-and-name/01.webp",
+    "url": "https://www.sos.mo.gov/business/corporations/startBusiness",
+    "alt": "Missouri Secretary of State Starting a Business page with the sentence on sole proprietorships highlighted",
+    "caption": "A sole proprietorship needs no filing with the Secretary of State, the simplest way to start.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "mo",
+    "step": "01-structure-and-name",
+    "file": "guides/mo/01-structure-and-name/02.webp",
+    "url": "https://www.sos.mo.gov/business/corporations/faqs",
+    "alt": "Missouri Secretary of State FAQ page with the online and paper LLC filing fees highlighted",
+    "caption": "If you are weighing an LLC, filing the articles online costs less than filing on paper.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "mo",
+    "step": "02-register-business",
+    "file": "guides/mo/02-register-business/01.webp",
+    "url": "https://www.sos.mo.gov/business/corporations/fictitious_faq",
+    "alt": "Missouri Secretary of State fictitious name FAQ with the answer on the filing fee highlighted",
+    "caption": "Register your fictitious name with the Secretary of State online or by mail with Form Corp. 56.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "mo",
+    "step": "02-register-business",
+    "file": "guides/mo/02-register-business/02.webp",
+    "url": "https://www.sos.mo.gov/business/corporations/fictitious_faq",
+    "alt": "Missouri Secretary of State fictitious name FAQ with the sentence on the five-year registration period highlighted",
+    "caption": "The registration lasts five years. Renew it in the six months before it expires.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "mo",
+    "step": "02-register-business",
+    "file": "guides/mo/02-register-business/03.webp",
+    "url": "https://www.sos.mo.gov/business/corporations/faqs",
+    "alt": "Missouri Secretary of State FAQ page with the question on LLC annual reports highlighted",
+    "caption": "If you formed an LLC, Missouri does not require an annual report.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "mo",
+    "step": "04-sales-tax",
+    "file": "guides/mo/04-sales-tax/01.webp",
+    "url": "https://dor.mo.gov/register-business/",
+    "alt": "Missouri Department of Revenue business registration page with the Start Registration Here button highlighted",
+    "caption": "Apply online for your retail sales tax license before you make your first sale.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "mo",
+    "step": "04-sales-tax",
+    "file": "guides/mo/04-sales-tax/02.webp",
+    "url": "https://dor.mo.gov/faq/taxation/business/registration.html",
+    "alt": "Missouri Department of Revenue registration FAQ with the answer saying bonds are no longer required highlighted",
+    "caption": "Since 2018, a new seller does not post a bond unless the Department asks for one.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "mo",
+    "step": "04-sales-tax",
+    "file": "guides/mo/04-sales-tax/03.webp",
+    "url": "https://dor.mo.gov/taxation/business/tax-types/sales-use/",
+    "alt": "Missouri Department of Revenue Sales/Use Tax page with the sentence on the 4.225 percent state rate highlighted",
+    "caption": "The state rate is 4.225%, and cities, counties and districts add local tax.",
     "capturedAt": "2026-11-27"
   },
   {
@@ -1026,6 +1341,60 @@
     "capturedAt": "2026-10-18"
   },
   {
+    "region": "tn",
+    "step": "01-structure-and-name",
+    "file": "guides/tn/01-structure-and-name/01.webp",
+    "url": "https://www.tn.gov/revenue/for-businesses/for-new-businesses/general-business-set-up-information.html",
+    "alt": "Tennessee Department of Revenue business set-up page with the sentence on sole proprietorship registration highlighted",
+    "caption": "A sole proprietorship is registered under your own legal name, with your trade name added.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "tn",
+    "step": "02-register-business",
+    "file": "guides/tn/02-register-business/01.webp",
+    "url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax.html",
+    "alt": "Tennessee Department of Revenue franchise and excise tax page with the minimum franchise tax sentence highlighted",
+    "caption": "An LLC also pays at least $100 a year in franchise tax.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "tn",
+    "step": "04-sales-tax",
+    "file": "guides/tn/04-sales-tax/01.webp",
+    "url": "https://www.tn.gov/revenue/taxes/sales-and-use-tax/due-dates-and-tax-rates.html",
+    "alt": "Tennessee Department of Revenue sales tax rates page with the 7% general rate sentence highlighted",
+    "caption": "The state rate is 7% on most goods, and local rates add to it.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "tn",
+    "step": "04-sales-tax",
+    "file": "guides/tn/04-sales-tax/02.webp",
+    "url": "https://www.tn.gov/revenue/taxes/sales-and-use-tax/exemptions-certificates-credits/resale-certificate.html",
+    "alt": "Tennessee Department of Revenue resale certificate page with the sentence on automatic issue highlighted",
+    "caption": "Your Certificate of Resale is issued automatically when you register.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "tn",
+    "step": "05-local-licence",
+    "file": "guides/tn/05-local-licence/01.webp",
+    "url": "https://www.tn.gov/revenue/for-businesses/for-new-businesses/licenses-permits-registration.html",
+    "alt": "Tennessee Department of Revenue licenses page with the sentence on where to get a business license highlighted",
+    "caption": "Get your business license from the county clerk and city clerk; each is $15.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "tn",
+    "step": "05-local-licence",
+    "file": "guides/tn/05-local-licence/02.webp",
+    "url": "https://www.tn.gov/revenue/for-businesses/for-new-businesses/licenses-permits-registration.html",
+    "alt": "Tennessee Department of Revenue licenses page with the gross sales thresholds list highlighted",
+    "caption": "Your yearly gross sales decide whether you need a minimum activity or standard license.",
+    "capturedAt": "2026-11-27"
+  },
+  {
     "region": "tx",
     "step": "01-structure-and-name",
     "file": "guides/tx/01-structure-and-name/01.webp",
@@ -1140,6 +1509,141 @@
     "url": "https://www.tax.virginia.gov/retail-sales-and-use-tax",
     "alt": "Virginia Tax sales tax rates table with the 5.3% Everywhere else row highlighted",
     "caption": "Check the rate for where you sell: 5.3% in most of Virginia, higher in some regions.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "wa",
+    "step": "01-structure-and-name",
+    "file": "guides/wa/01-structure-and-name/01.webp",
+    "url": "https://www.sos.wa.gov/corporations-charities/business-entities/limited-liability-company-llc-professional-llc-pllc-filing-resource-page",
+    "alt": "Washington Secretary of State LLC filing page with the Certificate of Formation filing fee highlighted",
+    "caption": "If you are weighing an LLC, check the Certificate of Formation fee before you decide.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "wa",
+    "step": "01-structure-and-name",
+    "file": "guides/wa/01-structure-and-name/02.webp",
+    "url": "https://dor.wa.gov/taxes-rates/business-occupation-tax",
+    "alt": "Washington Department of Revenue B&O tax page with the sentence describing the gross receipts tax highlighted",
+    "caption": "Washington has no state income tax, but most businesses pay the B&O tax on gross receipts.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "wa",
+    "step": "02-register-business",
+    "file": "guides/wa/02-register-business/01.webp",
+    "url": "https://dor.wa.gov/manage-business/grow-business/register-trade-names",
+    "alt": "Washington Department of Revenue trade names page with the $5 trade name fee highlighted",
+    "caption": "Register a trade name with the Department of Revenue for $5 plus the license processing fee.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "wa",
+    "step": "02-register-business",
+    "file": "guides/wa/02-register-business/02.webp",
+    "url": "https://www.sos.wa.gov/corporations-charities/business-entities/limited-liability-company-llc-professional-llc-pllc-filing-resource-page",
+    "alt": "Washington Secretary of State LLC filing page with the Annual Report filing fee highlighted",
+    "caption": "An LLC files an annual report with the Secretary of State every year.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "wa",
+    "step": "04-sales-tax",
+    "file": "guides/wa/04-sales-tax/01.webp",
+    "url": "https://dor.wa.gov/open-business/apply-business-license/variable-business-license-processing-fees",
+    "alt": "Washington Department of Revenue processing fees page with the $50 fee to open a business highlighted",
+    "caption": "A new business pays a $50 processing fee on the Business License Application.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "wa",
+    "step": "04-sales-tax",
+    "file": "guides/wa/04-sales-tax/02.webp",
+    "url": "https://dor.wa.gov/taxes-rates/retail-sales-tax",
+    "alt": "Washington Department of Revenue retail sales tax page with the 6.5% state rate highlighted",
+    "caption": "The state rate is 6.5%, and a local rate is added based on where the customer receives the goods.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "wa",
+    "step": "04-sales-tax",
+    "file": "guides/wa/04-sales-tax/03.webp",
+    "url": "https://dor.wa.gov/taxes-rates/retail-sales-tax/reseller-permits",
+    "alt": "Washington Department of Revenue reseller permits page with the permit validity sentence highlighted",
+    "caption": "Apply for a reseller permit so you do not pay sales tax on stock you resell.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "wa",
+    "step": "05-local-licence",
+    "file": "guides/wa/05-local-licence/01.webp",
+    "url": "https://dor.wa.gov/manage-business/city-endorsements",
+    "alt": "Washington Department of Revenue city endorsements page with the sentence explaining city endorsements highlighted",
+    "caption": "Check whether your city is on the list. If it is not, contact the city directly.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "wi",
+    "step": "01-structure-and-name",
+    "file": "guides/wi/01-structure-and-name/01.webp",
+    "url": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/Fees.aspx",
+    "alt": "Wisconsin DFI business entity fees page with the online organization filing row highlighted",
+    "caption": "If you are weighing an LLC, note the $130 online filing fee in the LLC column.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "wi",
+    "step": "01-structure-and-name",
+    "file": "guides/wi/01-structure-and-name/02.webp",
+    "url": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/FAQ.aspx",
+    "alt": "Wisconsin DFI business entity FAQ page with the question on checking name availability highlighted",
+    "caption": "Check that your LLC name is available on DFI's records before you file.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "wi",
+    "step": "02-register-business",
+    "file": "guides/wi/02-register-business/01.webp",
+    "url": "https://dfi.wi.gov/Pages/BusinessServices/Trademarks/GeneralInformation.aspx",
+    "alt": "Wisconsin DFI trademark general information page with the sentence saying registration is not required highlighted",
+    "caption": "Decide whether to register your trade name with DFI, which is optional and costs $15.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "wi",
+    "step": "02-register-business",
+    "file": "guides/wi/02-register-business/02.webp",
+    "url": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/FAQ.aspx",
+    "alt": "Wisconsin DFI business entity FAQ page with the annual report due date sentence highlighted",
+    "caption": "If you formed an LLC, file its annual report in the quarter of its formation anniversary.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "wi",
+    "step": "04-sales-tax",
+    "file": "guides/wi/04-sales-tax/01.webp",
+    "url": "https://www.revenue.wi.gov/Pages/FAQS/pcs-seller.aspx",
+    "alt": "Wisconsin DOR seller's permit FAQ page with the sentence about applying three weeks before opening highlighted",
+    "caption": "Apply for your seller's permit at least three weeks before you open.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "wi",
+    "step": "04-sales-tax",
+    "file": "guides/wi/04-sales-tax/02.webp",
+    "url": "https://www.revenue.wi.gov/Pages/FAQS/pcs-btr.aspx",
+    "alt": "Wisconsin DOR Business Tax Registration FAQ page with the $20 initial fee sentence highlighted",
+    "caption": "Pay the $20 registration fee, which covers two years.",
+    "capturedAt": "2026-11-27"
+  },
+  {
+    "region": "wi",
+    "step": "04-sales-tax",
+    "file": "guides/wi/04-sales-tax/03.webp",
+    "url": "https://www.revenue.wi.gov/Pages/FAQS/pcs-taxrates.aspx",
+    "alt": "Wisconsin DOR tax rates FAQ page with the 5% sales tax sentence highlighted",
+    "caption": "Charge the 5% state rate plus any county or city tax where the buyer receives the goods.",
     "capturedAt": "2026-11-27"
   },
   {

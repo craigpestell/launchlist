@@ -2,7 +2,7 @@
 title: Choose your structure and business name
 summary: Decide how the business is set up in California and what it is called.
 time: 1–2 hours
-cost: Free to decide ($70 plus $800 a year if you form an LLC)
+cost: Free to decide ($70 plus $800 a year if you form an LLC, seen November 2026; confirm current fees)
 linkLabel: California Secretary of State name availability
 linkUrl: https://www.sos.ca.gov/business-programs/business-entities/name-availability
 checklist:

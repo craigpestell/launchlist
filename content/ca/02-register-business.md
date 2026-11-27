@@ -2,7 +2,7 @@
 title: Register your business name or LLC
 summary: File a fictitious business name with your county, or form your LLC with the California Secretary of State.
 time: 1–3 hours, plus four weeks of newspaper publication for a fictitious name
-cost: County fee for a fictitious name, or $70 plus $800 a year for an LLC
+cost: County fee for a fictitious name, or $70 plus $800 a year for an LLC (seen November 2026; confirm current fees)
 linkLabel: California Secretary of State LLC forms and fees
 linkUrl: https://www.sos.ca.gov/business-programs/business-entities/forms/limited-liability-companies-california-domestic
 checklist:

@@ -157,7 +157,11 @@
     "country": "US",
     "code": "AZ",
     "name": "Arizona",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": "azsos.gov, azdor.gov and Maricopa sites block automated browsers; trade name fee from statute only; county DBA fees vary."
   },
   {
     "id": "us-ar",
@@ -257,7 +261,11 @@
     "country": "US",
     "code": "IN",
     "name": "Indiana",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": "INBiz blocks automated browsers; online LLC and entity report fees seen as $95/$96 and $31/$32; county assumed name fees vary."
   },
   {
     "id": "us-ia",
@@ -299,14 +307,22 @@
     "country": "US",
     "code": "MD",
     "name": "Maryland",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": "Sales and use tax license fee, new seller filing schedule and trader's license for home online sellers not confirmed."
   },
   {
     "id": "us-ma",
     "country": "US",
     "code": "MA",
     "name": "Massachusetts",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": "mass.gov and sec.state.ma.us block automated browsers; sales tax registration fee, filing frequency and annual report date not confirmed."
   },
   {
     "id": "us-mi",
@@ -338,7 +354,11 @@
     "country": "US",
     "code": "MO",
     "name": "Missouri",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": "Retail license fee not confirmed; no comprehensive privacy law (secondary sources only); kcmo.gov blocks automated browsers."
   },
   {
     "id": "us-mt",
@@ -423,7 +443,7 @@
     "status": "blocked",
     "researchedAt": "2026-11-26",
     "confidence": "low",
-    "note": "ohiosos.gov blocks automated access; LLC \\$99 and trade name \\$39 fees seen only in search snippets. Confirm https://www.ohiosos.gov/business/business-filing-forms in a normal browser, then restore the drafts."
+    "note": "ohiosos.gov blocks automated access; LLC $99 and trade name $39 fees seen only in search snippets. Confirm https://www.ohiosos.gov/business/business-filing-forms in a normal browser, then restore the drafts."
   },
   {
     "id": "us-ok",
@@ -476,7 +496,11 @@
     "country": "US",
     "code": "TN",
     "name": "Tennessee",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "medium",
+    "note": "sos.tn.gov blocks automated browsers; sales tax registration fee and breach-notice deadline not confirmed."
   },
   {
     "id": "us-tx",
@@ -519,7 +543,11 @@
     "country": "US",
     "code": "WA",
     "name": "Washington",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "high",
+    "note": "SOS online processing fee and city endorsement fees not confirmed."
   },
   {
     "id": "us-wv",
@@ -533,7 +561,11 @@
     "country": "US",
     "code": "WI",
     "name": "Wisconsin",
-    "status": "pending"
+    "status": "done",
+    "researchedAt": "2026-11-26",
+    "publishedAt": "2026-11-26",
+    "confidence": "high",
+    "note": ""
   },
   {
     "id": "us-wy",

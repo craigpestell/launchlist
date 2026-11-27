@@ -2,7 +2,7 @@
 title: Register your business name or LLC
 summary: File your assumed name with your county clerk, or form your LLC with the Texas Secretary of State.
 time: 1–3 hours
-cost: County fee for an assumed name, or $300 for an LLC
+cost: County fee for an assumed name, or $300 for an LLC (seen November 2026; confirm current fee)
 linkLabel: Texas Secretary of State name filings FAQ
 linkUrl: https://www.sos.texas.gov/corp/namefilingsfaqs.shtml
 checklist:
