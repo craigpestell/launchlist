@@ -14,8 +14,7 @@ You make the "step-by-step guide" screenshots for one region: a numbered red out
 4. For each chosen step write `guides/capture/<code>/NN-<slug>.mts` (same filename as the content file), with 1–3 captures:
    - `setup` navigates to a public official page and scrolls the target into view. Only click to reveal content (open a section, pick a tab).
    - `highlight` returns the 1–2 elements the caption talks about, found by role and accessible name rather than CSS classes.
-   - `caption`: one or two sentences, imperative, ending with a full stop, consistent with the step's body. Any fee or threshold in it must match the content file.
-   - `alt`: describes the page and what is highlighted, starting with the page's name.
+   - `caption` and `alt`: follow "Captions and alt text" in the `writing-style` skill (`.claude/skills/writing-style/SKILL.md`). Any fee or threshold in a caption must match the content file.
 5. Run each script: `npm run guides:capture guides/capture/<code>/<file>.mts`. When a capture fails, `lib.mts` saves the page's accessibility tree (roles and accessible names) and a screenshot to `guides/capture/.debug/<code>-<step>-<n>.yml` and `.png`. Fix the selector from those instead of guessing again. If Playwright's own browser is missing, set `executablePath: "/opt/pw-browsers/chromium"` locally rather than committing it.
 6. Look at every image you produced. Check that the outline sits on the element the caption describes, nothing covers it (cookie banners, chat widgets, sign-in prompts), and the text is readable. Fix and re-run until each one passes.
 7. Run `npm run content:check -- <code>` and `npm run build`.
