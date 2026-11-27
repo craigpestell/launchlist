@@ -29,7 +29,7 @@ function itemLabels() {
 }
 
 export const metadata: Metadata = {
-  title: "Admin · LaunchList",
+  title: "Admin",
   robots: { index: false },
 };
 

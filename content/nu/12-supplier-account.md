@@ -1,6 +1,6 @@
 ---
-title: Open your reseller account
-summary: The final step before you can order stock.
+title: Open a wholesale account with your supplier
+summary: Set up a wholesale account with your supplier so you can order stock at trade prices.
 time: 30 minutes
 cost: Free
 checklist:

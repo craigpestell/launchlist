@@ -1,8 +1,11 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { CoverageMap } from "@/components/CoverageMap";
 import { joinNames } from "@/lib/countries";
 import { coverageNames, getCoverage } from "@/lib/regions";
 import { getTopics, type Topic } from "@/lib/topics";
+
+export const metadata: Metadata = { alternates: { canonical: "/" } };
 
 const UPCOMING_TOPICS: { title: string; summary: string }[] = [
   {

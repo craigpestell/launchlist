@@ -1,4 +1,6 @@
 import { siteDescription } from "@/lib/regions";
+import { SITE_NAME, SITE_URL, siteJsonLd } from "@/lib/seo";
+import { JsonLd } from "@/components/JsonLd";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,12 +19,25 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
+const defaultTitle = "LaunchList: Step-by-step business and help guides";
+
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.APP_URL ?? "https://launchlist.bizrocket.ca"),
-  title: "LaunchList: Step-by-step business and help guides",
-  description:
-    siteDescription(),
-  robots: { index: false, follow: false },
+  metadataBase: new URL(SITE_URL),
+  title: { default: defaultTitle, template: `%s | ${SITE_NAME}` },
+  description: siteDescription(),
+  applicationName: SITE_NAME,
+  openGraph: {
+    type: "website",
+    siteName: SITE_NAME,
+    locale: "en_CA",
+    title: defaultTitle,
+    description: siteDescription(),
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: defaultTitle,
+    description: siteDescription(),
+  },
 };
 
 const gaId = process.env.NEXT_PUBLIC_GA_ID;
@@ -40,6 +55,7 @@ export default function RootLayout({ children, modal }: LayoutProps<"/">) {
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
       <body className="flex min-h-full flex-col">
+        <JsonLd data={siteJsonLd(siteDescription())} />
         <header className="border-b border-neutral-200 dark:border-neutral-800">
           <div className="mx-auto flex max-w-2xl items-center justify-between px-4 py-4">
             <Link href="/" className="flex items-center gap-2 font-semibold">

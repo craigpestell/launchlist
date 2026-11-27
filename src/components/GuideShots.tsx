@@ -78,6 +78,7 @@ export function GuideShots({
                 <Image
                   src={`/${shot.file}`}
                   alt={shot.alt}
+                  title={shot.caption}
                   width={1280}
                   height={800}
                   className="w-full rounded-lg border border-neutral-200 dark:border-neutral-800"

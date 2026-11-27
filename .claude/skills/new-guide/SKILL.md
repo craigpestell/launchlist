@@ -92,6 +92,32 @@ The cloud can't reach most sites, so:
    - Read the final image and check for any real IP, city, postal code, ISP or map before committing.
 5. If neither route works, ship text-only and say so in the PR.
 
+## SEO: write for search, the code does the rest
+
+Search metadata is generated from each guide's own content by `src/lib/seo.ts`, so a new guide needs no code or metadata of its own. What you write decides how it ranks and how it reads in results:
+
+| Search result piece | Comes from |
+|---|---|
+| Page title | Region step: `title` + " in <Region>" (unless the title names it). Region overview: "How to start a business in <Region>: step-by-step checklist". Topic: `topic.json` `title`; topic step: "<step title>: <topic title>" |
+| Meta description | Step: `summary`, then the first body paragraphs (headings and lists are skipped), cut near 155 characters. Region overview: the step count and first four step titles. Topic overview: `topic.json` `summary` |
+| Canonical, Open Graph, Twitter | The page's URL; the share image is `src/app/opengraph-image.png` |
+| Structured data (JSON-LD) | Overviews: a HowTo whose steps are the guide's steps. Step pages: a HowTo whose steps are the checklist items, with the screenshots as images. Every guide page: a BreadcrumbList |
+| Image alt and title | Each screenshot's `alt` and `caption` in `guides/manifest.json` |
+| Sitemap | `src/app/sitemap.ts` lists every region, topic and step from `content/` |
+
+So, when writing:
+
+- **Titles use the words people search for**, starting with the verb: "Register for HST (13%)", "Get a municipal business licence", "Find your IP address". Name the thing (the tax, the registry, the licence), not a category ("Website legal pages and privacy" became "Write your website's privacy policy and legal pages"). Don't add the region to a step title; the page title adds it.
+- **The `summary` is the start of the search snippet.** One sentence, 70 to 130 characters, that says what the reader gets and includes the main term ("Get the free nine-digit number from the Canada Revenue Agency..."). Avoid summaries that only make sense on the page ("The final step before you can order stock.").
+- **Open the body with a sentence or two of plain prose**, before any list, that answers the question the title asks. It completes the description.
+- Topic titles are the search itself: "Clear cache and cookies for one site", "Check if a site is down for everyone or just you".
+- **Alt text** says what the screenshot shows and what is highlighted, naming the site and page ("Ontario Business Registry sign-in page with the Register a business button highlighted"). Never "screenshot" or an empty alt.
+- **Headings**: the page `h1` is the title, so body sections start at `##`, never `#`, and don't skip levels.
+- **Link between guides** where the reader needs another one: "step N" for the same guide, and a link to a topic guide (`/topics/<slug>`) where it helps. Every guide is also linked from the footer and home page automatically.
+- Changing a `title` or `summary` doesn't reset saved progress; changing checklist wording does.
+- Meta keywords: region overviews get a few generated ones. Google ignores the tag, so don't add keywords to front matter.
+- After shipping a new region or topic, nothing else is needed: it appears in the sitemap, which is listed in `/robots.txt`.
+
 ## 6. Ship
 
 - `npm run content:check`, `npm run lint` and `npm run build` pass. Run the full content check, not only `-- <code>`: shared steps are checked on a full run.

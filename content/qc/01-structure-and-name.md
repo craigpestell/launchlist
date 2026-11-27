@@ -1,6 +1,6 @@
 ---
-title: Choose your structure and business name
-summary: Decide how the business is set up and what it is called.
+title: Choose a business structure and name
+summary: Decide whether to start as a sole proprietorship or incorporate, then pick a name and check it's free to use.
 time: 1–2 hours
 cost: Free
 linkLabel: Québec.ca — legal forms of enterprise
