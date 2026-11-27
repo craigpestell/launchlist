@@ -6,6 +6,7 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { styleProblems } from "./style-rules.mjs";
+import { checkTranslations } from "./translations-check.mjs";
 
 const ROOT = process.cwd();
 const CONTENT = path.join(ROOT, "content");
@@ -30,7 +31,7 @@ const topics = new Set(subdirs(TOPICS));
 const SHARED = path.join(CONTENT, "shared");
 const countries = JSON.parse(fs.readFileSync(path.join(CONTENT, "countries.json"), "utf8"));
 const sharedUsers = new Map(); // "<country>/<slug>" -> [{ region, slugs }]
-const regions = [...subdirs(CONTENT).filter((d) => d !== "topics" && d !== "shared"), ...topics]
+const regions = [...subdirs(CONTENT).filter((d) => !["topics", "shared", "translations"].includes(d)), ...topics]
   .filter((d) => only.length === 0 || only.includes(d));
 const dirOf = (code) => (topics.has(code) ? path.join(TOPICS, code) : path.join(CONTENT, code));
 const relDir = (code) => path.relative(ROOT, dirOf(code));
@@ -228,6 +229,10 @@ for (const code of only.length > 0 ? [] : Object.keys(countries)) {
   }
   for (const shot of manifest.filter((s) => s.region === `shared-${slug}`)) checkShot(shot);
 }
+
+// Translations: structure must match the English (checklists line up item for
+// item, same tokens and links). Stale ones are reported by `npm run translations`.
+if (only.length === 0) checkTranslations(report, (where, msg) => warnings.push(`${where}: ${msg}`));
 
 if (warnings.length) {
   console.log(warnings.map((w) => `warning: ${w}`).join("\n"));

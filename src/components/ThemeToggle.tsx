@@ -1,5 +1,6 @@
 "use client";
 
+import { useDictionary } from "@/components/LocaleProvider";
 import { useSyncExternalStore } from "react";
 
 function subscribe(onChange: () => void) {
@@ -15,6 +16,7 @@ const getSnapshot = () => document.documentElement.classList.contains("dark");
 const getServerSnapshot = () => false;
 
 export function ThemeToggle() {
+  const t = useDictionary().header;
   const dark = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
 
   function toggle() {
@@ -29,7 +31,7 @@ export function ThemeToggle() {
     <button
       type="button"
       onClick={toggle}
-      aria-label={dark ? "Switch to light theme" : "Switch to dark theme"}
+      aria-label={dark ? t.themeLight : t.themeDark}
       className="rounded-md p-1.5 text-neutral-600 hover:bg-neutral-100 dark:text-neutral-400 dark:hover:bg-neutral-800"
     >
       <svg

@@ -1,6 +1,7 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
+import { useDictionary } from "@/components/LocaleProvider";
 
 // Chrome's install event isn't in the DOM typings yet.
 type BeforeInstallPromptEvent = Event & {
@@ -84,6 +85,7 @@ async function install() {
 
 export function InstallPrompt() {
   const mode = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
+  const t = useDictionary().install;
   if (mode === "hidden") return null;
 
   return (
@@ -103,34 +105,34 @@ export function InstallPrompt() {
         />
         <div className="flex-1">
           <h2 id="install-heading" className="font-semibold">
-            Add LaunchList to your phone
+            {t.title}
           </h2>
           {mode === "prompt" && (
             <p className="mt-1 text-neutral-600 dark:text-neutral-400">
-              Open your checklist from your home screen like an app.
+              {t.prompt}
             </p>
           )}
           {mode === "ios" && (
             <ol className="mt-1 list-decimal space-y-1 pl-4 text-neutral-600 dark:text-neutral-400">
               <li>
-                Tap the Share button <ShareIcon /> in the browser toolbar.
+                {t.iosShare} <ShareIcon /> {t.iosShareEnd}
               </li>
               <li>
-                Scroll down and tap <strong>Add to Home Screen</strong>.
+                {t.iosAdd} <strong>{t.iosAddLabel}</strong>.
               </li>
               <li>
-                Tap <strong>Add</strong>.
+                {t.iosConfirm} <strong>{t.iosConfirmLabel}</strong>.
               </li>
             </ol>
           )}
           {mode === "android" && (
             <ol className="mt-1 list-decimal space-y-1 pl-4 text-neutral-600 dark:text-neutral-400">
               <li>
-                Open the browser menu <MenuIcon />.
+                {t.androidMenu} <MenuIcon />.
               </li>
               <li>
-                Tap <strong>Install app</strong> or{" "}
-                <strong>Add to Home screen</strong>.
+                {t.androidInstall} <strong>{t.androidInstallLabel}</strong> {t.androidOr}{" "}
+                <strong>{t.androidHomeLabel}</strong>.
               </li>
             </ol>
           )}
@@ -138,7 +140,7 @@ export function InstallPrompt() {
         <button
           type="button"
           onClick={dismiss}
-          aria-label="Dismiss install instructions"
+          aria-label={t.dismiss}
           className="-m-1 rounded-md p-1 text-neutral-500 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800"
         >
           <svg
@@ -162,14 +164,14 @@ export function InstallPrompt() {
             onClick={dismiss}
             className="rounded-lg px-3 py-2 font-medium text-neutral-600 hover:bg-neutral-100 dark:text-neutral-400 dark:hover:bg-neutral-800"
           >
-            Not now
+            {t.notNow}
           </button>
           <button
             type="button"
             onClick={install}
             className="rounded-lg bg-emerald-700 px-3 py-2 font-medium text-white hover:bg-emerald-800"
           >
-            Install
+            {t.install}
           </button>
         </div>
       )}

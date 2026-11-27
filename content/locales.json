@@ -1,0 +1,20 @@
+{
+  "en": {
+    "name": "English",
+    "default": true,
+    "countries": {
+      "CA": "en-CA",
+      "US": "en-US"
+    },
+    "topics": "en",
+    "stepWord": "step"
+  },
+  "fr": {
+    "name": "Français",
+    "countries": {
+      "CA": "fr-CA"
+    },
+    "topics": "fr-CA",
+    "stepWord": "étape"
+  }
+}

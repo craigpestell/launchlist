@@ -104,7 +104,8 @@ Search metadata is generated from each guide's own content by `src/lib/seo.ts`, 
 | Canonical, Open Graph, Twitter | The page's URL; the share image is `src/app/opengraph-image.png` |
 | Structured data (JSON-LD) | Overviews: a HowTo whose steps are the guide's steps. Step pages: a HowTo whose steps are the checklist items, with the screenshots as images. Every guide page: a BreadcrumbList |
 | Image alt and title | Each screenshot's `alt` and `caption` in `guides/manifest.json` |
-| Sitemap | `src/app/sitemap.ts` lists every region, topic and step from `content/` |
+| Sitemap | `src/app/sitemap.ts` lists every region, topic and step from `content/`, in every language it is translated into |
+| hreflang | Each page lists its versions in other languages (`languageAlternates` in `src/lib/seo.ts`), once a guide is fully translated |
 
 So the words do the SEO work. The `writing-style` skill holds the rules that matter for search: titles that name the thing people search for, a 70 to 130 character `summary` that stands on its own, a plain-prose opening sentence, `##` headings, descriptive alt text, and links between guides. In short:
 
@@ -114,6 +115,20 @@ So the words do the SEO work. The `writing-style` skill holds the rules that mat
 - Changing a `title` or `summary` doesn't reset saved progress; changing checklist wording does.
 - Meta keywords: region overviews get a few generated ones. Google ignores the tag, so don't add keywords to front matter.
 - After shipping a new region or topic, nothing else is needed: it appears in the sitemap, which is listed in `/robots.txt`.
+
+## Translations
+
+Guides are written in English first; other languages are translations of them. Which languages cover which guides is data in `content/locales.json`: each language lists the countries whose region and shared steps it covers, and whether topic guides are included. French covers Canada and the topic guides (not US states); Spanish is planned for the US and topics. A language's pages live under its code (`/fr/qc`, `/fr/topics/ip-address`); English keeps the unprefixed URLs.
+
+- **Where translations live:** `content/translations/<locale>/`, mirroring the English path (`content/qc/04-gst-qst.md` becomes `content/translations/fr/qc/04-gst-qst.md`), plus `topic.json` titles, `shots.json` (screenshot alt and captions), `names.json` (region and country names, with the "in" form such as "au Québec"), `links.json` (official English page to its official French page) and `glossary.md` (official terms). Region stubs (`shared: <slug>`) aren't translated; the translated shared step is used.
+- **A guide appears in a language only when every step is translated.** Until then that language's home page lists the region as coming soon, and its pages, sitemap entries and hreflang tags don't exist. So a new region or topic ships in English and needs no translation to go live.
+- **After adding or changing an English guide**, run `npm run translations`. It lists every translation that is missing or `stale` (the English changed after it was translated; each translation records the English version in `source:`). Run the `guide-translator` agent (`.claude/agents/guide-translator.md`) for the guide, whole guide at a time, then a second pass in its review mode. A stale page still shows, with a notice that the English is newer.
+- **Checklists line up item for item across languages**: progress ids are the step slug and item position, so saved ticks carry over when someone switches language. Never add, drop or reorder items in a translation; change the English and re-translate instead.
+- **Links:** translations keep the English URLs. French pages swap in the official French version of a government page from `links.json`, so add a pair there when you confirm one (find it from the page's own language toggle or hreflang, then check it loads in French). Internal links get the language prefix automatically.
+- **Wording:** the `writing-style` skill's per-language sections; terms: the language's `glossary.md`.
+- **Interface text** (buttons, headings, SEO titles) is in `src/lib/i18n/dictionaries/<locale>.ts`, which TypeScript keeps in step with `en.ts`.
+- **A new language** is an entry in `content/locales.json`, a dictionary file registered in `src/lib/i18n/dictionary.ts`, `content/translations/<locale>/` with `names.json`, `glossary.md` and a writing-style section, then the translations. No route or page changes.
+- `npm run content:check` checks translations' structure too (checklist length, links, tokens, sections).
 
 ## 6. Ship
 
