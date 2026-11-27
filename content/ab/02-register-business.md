@@ -1,6 +1,6 @@
 ---
-title: Register your trade name with a registry agent
-summary: Register your trade name through a registry agent if you sell under any name other than your own personal name.
+title: Register your business name with a registry agent
+summary: Register your business name through a registry agent if you sell under any name other than your own personal name.
 time: 30–60 minutes, plus travel to a registry agent
 cost: Government fee plus the agent's service fee (not confirmed; ask your registry agent)
 linkLabel: Alberta — find a business registry
@@ -15,11 +15,11 @@ checklist:
 
 ## Who has to register
 
-In Alberta you register a **trade name** when you do business under a name other than your own personal name. If you trade as just "Jane Smith", you can skip this step.
+In Alberta you **register a business name** when you do business under a name other than your own personal name. Alberta calls a sole proprietor's registered name a trade name, so the form is the Declaration of Trade Name. If you trade as just "Jane Smith", you can skip this step.
 
 ## Register in person
 
-You register through an authorized **Corporate Registry service provider**, also called a registry agent, not directly with the government online. Fill in the **Declaration of Trade Name** form first, then bring it with valid ID and payment. You also need an email address, because Alberta requires one for business name registrations.
+You register through an authorized **Corporate Registry service provider**, also called a registry agent, not directly with the government online. Fill in the Declaration of Trade Name form first, then bring it with valid ID and payment. You also need an email address, because Alberta requires one for business name registrations.
 
 ## What it costs
 

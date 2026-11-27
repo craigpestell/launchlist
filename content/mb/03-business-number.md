@@ -15,7 +15,7 @@ checklist:
 
 The **Business Number (BN)** is a nine-digit number the Canada Revenue Agency uses to identify your business. Your GST account (step 4) is attached to it.
 
-## Separate from your trade name
+## Separate from your business name
 
 Registering a business name with the Manitoba Companies Office (step 2) does **not** give you a federal BN, so register with the CRA separately.
 

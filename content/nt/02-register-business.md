@@ -2,7 +2,7 @@
 title: Register your business name with Corporate Registries
 summary: Register the name you trade under, unless it is your exact legal name.
 time: 1 hour, plus mailing time
-cost: $75 for 4 years, including the name reservation (seen October 2026; confirm current fee)
+cost: $75 for 4 years, including the name reservation (seen November 2026; confirm current fee)
 linkLabel: NWT — register a sole proprietorship
 linkUrl: https://gnwt.ca/business-and-economy/business-licences-taxes-and-regulations/business-names-and-partnerships/sole-proprietorship
 checklist:
@@ -23,7 +23,7 @@ You can't register online. Corporate Registries only accepts **original signed f
 
 ## What it costs
 
-A name reservation is **$25** and the registration is **$50**, so $75 in total. These fees are from a 2018 fee schedule, so confirm them with Corporate Registries before you pay.
+A name reservation is **$25** and the registration is **$50**, so $75 in total. These fees are in the fee schedule Corporate Registries links from its forms page (seen November 2026). That schedule dates from June 2018, so confirm current fees with Corporate Registries before you pay.
 
 ## Renew every four years
 

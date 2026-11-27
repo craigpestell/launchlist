@@ -27,4 +27,4 @@ Keep your records for **six years**.
 
 ## One accountant meeting
 
-A one-time consult early on is cheap compared with fixing mistakes later. Bring this checklist and ask about out-of-province sales.
+A one-time consult early on is cheap compared with fixing mistakes later. Bring this checklist and ask about sales outside Yukon.

@@ -69,7 +69,7 @@ CRA Business Number, shared with the other Canadian guides: https://www.canada.c
 
 - Whether a Nunavut business name registration must be renewed, and any renewal fee or period.
 - Territorial licence details beyond the $50 fee: exact exemptions, how to apply (online or paper), renewal deadline, and whether a home-based sole proprietor needs one (gov.nu.ca page blocked to fetching; summary from search only).
-- Whether Iqaluit's Bylaw 859 fees (2018) are still current, and which class a solo retailer falls into (depends on weekly worker hours).
+- Whether Iqaluit's Bylaw 859 fees (2018) are still current, and which class a solo retailer falls into (depends on weekly worker hours). Checked November 2026: the bylaw PDF still shows the same Schedule B fees with no amendment or consolidation date, and https://iqaluit.ca/content/apply-business-license lists no fees. Still not confirmed.
 - Iqaluit Zoning Bylaw home-business rules, development permit need and fee, and whether the Home Based Business form still exists in the portal.
 - Whether the Business Licence Act has been amended since the 2011 consolidation seen in search results (not read).
 - Processing time for business name registration.

@@ -26,7 +26,7 @@ Open Safari, click the **Safari** menu at the top left of the screen, then **Abo
 
 ## iPhone, iPad and Android
 
-On an iPhone or iPad, Safari's version follows the system version. Open the **Settings** app, then **General** and **About**, and note the **iOS Version** (or iPadOS Version). If you use Chrome on an iPhone, open Chrome's three dots menu, then **Settings** and **About Chrome** at the bottom.
+On an iPhone or iPad, Safari's version follows the system version. Open the **Settings** app, then **General** and **About**, and note the **iOS Version** (or iPadOS Version). If you use Chrome on an iPhone, tap the three dots, then **Settings** and **Google Chrome**.
 
 On Android, open Chrome, tap the three dots, then **Settings** and **About Chrome**. To find the Android version, open the **Settings** app and search for **Android version**.
 

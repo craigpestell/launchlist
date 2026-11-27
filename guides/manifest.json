@@ -1193,7 +1193,7 @@
     "file": "guides/products/04-split-into-simple/01.webp",
     "url": "http://localhost:8080/wp-admin/edit.php?post_type=product&page=varconv&tab=split&product=41&paged#varconv-split-41",
     "alt": "Variation Converter Split tab with the Canvas Apron variable product opened, its new product names and the Split button highlighted",
-    "caption": "On the Split tab, open a variable product. Check the name each new product will get, untick any you don't want, then click Split.",
+    "caption": "On the Split tab, open a variable product. Check the name each new product will get, untick any you don't want, then click Split into 2 simple products.",
     "capturedAt": "2026-10-24"
   },
   {
@@ -1265,7 +1265,7 @@
     "file": "guides/shared-ca/gst-hst/01.webp",
     "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
     "alt": "CRA GST/HST for businesses page with the Who needs to register section highlighted",
-    "caption": "Check Who needs to register for GST/HST. Most businesses must register once taxable sales pass $30,000 in four consecutive calendar quarters.",
+    "caption": "Check Who needs to register for GST/HST. Most businesses must register once taxable sales pass $30,000 in a single calendar quarter or over four consecutive calendar quarters.",
     "capturedAt": "2026-10-18"
   },
   {

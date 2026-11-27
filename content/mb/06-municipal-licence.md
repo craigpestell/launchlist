@@ -1,6 +1,6 @@
 ---
 title: Check your municipal licence and zoning
-summary: Most Manitoba retailers need no city licence, but home businesses may need a permit.
+summary: Manitoba has no general business licence, so check your municipality's licence and home-based business zoning rules.
 time: 1–2 hours
 cost: Varies by municipality
 checklist:
@@ -22,7 +22,7 @@ Look up your own municipality rather than assuming Winnipeg's answer applies to 
 
 ## Home-based business
 
-Winnipeg requires a **home-based business development permit** under its zoning bylaw if business mail comes to your home or you do the business's administrative work there. That covers most home-based online stores, so check the zoning rules for your address before you start.
+Winnipeg requires a **home-based business development permit** under its zoning bylaw if business mail comes to your home or you do the business's administrative work there. In Winnipeg that covers most home-based online stores. Other municipalities set their own zoning rules, so check the rules for your address before you start.
 
 ## Be upfront about what you sell
 

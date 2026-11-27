@@ -31,4 +31,8 @@ Canada's anti-spam law, **CASL**, requires clear consent and an unsubscribe link
 
 ## Consumer rules
 
-Ontario also has its own consumer protection rules for online sales. Check the current requirements with the Ontario government or a lawyer before you publish your terms of sale.
+Ontario's **Consumer Protection Act, 2002** has rules for internet sales to consumers. Before the customer orders, you must show them the information the rules require and let them accept, decline or correct errors. After the sale, you must send them a copy of the agreement.
+
+If you skip these, the customer may be able to cancel. The rules apply above a minimum sale amount set by regulation.
+
+Ontario has passed a new Consumer Protection Act, 2023 to replace it, but it was not yet in force when we checked (November 2026). Check the current requirements with the Ontario government or a lawyer before you publish your terms of sale.
