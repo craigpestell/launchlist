@@ -1,3 +1,4 @@
+import { siteDescription } from "@/lib/regions";
 import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
@@ -5,7 +6,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "LaunchList",
     short_name: "LaunchList",
     description:
-      "Step-by-step checklists for starting a business in Canada, plus quick how-tos for everyday tech and support tasks.",
+      siteDescription(),
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",

@@ -23,7 +23,12 @@ const subdirs = (dir) =>
 // region's place in progress ids and the screenshot manifest.
 const TOPICS = path.join(CONTENT, "topics");
 const topics = new Set(subdirs(TOPICS));
-const regions = [...subdirs(CONTENT).filter((d) => d !== "topics"), ...topics]
+// Steps written once per country (content/shared/<country>/<slug>.md). A region
+// uses one with a stub file whose front matter is only `shared: <slug>`.
+const SHARED = path.join(CONTENT, "shared");
+const countries = JSON.parse(fs.readFileSync(path.join(CONTENT, "countries.json"), "utf8"));
+const sharedUsers = new Map(); // "<country>/<slug>" -> [{ region, slugs }]
+const regions = [...subdirs(CONTENT).filter((d) => d !== "topics" && d !== "shared"), ...topics]
   .filter((d) => only.length === 0 || only.includes(d));
 const dirOf = (code) => (topics.has(code) ? path.join(TOPICS, code) : path.join(CONTENT, code));
 const relDir = (code) => path.relative(ROOT, dirOf(code));
@@ -33,7 +38,7 @@ const report = (where, msg) => problems.push(`${where}: ${msg}`);
 
 const REQUIRED = ["title", "summary", "time", "cost", "checklist"];
 
-// Steps copied word for word from a template region (see guide-editor.md).
+// Steps copied from a template region and then adjusted (see guide-editor.md).
 // Text left over from that region shows up as another region's name or the
 // wrong sales tax.
 const COPIED = new Set([
@@ -47,14 +52,61 @@ const COPIED = new Set([
   "supplier-account",
 ]);
 const PROVINCIAL_TAXES = ["PST", "RST", "QST"];
-const regionNames = (code) =>
+const regionNames = (country, code) =>
   queue
-    .filter((q) => q.country === "CA" && q.code.toLowerCase() !== code)
+    .filter((q) => q.country === country && q.code.toLowerCase() !== code)
     .flatMap((q) => (q.code === "BC" ? [q.name, "BC"] : [q.name]));
 const ALLOWED = new Set([...REQUIRED, "linkLabel", "linkUrl"]);
 
+// House rules for one step's front matter and body, wherever the file lives.
+function checkStep(where, data, content) {
+  for (const key of REQUIRED) if (data[key] === undefined) report(where, `missing ${key}`);
+  for (const key of Object.keys(data))
+    if (!ALLOWED.has(key)) report(where, `unknown frontmatter key ${key}`);
+  if (Boolean(data.linkLabel) !== Boolean(data.linkUrl))
+    report(where, "linkLabel and linkUrl go together");
+  if (data.linkUrl && !/^https:\/\//.test(data.linkUrl))
+    report(where, "linkUrl must be https");
+
+  if (typeof data.title === "string" && /[.!?]$/.test(data.title))
+    report(where, "title should not end with punctuation");
+  if (typeof data.summary === "string" && !/[.!?]$/.test(data.summary))
+    report(where, "summary should be a sentence ending with a full stop");
+  for (const key of ["time", "cost"])
+    if (typeof data[key] === "string" && /\d-\d/.test(data[key]))
+      report(where, `${key}: use an en dash for ranges (1–2, not 1-2)`);
+
+  if (!Array.isArray(data.checklist) || data.checklist.length === 0)
+    report(where, "checklist must be a non-empty list");
+  else {
+    const seen = new Set();
+    data.checklist.forEach((item, n) => {
+      const at = `${where} checklist ${n + 1}`;
+      if (typeof item !== "string") return report(at, "must be plain text");
+      if (!/^[A-Z{]/.test(item)) report(at, "start with a capitalised verb");
+      if (/[.;:]$/.test(item)) report(at, "no trailing punctuation");
+      if (item.length > 110) report(at, "too long (keep under 110 characters)");
+      if (seen.has(item)) report(at, "duplicate item");
+      seen.add(item);
+    });
+  }
+
+  if (/^# /m.test(content)) report(where, "body uses an H1; start sections at ##");
+  if (!/^## /m.test(content)) report(where, "body needs at least one ## section");
+  if (content.includes("—")) report(where, "body uses an em dash; rewrite as two sentences or use a comma");
+}
+
+// Checks shared by region screenshots and a country's shared ones.
+function checkShot(shot) {
+  const where = `guides/manifest.json ${shot.file}`;
+  if (!fs.existsSync(path.join(ROOT, "public", shot.file))) report(where, "image file missing");
+  if (!/[.!?]$/.test(shot.caption)) report(where, "caption should end with a full stop");
+  if (!shot.alt || shot.alt.length < 20) report(where, "alt text missing or too short");
+}
+
 for (const region of regions) {
   const isTopic = topics.has(region);
+  const country = isTopic ? undefined : queue.find((q) => q.code.toLowerCase() === region)?.country;
   if (isTopic) {
     const meta = path.join(dirOf(region), "topic.json");
     if (!fs.existsSync(meta)) report(relDir(region), "missing topic.json");
@@ -84,11 +136,17 @@ for (const region of regions) {
   );
   const hasHst = files.some((f) => /-hst\.md$/.test(f));
   const ownTax = titles.map((t) => PROVINCIAL_TAXES.find((x) => new RegExp(`\\b${x}\\b`).test(t))).find(Boolean);
-  const wrongTaxes = [
-    ...(hasHst ? ["GST(?!/HST)"] : ["(?<!GST/)HST"]),
-    ...PROVINCIAL_TAXES.filter((x) => x !== ownTax),
-  ];
-  const otherRegions = regionNames(region);
+  // The sales-tax leftovers below are Canada's; other countries only get the
+  // region-name check.
+  const wrongTaxes =
+    country === "CA"
+      ? [
+          ...(hasHst ? ["GST(?!/HST)"] : ["(?<!GST/)HST"]),
+          ...PROVINCIAL_TAXES.filter((x) => x !== ownTax),
+        ]
+      : [];
+  const otherRegions = regionNames(country, region);
+  const regionSlugs = files.map((f) => f.replace(/^\d+-/, "").replace(/\.md$/, ""));
 
   files.forEach((file, i) => {
     const where = `${relDir(region)}/${file}`;
@@ -103,40 +161,18 @@ for (const region of regions) {
 
     const { data, content } = matter(fs.readFileSync(path.join(dirOf(region), file), "utf8"));
 
-    for (const key of REQUIRED) if (data[key] === undefined) report(where, `missing ${key}`);
-    for (const key of Object.keys(data))
-      if (!ALLOWED.has(key)) report(where, `unknown frontmatter key ${key}`);
-    if (Boolean(data.linkLabel) !== Boolean(data.linkUrl))
-      report(where, "linkLabel and linkUrl go together");
-    if (data.linkUrl && !/^https:\/\//.test(data.linkUrl))
-      report(where, "linkUrl must be https");
-
-    if (typeof data.title === "string" && /[.!?]$/.test(data.title))
-      report(where, "title should not end with punctuation");
-    if (typeof data.summary === "string" && !/[.!?]$/.test(data.summary))
-      report(where, "summary should be a sentence ending with a full stop");
-    for (const key of ["time", "cost"])
-      if (typeof data[key] === "string" && /\d-\d/.test(data[key]))
-        report(where, `${key}: use an en dash for ranges (1–2, not 1-2)`);
-
-    if (!Array.isArray(data.checklist) || data.checklist.length === 0)
-      report(where, "checklist must be a non-empty list");
-    else {
-      const seen = new Set();
-      data.checklist.forEach((item, n) => {
-        const at = `${where} checklist ${n + 1}`;
-        if (typeof item !== "string") return report(at, "must be plain text");
-        if (!/^[A-Z]/.test(item)) report(at, "start with a capitalised verb");
-        if (/[.;:]$/.test(item)) report(at, "no trailing punctuation");
-        if (item.length > 110) report(at, "too long (keep under 110 characters)");
-        if (seen.has(item)) report(at, "duplicate item");
-        seen.add(item);
-      });
+    if (data.shared !== undefined) {
+      const file = path.join(SHARED, (country ?? "").toLowerCase(), `${data.shared}.md`);
+      if (Object.keys(data).length > 1 || content.trim())
+        report(where, "a shared step is only `shared: <slug>`; edit the shared file instead");
+      if (data.shared !== m[2]) report(where, `shared: ${data.shared} should match the file's slug`);
+      if (!fs.existsSync(file)) report(where, `no ${path.relative(ROOT, file)}`);
+      const key = `${(country ?? "").toLowerCase()}/${data.shared}`;
+      sharedUsers.set(key, [...(sharedUsers.get(key) ?? []), { region, slugs: regionSlugs }]);
+      return;
     }
 
-    if (/^# /m.test(content)) report(where, "body uses an H1; start sections at ##");
-    if (!/^## /m.test(content)) report(where, "body needs at least one ## section");
-    if (content.includes("—")) report(where, "body uses an em dash; rewrite as two sentences or use a comma");
+    checkStep(where, data, content);
     if (!isTopic && COPIED.has(m[2])) {
       const text = [data.title, data.summary, ...(data.checklist ?? []), content].join("\n");
       for (const name of otherRegions)
@@ -153,22 +189,39 @@ for (const region of regions) {
 
   const stepNames = new Set(files.map((f) => f.replace(/\.md$/, "")));
   for (const shot of manifest.filter((s) => s.region === region)) {
-    const where = `guides/manifest.json ${shot.file}`;
-    if (!stepNames.has(shot.step)) report(where, `step ${shot.step} has no content file`);
-    if (!fs.existsSync(path.join(ROOT, "public", shot.file))) report(where, "image file missing");
-    if (!/[.!?]$/.test(shot.caption)) report(where, "caption should end with a full stop");
-    if (!shot.alt || shot.alt.length < 20) report(where, "alt text missing or too short");
+    if (!stepNames.has(shot.step))
+      report(`guides/manifest.json ${shot.file}`, `step ${shot.step} has no content file`);
+    checkShot(shot);
   }
 }
 
-// Country-level shots shared by every region (see SHARED_STEPS in src/lib/guides.ts).
-const countries = new Set(queue.map((q) => q.country.toLowerCase()));
-for (const shot of manifest.filter((s) => countries.has(s.region))) {
-  if (only.length > 0) break;
-  const where = `guides/manifest.json ${shot.file}`;
-  if (!fs.existsSync(path.join(ROOT, "public", shot.file))) report(where, "image file missing");
-  if (!/[.!?]$/.test(shot.caption)) report(where, "caption should end with a full stop");
-  if (!shot.alt || shot.alt.length < 20) report(where, "alt text missing or too short");
+// Each country's shared steps and screenshots, checked on a full run only.
+for (const code of only.length > 0 ? [] : Object.keys(countries)) {
+  const slug = code.toLowerCase();
+  const dir = path.join(SHARED, slug);
+  const names = regionNames(code, "");
+  for (const file of fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => f.endsWith(".md")) : []) {
+    const where = `content/shared/${slug}/${file}`;
+    const { data, content } = matter(fs.readFileSync(path.join(dir, file), "utf8"));
+    checkStep(where, data, content);
+    const text = [data.title, data.summary, ...(data.checklist ?? []), content].join("\n");
+    // Shared text reads the same in every region: no region names or step
+    // numbers, only the {region} and {step:<slug>} tokens.
+    for (const name of names)
+      if (new RegExp(`\\b${name}\\b`).test(text))
+        report(where, `mentions ${name}; use {region} or move the step into the region`);
+    if (/\bstep \d+\b/i.test(text)) report(where, "step numbers differ by region; use {step:<slug>}");
+    const users = sharedUsers.get(`${slug}/${file.replace(/\.md$/, "")}`) ?? [];
+    if (users.length === 0) report(where, "no region uses this shared step");
+    for (const [, ref] of text.matchAll(/\{step:([a-z0-9-]+)\}/g))
+      for (const user of users)
+        if (!user.slugs.includes(ref))
+          report(where, `{step:${ref}} has no matching step in content/${user.region}`);
+    for (const [token] of text.matchAll(/\{[^}]*\}/g))
+      if (token !== "{region}" && !/^\{step:[a-z0-9-]+\}$/.test(token))
+        report(where, `unknown token ${token}`);
+  }
+  for (const shot of manifest.filter((s) => s.region === `shared-${slug}`)) checkShot(shot);
 }
 
 if (problems.length) {

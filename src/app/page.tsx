@@ -1,11 +1,8 @@
 import Link from "next/link";
 import { CoverageMap } from "@/components/CoverageMap";
-import { getRegions, type Region } from "@/lib/regions";
+import { joinNames } from "@/lib/countries";
+import { coverageNames, getCoverage } from "@/lib/regions";
 import { getTopics, type Topic } from "@/lib/topics";
-
-const COUNTRIES: { code: Region["country"]; label: string; unit: string }[] = [
-  { code: "CA", label: "Canada", unit: "provinces and territories" },
-];
 
 const UPCOMING_TOPICS: { title: string; summary: string }[] = [
   {
@@ -48,11 +45,17 @@ function TopicCards({ topics }: { topics: Topic[] }) {
 }
 
 export default function Home() {
-  // Canada only for now; a US version may launch separately later.
-  const regions = getRegions().filter((r) => r.country === "CA");
-  const available = regions
-    .filter((r) => r.available)
-    .sort((a, b) => a.name.localeCompare(b.name));
+  // One block per country that has a guide; a country shows up here, with its
+  // map and its coming-soon list, once its first region is published.
+  const coverage = getCoverage().map(({ country, regions }) => ({
+    country,
+    regions,
+    available: regions
+      .filter((r) => r.available)
+      .sort((a, b) => a.name.localeCompare(b.name)),
+  }));
+  const guideCount = coverage.reduce((n, c) => n + c.available.length, 0);
+  const units = joinNames(coverage.flatMap((c) => c.country.unit.split(" and ")));
   const topics = getTopics();
   const business = topics.filter((t) => t.group === "business");
   const help = topics.filter((t) => t.group === "help");
@@ -61,8 +64,8 @@ export default function Home() {
     {
       id: "start",
       title: "Start a business",
-      blurb: `Checklists for all ${available.length} provinces and territories`,
-      show: available.length > 0,
+      blurb: `Checklists for ${guideCount} ${units}`,
+      show: guideCount > 0,
     },
     {
       id: "run",
@@ -84,7 +87,8 @@ export default function Home() {
         Step-by-step guides, one task at a time
       </h1>
       <p className={`mt-3 ${muted}`}>
-        Checklists for starting and running a business in Canada, plus quick
+        Checklists for starting and running a business in {coverageNames()}, plus
+        quick
         how-tos for the tech tasks a website or support team might ask of you.
         Each step has a guide with screenshots, and you can tick tasks off as
         you go.
@@ -103,17 +107,22 @@ export default function Home() {
         </ul>
       </nav>
 
-      {available.length > 0 && (
-        <section id="start" className="mt-14 scroll-mt-6" aria-labelledby="start-heading">
-          <h2 id="start-heading" className="text-xl font-semibold">
-            Start a business in Canada
+      {coverage.map(({ country, regions, available }, i) => (
+        <section
+          key={country.code}
+          id={i === 0 ? "start" : `start-${country.slug}`}
+          className="mt-14 scroll-mt-6"
+          aria-labelledby={`start-${country.slug}-heading`}
+        >
+          <h2 id={`start-${country.slug}-heading`} className="text-xl font-semibold">
+            Start a business in {country.inName}
           </h2>
           <p className={`mt-1 text-sm ${muted}`}>
             Register your business, sign up for tax accounts and get the
-            licences you need. Rules differ by province and territory, so
-            choose where your business will be based.
+            licences you need. Rules differ across {country.unit}, so choose
+            where your business will be based.
           </p>
-          <CoverageMap regions={regions} />
+          <CoverageMap country={country} regions={regions} />
           <ul className="mt-5 grid grid-cols-2 gap-2 sm:grid-cols-3">
             {available.map((region) => (
               <li key={region.slug}>
@@ -127,7 +136,7 @@ export default function Home() {
             ))}
           </ul>
         </section>
-      )}
+      ))}
 
       {business.length > 0 && (
         <section id="run" className="mt-14 scroll-mt-6" aria-labelledby="run-heading">
@@ -173,15 +182,13 @@ export default function Home() {
             </li>
           ))}
         </ul>
-        {COUNTRIES.map((country) => {
-          const soon = regions.filter(
-            (r) => r.country === country.code && !r.available,
-          );
+        {coverage.map(({ country, regions }) => {
+          const soon = regions.filter((r) => !r.available);
           if (!soon.length) return null;
           return (
             <div key={country.code} className="mt-5">
               <h3 className="text-sm font-medium text-neutral-500">
-                {country.label}: {country.unit}
+                {country.name}: {country.unit}
               </h3>
               <ul className="mt-2 flex flex-wrap gap-2">
                 {soon.map((region) => (

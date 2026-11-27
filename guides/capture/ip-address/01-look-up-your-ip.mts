@@ -1,7 +1,7 @@
 // whatismyip.com serves Cloudflare's block page to Playwright, so the live shot
 // (2026-11-26) was taken by hand in a normal Chrome window with this same
 // masking and the outlines from lib.mts, then cropped to drop ads. See the
-// new-topic-guide skill. This script is kept for the selectors and masking.
+// new-guide skill. This script is kept for the selectors and masking.
 import type { Page } from "playwright";
 import { captureStep } from "../lib.mjs";
 
